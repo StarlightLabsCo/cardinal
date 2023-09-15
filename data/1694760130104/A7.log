@@ -1,0 +1,398 @@
+[1694760131603] [Character] Creating Harold
+[1694760132261] [31m[createMemory][39m Life on the sea teaches you the meaning of hard work and danger. [0]
+[1694760132261] [31m[createMemory][39m I built my own fishing boat, took me two summers. [0]
+[1694760132261] [31m[createMemory][39m Never underestimate the ocean. She’s as loving as she is fierce. [0]
+[1694760132261] [31m[createMemory][39m The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [0]
+[1694760132261] [31m[createMemory][39m Every wrinkle tells a story, and boy, do I have many. [0]
+[1694760132261] [31m[createMemory][39m I once caught a fish so big, it could've fed the village for a week. [0]
+[1694760132261] [31m[createMemory][39m Storms are nature's way of testing your mettle. I’ve faced my share. [0]
+[1694760132261] [31m[createMemory][39m I've navigated by the stars, they're more reliable than any modern gadget. [0]
+[1694760132261] [31m[createMemory][39m My grandson Eli reminds me of myself at his age, full of wonder. [0]
+[1694760132261] [31m[createMemory][39m My old compass has never failed me. A gift from my late wife. [0]
+[1694760132261] [31m[createMemory][39m You measure a man not by his words, but by his deeds. [0]
+[1694760132261] [31m[createMemory][39m I’ve seen sunsets on the water that make you believe in a higher power. [0]
+[1694760132261] [31m[createMemory][39m My hands may be weathered, but they’re strong and have stories to tell. [0]
+[1694760132261] [31m[createMemory][39m Life has tides, high and low. The trick is to sail regardless. [0]
+[1694760132261] [31m[createMemory][39m A good fisherman knows when to speak and when to listen. Mostly listen. [0]
+[1694760142918] [Character] Harold created
+[1694760171396] [31m[createMemory][39m Harold Smith sees House at X: 14.06, Y: -56.01. [0]
+[1694760171422] [31m[createMemory][39m Harold Smith sees Tree at X: 18.3, Y: -59.99. [0]
+[1694760171422] [31m[createMemory][39m Harold Smith sees Will Turner at X: 21.19, Y: -57.58. [0]
+[1694760171429] [31m[createMemory][39m Harold Smith sees Tree at X: 25.89, Y: -59.87. [0]
+[1694760171431] [31m[createMemory][39m Harold Smith sees Tree at X: 18.55, Y: -53.24. [0]
+[1694760179773] --- Prompt ---
+[1694760179776] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 21.79, -57.11
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- Will Turner (Health: 25/25) [Location: 21.19, -57.58, Direction: W,  Distance: 0.76m]
+- Tree (Health: 10/10) [Location: 18.3, -59.99, Direction: W,  Distance: 4.5m]
+- Tree (Health: 10/10) [Location: 25.89, -59.87, Direction: NW,  Distance: 4.9m]
+- Tree (Health: 10/10) [Location: 18.55, -53.24, Direction: W,  Distance: 5.0m]
+- Tree Stump (Health: 5/5) [Location: 21.23, -50.62, Direction: NW,  Distance: 6.5m]
+- Tree (Health: 10/10) [Location: 18.81, -50.7, Direction: W,  Distance: 7.1m]
+- Eleanor Wraithwind (Health: 25/25) [Location: 23.26, -49.85, Direction: NW,  Distance: 7.4m]
+- House (Health: 100/100) [Location: 14.06, -56.01, Direction: W,  Distance: 7.8m]
+- Tree (Health: 10/10) [Location: 22.45, -48.68, Direction: NW,  Distance: 8.5m]
+- Tree (Health: 10/10) [Location: 20.55, -48.68, Direction: NW,  Distance: 8.5m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I once caught a fish so big, it could've fed the village for a week. [just now]
+- You measure a man not by his words, but by his deeds. [just now]
+- I’ve seen sunsets on the water that make you believe in a higher power. [just now]
+- I built my own fishing boat, took me two summers. [just now]
+- Life on the sea teaches you the meaning of hard work and danger. [just now]
+- My old compass has never failed me. A gift from my late wife. [just now]
+- Life has tides, high and low. The trick is to sail regardless. [just now]
+- The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [just now]
+- Storms are nature's way of testing your mettle. I’ve faced my share. [just now]
+- Every wrinkle tells a story, and boy, do I have many. [just now]
+- Harold Smith sees Tree at X: 18.55, Y: -53.24. [just now]
+- Harold Smith sees House at X: 14.06, Y: -56.01. [just now]
+- Harold Smith sees Will Turner at X: 21.19, Y: -57.58. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+- start_conversation: Start a conversation with Will Turner (ID: A3).
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694760194067] --- Response ---
+[1694760194067] Updated Tasks: 
+[1694760194068] [
+  {
+    "task": "Catch up with other villagers",
+    "priority": 1
+  },
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  },
+  {
+    "task": "Move to the house Location: 14.06, -56.01",
+    "priority": 4
+  },
+  {
+    "task": "Start a conversation with Will Turner",
+    "priority": 5
+  }
+]
+[1694760197108] --- Prompt ---
+[1694760197109] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 21.79, -57.11
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- Will Turner (Health: 25/25) [Direction: W, Distance: 0.76m]
+- Tree (Health: 10/10) [Direction: W, Distance: 4.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 4.9m]
+- Tree (Health: 10/10) [Direction: W, Distance: 5.0m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 6.5m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.1m]
+- Eleanor Wraithwind (Health: 25/25) [Direction: NW, Distance: 7.4m]
+- House (Health: 100/100) [Direction: W, Distance: 7.8m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.5m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Harold Smith sees Tree at X: 18.3, Y: -59.99. [just now]
+- Harold Smith sees Will Turner at X: 21.19, Y: -57.58. [just now]
+- Harold Smith sees House at X: 14.06, Y: -56.01. [just now]
+- Harold Smith sees Tree at X: 18.55, Y: -53.24. [just now]
+- Every wrinkle tells a story, and boy, do I have many. [just now]
+- Storms are nature's way of testing your mettle. I’ve faced my share. [just now]
+- Life has tides, high and low. The trick is to sail regardless. [just now]
+- Life on the sea teaches you the meaning of hard work and danger. [just now]
+- I’ve seen sunsets on the water that make you believe in a higher power. [just now]
+- You measure a man not by his words, but by his deeds. [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694760197110] --- Action Functions ---
+[1694760197111] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Will Turner (ID: A3).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (2) in detail."
+        }
+      }
+    }
+  }
+]
+[1694760206472] --- Response ---
+[1694760206472] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "start_conversation",
+    "arguments": "{\n  \"characterId\": \"A7\",\n  \"targetCharacterId\": \"A3\",\n  \"conversationGoal\": \"To catch up with Will Turner and foster social bonds within the village, potentially discussing recent events or sharing stories. This will also fulfil my task of catching up with the other villagers.\"\n}"
+  }
+}
+[1694760206473] --- Verified Action ---
+[1694760206475] {
+  "type": "start_conversation",
+  "data": {
+    "characterId": "A7",
+    "targetCharacterId": "A3",
+    "conversationGoal": "To catch up with Will Turner and foster social bonds within the village, potentially discussing recent events or sharing stories. This will also fulfil my task of catching up with the other villagers."
+  }
+}
+[1694760213800] [31m[createMemory][39m Harold Smith sees Lucy Wilde at X: 16.57036, Y: -57.25716. [27.9704361]
+[1694760216818] [35m[CORTEX] Harold Smith - Plan: [39m Harold Smith plans to elaborate on his seafaring anecdotes, potentially throwing in life lessons he learned from them. He aims to subtly draw parallels between these anecdotes and Will Turner's current situation. He hopes these stories and parallels might guide Will in navigating his own predicaments.
+[1694760218745] [31m[createMemory][39m Harold Smith sees Cedric Warborn at X: 16.5655, Y: -57.25001. [32.55377]
+[1694760221374] [35m[CORTEX] Harold Smith - Say: [39mSon, being brave doesn't mean you aren’t scared. It means you go on, even when you’re scared.
+
+[1694760232857] [35m[CORTEX] Harold Smith - Prior Message: [39mThank you for your wisdom, Harold. I won't let fear hold me back. I'll keep pushing forward!
+[1694760232857] [35m[CORTEX] Harold Smith - Patience: [39m100
+[1694760232858] [35m[CORTEX] Harold Smith - Conversation Goal: [39mTo catch up with Will Turner and foster social bonds within the village, potentially discussing recent events or sharing stories. This will also fulfil my task of catching up with the other villagers.
+[1694760232858] [35m[CORTEX] Harold Smith - Conversation Finished: [39mfalse
+[1694760236692] [35m[CORTEX] Harold Smith - Feel: [39mI feel uplifted, knowing I'm able to inspire courage in others!
+[1694760238628] [35m[CORTEX] Harold Smith - Explain: [39mHarold Smith's confidence
+[1694760239792] [35m[CORTEX] Harold Smith - Did I make progress? [39m[yes]
+[1694760241769] [35m[CORTEX] Harold Smith - Did I accomplish my goal? [39m[yes]

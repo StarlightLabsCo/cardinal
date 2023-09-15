@@ -1,0 +1,24 @@
+[
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A3",
+      "x": 37.52,
+      "y": -48.22
+    }
+  },
+  {
+    "type": "add_to_chest",
+    "data": {
+      "characterId": "A3",
+      "itemId": "axe",
+      "chestId": "chest_(37.52,-48.22)"
+    }
+  },
+  {
+    "type": "swing_pickaxe",
+    "data": {
+      "characterId": "A3"
+    }
+  }
+]

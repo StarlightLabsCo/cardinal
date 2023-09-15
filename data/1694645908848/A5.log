@@ -1,0 +1,454 @@
+[1694645909662] [Character] Creating Eli
+[1694645910318] [31m[createMemory][39m I need to let Thomas know I'm going to explore. He's asked me in the past to let him know just in case I get hurt or lost. [0]
+[1694645910320] [31m[createMemory][39m I once found a secret clearing in the woods, it's my personal hideout now. [0]
+[1694645910320] [31m[createMemory][39m The world feels so big and full of wonders, I want to see them all! [0]
+[1694645910320] [31m[createMemory][39m I saw a deer up close once, our eyes met and we just stared for a moment. [0]
+[1694645910320] [31m[createMemory][39m Climbing trees is my favorite! The higher I go, the bigger the world looks. [0]
+[1694645910320] [31m[createMemory][39m Lucy showed me how to listen to the forest, it's like it's telling stories. [0]
+[1694645910320] [31m[createMemory][39m Every rock and leaf, every bird and bug, feels like a friend to me. [0]
+[1694645910321] [31m[createMemory][39m I once got lost, but the stars guided me home. They're like nature's map! [0]
+[1694645910321] [31m[createMemory][39m George tells me tales of old, turning every tree and hill into an adventure. [0]
+[1694645910321] [31m[createMemory][39m I made a whistle out of a reed! Nature is full of surprises. [0]
+[1694645910321] [31m[createMemory][39m The woods in autumn is my favorite. All those colors... like nature's painting! [0]
+[1694645910321] [31m[createMemory][39m I wish I could talk to animals. Imagine the stories they'd tell! [0]
+[1694645910321] [31m[createMemory][39m I've learned to move silently. That way, nature doesn’t hide from me. [0]
+[1694645910321] [31m[createMemory][39m Lucy once said every tree has a story. I'm trying to learn them all. [0]
+[1694645910321] [31m[createMemory][39m Rainy days? That's when the forest sings its loudest song! [0]
+[1694645910321] [31m[createMemory][39m I dreamt I could fly like a bird, seeing the world from above. Maybe one day... [0]
+[1694645918347] [Character] Eli created
+[1694645929280] [31m[createMemory][39m Eli Green sees Lucy Wilde at X: 24.33, Y: -56.01. [0]
+[1694645933874] --- Prompt ---
+[1694645933880] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 25.55, -55.73
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Location: 24.33, -56.01, Direction: NW,  Distance: 1.3m]
+- Tree Stump (Health: 5/5) [Location: 21.23, -50.62, Direction: NW,  Distance: 6.7m]
+- Tree (Health: 10/10) [Location: 18.81, -50.7, Direction: W,  Distance: 8.4m]
+- Tree (Health: 10/10) [Location: 20.55, -48.68, Direction: NW,  Distance: 8.6m]
+- House (Health: 100/100) [Location: 14.06, -56.01, Direction: W,  Distance: 11m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I've learned to move silently. That way, nature doesn’t hide from me. [just now]
+- Lucy once said every tree has a story. I'm trying to learn them all. [just now]
+- Climbing trees is my favorite! The higher I go, the bigger the world looks. [just now]
+- I wish I could talk to animals. Imagine the stories they'd tell! [just now]
+- I once found a secret clearing in the woods, it's my personal hideout now. [just now]
+- I once got lost, but the stars guided me home. They're like nature's map! [just now]
+- The woods in autumn is my favorite. All those colors... like nature's painting! [just now]
+- I saw a deer up close once, our eyes met and we just stared for a moment. [just now]
+- Lucy showed me how to listen to the forest, it's like it's telling stories. [just now]
+- I made a whistle out of a reed! Nature is full of surprises. [just now]
+- Eli Green sees Lucy Wilde at X: 24.33, Y: -56.01. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+- start_conversation: Start a conversation with Lucy Wilde (ID: A4).
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694645942519] --- Response ---
+[1694645942519] Updated Tasks: 
+[1694645942520] [
+  {
+    "task": "Eat some food",
+    "priority": 1
+  },
+  {
+    "task": "Start a conversation with Lucy Wilde",
+    "priority": 2
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 3
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 4
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 5
+  }
+]
+[1694645945397] --- Prompt ---
+[1694645945402] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 25.55, -55.73
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 1.3m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 6.7m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.6m]
+- House (Health: 100/100) [Direction: W, Distance: 11m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- The woods in autumn is my favorite. All those colors... like nature's painting! [just now]
+- Eli Green sees Lucy Wilde at X: 24.33, Y: -56.01. [just now]
+- I made a whistle out of a reed! Nature is full of surprises. [just now]
+- Lucy showed me how to listen to the forest, it's like it's telling stories. [just now]
+- I saw a deer up close once, our eyes met and we just stared for a moment. [just now]
+- I once got lost, but the stars guided me home. They're like nature's map! [just now]
+- I once found a secret clearing in the woods, it's my personal hideout now. [just now]
+- I wish I could talk to animals. Imagine the stories they'd tell! [just now]
+- Climbing trees is my favorite! The higher I go, the bigger the world looks. [just now]
+- Lucy once said every tree has a story. I'm trying to learn them all. [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694645945402] --- Action Functions ---
+[1694645945402] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Lucy Wilde (ID: A4).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (3) in detail."
+        }
+      }
+    }
+  }
+]
+[1694645949101] --- Response ---
+[1694645949102] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "start_conversation",
+    "arguments": "{\n  \"characterId\": \"A5\",\n  \"targetCharacterId\": \"A4\",\n  \"conversationGoal\": \"Catch up with Lucy Wilde and strengthen our friendship.\"\n}"
+  }
+}
+[1694645949103] --- Verified Action ---
+[1694645949103] {
+  "type": "start_conversation",
+  "data": {
+    "characterId": "A5",
+    "targetCharacterId": "A4",
+    "conversationGoal": "Catch up with Lucy Wilde and strengthen our friendship."
+  }
+}
+[1694645960783] [35m[CORTEX] Eli Green - Plan: [39m Eli Green plans to embark on another day of explorations. He wants to head to the heart of the forest to find new stories enveloped in the woods. He hopes to climb the tallest tree of the lot & look out at the village from above. He also plans on spending part of his day near the creek, in an attempt to finally succeed in crafting a functional reed whistle. He's always dreamed of being able to communicate with woodland creatures and believes a whistle made from natural resources might be a start.
+[1694645961689] [31m[createMemory][39m Eli Green sees George Brown at X: 21.46889, Y: -58.54474. [31.6864643]
+[1694645963460] [35m[CORTEX] Eli Green - Say: [39mLucy, do you remember the secret clearing I found? It's such a beautiful place, hidden away from the noise and rush.
+
+[1694645967836] [31m[createMemory][39m Eli Green no longer sees Human (1) at X: 30.63611, Y: -54.23355 [37.85313]
+[1694645974073] [31m[createMemory][39m Eli Green sees Thomas Smith at X: 20.70306, Y: -57.25. [44.0864639]
+[1694645977035] [35m[CORTEX] Eli Green - Prior Message: [39mIndeed, Eli. That clearing you found is a gem within the heart of the forest, a sanctuary away from the world.
+[1694645977035] [35m[CORTEX] Eli Green - Patience: [39m100
+[1694645977035] [35m[CORTEX] Eli Green - Conversation Goal: [39mCatch up with Lucy Wilde and strengthen our friendship.
+[1694645977035] [35m[CORTEX] Eli Green - Conversation Finished: [39mfalse
+[1694645979208] [35m[CORTEX] Eli Green - Feel: [39mI feel so at peace when I'm there. It's like my personal sanctuary away from everything else.
+[1694645979530] [31m[createMemory][39m Eli Green no longer sees Human at X: 29.57427, Y: -58.57574 [49.4531326]
+[1694645995241] [35m[CORTEX] Eli Green - Explain: [39mHere I am, on my quest to Catch up with Lucy Wilde and strengthen our friendship. Every single conversation we have, every joint exploration we embark on makes me feel as if I'm making progress towards my goal. Whether it's sharing stories about the whispers of the forest or crafting a whistle from a reed, each moment spent with her reinforces my faith in our blossoming friendship. I feel closer to Lucy and more in tune with her love for nature. Even when we are silent, letting the sounds of the forest fill the air, there's a deep sense of mutual understanding and respect. Perhaps that's the best form of friendship, one that doesn't rely solely on words but on shared passions and silence that speaks volumes. With our recent conversation about the secret clearing, I can confidently say that I'm on the right path and look forward to what our friendship unfolds.
+[1694645996903] [35m[CORTEX] Eli Green - Did I make progress? [39m[yes]
+[1694645998746] [35m[CORTEX] Eli Green - Did I accomplish my goal? [39m[yes]
+[1694646008929] [35m[CORTEX] Eli Green - Explain: [39mFulfilling the goal to catch up with Lucy Wilde and strengthen our friendship has been such a rewarding experience. The conversations are deep yet exciting, the silence comfortable yet intriguing. Our mutual admiration for nature strengthens our bond daily. I can't wait to embark on more adventures with Lucy, listening to the stories the forest whispers in our ears, and crafting great memories along the way. Yet, I sense the need to explore new conversations, break new grounds, and explore new mysteries of the forest with Lucy.
+[1694646009984] [35m[CORTEX] Eli Green - Should I end the conversation? [39m[yes]
+[1694646012702] [35m[CORTEX] Eli Green Goodbye: [39mWell, Lucy, it's time for me to head out. Keep listening to the forest stories and maybe you will find your own secret clearing. See you soon!
+[1694646022142] [31m[createMemory][39m Lucy once said every tree has a story. I'm trying to learn them all. [19.4197979]
+[1694646022142] [31m[createMemory][39m I once got lost, but the stars guided me home. They're like nature's map! [19.4197979]
+[1694646022142] [31m[createMemory][39m Lucy showed me how to listen to the forest, it's like it's telling stories. [19.4197979]
+[1694646022142] [31m[createMemory][39m I made a whistle out of a reed! Nature is full of surprises. [19.4197979]
+[1694646052491] --- Conversation Task Update Prompt ---
+[1694646052491] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Action items & memories from conversation just now:
+- [object Promise]
+- [object Promise]
+- [object Promise]
+- [object Promise]
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Given the available information from a conversation you just had, update your task list, placing priority on the conversation action items & memories. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. The result must be sorted by priority, with the highest priority task at the top.
+[1694646061772] --- Response ---
+[1694646061772] Updated Tasks: 
+[1694646061773] [
+  {
+    "task": "[object Promise]",
+    "priority": 1
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 2
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 3
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 4
+  },
+  {
+    "task": "[object Promise]",
+    "priority": 5
+  },
+  {
+    "task": "[object Promise]",
+    "priority": 6
+  },
+  {
+    "task": "[object Promise]",
+    "priority": 7
+  }
+]

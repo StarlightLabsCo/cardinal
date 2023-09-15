@@ -1,0 +1,1949 @@
+[1694207080959] [Character] Creating Eli
+[1694207081540] [31m[createMemory][39m I need to let Thomas know I'm going to explore. He's asked me in the past to let him know just in case I get hurt or lost. [0]
+[1694207081540] [31m[createMemory][39m I once found a secret clearing in the woods, it's my personal hideout now. [0]
+[1694207081540] [31m[createMemory][39m The world feels so big and full of wonders, I want to see them all! [0]
+[1694207081540] [31m[createMemory][39m I saw a deer up close once, our eyes met and we just stared for a moment. [0]
+[1694207081540] [31m[createMemory][39m Climbing trees is my favorite! The higher I go, the bigger the world looks. [0]
+[1694207081540] [31m[createMemory][39m Lucy showed me how to listen to the forest, it's like it's telling stories. [0]
+[1694207081540] [31m[createMemory][39m Every rock and leaf, every bird and bug, feels like a friend to me. [0]
+[1694207081540] [31m[createMemory][39m I once got lost, but the stars guided me home. They're like nature's map! [0]
+[1694207081540] [31m[createMemory][39m George tells me tales of old, turning every tree and hill into an adventure. [0]
+[1694207081540] [31m[createMemory][39m I made a whistle out of a reed! Nature is full of surprises. [0]
+[1694207081540] [31m[createMemory][39m The woods in autumn is my favorite. All those colors... like nature's painting! [0]
+[1694207081540] [31m[createMemory][39m I wish I could talk to animals. Imagine the stories they'd tell! [0]
+[1694207081540] [31m[createMemory][39m I've learned to move silently. That way, nature doesn’t hide from me. [0]
+[1694207081540] [31m[createMemory][39m Lucy once said every tree has a story. I'm trying to learn them all. [0]
+[1694207081540] [31m[createMemory][39m Rainy days? That's when the forest sings its loudest song! [0]
+[1694207081541] [31m[createMemory][39m I dreamt I could fly like a bird, seeing the world from above. Maybe one day... [0]
+[1694207087338] [Character] Eli created
+[1694418718374] [31m[createMemory][39m John Green sees John Green at X: 39.93, Y: -58.92. [0.0199999921]
+[1694418718378] [31m[createMemory][39m John Green sees John Green at X: 38.6, Y: -58.76. [0.0199999921]
+[1694418718379] [31m[createMemory][39m Eli Green sees Lucy Wilde at X: 31.39, Y: -53.38. [0.0199999921]
+[1694418722004] [31m[createMemory][39m Eli Green sees Thomas Smith at X: 30.11374, Y: -57.12953. [4.7013545]
+[1694418722088] --- Prompt ---
+[1694418722088] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 39.93, -58.92
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- John Green (Health: 25/25) [Direction: NW, Distance: 1.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.1m]
+- Will Turner (Health: 25/25) [Direction: NW, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.7m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Eli Green sees Lucy Wilde at X: 31.39, Y: -53.38. [in the future]
+- I dreamt I could fly like a bird, seeing the world from above. Maybe one day... [0 minutes ago]
+- I made a whistle out of a reed! Nature is full of surprises. [0 minutes ago]
+- Climbing trees is my favorite! The higher I go, the bigger the world looks. [0 minutes ago]
+- Lucy once said every tree has a story. I'm trying to learn them all. [0 minutes ago]
+- I've learned to move silently. That way, nature doesn’t hide from me. [0 minutes ago]
+- I once found a secret clearing in the woods, it's my personal hideout now. [0 minutes ago]
+- I need to let Thomas know I'm going to explore. He's asked me in the past to let him know just in case I get hurt or lost. [0 minutes ago]
+- The world feels so big and full of wonders, I want to see them all! [0 minutes ago]
+- I once got lost, but the stars guided me home. They're like nature's map! [0 minutes ago]
+
+Hitbox (what you would hit with a swing based action):
+- John Green (Health: 25/25)
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694418722088] --- Action Functions ---
+[1694418722093] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with John Green (ID: A5).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (7) in detail."
+        }
+      }
+    }
+  }
+]
+[1694418722380] --- Prompt ---
+[1694418722389] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 32.81001, -53.18
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 1.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.4m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 6.7m]
+- Chest (Health: 10/10) [Direction: NW, Distance: 6.8m]
+- Thomas Smith (Health: 25/25) [Direction: NW, Distance: 7.4m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 8.1m]
+- Will Turner (Health: 25/25) [Direction: NW, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.3m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Eli Green sees Lucy Wilde at X: 31.39, Y: -53.38. [in the future]
+- I dreamt I could fly like a bird, seeing the world from above. Maybe one day... [0 minutes ago]
+- I made a whistle out of a reed! Nature is full of surprises. [0 minutes ago]
+- Climbing trees is my favorite! The higher I go, the bigger the world looks. [0 minutes ago]
+- Lucy once said every tree has a story. I'm trying to learn them all. [0 minutes ago]
+- I've learned to move silently. That way, nature doesn’t hide from me. [0 minutes ago]
+- I once found a secret clearing in the woods, it's my personal hideout now. [0 minutes ago]
+- I need to let Thomas know I'm going to explore. He's asked me in the past to let him know just in case I get hurt or lost. [0 minutes ago]
+- The world feels so big and full of wonders, I want to see them all! [0 minutes ago]
+- I once got lost, but the stars guided me home. They're like nature's map! [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694418722389] --- Action Functions ---
+[1694418722390] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Lucy Wilde (ID: A4).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (3) in detail."
+        }
+      }
+    }
+  }
+]
+[1694418723470] --- Prompt ---
+[1694418723473] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 38.6, -58.76
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- John Green (Health: 25/25) [Location: 39.93, -58.92, Direction: NW,  Distance: 1.3m]
+- Eli Green (Health: 25/25) [Location: 32.81001, -53.18, Direction: NW,  Distance: 8.0m]
+- Will Turner (Health: 25/25) [Location: 40.7, -50.62, Direction: NW,  Distance: 8.4m]
+- Tree (Health: 10/10) [Location: 43.53, -51.61, Direction: NW,  Distance: 8.7m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- George tells me tales of old, turning every tree and hill into an adventure. [0 minutes ago]
+- I once got lost, but the stars guided me home. They're like nature's map! [0 minutes ago]
+- Lucy showed me how to listen to the forest, it's like it's telling stories. [0 minutes ago]
+- The world feels so big and full of wonders, I want to see them all! [0 minutes ago]
+- I need to let Thomas know I'm going to explore. He's asked me in the past to let him know just in case I get hurt or lost. [0 minutes ago]
+- I once found a secret clearing in the woods, it's my personal hideout now. [0 minutes ago]
+- I've learned to move silently. That way, nature doesn’t hide from me. [0 minutes ago]
+- Lucy once said every tree has a story. I'm trying to learn them all. [0 minutes ago]
+- Climbing trees is my favorite! The higher I go, the bigger the world looks. [0 minutes ago]
+- I dreamt I could fly like a bird, seeing the world from above. Maybe one day... [0 minutes ago]
+- Eli Green sees Lucy Wilde at X: 31.39, Y: -53.38. [in the future]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+- start_conversation: Start a conversation with John Green (ID: A5).
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694418723505] [31m[createMemory][39m Eli Green no longer sees Human at X: 28.25765, Y: -55.2733 [6.2010355]
+[1694418725658] --- Response ---
+[1694418725659] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat.dataset",
+    "arguments": "{\n  \"characterId\": \"A5\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694418725683] {
+  "issues": [
+    {
+      "code": "invalid_union",
+      "unionErrors": [
+        {
+          "issues": [
+            {
+              "received": "eat.dataset",
+              "code": "invalid_literal",
+              "expected": "add_to_chest",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"add_to_chest\""
+            },
+            {
+              "code": "invalid_union",
+              "unionErrors": [
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "wood",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"wood\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "stone",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"stone\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "iron",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"iron\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "diamond",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"diamond\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "copper",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"copper\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "coal",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"coal\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "axe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"axe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "pickaxe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"pickaxe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "sword",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"sword\""
+                    }
+                  ],
+                  "name": "ZodError"
+                }
+              ],
+              "path": [
+                "data",
+                "itemId"
+              ],
+              "message": "Invalid input"
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "chestId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "foodId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'foodId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "eat.dataset",
+              "code": "invalid_literal",
+              "expected": "remove_from_chest",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"remove_from_chest\""
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "itemId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "chestId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "foodId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'foodId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "eat.dataset",
+              "code": "invalid_literal",
+              "expected": "move_to",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"move_to\""
+            },
+            {
+              "code": "invalid_type",
+              "expected": "number",
+              "received": "undefined",
+              "path": [
+                "data",
+                "x"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "invalid_type",
+              "expected": "number",
+              "received": "undefined",
+              "path": [
+                "data",
+                "y"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "foodId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'foodId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "eat.dataset",
+              "code": "invalid_literal",
+              "expected": "drop",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"drop\""
+            },
+            {
+              "code": "invalid_union",
+              "unionErrors": [
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "wood",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"wood\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "stone",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"stone\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "iron",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"iron\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "diamond",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"diamond\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "copper",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"copper\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "coal",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"coal\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "axe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"axe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "pickaxe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"pickaxe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "sword",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"sword\""
+                    }
+                  ],
+                  "name": "ZodError"
+                }
+              ],
+              "path": [
+                "data",
+                "itemId"
+              ],
+              "message": "Invalid input"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "foodId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'foodId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "eat.dataset",
+              "code": "invalid_literal",
+              "expected": "swing_axe",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"swing_axe\""
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "foodId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'foodId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "eat.dataset",
+              "code": "invalid_literal",
+              "expected": "swing_sword",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"swing_sword\""
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "foodId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'foodId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "eat.dataset",
+              "code": "invalid_literal",
+              "expected": "swing_pickaxe",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"swing_pickaxe\""
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "foodId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'foodId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "eat.dataset",
+              "code": "invalid_literal",
+              "expected": "start_conversation",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"start_conversation\""
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "targetCharacterId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "conversationGoal"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "foodId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'foodId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "eat.dataset",
+              "code": "invalid_literal",
+              "expected": "eat",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"eat\""
+            }
+          ],
+          "name": "ZodError"
+        }
+      ],
+      "path": [],
+      "message": "Invalid input"
+    }
+  ],
+  "name": "ZodError"
+}
+[1694418725683] --- Prompt ---
+[1694418725686] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 32.81001, -53.18
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 1.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.4m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 6.7m]
+- Chest (Health: 10/10) [Direction: NW, Distance: 6.8m]
+- Thomas Smith (Health: 25/25) [Direction: NW, Distance: 7.4m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 8.1m]
+- Will Turner (Health: 25/25) [Direction: NW, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.3m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Eli Green sees Lucy Wilde at X: 31.39, Y: -53.38. [in the future]
+- I dreamt I could fly like a bird, seeing the world from above. Maybe one day... [0 minutes ago]
+- I made a whistle out of a reed! Nature is full of surprises. [0 minutes ago]
+- Climbing trees is my favorite! The higher I go, the bigger the world looks. [0 minutes ago]
+- Lucy once said every tree has a story. I'm trying to learn them all. [0 minutes ago]
+- I've learned to move silently. That way, nature doesn’t hide from me. [0 minutes ago]
+- I once found a secret clearing in the woods, it's my personal hideout now. [0 minutes ago]
+- I need to let Thomas know I'm going to explore. He's asked me in the past to let him know just in case I get hurt or lost. [0 minutes ago]
+- The world feels so big and full of wonders, I want to see them all! [0 minutes ago]
+- I once got lost, but the stars guided me home. They're like nature's map! [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+
+[1694418725686] --- Action Functions ---
+[1694418725687] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Lucy Wilde (ID: A4).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (3) in detail."
+        }
+      }
+    }
+  }
+]
+[1694418725833] [31m[createMemory][39m Eli Green sees Thomas Smith at X: 27.62694, Y: -53.70281. [8.52046]
+[1694418726882] [31m[createMemory][39m Eli Green no longer sees Human at X: 27.62694, Y: -51.81282 [9.600822]
+[1694418728626] --- Response ---
+[1694418728632] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat",
+    "arguments": "{\n  \"characterId\": \"A5\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694418728635] --- Verified Action ---
+[1694418728635] {
+  "type": "eat",
+  "data": {
+    "characterId": "A5",
+    "foodId": "berries"
+  }
+}
+[1694418728722] --- Response ---
+[1694418728724] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "start_conversation",
+    "arguments": "{\n  \"characterId\": \"A5\",\n  \"targetCharacterId\": \"A5\",\n  \"conversationGoal\": \"Get John's advice about my exploration plan and let him know I will be gone for a while.\"\n}"
+  }
+}
+[1694418728725] --- Verified Action ---
+[1694418728726] {
+  "type": "start_conversation",
+  "data": {
+    "characterId": "A5",
+    "targetCharacterId": "A5",
+    "conversationGoal": "Get John's advice about my exploration plan and let him know I will be gone for a while."
+  }
+}
+[1694418730886] Getting action 0
+[1694418730887] Getting result 0
+[1694418730887] Getting action 1
+[1694418730887] Getting result 1
+[1694418730887] [31mResult for action 1 is undefined. Skipping...[39m
+[1694418730887] undefined
+[1694418730887] --- Prompt ---
+[1694418730887] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 32.81001, -53.18
+
+Time: Day 0, 1:09 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 1.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.4m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 6.7m]
+- Chest (Health: 10/10) [Direction: NW, Distance: 6.8m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 8.1m]
+- Thomas Smith (Health: 25/25) [Direction: NW, Distance: 8.2m]
+- Will Turner (Health: 25/25) [Direction: NW, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.3m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Eli Green no longer sees Human at X: 27.62694, Y: -51.81282 [11 minutes ago]
+- Eli Green no longer sees Human at X: 28.25765, Y: -55.2733 [31 minutes ago]
+- Eli Green sees Thomas Smith at X: 30.11374, Y: -57.12953. [40 minutes ago]
+- Eli Green sees Lucy Wilde at X: 31.39, Y: -53.38. [1 hours ago]
+- I dreamt I could fly like a bird, seeing the world from above. Maybe one day... [1 hours ago]
+- Climbing trees is my favorite! The higher I go, the bigger the world looks. [1 hours ago]
+- Lucy once said every tree has a story. I'm trying to learn them all. [1 hours ago]
+- I've learned to move silently. That way, nature doesn’t hide from me. [1 hours ago]
+- I once found a secret clearing in the woods, it's my personal hideout now. [1 hours ago]
+- The world feels so big and full of wonders, I want to see them all! [1 hours ago]
+
+Previous Actions:
+- [eat]: Eli Green ate Berries which restored 10 satiety. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694418730888] --- Action Functions ---
+[1694418730889] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Lucy Wilde (ID: A4).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (3) in detail."
+        }
+      }
+    }
+  }
+]
+[1694418735150] [31mAgent A5 is already occupied. Skipping...[39m
+[1694418736390] --- Response ---
+[1694418736390] Updated Tasks: 
+[1694418736390] [
+  {
+    "task": "Eat some food",
+    "priority": 1
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 2
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 3
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 4
+  },
+  {
+    "task": "Let Thomas know about exploring plans",
+    "priority": 5
+  },
+  {
+    "task": "Explore the woods",
+    "priority": 6
+  },
+  {
+    "task": "Visit secret clearing in the woods",
+    "priority": 7
+  }
+]
+[1694418739345] Getting action 0
+[1694418739345] Getting result 0
+[1694418739345] Getting action 1
+[1694418739345] Getting result 1
+[1694418739345] [31mResult for action 1 is undefined. Skipping...[39m
+[1694418739345] undefined
+[1694418739345] --- Prompt ---
+[1694418739347] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 38.6, -58.76
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- John Green (Health: 25/25) [Direction: NW, Distance: 1.3m]
+- Eli Green (Health: 25/25) [Direction: NW, Distance: 8.0m]
+- Will Turner (Health: 25/25) [Direction: NW, Distance: 8.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.7m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Eli Green no longer sees Human at X: 27.62694, Y: -51.81282 [in the future]
+- Eli Green no longer sees Human at X: 28.25765, Y: -55.2733 [in the future]
+- Eli Green sees Thomas Smith at X: 30.11374, Y: -57.12953. [in the future]
+- Eli Green sees Lucy Wilde at X: 31.39, Y: -53.38. [in the future]
+- I dreamt I could fly like a bird, seeing the world from above. Maybe one day... [0 minutes ago]
+- Climbing trees is my favorite! The higher I go, the bigger the world looks. [0 minutes ago]
+- Lucy once said every tree has a story. I'm trying to learn them all. [0 minutes ago]
+- I've learned to move silently. That way, nature doesn’t hide from me. [0 minutes ago]
+- I once found a secret clearing in the woods, it's my personal hideout now. [0 minutes ago]
+- The world feels so big and full of wonders, I want to see them all! [0 minutes ago]
+
+Previous Actions:
+- [eat]: Eli Green ate Berries which restored 10 satiety. [in the future]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694418739347] --- Action Functions ---
+[1694418739352] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with John Green (ID: A5).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (5) in detail."
+        }
+      }
+    }
+  }
+]
+[1694418743544] [31mAgent A5 is already occupied. Skipping...[39m
+[1694418744527] [35m[CORTEX] Eli Green - Plan: [39m Eli Green, in his constant quest to unravel nature’s secrets, is planning on embarking on another expedition. This time, he aims to venture into the depths of the forest to further examine its flora and fauna. Intending to climb the tallest tree he can find and further explore his secret clearing. Equipped with his handmade reed whistle, he wishes to attempt communicating with wildlife. With stars as his guiding beacon, he vows to further nurture his survival instincts, and ready himself for this adventure no matter how high the stakes get.
+[1694418748256] [35m[CORTEX] Eli Green - Say: [39mNature, here I come! Another day, another adventure. Just me, my whistle, and the stars to guide me. I can't wait to find new friends and secrets!
+
+[1694418748257] [35m[CORTEX] Eli Green - Prior Message: [39mNature, here I come! Another day, another adventure. Just me, my whistle, and the stars to guide me. I can't wait to find new friends and secrets!
+[1694418748257] [35m[CORTEX] Eli Green - Patience: [39m100
+[1694418748257] [35m[CORTEX] Eli Green - Conversation Goal: [39mfiguring out why Eli Green started a conversation with them.
+[1694418748257] [35m[CORTEX] Eli Green - Conversation Finished: [39mfalse
+[1694418751781] [35m[CORTEX] Eli Green - Feel: [39mI feel ecstatic and filled with anticipation for the day's adventure. Nothing beats a day spent immersed in the thrill of exploration and discovery!
+[1694418762282] [35m[CORTEX] Eli Green - Plan: [39m Eli is eager to step out into nature with the rising sun. He plans to trek deeper into the woods today, beyond the familiar paths, driven by the whispers of the wind and the call of the wild. He's carrying his handmade reed whistle, hoping to communicate with woodland creatures, and his eyes are already searching for new trees to climb. As always, he trusts the stars to guide him back home in time.
+[1694418764337] [35m[CORTEX] Eli Green - Prior Message: [39mGood day, Eli. The forest whispers secrets for us to hear, don't you think?
+[1694418764337] [35m[CORTEX] Eli Green - Patience: [39m100
+[1694418764338] [35m[CORTEX] Eli Green - Conversation Goal: [39mfiguring out why Lucy Wilde started a conversation with them.
+[1694418764338] [35m[CORTEX] Eli Green - Conversation Finished: [39mfalse
+[1694418768124] [35m[CORTEX] Eli Green - Say: [39mNature, here I come! Another day, another adventure. Just me, my whistle, and the stars to guide me. I can't wait to find new friends and secrets!
+
+[1694418768124] [35m[CORTEX] Eli Green - Prior Message: [39mNature, here I come! Another day, another adventure. Just me, my whistle, and the stars to guide me. I can't wait to find new friends and secrets!
+[1694418768124] [35m[CORTEX] Eli Green - Patience: [39m100
+[1694418768124] [35m[CORTEX] Eli Green - Conversation Goal: [39mGet John's advice about my exploration plan and let him know I will be gone for a while.
+[1694418768124] [35m[CORTEX] Eli Green - Conversation Finished: [39mfalse
+[1694418769546] [35m[CORTEX] Eli Green - Feel: [39mGood day, Lucy. Indeed, the forest is full of delightful secrets, whispering tales of adventure and discovery in my ears. I feel joyous every time I step into its magical world!
+[1694418773562] [35m[CORTEX] Eli Green - Feel: [39mNature, here I come! Another day, another adventure. Just me, my whistle, and the stars to guide me. I can't wait to find new friends and secrets!
+[1694418780249] [35m[CORTEX] Eli Green - Plan: [39m Eli Green is contemplating his next adventures, perhaps he will map a new region of the woods, or try to climb the tallest tree he can find. He also loves experimenting with nature and might hunt for materials to craft a new tool or trinket. In between, he would take some time to sit quietly and observe the movements and behavior of animals, hoping to better understand their language. Above all, he dreams of one day flying like a bird, to see his world from above. Hoping that, one day, his dream might come true.
+[1694418781885] [35m[CORTEX] Eli Green - Explain: [39mEli Green hasn't yet made progress towards his goal to get John's advice about his exploration plan and notify him about his upcoming absence. Eli is enveloped in his enthusiasm for the natural world and his intended trips, forgetting to include John in his plans. Eli needs to involve John, acquire his advice, and notify him about his exploration plan and expected absence so that someone else in the village will be knowledgeable about his whereabouts.
+[1694418782875] [35m[CORTEX] Eli Green - Say: [39mIndeed, Lucy! Trees can talk, telling ages worth of tales if one just listens in silence.
+
+[1694418783216] [35m[CORTEX] Eli Green - Did I make progress? [39m[no]
+[1694418783216] [35mPatience:[39m90
+[1694418789880] [35m[CORTEX] Eli Green - Plan: [39m Eli Green is planning to embark on a new adventure. His goal is to venture deeper into the forest, climb the tallest tree, and make use of his handmade whistle in an attempt to communicate with the animals. He plans on using the stars for guidance on his quest, determined to break new ground and uncover nature's secrets.
+[1694418793623] [35m[CORTEX] Eli Green - Say: [39mI'm planning to explore deeper into the woods tomorrow, there's so much I still need to learn. Can you give me some advice, John?
+
+[1694418793623] [35m[CORTEX] Eli Green - Prior Message: [39mI'm planning to explore deeper into the woods tomorrow, there's so much I still need to learn. Can you give me some advice, John?
+[1694418793623] [35m[CORTEX] Eli Green - Patience: [39m100
+[1694418793623] [35m[CORTEX] Eli Green - Conversation Goal: [39mfiguring out why Eli Green started a conversation with them.
+[1694418793623] [35m[CORTEX] Eli Green - Conversation Finished: [39mfalse
+[1694418797404] [35m[CORTEX] Eli Green - Feel: [39mI feel excited for tomorrow's exploration but also a bit nervous. I really hope to learn a lot but some advice from John would really help.

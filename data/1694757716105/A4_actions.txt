@@ -1,0 +1,33 @@
+[
+  {
+    "type": "eat",
+    "data": {
+      "characterId": "A4",
+      "foodId": "berries"
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A4",
+      "x": 8.73,
+      "y": -62.46
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A4",
+      "x": 11.61036,
+      "y": -57.75
+    }
+  },
+  {
+    "type": "start_conversation",
+    "data": {
+      "characterId": "A4",
+      "targetCharacterId": "A12",
+      "conversationGoal": "Catch up with Cedric Warborn and build rapport with the villagers."
+    }
+  }
+]

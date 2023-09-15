@@ -129,6 +129,16 @@ const Eat = z
     })
     .strict();
 
+const Sleep = z.object({
+    type: z.literal("sleep"),
+    data: z
+        .object({
+            characterId: z.string(),
+            targetHouseId: z.string(),
+        })
+        .strict(),
+});
+
 export const Action = z.union([
     AddItemToChest,
     RemoveItemFromChest,
@@ -139,4 +149,5 @@ export const Action = z.union([
     SwingPickaxe,
     StartConversation,
     Eat,
+    Sleep,
 ]);

@@ -1,0 +1,26 @@
+[
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A12",
+      "x": 6.5,
+      "y": -58.14
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A12",
+      "x": 12,
+      "y": 6
+    }
+  },
+  {
+    "type": "start_conversation",
+    "data": {
+      "characterId": "A12",
+      "targetCharacterId": "A4",
+      "conversationGoal": "To catch up with Lucy Wilde and maintain village relationships"
+    }
+  }
+]

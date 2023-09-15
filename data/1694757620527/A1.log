@@ -1,0 +1,88 @@
+[1694757621794] [31m[createMemory][39m I should be asleep until 7am. [0]
+[1694757621794] [31m[createMemory][39m It's my job to protect the village. [0]
+[1694757621794] [31m[createMemory][39m I need to make sure everyone is safe. [0]
+[1694757621794] [31m[createMemory][39m I do the work that no one else wants to do. [0]
+[1694757621794] [31m[createMemory][39m I try to be as honest as possible. [0]
+[1694757621794] [31m[createMemory][39m I'm not afraid of anything. [0]
+[1694757621794] [31m[createMemory][39m I go to bed at 10pm. [0]
+[1694757621794] [31m[createMemory][39m I like strawberries. [0]
+[1694757621794] [31m[createMemory][39m The village location is 2, -58. [0]
+[1694757621794] [31m[createMemory][39m The mine site is at 51, 17. [0]
+[1694757621794] [31m[createMemory][39m The lumberyard is at 72, -55.1 [0]
+[1694757621795] [31m[createMemory][39m The campsite is at 7, -8.3 [0]
+[1694757621795] [31m[createMemory][39m The Nume River flows through the village. [0]
+[1694757621795] [31m[createMemory][39m Nume Falls are north of the village, and west of the campsite. [0]
+[1694757621795] [31m[createMemory][39m The area is surrounded by forested monutains, filled with wildlife, rivers, and lakes. [0]
+[1694757632878] [Character] Thomas created (clmk6xhvu0001vdt5zjwciuya)
+[1694757663661] [31m[createMemory][39m Thomas Smith sees House at X: 14.06, Y: -56.01. [0]
+[1694757663661] [31m[createMemory][39m Thomas Smith sees Tree at X: 18.55, Y: -53.24. [0]
+[1694757663661] [31m[createMemory][39m Thomas Smith sees Tree at X: 18.3, Y: -59.99. [0]
+[1694757669842] --- Prompt ---
+[1694757669843] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 16.43, -57.62
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Full
+
+Environment:
+- House (Health: 100/100) [Location: 14.06, -56.01, Direction: W,  Distance: 2.9m]
+- Tree (Health: 10/10) [Location: 18.3, -59.99, Direction: W,  Distance: 3.0m]
+- Tree (Health: 10/10) [Location: 18.55, -53.24, Direction: W,  Distance: 4.9m]
+- Tree (Health: 10/10) [Location: 18.81, -50.7, Direction: W,  Distance: 7.3m]
+- House (Health: 100/100) [Location: 9.44, -53.9, Direction: W,  Distance: 7.9m]
+- Will Turner (Health: 25/25) [Location: 20.32, -50.5, Direction: W,  Distance: 8.1m]
+- Tree Stump (Health: 5/5) [Location: 21.23, -50.62, Direction: NW,  Distance: 8.5m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I try to be as honest as possible. [just now]
+- I go to bed at 10pm. [just now]
+- I should be asleep until 7am. [just now]
+- Nume Falls are north of the village, and west of the campsite. [just now]
+- The lumberyard is at 72, -55.1 [just now]
+- I need to make sure everyone is safe. [just now]
+- I like strawberries. [just now]
+- The mine site is at 51, 17. [just now]
+- The area is surrounded by forested monutains, filled with wildlife, rivers, and lakes. [just now]
+- The Nume River flows through the village. [just now]
+- Thomas Smith sees Tree at X: 18.55, Y: -53.24. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.

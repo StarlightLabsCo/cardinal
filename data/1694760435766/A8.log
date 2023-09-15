@@ -1,0 +1,875 @@
+[1694760436496] [Character] Creating John
+[1694760437115] [31m[createMemory][39m I've scaled the highest peak in the Blackspire Range. [0]
+[1694760437115] [31m[createMemory][39m My travels have taken me to forgotten civilizations. [0]
+[1694760437115] [31m[createMemory][39m I've escaped several near-death situations. [0]
+[1694760437115] [31m[createMemory][39m Found a rare artifact in an ancient ruin. [0]
+[1694760437115] [31m[createMemory][39m My compass is more than a tool; it's a lifeline. [0]
+[1694760437115] [31m[createMemory][39m I often rely on my wits rather than a weapon. [0]
+[1694760437115] [31m[createMemory][39m My pack contains only the essentials for survival. [0]
+[1694760437115] [31m[createMemory][39m The thrill of discovery fuels me. [0]
+[1694760437115] [31m[createMemory][39m I trust no one completely; the road has taught me that. [0]
+[1694760437115] [31m[createMemory][39m Navigating treacherous landscapes is second nature to me. [0]
+[1694760437115] [31m[createMemory][39m I've learned a lot about local cultures and their legends. [0]
+[1694760437115] [31m[createMemory][39m I've traded stories with adventurers and locals alike. [0]
+[1694760437115] [31m[createMemory][39m Survival skills are as crucial as courage. [0]
+[1694760437115] [31m[createMemory][39m Maps are useful, but instincts are invaluable. [0]
+[1694760437115] [31m[createMemory][39m I keep a journal of my adventures; it'll be my legacy. [0]
+[1694760437115] [31m[createMemory][39m Basecamp Alpha is my main hub, located at 43, 12. [0]
+[1694760437115] [31m[createMemory][39m I've journeyed through the Dark Forest, its coordinates are 24, 68. [0]
+[1694760437115] [31m[createMemory][39m The treacherous Snake Gorge is located at 53, -22. [0]
+[1694760437115] [31m[createMemory][39m There's a hidden temple at 11, 9; it took me months to find it. [0]
+[1694760437115] [31m[createMemory][39m The market at Skyline city is a great place to resupply; located at 78, 54. [0]
+[1694760448439] [Character] John created
+[1694760497286] [31m[createMemory][39m John Swift sees House at X: 9.44, Y: -53.9. [0]
+[1694760497286] [31m[createMemory][39m John Swift sees House at X: 3.663626, Y: -54.92766. [0]
+[1694760497286] [31m[createMemory][39m John Swift sees James McAllister at X: 16.57, Y: -56.74. [0]
+[1694760497286] [31m[createMemory][39m John Swift sees House at X: 14.06, Y: -56.01. [0]
+[1694760503543] --- Prompt ---
+[1694760503543] Character: 
+- ID: A8
+- Name: John Swift
+- Age: 28
+- Occupation: Adventurer
+- Personality: Courageous, Resourceful, Independent
+
+Location: 11.68, -55.79
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Full
+
+Environment:
+- House (Health: 100/100) [Location: 14.06, -56.01, Direction: W,  Distance: 2.4m]
+- House (Health: 100/100) [Location: 9.44, -53.9, Direction: W,  Distance: 2.9m]
+- James McAllister (Health: 25/25) [Location: 16.57, -56.74, Direction: W,  Distance: 5.0m]
+- Thomas Smith (Health: 25/25) [Location: 6, -55.63, Direction: W,  Distance: 5.7m]
+- Lucy Wilde (Health: 25/25) [Location: 12.12, -62.11, Direction: W,  Distance: 6.3m]
+- Tree (Health: 10/10) [Location: 12.6, -49.3, Direction: W,  Distance: 6.6m]
+- Cedric Warborn (Health: 25/25) [Location: 4.8, -58.14, Direction: W,  Distance: 7.3m]
+- Tree (Health: 10/10) [Location: 18.55, -53.24, Direction: W,  Distance: 7.3m]
+- Tree (Health: 10/10) [Location: 18.3, -59.99, Direction: W,  Distance: 7.8m]
+- House (Health: 100/100) [Location: 3.663626, -54.92766, Direction: W,  Distance: 8.1m]
+- Tree (Health: 10/10) [Location: 16.59, -48.77, Direction: W,  Distance: 8.6m]
+- Tree (Health: 10/10) [Location: 18.81, -50.7, Direction: W,  Distance: 8.8m]
+- Tree (Health: 10/10) [Location: 8.63, -47.53, Direction: W,  Distance: 8.8m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I've traded stories with adventurers and locals alike. [just now]
+- My travels have taken me to forgotten civilizations. [just now]
+- Found a rare artifact in an ancient ruin. [just now]
+- I've scaled the highest peak in the Blackspire Range. [just now]
+- The market at Skyline city is a great place to resupply; located at 78, 54. [just now]
+- Maps are useful, but instincts are invaluable. [just now]
+- I've learned a lot about local cultures and their legends. [just now]
+- Navigating treacherous landscapes is second nature to me. [just now]
+- There's a hidden temple at 11, 9; it took me months to find it. [just now]
+- My pack contains only the essentials for survival. [just now]
+- I keep a journal of my adventures; it'll be my legacy. [just now]
+- The thrill of discovery fuels me. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694760533256] [31m[createMemory][39m John Swift sees Lucy Wilde at X: 12.67804, Y: -60.34921. [23.92783]
+[1694760533829] --- Response ---
+[1694760533830] Updated Tasks: 
+[1694760533830] [
+  {
+    "task": "Catch up with other villagers",
+    "priority": 1
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  },
+  {
+    "task": "Explore surroundings",
+    "priority": 4
+  },
+  {
+    "task": "Consult map and plan next adventure",
+    "priority": 5
+  },
+  {
+    "task": "Journal about today's happenings",
+    "priority": 6
+  },
+  {
+    "task": "Eat berries",
+    "priority": 7
+  },
+  {
+    "task": "Read up on local legends",
+    "priority": 8
+  },
+  {
+    "task": "Take inventory and organise pack",
+    "priority": 9
+  },
+  {
+    "task": "Study local flora and fauna",
+    "priority": 10
+  },
+  {
+    "task": "Craft or repair tools (if necessary)",
+    "priority": 11
+  },
+  {
+    "task": "Meditate or have some downtime",
+    "priority": 12
+  },
+  {
+    "task": "Retire to bed for sleep",
+    "priority": 13
+  }
+]
+[1694760536662] --- Prompt ---
+[1694760536663] Character: 
+- ID: A8
+- Name: John Swift
+- Age: 28
+- Occupation: Adventurer
+- Personality: Courageous, Resourceful, Independent
+
+Location: 11.68, -55.79
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Full
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 2.4m]
+- House (Health: 100/100) [Direction: W, Distance: 2.9m]
+- James McAllister (Health: 25/25) [Direction: W, Distance: 5.0m]
+- Thomas Smith (Health: 25/25) [Direction: W, Distance: 5.7m]
+- Lucy Wilde (Health: 25/25) [Direction: W, Distance: 6.3m]
+- Tree (Health: 10/10) [Direction: W, Distance: 6.6m]
+- Cedric Warborn (Health: 25/25) [Direction: W, Distance: 7.3m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.3m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.8m]
+- House (Health: 100/100) [Direction: W, Distance: 8.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.8m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.8m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I keep a journal of my adventures; it'll be my legacy. [just now]
+- My pack contains only the essentials for survival. [just now]
+- There's a hidden temple at 11, 9; it took me months to find it. [just now]
+- I've learned a lot about local cultures and their legends. [just now]
+- The market at Skyline city is a great place to resupply; located at 78, 54. [just now]
+- I've scaled the highest peak in the Blackspire Range. [just now]
+- I've journeyed through the Dark Forest, its coordinates are 24, 68. [just now]
+- My travels have taken me to forgotten civilizations. [just now]
+- Found a rare artifact in an ancient ruin. [just now]
+- I've traded stories with adventurers and locals alike. [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694760536663] --- Action Functions ---
+[1694760536663] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694760540188] [31m[createMemory][39m John Swift sees Cedric Warborn at X: 6.792762, Y: -57.25388. [30.3611622]
+[1694760541200] --- Response ---
+[1694760541200] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A8\",\n  \"x\": 2.4,\n  \"y\": 0\n}"
+  }
+}
+[1694760541201] --- Verified Action ---
+[1694760541201] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A8",
+    "x": 2.4,
+    "y": 0
+  }
+}
+[1694760541422] [31m[createMemory][39m John Swift has started walking to 2.4, Y: 0. [31.5278282]
+[1694760541761] [31m[createMemory][39m John Swift no longer sees House 2 at X: 3.663626, Y: -54.92766 [31.8444958]
+[1694760542829] [31m[createMemory][39m John Swift sees Tree at X: 18.3, Y: -59.99. [32.8444939]
+[1694760543268] [31m[createMemory][39m John Swift sees Tree at X: 18.55, Y: -53.24. [33.2444954]
+[1694760548069] [31m[createMemory][39m John Swift no longer sees House 1 at X: 9.44, Y: -53.9 [37.72783]
+[1694760551247] [31m[createMemory][39m John Swift no longer sees Human (3) at X: 15.80614, Y: -57.3335 [40.2944946]
+[1694760551329] [31m[createMemory][39m John Swift sees Tree at X: 25.89, Y: -59.87. [40.36116]
+[1694760551794] [31m[createMemory][39m John Swift no longer sees Human (5) at X: 16.57, Y: -56.74 [40.81116]
+[1694760552181] [31m[createMemory][39m John Swift no longer sees Tree (1132) at X: 18.3, Y: -59.99 [41.2111626]
+[1694760552339] [31m[createMemory][39m John Swift no longer sees House at X: 14.06, Y: -56.01 [41.31116]
+[1694760553049] [31m[createMemory][39m John Swift no longer sees Tree (1133) at X: 18.55, Y: -53.24 [41.92783]
+[1694760556325] [31m[createMemory][39m John Swift no longer sees Tree (1121) at X: 25.89, Y: -59.87 [44.9444962]
+[1694760559849] [31m[createMemory][39m John Swift sees Tree at X: 36.04, Y: -47.68999. [48.12783]
+[1694760561908] [31m[createMemory][39m John Swift sees Tree Stump at X: 36.50999, Y: -46.03. [49.9611626]
+[1694760562116] [31m[createMemory][39m John Swift sees Tree at X: 36.37, Y: -44.45. [50.26116]
+[1694760562769] [31m[createMemory][39m John Swift sees Tree at X: 25.76, Y: -44.33. [50.9444962]
+[1694760563006] [31m[createMemory][39m John Swift no longer sees Stump (50) at X: 36.50999, Y: -46.03 [51.1611633]
+[1694760563201] [31m[createMemory][39m John Swift sees Stone Ore Deposit (Small) at X: 32.23, Y: -40.35. [51.22783]
+[1694760563379] [31m[createMemory][39m John Swift no longer sees Tree (649) at X: 36.04, Y: -47.68999 [51.42783]
+[1694760563533] [31m[createMemory][39m John Swift sees Tree at X: 25.76, Y: -42.09. [51.52783]
+[1694760563544] [31m[createMemory][39m John Swift no longer sees Tree (655) at X: 36.37, Y: -44.45 [51.4444962]
+[1694760564805] [31m[createMemory][39m John Swift sees Tree at X: 25.48, Y: -39.34. [52.76116]
+[1694760565653] [31m[createMemory][39m John Swift sees Tree at X: 23.13, Y: -42.43. [53.4944954]
+[1694760566498] [31m[createMemory][39m John Swift sees Tree at X: 24.93, Y: -36.81. [54.2111626]
+[1694760567386] [31m[createMemory][39m John Swift sees Tree Stump at X: 30.7, Y: -35.81. [55.0444946]
+[1694760567703] [31m[createMemory][39m John Swift sees Tree at X: 22.67, Y: -36.54. [55.26116]
+[1694760567848] [31m[createMemory][39m John Swift sees Tree at X: 32.43, Y: -36.81211. [55.51116]
+[1694760567977] [31m[createMemory][39m John Swift sees Tree at X: 24.38, Y: -34.45. [55.61116]
+[1694760568405] [31m[createMemory][39m John Swift no longer sees Tree (336) at X: 25.76, Y: -44.33 [55.81116]
+[1694760568753] [31m[createMemory][39m John Swift sees Tree at X: 31.45, Y: -34.49. [56.11116]
+[1694760568795] [31m[createMemory][39m John Swift no longer sees Tree (335) at X: 23.13, Y: -42.43 [56.12783]
+[1694760569240] [31m[createMemory][39m John Swift no longer sees StoneOreSmall (10) at X: 32.23, Y: -40.35 [56.62783]
+[1694760569626] [31m[createMemory][39m John Swift no longer sees Tree (331) at X: 25.76, Y: -42.09 [57.0944939]
+[1694760569794] [31m[createMemory][39m John Swift sees Tree at X: 23.02, Y: -32.65. [57.2111626]
+[1694760570782] [31m[createMemory][39m John Swift sees Tree at X: 28.28, Y: -29.76. [58.01116]
+[1694760571130] [31m[createMemory][39m John Swift no longer sees Tree (302) at X: 32.43, Y: -36.81211 [58.2944946]
+[1694760571234] [31m[createMemory][39m John Swift sees Tree at X: 21.1, Y: -34.81. [58.4944954]
+[1694760571722] [31m[createMemory][39m John Swift no longer sees Tree (330) at X: 25.48, Y: -39.34 [58.8944969]
+[1694760572348] [31m[createMemory][39m John Swift sees Tree at X: 27.86, Y: -27.79. [59.36116]
+[1694760572653] [31m[createMemory][39m John Swift no longer sees Tree (301) at X: 31.45, Y: -34.49 [59.6611633]
+[1694760572799] [31m[createMemory][39m John Swift no longer sees Stump (25) at X: 30.7, Y: -35.81 [59.76116]
+[1694760573614] [31m[createMemory][39m John Swift no longer sees Tree (286) at X: 22.67, Y: -36.54 [60.4611626]
+[1694760573750] [31m[createMemory][39m John Swift no longer sees Tree (263) at X: 24.93, Y: -36.81 [60.52783]
+[1694760573825] [31m[createMemory][39m John Swift sees Tree at X: 30.73, Y: -29.31. [60.61116]
+[1694760573955] [31m[createMemory][39m John Swift sees Tree at X: 29.28, Y: -26.96. [60.7111626]
+[1694760574118] [31m[createMemory][39m John Swift no longer sees Tree (291) at X: 21.1, Y: -34.81 [60.86116]
+[1694760574530] [31m[createMemory][39m John Swift sees Tree at X: 28.12, Y: -25.2. [61.26116]
+[1694760575296] [31m[createMemory][39m John Swift no longer sees Tree (259) at X: 24.38, Y: -34.45 [61.8944969]
+[1694760575440] [31m[createMemory][39m John Swift no longer sees Tree (730) at X: 30.73, Y: -29.31 [62.0944939]
+[1694760575628] [31m[createMemory][39m John Swift sees Tree at X: 26.2, Y: -23.09. [62.3278275]
+[1694760575691] [31m[createMemory][39m John Swift sees Tree at X: 22.59, Y: -23.18. [62.3944969]
+[1694760575740] [31m[createMemory][39m John Swift no longer sees Human (11) at X: 27.51009, Y: -32.512 [62.42783]
+[1694760575871] [31m[createMemory][39m John Swift sees Tree Stump at X: 21.26, Y: -23.66788. [62.5944939]
+[1694760576760] [31m[createMemory][39m John Swift sees Tree at X: 24.08, Y: -21.93. [63.22783]
+[1694760576909] [31m[createMemory][39m John Swift no longer sees Tree (287) at X: 23.02, Y: -32.65 [63.2944946]
+[1694760576927] [31m[createMemory][39m John Swift no longer sees Tree (161) at X: 29.28, Y: -26.96 [63.2944946]
+[1694760576958] [31m[createMemory][39m John Swift sees Tree at X: 20.14, Y: -22.62. [63.31116]
+[1694760577505] [31m[createMemory][39m John Swift no longer sees Tree (265) at X: 28.28, Y: -29.76 [63.56116]
+[1694760578063] [31m[createMemory][39m John Swift no longer sees Tree (260) at X: 28.12, Y: -25.2 [64.21116]
+[1694760578196] [31m[createMemory][39m John Swift sees Tree at X: 18.28, Y: -21.95. [64.2944946]
+[1694760578217] [31m[createMemory][39m John Swift no longer sees Tree (264) at X: 27.86, Y: -27.79 [64.2944946]
+[1694760579049] [31m[createMemory][39m John Swift sees Tree at X: 21.54, Y: -20.29. [65.0444946]
+[1694760579122] [31m[createMemory][39m John Swift no longer sees Tree (156) at X: 26.2, Y: -23.09 [65.14449]
+[1694760580214] [31m[createMemory][39m John Swift sees Tree at X: 14.11, Y: -27.17. [66.12783]
+[1694760580378] [31m[createMemory][39m John Swift sees Tree at X: 19.34, Y: -19.25. [66.4278259]
+[1694760580432] [31m[createMemory][39m John Swift no longer sees Tree (155) at X: 24.08, Y: -21.93 [66.52783]
+[1694760580863] [31m[createMemory][39m John Swift sees Stone Ore Deposit (Small) at X: 15.88, Y: -18.99. [66.96116]
+[1694760581703] [31m[createMemory][39m John Swift sees Stone Ore Deposit (Small) at X: 14.39, Y: -18.34. [67.72783]
+[1694760581990] [31m[createMemory][39m John Swift sees Tree at X: 11.96, Y: -25.18. [67.7944946]
+[1694760582156] [31m[createMemory][39m John Swift sees Tree at X: 12.43, Y: -19.6. [67.91116]
+[1694760582244] [31m[createMemory][39m John Swift no longer sees Tree (34) at X: 22.59, Y: -23.18 [68.02783]
+[1694760582805] [31m[createMemory][39m John Swift no longer sees Tree (149) at X: 21.54, Y: -20.29 [68.32783]
+[1694760582955] [31m[createMemory][39m John Swift no longer sees Stump (15) at X: 21.26, Y: -23.66788 [68.66116]
+[1694760583625] [31m[createMemory][39m John Swift sees Tree at X: 15.22, Y: -16.78. [69.5444946]
+[1694760583686] [31m[createMemory][39m John Swift sees Tree at X: 13.25, Y: -16.78. [69.5611649]
+[1694760583728] [31m[createMemory][39m John Swift no longer sees Tree (33) at X: 20.14, Y: -22.62 [69.61116]
+[1694760583824] [31m[createMemory][39m John Swift no longer sees Tree (148) at X: 19.34, Y: -19.25 [69.7445]
+[1694760583874] [31m[createMemory][39m John Swift sees Tree at X: 9.26, Y: -25.09. [69.7944946]
+[1694760584710] [31m[createMemory][39m John Swift no longer sees Tree (256) at X: 14.11, Y: -27.17 [70.36116]
+[1694760584878] [31m[createMemory][39m John Swift sees Tree at X: 10.73, Y: -16.49. [70.51116]
+[1694760585038] [31m[createMemory][39m John Swift no longer sees Tree (29) at X: 18.28, Y: -21.95 [70.82783]
+[1694760585165] [31m[createMemory][39m John Swift sees Tree at X: 7.04, Y: -22.88. [70.8445]
+[1694760585879] [31m[createMemory][39m John Swift sees Tree at X: 6.79, Y: -17.79. [71.4278259]
+[1694760585898] [31m[createMemory][39m John Swift sees Tree at X: 6, Y: -20.83. [71.41116]
+[1694760586745] [31m[createMemory][39m John Swift sees Tree at X: 4.96, Y: -19.42. [72.14449]
+[1694760586884] [31m[createMemory][39m John Swift no longer sees Tree (54) at X: 15.22, Y: -16.78 [72.2445]
+[1694760586953] [31m[createMemory][39m John Swift no longer sees StoneOreSmall (1) at X: 15.88, Y: -18.99 [72.3111649]
+[1694760587179] [31m[createMemory][39m John Swift no longer sees Tree (261) at X: 11.96, Y: -25.18 [72.46116]
+[1694760587205] [31m[createMemory][39m John Swift no longer sees Tree (262) at X: 9.26, Y: -25.09 [72.62783]
+[1694760587216] [31m[createMemory][39m John Swift sees Tree at X: 9.45, Y: -14.39. [72.5444946]
+[1694760587317] [31m[createMemory][39m John Swift sees Tree at X: 11.84, Y: -14.35. [72.6944962]
+[1694760588027] [31m[createMemory][39m John Swift sees Tree at X: 15.22, Y: -16.78. [73.1944962]
+[1694760588303] [31m[createMemory][39m John Swift sees Tree at X: 13.75, Y: -13.81. [73.64449]
+[1694760588376] [31m[createMemory][39m John Swift no longer sees Tree (067) at X: 7.04, Y: -22.88 [73.66116]
+[1694760588450] [31m[createMemory][39m John Swift sees Tree at X: 11.7, Y: -12.56. [73.7445]
+[1694760588928] [31m[createMemory][39m John Swift no longer sees Tree (54) at X: 15.22, Y: -16.78 [74.11116]
+[1694760589067] [31m[createMemory][39m John Swift sees Tree at X: 3.77, Y: -16.34. [74.16116]
+[1694760589280] [31m[createMemory][39m John Swift sees Tree Stump at X: 3.68, Y: -17.74. [74.36116]
+[1694760589412] [31m[createMemory][39m John Swift sees Tree at X: 3.98, Y: -13.79. [74.5444946]
+[1694760589456] [31m[createMemory][39m John Swift no longer sees StoneOreSmall at X: 14.39, Y: -18.34 [74.52783]
+[1694760590119] [31m[createMemory][39m John Swift sees Tree at X: 4.59, Y: -12.01. [74.9945]
+[1694760590126] [31m[createMemory][39m John Swift no longer sees Tree (66) at X: 6, Y: -20.83 [75.02783]
+[1694760590541] [31m[createMemory][39m John Swift no longer sees Tree (72) at X: 12.43, Y: -19.6 [75.39449]
+[1694760590727] [31m[createMemory][39m John Swift sees Tree Stump at X: 8.41, Y: -9.870001. [75.5945]
+[1694760590955] [31m[createMemory][39m John Swift no longer sees Tree (39) at X: 13.75, Y: -13.81 [75.82783]
+[1694760591153] [31m[createMemory][39m John Swift no longer sees Tree (44) at X: 13.25, Y: -16.78 [75.96116]
+[1694760591153] [31m[createMemory][39m John Swift no longer sees Tree (63) at X: 4.96, Y: -19.42 [75.9945]
+[1694760591298] [31m[createMemory][39m John Swift sees Tree at X: 2.16, Y: -14.95. [76.0611649]
+[1694760591299] [31m[createMemory][39m John Swift sees Tree at X: 2.8, Y: -11.64. [76.02783]
+[1694760591807] [31m[createMemory][39m John Swift no longer sees Tree (28) at X: 2.16, Y: -14.95 [76.4444962]
+[1694760591959] [31m[createMemory][39m John Swift no longer sees Stump (8) at X: 3.68, Y: -17.74 [76.64449]
+[1694760592165] [31m[createMemory][39m John Swift sees Tree Stump at X: 9.14, Y: -7.77. [76.9444962]
+[1694760592476] [31m[createMemory][39m John Swift no longer sees Tree (45) at X: 6.79, Y: -17.79 [77.22783]
+[1694760592539] [31m[createMemory][39m John Swift no longer sees Tree (25) at X: 3.77, Y: -16.34 [77.32783]
+[1694760592599] [31m[createMemory][39m John Swift sees Tree Stump at X: 5.58, Y: -7.27. [77.3445]
+[1694760592658] [31m[createMemory][39m John Swift sees Tree Stump at X: 8.46, Y: -6.74. [77.4945]
+[1694760592730] [31m[createMemory][39m John Swift sees Tree at X: 2.38, Y: -9.700001. [77.5611649]
+[1694760592809] [31m[createMemory][39m John Swift no longer sees Tree (40) at X: 10.73, Y: -16.49 [77.66116]
+[1694760593617] [31m[createMemory][39m John Swift no longer sees Tree (38) at X: 11.84, Y: -14.35 [78.3111649]
+[1694760594549] [31m[createMemory][39m John Swift no longer sees Tree (77) at X: 11.7, Y: -12.56 [79.11116]
+[1694760594564] [31m[createMemory][39m John Swift no longer sees Tree (26) at X: 9.45, Y: -14.39 [79.12783]
+[1694760595018] [31m[createMemory][39m John Swift no longer sees Tree (27) at X: 3.98, Y: -13.79 [79.52783]
+[1694760595054] [31m[createMemory][39m John Swift sees Tree at X: 4.14, Y: -3.639999. [79.5444946]
+[1694760595089] [31m[createMemory][39m John Swift sees Tree at X: 4.14, Y: -3.639999. [79.5444946]
+[1694760595328] [31m[createMemory][39m John Swift sees Tree at X: 1.1, Y: -5.790001. [79.82783]
+[1694760595506] [31m[createMemory][39m John Swift sees Tree at X: 11.02, Y: -4.68. [79.96116]
+[1694760595645] [31m[createMemory][39m John Swift sees Tree at X: 1.78, Y: -4.23. [80.0945]
+[1694760595657] [31m[createMemory][39m John Swift sees Tree at X: 1.78, Y: -4.23. [80.0945]
+[1694760596642] [31m[createMemory][39m John Swift no longer sees Tree (84) at X: 2.8, Y: -11.64 [80.52783]
+[1694760596843] [31m[createMemory][39m John Swift no longer sees Tree (78) at X: 4.59, Y: -12.01 [80.72783]
+[1694760597583] [31m[createMemory][39m John Swift sees Tree at X: 2.89, Y: -1.01. [81.36116]
+[1694760597605] [31m[createMemory][39m John Swift sees Tree at X: 2.89, Y: -1.01. [81.36116]
+[1694760597811] [31m[createMemory][39m John Swift no longer sees Tree (13) at X: 2.38, Y: -9.700001 [81.4444962]
+[1694760597901] [31m[createMemory][39m John Swift sees Tree at X: 1.29, Y: -2.459999. [81.46116]
+[1694760597901] [31m[createMemory][39m John Swift sees Tree at X: 1.29, Y: -2.459999. [81.46116]
+[1694760599172] [31m[createMemory][39m John Swift no longer sees Stump (2) at X: 8.41, Y: -9.870001 [82.0945]
+[1694760599331] [31m[createMemory][39m John Swift sees Tree Stump at X: 0.03999996, Y: -3.610001. [82.3111649]
+[1694760599399] [31m[createMemory][39m John Swift sees Tree at X: 0.8599997, Y: -0.5599995. [82.41116]
+[1694760599400] [31m[createMemory][39m John Swift sees Tree at X: 0.8599997, Y: -0.5599995. [82.41116]
+[1694760599477] [31m[createMemory][39m John Swift sees Tree Stump at X: 0.03999996, Y: -3.610001. [82.3111649]
+[1694760599542] [31m[createMemory][39m John Swift no longer sees Tree (56) at X: 11.02, Y: -4.68 [82.5611649]
+[1694760599640] [31m[createMemory][39m John Swift no longer sees Stump (3) at X: 9.14, Y: -7.77 [82.86116]
+[1694760599860] [31m[createMemory][39m John Swift sees Tree at X: 1.96, Y: 1.940001. [83.16116]
+[1694760599889] [31m[createMemory][39m John Swift sees Tree at X: 1.96, Y: 1.940001. [83.16116]
+[1694760600349] [31m[createMemory][39m John Swift no longer sees Stump (4) at X: 8.46, Y: -6.74 [83.5444946]
+[1694760600504] [31m[createMemory][39m John Swift sees Tree at X: -1.46, Y: -1.433641. [83.64449]
+[1694760600512] [31m[createMemory][39m John Swift sees Tree at X: -1.46, Y: -1.433641. [83.64449]
+[1694760600551] [31m[createMemory][39m John Swift sees Tree at X: -0.2399998, Y: 1.389999. [83.66116]
+[1694760600578] [31m[createMemory][39m John Swift sees Tree at X: -0.2399998, Y: 1.389999. [83.66116]
+[1694760627108] Getting action 0
+[1694760627108] Getting result 0
+[1694760627108] --- Prompt ---
+[1694760627110] Character: 
+- ID: A8
+- Name: John Swift
+- Age: 28
+- Occupation: Adventurer
+- Personality: Courageous, Resourceful, Independent
+
+Location: 3.823893, -2.181518
+
+Time: Day 0, 8:54 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Tree (Health: 10/10) [Direction: NW, Distance: 1.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 1.5m]
+- Tree (Health: 10/10) [Direction: N, Distance: 1.5m]
+- Tree (Health: 10/10) [Direction: N, Distance: 1.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 2.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 2.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 2.9m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 2.9m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 3.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 3.4m]
+- Tree Stump (Health: 5/5) [Direction: W, Distance: 4.0m]
+- Tree Stump (Health: 5/5) [Direction: W, Distance: 4.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 4.5m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 4.5m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 4.5m]
+- Tree (Health: 10/10) [Direction: SW, Distance: 5.3m]
+- Tree (Health: 10/10) [Direction: SW, Distance: 5.3m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 5.4m]
+- Tree (Health: 10/10) [Direction: E, Distance: 5.4m]
+- Tree (Health: 10/10) [Direction: E, Distance: 5.4m]
+- Tree (Health: 10/10) [Direction: W, Distance: 5.9m]
+- Tree (Health: 10/10) [Direction: SW, Distance: 6.1m]
+- Tree (Health: 10/10) [Direction: SW, Distance: 6.1m]
+- Tree (Health: 10/10) [Direction: E, Distance: 6.5m]
+- Tree (Health: 10/10) [Direction: E, Distance: 6.5m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 6.5m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 6.6m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 6.6m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: S, Distance: 7.5m]
+- Tree (Health: 10/10) [Direction: S, Distance: 7.5m]
+- Tree (Health: 10/10) [Direction: SE, Distance: 7.5m]
+- Tree (Health: 10/10) [Direction: SE, Distance: 7.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.7m]
+- Tree Stump (Health: 5/5) [Direction: NE, Distance: 7.7m]
+- Tree Stump (Health: 5/5) [Direction: NE, Distance: 7.7m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 7.7m]
+- Tree (Health: 10/10) [Direction: N, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: N, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 8.6m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 8.6m]
+- Tree (Health: 10/10) [Direction: N, Distance: 8.9m]
+- Tree (Health: 10/10) [Direction: N, Distance: 8.9m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Survival skills are as crucial as courage. [8 hours ago]
+- I keep a journal of my adventures; it'll be my legacy. [8 hours ago]
+- My pack contains only the essentials for survival. [8 hours ago]
+- There's a hidden temple at 11, 9; it took me months to find it. [8 hours ago]
+- I've learned a lot about local cultures and their legends. [8 hours ago]
+- The market at Skyline city is a great place to resupply; located at 78, 54. [8 hours ago]
+- I've scaled the highest peak in the Blackspire Range. [8 hours ago]
+- I've journeyed through the Dark Forest, its coordinates are 24, 68. [8 hours ago]
+- My travels have taken me to forgotten civilizations. [8 hours ago]
+- Found a rare artifact in an ancient ruin. [8 hours ago]
+
+Previous Actions:
+- [move_to]: John Swift walked to X: 2.4, Y: 0. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694760627110] --- Action Functions ---
+[1694760627111] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_axe",
+    "description": "Swing Axe.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_pickaxe",
+    "description": "Swing Pickaxe.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_sword",
+    "description": "Swing sword.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694760629588] --- Response ---
+[1694760629588] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "swing_axe",
+    "arguments": "{\n  \"characterId\": \"A8\"\n}"
+  }
+}
+[1694760629589] --- Verified Action ---
+[1694760629589] {
+  "type": "swing_axe",
+  "data": {
+    "characterId": "A8"
+  }
+}

@@ -1,0 +1,1175 @@
+[1694758794480] [Character] Creating John
+[1694758795143] [31m[createMemory][39m I've scaled the highest peak in the Blackspire Range. [0]
+[1694758795143] [31m[createMemory][39m My travels have taken me to forgotten civilizations. [0]
+[1694758795143] [31m[createMemory][39m I've escaped several near-death situations. [0]
+[1694758795144] [31m[createMemory][39m Found a rare artifact in an ancient ruin. [0]
+[1694758795144] [31m[createMemory][39m My compass is more than a tool; it's a lifeline. [0]
+[1694758795144] [31m[createMemory][39m I often rely on my wits rather than a weapon. [0]
+[1694758795144] [31m[createMemory][39m My pack contains only the essentials for survival. [0]
+[1694758795144] [31m[createMemory][39m The thrill of discovery fuels me. [0]
+[1694758795144] [31m[createMemory][39m I trust no one completely; the road has taught me that. [0]
+[1694758795144] [31m[createMemory][39m Navigating treacherous landscapes is second nature to me. [0]
+[1694758795144] [31m[createMemory][39m I've learned a lot about local cultures and their legends. [0]
+[1694758795144] [31m[createMemory][39m I've traded stories with adventurers and locals alike. [0]
+[1694758795144] [31m[createMemory][39m Survival skills are as crucial as courage. [0]
+[1694758795144] [31m[createMemory][39m Maps are useful, but instincts are invaluable. [0]
+[1694758795144] [31m[createMemory][39m I keep a journal of my adventures; it'll be my legacy. [0]
+[1694758795144] [31m[createMemory][39m Basecamp Alpha is my main hub, located at 43, 12. [0]
+[1694758795144] [31m[createMemory][39m I've journeyed through the Dark Forest, its coordinates are 24, 68. [0]
+[1694758795144] [31m[createMemory][39m The treacherous Snake Gorge is located at 53, -22. [0]
+[1694758795144] [31m[createMemory][39m There's a hidden temple at 11, 9; it took me months to find it. [0]
+[1694758795144] [31m[createMemory][39m The market at Skyline city is a great place to resupply; located at 78, 54. [0]
+[1694758806737] [Character] John created
+[1694758829311] [31m[createMemory][39m John Swift sees House at X: 9.44, Y: -53.9. [0]
+[1694758829311] [31m[createMemory][39m John Swift sees House at X: 3.663626, Y: -54.92766. [0]
+[1694758829313] [31m[createMemory][39m John Swift sees House at X: 14.06, Y: -56.01. [0]
+[1694758835126] --- Prompt ---
+[1694758835127] Character: 
+- ID: A8
+- Name: John Swift
+- Age: 28
+- Occupation: Adventurer
+- Personality: Courageous, Resourceful, Independent
+
+Location: 10.45, -54.9
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Full
+
+Environment:
+- House (Health: 100/100) [Location: 9.44, -53.9, Direction: W,  Distance: 1.4m]
+- House (Health: 100/100) [Location: 14.06, -56.01, Direction: W,  Distance: 3.8m]
+- Tree (Health: 10/10) [Location: 12.6, -49.3, Direction: W,  Distance: 6.0m]
+- Cedric Warborn (Health: 25/25) [Location: 4.8, -58.14, Direction: W,  Distance: 6.5m]
+- House (Health: 100/100) [Location: 3.663626, -54.92766, Direction: W,  Distance: 6.8m]
+- Tree (Health: 10/10) [Location: 8.63, -47.53, Direction: W,  Distance: 7.6m]
+- Thomas Smith (Health: 25/25) [Location: 17.88, -57.69, Direction: W,  Distance: 7.9m]
+- Tree (Health: 10/10) [Location: 18.55, -53.24, Direction: W,  Distance: 8.3m]
+- Tree (Health: 10/10) [Location: 11.9, -46.7, Direction: W,  Distance: 8.3m]
+- Tree Stump (Health: 5/5) [Location: 13.63, -46.92001, Direction: W,  Distance: 8.6m]
+- Tree (Health: 10/10) [Location: 16.59, -48.77, Direction: W,  Distance: 8.7m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I often rely on my wits rather than a weapon. [just now]
+- My pack contains only the essentials for survival. [just now]
+- I keep a journal of my adventures; it'll be my legacy. [just now]
+- My travels have taken me to forgotten civilizations. [just now]
+- Maps are useful, but instincts are invaluable. [just now]
+- Survival skills are as crucial as courage. [just now]
+- I've learned a lot about local cultures and their legends. [just now]
+- I've scaled the highest peak in the Blackspire Range. [just now]
+- I've journeyed through the Dark Forest, its coordinates are 24, 68. [just now]
+- My compass is more than a tool; it's a lifeline. [just now]
+- I've traded stories with adventurers and locals alike. [just now]
+- Found a rare artifact in an ancient ruin. [just now]
+- I've escaped several near-death situations. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694758854154] --- Response ---
+[1694758854154] Updated Tasks: 
+[1694758854156] [
+  {
+    "task": "Check the closest house for any supplies or useful tools",
+    "priority": 1
+  },
+  {
+    "task": "Meet with Cedric Warborn to trade and discuss adventures",
+    "priority": 2
+  },
+  {
+    "task": "Carry out daily duties of gathering wood from nearby trees",
+    "priority": 3
+  },
+  {
+    "task": "Maintain a healthy lifestyle by eating and resting",
+    "priority": 4
+  },
+  {
+    "task": "Meet with Thomas Smith to learn about local cultures and legends",
+    "priority": 5
+  },
+  {
+    "task": "Update adventure journal with recent explorations",
+    "priority": 6
+  },
+  {
+    "task": "Explore the coordinates of the Dark Forest (24, 68) if possible",
+    "priority": 7
+  }
+]
+[1694758856612] --- Prompt ---
+[1694758856613] Character: 
+- ID: A8
+- Name: John Swift
+- Age: 28
+- Occupation: Adventurer
+- Personality: Courageous, Resourceful, Independent
+
+Location: 10.45, -54.9
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Full
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 1.4m]
+- House (Health: 100/100) [Direction: W, Distance: 3.8m]
+- Tree (Health: 10/10) [Direction: W, Distance: 6.0m]
+- Cedric Warborn (Health: 25/25) [Direction: W, Distance: 6.5m]
+- House (Health: 100/100) [Direction: W, Distance: 6.8m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.6m]
+- Thomas Smith (Health: 25/25) [Direction: W, Distance: 7.9m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.3m]
+- Tree Stump (Health: 5/5) [Direction: W, Distance: 8.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.7m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I've escaped several near-death situations. [just now]
+- I've traded stories with adventurers and locals alike. [just now]
+- I've scaled the highest peak in the Blackspire Range. [just now]
+- I've learned a lot about local cultures and their legends. [just now]
+- Survival skills are as crucial as courage. [just now]
+- Maps are useful, but instincts are invaluable. [just now]
+- My travels have taken me to forgotten civilizations. [just now]
+- I keep a journal of my adventures; it'll be my legacy. [just now]
+- My pack contains only the essentials for survival. [just now]
+- I often rely on my wits rather than a weapon. [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694758856613] --- Action Functions ---
+[1694758856614] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694758861968] --- Response ---
+[1694758861968] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A8\",\n  \"x\": 1.4,\n  \"y\": -54.9\n}"
+  }
+}
+[1694758861969] --- Verified Action ---
+[1694758861969] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A8",
+    "x": 1.4,
+    "y": -54.9
+  }
+}
+[1694758862160] [31m[createMemory][39m John Swift has started walking to 1.4, Y: -54.9. [26.646841]
+[1694758862822] [31m[createMemory][39m John Swift no longer sees House at X: 14.06, Y: -56.01 [27.230175]
+[1694758863552] [31m[createMemory][39m John Swift sees Cedric Warborn at X: 4.8, Y: -58.14. [27.9135075]
+[1694758865614] [31m[createMemory][39m John Swift no longer sees House 1 at X: 9.44, Y: -53.9 [29.8468418]
+[1694758866973] [31m[createMemory][39m John Swift sees Tree at X: -1.900001, Y: -55.92. [31.063509]
+[1694758867014] [31m[createMemory][39m John Swift sees Tree at X: -0.6500006, Y: -52.92. [31.1135082]
+[1694758867668] [31m[createMemory][39m John Swift sees Tree at X: 1.349999, Y: -50.67. [31.7468414]
+[1694758868116] [31m[createMemory][39m John Swift no longer sees Human (11) at X: 7.177752, Y: -57.25108 [32.1801758]
+[1694758868871] [31m[createMemory][39m John Swift finished walking to 1.4, Y: -54.9. [32.81999]
+[1694758871476] Getting action 0
+[1694758871476] Getting result 0
+[1694758871476] --- Prompt ---
+[1694758871477] Character: 
+- ID: A8
+- Name: John Swift
+- Age: 28
+- Occupation: Adventurer
+- Personality: Courageous, Resourceful, Independent
+
+Location: 1.505046, -55.00501
+
+Time: Day 0, 3:16 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 2.2m]
+- Tree (Health: 10/10) [Direction: W, Distance: 3.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 3.5m]
+- Tree (Health: 10/10) [Direction: W, Distance: 4.3m]
+- Cedric Warborn (Health: 25/25) [Direction: W, Distance: 7.2m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.6m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- John Swift sees Tree at X: 1.349999, Y: -50.67. [6 minutes ago]
+- John Swift sees Cedric Warborn at X: 4.8, Y: -58.14. [29 minutes ago]
+- My compass is more than a tool; it's a lifeline. [3 hours ago]
+- John Swift sees House at X: 9.44, Y: -53.9. [3 hours ago]
+- I've escaped several near-death situations. [3 hours ago]
+- I've traded stories with adventurers and locals alike. [3 hours ago]
+- I've scaled the highest peak in the Blackspire Range. [3 hours ago]
+- I've learned a lot about local cultures and their legends. [3 hours ago]
+- Survival skills are as crucial as courage. [3 hours ago]
+- Maps are useful, but instincts are invaluable. [3 hours ago]
+
+Previous Actions:
+- [move_to]: John Swift walked to X: 1.4, Y: -54.9. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694758871478] --- Action Functions ---
+[1694758871480] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694758875173] --- Response ---
+[1694758875173] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A8\",\n  \"x\": 1.505046,\n  \"y\": -55.00501\n}"
+  }
+}
+[1694758875175] --- Verified Action ---
+[1694758875175] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A8",
+    "x": 1.505046,
+    "y": -55.00501
+  }
+}
+[1694758875363] [31m[createMemory][39m John Swift has started walking to 1.505046, Y: -55.00501. [38.86351]
+[1694758875482] [31m[createMemory][39m John Swift finished walking to 1.505046, Y: -55.00501. [38.9399872]
+[1694758877951] Getting action 0
+[1694758877951] Getting result 0
+[1694758877951] Getting action 1
+[1694758877951] Getting result 1
+[1694758877952] --- Prompt ---
+[1694758877952] Character: 
+- ID: A8
+- Name: John Swift
+- Age: 28
+- Occupation: Adventurer
+- Personality: Courageous, Resourceful, Independent
+
+Location: 1.505046, -55.00501
+
+Time: Day 0, 3:53 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 2.2m]
+- Tree (Health: 10/10) [Direction: W, Distance: 3.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 3.5m]
+- Tree (Health: 10/10) [Direction: W, Distance: 4.3m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.6m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- John Swift sees Tree at X: 1.349999, Y: -50.67. [43 minutes ago]
+- John Swift no longer sees House 1 at X: 9.44, Y: -53.9 [54 minutes ago]
+- Maps are useful, but instincts are invaluable. [3 hours ago]
+- John Swift sees House at X: 9.44, Y: -53.9. [3 hours ago]
+- I've escaped several near-death situations. [3 hours ago]
+- My compass is more than a tool; it's a lifeline. [3 hours ago]
+- I've scaled the highest peak in the Blackspire Range. [3 hours ago]
+- I've learned a lot about local cultures and their legends. [3 hours ago]
+- Survival skills are as crucial as courage. [3 hours ago]
+- My travels have taken me to forgotten civilizations. [3 hours ago]
+
+Previous Actions:
+- [move_to]: John Swift walked to X: 1.4, Y: -54.9. [36 minutes ago]
+- [move_to]: John Swift walked to X: 1.505046, Y: -55.00501. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694758877952] --- Action Functions ---
+[1694758877957] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694758881288] --- Response ---
+[1694758881289] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A8\",\n  \"x\": 1.349999,\n  \"y\": -50.67\n}"
+  }
+}
+[1694758881289] --- Verified Action ---
+[1694758881289] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A8",
+    "x": 1.349999,
+    "y": -50.67
+  }
+}
+[1694758881492] [31m[createMemory][39m John Swift has started walking to 1.349999, Y: -50.67. [44.59684]
+[1694758883498] [31m[createMemory][39m John Swift no longer sees Tree (1134) at X: -1.900001, Y: -55.92 [46.480175]
+[1694758883506] [31m[createMemory][39m John Swift sees Tree at X: 2.51, Y: -46.13. [46.480175]
+[1694758883911] [31m[createMemory][39m John Swift sees Tree at X: -1.150001, Y: -46.42. [46.8301735]
+[1694758884567] [31m[createMemory][39m John Swift finished walking to 1.349999, Y: -50.67. [47.4999847]
+[1694758886873] Getting action 0
+[1694758886873] Getting result 0
+[1694758886873] Getting action 1
+[1694758886873] Getting result 1
+[1694758886873] Getting action 2
+[1694758886873] Getting result 2
+[1694758886873] --- Prompt ---
+[1694758886877] Character: 
+- ID: A8
+- Name: John Swift
+- Age: 28
+- Occupation: Adventurer
+- Personality: Courageous, Resourceful, Independent
+
+Location: 1.617698, -50.56676
+
+Time: Day 0, 4:45 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Tree (Health: 10/10) [Direction: W, Distance: 0.29m]
+- Tree (Health: 10/10) [Direction: W, Distance: 3.3m]
+- Tree (Health: 10/10) [Direction: W, Distance: 4.5m]
+- House (Health: 100/100) [Direction: W, Distance: 4.8m]
+- Tree (Health: 10/10) [Direction: W, Distance: 5.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 6.4m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.0m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- John Swift no longer sees Tree (1134) at X: -1.900001, Y: -55.92 [6 minutes ago]
+- John Swift sees Tree at X: 1.349999, Y: -50.67. [1 hours ago]
+- John Swift no longer sees House 1 at X: 9.44, Y: -53.9 [1 hours ago]
+- John Swift sees House at X: 14.06, Y: -56.01. [4 hours ago]
+- John Swift sees House at X: 9.44, Y: -53.9. [4 hours ago]
+- The market at Skyline city is a great place to resupply; located at 78, 54. [4 hours ago]
+- I've scaled the highest peak in the Blackspire Range. [4 hours ago]
+- I've learned a lot about local cultures and their legends. [4 hours ago]
+- Survival skills are as crucial as courage. [4 hours ago]
+- My travels have taken me to forgotten civilizations. [4 hours ago]
+
+Previous Actions:
+- [move_to]: John Swift walked to X: 1.4, Y: -54.9. [1 hours ago]
+- [move_to]: John Swift walked to X: 1.505046, Y: -55.00501. [51 minutes ago]
+- [move_to]: John Swift walked to X: 1.349999, Y: -50.67. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694758886877] --- Action Functions ---
+[1694758886877] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_axe",
+    "description": "Swing Axe.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_pickaxe",
+    "description": "Swing Pickaxe.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_sword",
+    "description": "Swing sword.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694758889209] --- Response ---
+[1694758889209] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "swing_axe",
+    "arguments": "{\n  \"characterId\": \"A8\"\n}"
+  }
+}
+[1694758889210] --- Verified Action ---
+[1694758889210] {
+  "type": "swing_axe",
+  "data": {
+    "characterId": "A8"
+  }
+}

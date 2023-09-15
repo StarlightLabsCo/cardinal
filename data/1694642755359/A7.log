@@ -1,0 +1,387 @@
+[1694642756127] [Character] Creating Harold
+[1694642756773] [31m[createMemory][39m Life on the sea teaches you the meaning of hard work and danger. [0]
+[1694642756773] [31m[createMemory][39m I built my own fishing boat, took me two summers. [0]
+[1694642756773] [31m[createMemory][39m Never underestimate the ocean. She’s as loving as she is fierce. [0]
+[1694642756773] [31m[createMemory][39m The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [0]
+[1694642756773] [31m[createMemory][39m Every wrinkle tells a story, and boy, do I have many. [0]
+[1694642756773] [31m[createMemory][39m I once caught a fish so big, it could've fed the village for a week. [0]
+[1694642756773] [31m[createMemory][39m Storms are nature's way of testing your mettle. I’ve faced my share. [0]
+[1694642756773] [31m[createMemory][39m I've navigated by the stars, they're more reliable than any modern gadget. [0]
+[1694642756773] [31m[createMemory][39m My grandson Eli reminds me of myself at his age, full of wonder. [0]
+[1694642756774] [31m[createMemory][39m My old compass has never failed me. A gift from my late wife. [0]
+[1694642756774] [31m[createMemory][39m You measure a man not by his words, but by his deeds. [0]
+[1694642756774] [31m[createMemory][39m I’ve seen sunsets on the water that make you believe in a higher power. [0]
+[1694642756774] [31m[createMemory][39m My hands may be weathered, but they’re strong and have stories to tell. [0]
+[1694642756774] [31m[createMemory][39m Life has tides, high and low. The trick is to sail regardless. [0]
+[1694642756774] [31m[createMemory][39m A good fisherman knows when to speak and when to listen. Mostly listen. [0]
+[1694642765179] [Character] Harold created
+[1694642992125] [31m[createMemory][39m Harold Smith sees James McAllister at X: 7.15, Y: -58.08. [0]
+[1694642992184] [31m[createMemory][39m Harold Smith sees House at X: 3.663626, Y: -54.92766. [0]
+[1694642997020] --- Prompt ---
+[1694642997021] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 5.9, -57.84
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- James McAllister (Health: 25/25) [Location: 7.15, -58.08, Direction: W,  Distance: 1.3m]
+- House (Health: 100/100) [Location: 3.663626, -54.92766, Direction: W,  Distance: 3.7m]
+- House (Health: 100/100) [Location: 9.44, -53.9, Direction: W,  Distance: 5.3m]
+- Thomas Smith (Health: 25/25) [Location: 11.27, -55.21, Direction: W,  Distance: 6.0m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Life on the sea teaches you the meaning of hard work and danger. [just now]
+- Every wrinkle tells a story, and boy, do I have many. [just now]
+- Life has tides, high and low. The trick is to sail regardless. [just now]
+- My hands may be weathered, but they’re strong and have stories to tell. [just now]
+- I once caught a fish so big, it could've fed the village for a week. [just now]
+- My old compass has never failed me. A gift from my late wife. [just now]
+- I've navigated by the stars, they're more reliable than any modern gadget. [just now]
+- You measure a man not by his words, but by his deeds. [just now]
+- The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [just now]
+- My grandson Eli reminds me of myself at his age, full of wonder. [just now]
+- Harold Smith sees House at X: 3.663626, Y: -54.92766. [just now]
+- Harold Smith sees James McAllister at X: 7.15, Y: -58.08. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+- start_conversation: Start a conversation with James McAllister (ID: A6).
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694643010165] --- Response ---
+[1694643010165] Updated Tasks: 
+[1694643010166] [
+  {
+    "task": "Eat the berries",
+    "priority": 1
+  },
+  {
+    "task": "Start a conversation with James McAllister",
+    "priority": 2
+  },
+  {
+    "task": "Inspect nearby houses",
+    "priority": 3
+  },
+  {
+    "task": "Move towards Thomas Smith's location",
+    "priority": 4
+  },
+  {
+    "task": "Maintain a healthy lifestyle by afternoon exercise",
+    "priority": 5
+  },
+  {
+    "task": "Carry out your daily duties which includes tending to equipment",
+    "priority": 6
+  }
+]
+[1694643013448] --- Prompt ---
+[1694643013448] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 5.9, -57.84
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- James McAllister (Health: 25/25) [Direction: W, Distance: 1.3m]
+- House (Health: 100/100) [Direction: W, Distance: 3.7m]
+- House (Health: 100/100) [Direction: W, Distance: 5.3m]
+- Thomas Smith (Health: 25/25) [Direction: W, Distance: 6.0m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Harold Smith sees James McAllister at X: 7.15, Y: -58.08. [just now]
+- Harold Smith sees House at X: 3.663626, Y: -54.92766. [just now]
+- My grandson Eli reminds me of myself at his age, full of wonder. [just now]
+- The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [just now]
+- You measure a man not by his words, but by his deeds. [just now]
+- I've navigated by the stars, they're more reliable than any modern gadget. [just now]
+- I once caught a fish so big, it could've fed the village for a week. [just now]
+- My hands may be weathered, but they’re strong and have stories to tell. [just now]
+- Life has tides, high and low. The trick is to sail regardless. [just now]
+- Every wrinkle tells a story, and boy, do I have many. [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694643013448] --- Action Functions ---
+[1694643013448] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with James McAllister (ID: A6).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (5) in detail."
+        }
+      }
+    }
+  }
+]
+[1694643015755] --- Response ---
+[1694643015755] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat",
+    "arguments": "{\n  \"characterId\": \"A7\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694643015756] --- Verified Action ---
+[1694643015756] {
+  "type": "eat",
+  "data": {
+    "characterId": "A7",
+    "foodId": "berries"
+  }
+}
+[1694643015996] [31m[createMemory][39m James McAllister started a conversation with me. [22.8904228]
+[1694643021463] [31m[createMemory][39m Harold Smith sees Thomas Smith at X: 10.67616, Y: -55.24299. [28.3904228]
+[1694643030973] [35m[CORTEX] Harold Smith - Prior Message: [39mHarold, you ever think about seeing the sea? Seems to me there's a whole world out there we haven't explored yet.
+[1694643030973] [35m[CORTEX] Harold Smith - Patience: [39m100
+[1694643030973] [35m[CORTEX] Harold Smith - Conversation Goal: [39mfiguring out why James McAllister started a conversation with them.
+[1694643030973] [35m[CORTEX] Harold Smith - Conversation Finished: [39mfalse
+[1694643034000] [35m[CORTEX] Harold Smith - Feel: [39mHarold, you ever think about seeing the sea? Seems to me there's a whole world out there we haven't explored yet.
+[1694643038453] [31m[createMemory][39m Harold Smith no longer sees Human at X: 11.00678, Y: -56.25 [45.1904221]
+[1694643041996] [35m[CORTEX] Harold Smith - Plan: [39m Indeed, my lad, I've seen the sea, her moods and whims, her temper and tenderness. She's a fickle lover but a rewarding one. The thought of venturing out there again always dances at the back of my mind. But the seas I navigate now are the uncharted waters of wisdom and experience, guiding those who would listen to navigate their own lives.
+[1694643047258] [35m[CORTEX] Harold Smith - Say: [39mI've seen the sea, lad. She and I are old friends. But there's a time for everything. Right now, my place is here, imparting the wisdom of my journeys to those willing to listen.
+
+[1694643096004] [31m[createMemory][39m Harold Smith feels Harold, you ever think about seeing the sea? Seems to me there's a whole world out there we haven't explored yet. [22.8904228]
+[1694643096004] [31m[createMemory][39m Harold Smith planning to travel to the sea soon. [22.8904228]
+[1694643096004] [31m[createMemory][39m Harold Smith reminiscing about the sea. [22.8904228]
+[1694643096004] [31m[createMemory][39m Harold Smith talking about seeing the sea again. [22.8904228]

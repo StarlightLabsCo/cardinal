@@ -3,11 +3,11 @@ import { Character } from "@prisma/client";
 let tasks = {
     A1: [
         {
-            task: "Carry out your daily dutiies",
+            task: "Catch up to James",
             priority: 1,
         },
         {
-            task: "Catch up with other villagers",
+            task: "Go to Nume Village",
             priority: 2,
         },
         {
@@ -31,7 +31,7 @@ let tasks = {
     ],
     A3: [
         {
-            task: "Carry out your daily dutiies",
+            task: "Chop wood with Eleanor Wraithwind",
             priority: 1,
         },
         {
@@ -58,6 +58,104 @@ let tasks = {
         },
     ],
     A5: [
+        {
+            task: "Carry out your daily dutiies",
+            priority: 1,
+        },
+        {
+            task: "Catch up with other villagers",
+            priority: 2,
+        },
+        {
+            task: "Maintain a healthy lifestyle",
+            priority: 3,
+        },
+    ],
+    A6: [
+        {
+            task: "Carry out your daily dutiies",
+            priority: 1,
+        },
+        {
+            task: "Catch up with other villagers",
+            priority: 2,
+        },
+        {
+            task: "Maintain a healthy lifestyle",
+            priority: 3,
+        },
+    ],
+    A7: [
+        {
+            task: "Carry out your daily dutiies",
+            priority: 1,
+        },
+        {
+            task: "Catch up with other villagers",
+            priority: 2,
+        },
+        {
+            task: "Maintain a healthy lifestyle",
+            priority: 3,
+        },
+    ],
+    A8: [
+        {
+            task: "Carry out your daily dutiies",
+            priority: 1,
+        },
+        {
+            task: "Catch up with other villagers",
+            priority: 2,
+        },
+        {
+            task: "Maintain a healthy lifestyle",
+            priority: 3,
+        },
+    ],
+    A9: [
+        {
+            task: "Chop wood with Will Turner",
+            priority: 1,
+        },
+        {
+            task: "Catch up with other villagers",
+            priority: 2,
+        },
+        {
+            task: "Maintain a healthy lifestyle",
+            priority: 3,
+        },
+    ],
+    A10: [
+        {
+            task: "Carry out your daily dutiies",
+            priority: 1,
+        },
+        {
+            task: "Catch up with other villagers",
+            priority: 2,
+        },
+        {
+            task: "Maintain a healthy lifestyle",
+            priority: 3,
+        },
+    ],
+    A11: [
+        {
+            task: "Mine stone",
+            priority: 1,
+        },
+        {
+            task: "Catch up with other villagers",
+            priority: 2,
+        },
+        {
+            task: "Maintain a healthy lifestyle",
+            priority: 3,
+        },
+    ],
+    A12: [
         {
             task: "Carry out your daily dutiies",
             priority: 1,

@@ -1,0 +1,4217 @@
+[1694654007714] [Character] Creating Thomas
+[1694654008051] [31m[createMemory][39m I should be asleep until 7am. [0]
+[1694654008052] [31m[createMemory][39m It's my job to protect the village. [0]
+[1694654008052] [31m[createMemory][39m I need to make sure everyone is safe. [0]
+[1694654008052] [31m[createMemory][39m I do the work that no one else wants to do. [0]
+[1694654008052] [31m[createMemory][39m I try to be as honest as possible. [0]
+[1694654008052] [31m[createMemory][39m I'm not afraid of anything. [0]
+[1694654008052] [31m[createMemory][39m I go to bed at 10pm. [0]
+[1694654008052] [31m[createMemory][39m I like strawberries. [0]
+[1694654008052] [31m[createMemory][39m The village location is 2, -58. [0]
+[1694654008052] [31m[createMemory][39m The mine site is at 51, 17. [0]
+[1694654008052] [31m[createMemory][39m The lumberyard is at 72, -55.1 [0]
+[1694654008052] [31m[createMemory][39m The campsite is at 7, -8.3 [0]
+[1694654008052] [31m[createMemory][39m The Nume River flows through the village. [0]
+[1694654008052] [31m[createMemory][39m Nume Falls are north of the village, and west of the campsite. [0]
+[1694654008052] [31m[createMemory][39m The area is surrounded by forested monutains, filled with wildlife, rivers, and lakes. [0]
+[1694654014755] [Character] Thomas created (clmih8p0m0001vde6yca3oz95)
+[1694654038875] --- Prompt ---
+[1694654038876] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 61.57, -62.9
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- Tree (Health: 10/10) [Location: 67.85001, -65.35, Direction: NW,  Distance: 6.7m]
+- Tree (Health: 10/10) [Location: 65.4, -57.25, Direction: NW,  Distance: 6.8m]
+- Tree (Health: 10/10) [Location: 62.7, -56.02, Direction: NW,  Distance: 7.0m]
+- Tree (Health: 10/10) [Location: 67.51, -58.39, Direction: NW,  Distance: 7.5m]
+- Tree Stump (Health: 5/5) [Location: 59.69, -55.25, Direction: NW,  Distance: 7.9m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- The campsite is at 7, -8.3 [just now]
+- The lumberyard is at 72, -55.1 [just now]
+- It's my job to protect the village. [just now]
+- I go to bed at 10pm. [just now]
+- The area is surrounded by forested monutains, filled with wildlife, rivers, and lakes. [just now]
+- The Nume River flows through the village. [just now]
+- The village location is 2, -58. [just now]
+- I need to make sure everyone is safe. [just now]
+- I'm not afraid of anything. [just now]
+- I should be asleep until 7am. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694654052736] --- Response ---
+[1694654052736] Updated Tasks: 
+[1694654052738] [
+  {
+    "task": "Eat some food",
+    "priority": 1
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 2
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 3
+  },
+  {
+    "task": "Check the health of nearby trees",
+    "priority": 4
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 5
+  },
+  {
+    "task": "Go to sleep at 10pm",
+    "priority": 6
+  }
+]
+[1694654055349] --- Prompt ---
+[1694654055349] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 61.57, -62.9
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.7m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.8m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.5m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 7.9m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I should be asleep until 7am. [just now]
+- I'm not afraid of anything. [just now]
+- I need to make sure everyone is safe. [just now]
+- The village location is 2, -58. [just now]
+- The Nume River flows through the village. [just now]
+- The area is surrounded by forested monutains, filled with wildlife, rivers, and lakes. [just now]
+- I go to bed at 10pm. [just now]
+- It's my job to protect the village. [just now]
+- The lumberyard is at 72, -55.1 [just now]
+- The campsite is at 7, -8.3 [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654055350] --- Action Functions ---
+[1694654055356] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654058712] --- Response ---
+[1694654058712] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694654058715] --- Verified Action ---
+[1694654058715] {
+  "type": "eat",
+  "data": {
+    "characterId": "A1",
+    "foodId": "berries"
+  }
+}
+[1694654061349] Getting action 0
+[1694654061349] Getting result 0
+[1694654061350] --- Prompt ---
+[1694654061350] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 61.57, -62.9
+
+Time: Day 0, 2:25 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.7m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.8m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.5m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 7.9m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I should be asleep until 7am. [2 hours ago]
+- I'm not afraid of anything. [2 hours ago]
+- I need to make sure everyone is safe. [2 hours ago]
+- The village location is 2, -58. [2 hours ago]
+- The Nume River flows through the village. [2 hours ago]
+- The area is surrounded by forested monutains, filled with wildlife, rivers, and lakes. [2 hours ago]
+- I go to bed at 10pm. [2 hours ago]
+- It's my job to protect the village. [2 hours ago]
+- The lumberyard is at 72, -55.1 [2 hours ago]
+- The campsite is at 7, -8.3 [2 hours ago]
+
+Previous Actions:
+- [eat]: Thomas Smith ate Berries which restored 10 satiety. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654061350] --- Action Functions ---
+[1694654061350] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654063837] --- Response ---
+[1694654063837] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 2,\n  \"y\": -58\n}"
+  }
+}
+[1694654063838] --- Verified Action ---
+[1694654063838] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2,
+    "y": -58
+  }
+}
+[1694654064086] [31m[createMemory][39m Thomas Smith has started walking to 2, Y: -58. [29.31314]
+[1694654088970] [31m[createMemory][39m Thomas Smith sees House at X: 14.06, Y: -56.01. [54.0464745]
+[1694654092623] [31m[createMemory][39m Thomas Smith sees House at X: 9.44, Y: -53.9. [57.51314]
+[1694654095444] [31m[createMemory][39m Thomas Smith sees House at X: 3.663626, Y: -54.92766. [60.31314]
+[1694654096283] [31m[createMemory][39m Thomas Smith no longer sees House at X: 14.06, Y: -56.01 [61.11314]
+[1694654098136] [31m[createMemory][39m Thomas Smith no longer sees House 1 at X: 9.44, Y: -53.9 [62.91314]
+[1694654100737] [31m[createMemory][39m Thomas Smith finished walking to 2, Y: -58. [65.53998]
+[1694654103209] Getting action 0
+[1694654103209] Getting result 0
+[1694654103209] Getting action 1
+[1694654103209] Getting result 1
+[1694654103209] --- Prompt ---
+[1694654103209] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 2.134919, -57.96299
+
+Time: Day 0, 6:33 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [31 minutes ago]
+- Thomas Smith has started walking to 2, Y: -58. [3 hours ago]
+- I should be asleep until 7am. [6 hours ago]
+- I'm not afraid of anything. [6 hours ago]
+- The village location is 2, -58. [6 hours ago]
+- The Nume River flows through the village. [6 hours ago]
+- I go to bed at 10pm. [6 hours ago]
+- It's my job to protect the village. [6 hours ago]
+- The lumberyard is at 72, -55.1 [6 hours ago]
+- The campsite is at 7, -8.3 [6 hours ago]
+
+Previous Actions:
+- [eat]: Thomas Smith ate Berries which restored 10 satiety. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654103209] --- Action Functions ---
+[1694654103212] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654106652] --- Response ---
+[1694654106652] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 2.134919,\n  \"y\": -57.96299\n}"
+  }
+}
+[1694654106652] --- Verified Action ---
+[1694654106652] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2.134919,
+    "y": -57.96299
+  }
+}
+[1694654106855] [31m[createMemory][39m Thomas Smith has started walking to 2.134919, Y: -57.96299. [71.67981]
+[1694654106985] [31m[createMemory][39m Thomas Smith finished walking to 2.134919, Y: -57.96299. [71.75997]
+[1694654109494] Getting action 0
+[1694654109494] Getting result 0
+[1694654109494] Getting action 1
+[1694654109494] Getting result 1
+[1694654109494] Getting action 2
+[1694654109494] Getting result 2
+[1694654109494] --- Prompt ---
+[1694654109494] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 2.134919, -57.96299
+
+Time: Day 0, 7:10 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [0 minutes ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [1 hours ago]
+- Thomas Smith has started walking to 2, Y: -58. [4 hours ago]
+- I should be asleep until 7am. [7 hours ago]
+- I'm not afraid of anything. [7 hours ago]
+- The village location is 2, -58. [7 hours ago]
+- The Nume River flows through the village. [7 hours ago]
+- I go to bed at 10pm. [7 hours ago]
+- It's my job to protect the village. [7 hours ago]
+- The lumberyard is at 72, -55.1 [7 hours ago]
+
+Previous Actions:
+- [eat]: Thomas Smith ate Berries which restored 10 satiety. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [37 minutes ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654109494] --- Action Functions ---
+[1694654109494] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654112436] --- Response ---
+[1694654112436] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 2.134919,\n  \"y\": -57.96299\n}"
+  }
+}
+[1694654112436] --- Verified Action ---
+[1694654112436] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2.134919,
+    "y": -57.96299
+  }
+}
+[1694654112673] [31m[createMemory][39m Thomas Smith has started walking to 2.134919, Y: -57.96299. [77.44647]
+[1694654112779] [31m[createMemory][39m Thomas Smith finished walking to 2.134919, Y: -57.96299. [77.51997]
+[1694654115322] Getting action 0
+[1694654115322] Getting result 0
+[1694654115322] Getting action 1
+[1694654115322] Getting result 1
+[1694654115322] Getting action 2
+[1694654115322] Getting result 2
+[1694654115322] Getting action 3
+[1694654115322] Getting result 3
+[1694654115322] --- Prompt ---
+[1694654115327] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 2.134919, -57.96299
+
+Time: Day 0, 7:45 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [0 minutes ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [35 minutes ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [1 hours ago]
+- Thomas Smith has started walking to 2, Y: -58. [4 hours ago]
+- I should be asleep until 7am. [7 hours ago]
+- The village location is 2, -58. [7 hours ago]
+- The Nume River flows through the village. [7 hours ago]
+- I go to bed at 10pm. [7 hours ago]
+- It's my job to protect the village. [7 hours ago]
+- The lumberyard is at 72, -55.1 [7 hours ago]
+
+Previous Actions:
+- [eat]: Thomas Smith ate Berries which restored 10 satiety. [5 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [34 minutes ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654115327] --- Action Functions ---
+[1694654115328] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654119168] --- Response ---
+[1694654119168] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 3.6,\n  \"y\": -54.9\n}"
+  }
+}
+[1694654119169] --- Verified Action ---
+[1694654119169] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 3.6,
+    "y": -54.9
+  }
+}
+[1694654119368] [31m[createMemory][39m Thomas Smith has started walking to 3.6, Y: -54.9. [84.14648]
+[1694654121986] [31m[createMemory][39m Thomas Smith finished walking to 3.6, Y: -54.9. [86.71997]
+[1694654125314] Getting action 0
+[1694654125314] Getting result 0
+[1694654125314] Getting action 1
+[1694654125314] Getting result 1
+[1694654125314] Getting action 2
+[1694654125314] Getting result 2
+[1694654125314] Getting action 3
+[1694654125314] Getting result 3
+[1694654125314] Getting action 4
+[1694654125315] Getting result 4
+[1694654125315] --- Prompt ---
+[1694654125328] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 3.670117, -55.03668
+
+Time: Day 0, 8:40 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 0.11m]
+- House (Health: 100/100) [Direction: W, Distance: 5.9m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [55 minutes ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [1 hours ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [2 hours ago]
+- Thomas Smith has started walking to 2, Y: -58. [5 hours ago]
+- I should be asleep until 7am. [8 hours ago]
+- The village location is 2, -58. [8 hours ago]
+- The Nume River flows through the village. [8 hours ago]
+- It's my job to protect the village. [8 hours ago]
+- The lumberyard is at 72, -55.1 [8 hours ago]
+- The campsite is at 7, -8.3 [8 hours ago]
+
+Previous Actions:
+- [eat]: Thomas Smith ate Berries which restored 10 satiety. [6 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [55 minutes ago]
+- [move_to]: Thomas Smith walked to X: 3.6, Y: -54.9. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654125328] --- Action Functions ---
+[1694654125329] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654128509] --- Response ---
+[1694654128509] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 2,\n  \"y\": -58\n}"
+  }
+}
+[1694654128510] --- Verified Action ---
+[1694654128510] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2,
+    "y": -58
+  }
+}
+[1694654128751] [31m[createMemory][39m Thomas Smith has started walking to 2, Y: -58. [93.44647]
+[1694654131337] [31m[createMemory][39m Thomas Smith finished walking to 2, Y: -58. [95.95997]
+[1694654133984] Getting action 0
+[1694654133985] Getting result 0
+[1694654133985] Getting action 1
+[1694654133985] Getting result 1
+[1694654133985] Getting action 2
+[1694654133985] Getting result 2
+[1694654133985] Getting action 3
+[1694654133985] Getting result 3
+[1694654133987] Getting action 4
+[1694654133987] Getting result 4
+[1694654133987] Getting action 5
+[1694654133987] Getting result 5
+[1694654133987] --- Prompt ---
+[1694654133989] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 2.133712, -57.94765
+
+Time: Day 0, 9:35 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [1 hours ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [2 hours ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [3 hours ago]
+- Thomas Smith has started walking to 2, Y: -58. [6 hours ago]
+- I should be asleep until 7am. [9 hours ago]
+- The village location is 2, -58. [9 hours ago]
+- The Nume River flows through the village. [9 hours ago]
+- It's my job to protect the village. [9 hours ago]
+- The lumberyard is at 72, -55.1 [9 hours ago]
+- The campsite is at 7, -8.3 [9 hours ago]
+
+Previous Actions:
+- [eat]: Thomas Smith ate Berries which restored 10 satiety. [7 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 3.6, Y: -54.9. [55 minutes ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654133989] --- Action Functions ---
+[1694654133989] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654137300] --- Response ---
+[1694654137301] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 2.133712,\n  \"y\": -57.94765\n}"
+  }
+}
+[1694654137302] --- Verified Action ---
+[1694654137302] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2.133712,
+    "y": -57.94765
+  }
+}
+[1694654137549] [31m[createMemory][39m Thomas Smith has started walking to 2.133712, Y: -57.94765. [102.17981]
+[1694654137626] [31m[createMemory][39m Thomas Smith finished walking to 2.133712, Y: -57.94765. [102.259964]
+[1694654140174] Getting action 0
+[1694654140174] Getting result 0
+[1694654140174] Getting action 1
+[1694654140174] Getting result 1
+[1694654140174] Getting action 2
+[1694654140174] Getting result 2
+[1694654140174] Getting action 3
+[1694654140174] Getting result 3
+[1694654140174] Getting action 4
+[1694654140174] Getting result 4
+[1694654140174] Getting action 5
+[1694654140174] Getting result 5
+[1694654140174] Getting action 6
+[1694654140174] Getting result 6
+[1694654140174] --- Prompt ---
+[1694654140175] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 2.133712, -57.94765
+
+Time: Day 0, 10:13 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith finished walking to 2.133712, Y: -57.94765. [0 minutes ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [2 hours ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [3 hours ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [4 hours ago]
+- Thomas Smith has started walking to 2, Y: -58. [7 hours ago]
+- I should be asleep until 7am. [10 hours ago]
+- The village location is 2, -58. [10 hours ago]
+- The Nume River flows through the village. [10 hours ago]
+- It's my job to protect the village. [10 hours ago]
+- The lumberyard is at 72, -55.1 [10 hours ago]
+
+Previous Actions:
+- [eat]: Thomas Smith ate Berries which restored 10 satiety. [7 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 3.6, Y: -54.9. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [37 minutes ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654140175] --- Action Functions ---
+[1694654140176] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654143198] --- Response ---
+[1694654143198] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 2.134919,\n  \"y\": -57.96299\n}"
+  }
+}
+[1694654143199] --- Verified Action ---
+[1694654143199] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2.134919,
+    "y": -57.96299
+  }
+}
+[1694654143408] [31m[createMemory][39m Thomas Smith has started walking to 2.134919, Y: -57.96299. [108.046478]
+[1694654143548] [31m[createMemory][39m Thomas Smith finished walking to 2.134919, Y: -57.96299. [108.119965]
+[1694654145968] Getting action 0
+[1694654145969] Getting result 0
+[1694654145969] Getting action 1
+[1694654145969] Getting result 1
+[1694654145969] Getting action 2
+[1694654145969] Getting result 2
+[1694654145969] Getting action 3
+[1694654145969] Getting result 3
+[1694654145969] Getting action 4
+[1694654145969] Getting result 4
+[1694654145969] Getting action 5
+[1694654145969] Getting result 5
+[1694654145969] Getting action 6
+[1694654145969] Getting result 6
+[1694654145969] Getting action 7
+[1694654145969] Getting result 7
+[1694654145969] --- Prompt ---
+[1694654145972] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 2.136465, -57.98254
+
+Time: Day 0, 10:48 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith finished walking to 2.133712, Y: -57.94765. [35 minutes ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [3 hours ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [3 hours ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [4 hours ago]
+- Thomas Smith has started walking to 2, Y: -58. [7 hours ago]
+- I should be asleep until 7am. [10 hours ago]
+- The village location is 2, -58. [10 hours ago]
+- The Nume River flows through the village. [10 hours ago]
+- It's my job to protect the village. [10 hours ago]
+- The campsite is at 7, -8.3 [10 hours ago]
+
+Previous Actions:
+- [eat]: Thomas Smith ate Berries which restored 10 satiety. [8 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 3.6, Y: -54.9. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [35 minutes ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654145972] --- Action Functions ---
+[1694654145973] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654149113] --- Response ---
+[1694654149113] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 2.133712,\n  \"y\": -57.94765\n}"
+  }
+}
+[1694654149113] --- Verified Action ---
+[1694654149114] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2.133712,
+    "y": -57.94765
+  }
+}
+[1694654149408] [31m[createMemory][39m Thomas Smith has started walking to 2.133712, Y: -57.94765. [113.946472]
+[1694654149424] [31m[createMemory][39m Thomas Smith finished walking to 2.133712, Y: -57.94765. [114.019958]
+[1694654152500] Getting action 0
+[1694654152500] Getting result 0
+[1694654152500] Getting action 1
+[1694654152501] Getting result 1
+[1694654152501] Getting action 2
+[1694654152501] Getting result 2
+[1694654152501] Getting action 3
+[1694654152501] Getting result 3
+[1694654152501] Getting action 4
+[1694654152501] Getting result 4
+[1694654152501] Getting action 5
+[1694654152501] Getting result 5
+[1694654152501] Getting action 6
+[1694654152501] Getting result 6
+[1694654152501] Getting action 7
+[1694654152501] Getting result 7
+[1694654152501] Getting action 8
+[1694654152502] Getting result 8
+[1694654152502] --- Prompt ---
+[1694654152509] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 2.133715, -57.94765
+
+Time: Day 0, 11:24 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith finished walking to 2.133712, Y: -57.94765. [1 hours ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [3 hours ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [4 hours ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [5 hours ago]
+- Thomas Smith has started walking to 2, Y: -58. [8 hours ago]
+- I should be asleep until 7am. [11 hours ago]
+- The village location is 2, -58. [11 hours ago]
+- The Nume River flows through the village. [11 hours ago]
+- It's my job to protect the village. [11 hours ago]
+- The campsite is at 7, -8.3 [11 hours ago]
+
+Previous Actions:
+- [eat]: Thomas Smith ate Berries which restored 10 satiety. [8 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 3.6, Y: -54.9. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [35 minutes ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654152509] --- Action Functions ---
+[1694654152510] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654155743] --- Response ---
+[1694654155744] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 2.133715,\n  \"y\": -57.94765\n}"
+  }
+}
+[1694654155744] --- Verified Action ---
+[1694654155744] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2.133715,
+    "y": -57.94765
+  }
+}
+[1694654155945] [31m[createMemory][39m Thomas Smith has started walking to 2.133715, Y: -57.94765. [120.513138]
+[1694654156051] [31m[createMemory][39m Thomas Smith finished walking to 2.133715, Y: -57.94765. [120.59996]
+[1694654158797] Getting action 0
+[1694654158797] Getting result 0
+[1694654158797] Getting action 1
+[1694654158797] Getting result 1
+[1694654158797] Getting action 2
+[1694654158798] Getting result 2
+[1694654158798] Getting action 3
+[1694654158798] Getting result 3
+[1694654158798] Getting action 4
+[1694654158798] Getting result 4
+[1694654158798] Getting action 5
+[1694654158798] Getting result 5
+[1694654158798] Getting action 6
+[1694654158798] Getting result 6
+[1694654158798] Getting action 7
+[1694654158798] Getting result 7
+[1694654158798] Getting action 8
+[1694654158798] Getting result 8
+[1694654158798] Getting action 9
+[1694654158798] Getting result 9
+[1694654158798] --- Prompt ---
+[1694654158800] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 2.133715, -57.94765
+
+Time: Day 0, 12:03 PM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [4 hours ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [4 hours ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [6 hours ago]
+- Thomas Smith has started walking to 2, Y: -58. [9 hours ago]
+- I should be asleep until 7am. [12 hours ago]
+- The village location is 2, -58. [12 hours ago]
+- The Nume River flows through the village. [12 hours ago]
+- It's my job to protect the village. [12 hours ago]
+- The lumberyard is at 72, -55.1 [12 hours ago]
+- The campsite is at 7, -8.3 [12 hours ago]
+
+Previous Actions:
+- [eat]: Thomas Smith ate Berries which restored 10 satiety. [9 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [5 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 3.6, Y: -54.9. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [39 minutes ago]
+- [move_to]: Thomas Smith walked to X: 2.133715, Y: -57.94765. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654158801] --- Action Functions ---
+[1694654158801] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654163610] --- Response ---
+[1694654163610] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 2.134919,\n  \"y\": -57.96299\n}"
+  }
+}
+[1694654163611] --- Verified Action ---
+[1694654163611] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2.134919,
+    "y": -57.96299
+  }
+}
+[1694654163831] [31m[createMemory][39m Thomas Smith has started walking to 2.134919, Y: -57.96299. [128.313141]
+[1694654163937] [31m[createMemory][39m Thomas Smith finished walking to 2.134919, Y: -57.96299. [128.399948]
+[1694654166478] Getting action 1
+[1694654166478] Getting result 1
+[1694654166478] Getting action 2
+[1694654166478] Getting result 2
+[1694654166478] Getting action 3
+[1694654166478] Getting result 3
+[1694654166478] Getting action 4
+[1694654166478] Getting result 4
+[1694654166478] Getting action 5
+[1694654166478] Getting result 5
+[1694654166478] Getting action 6
+[1694654166478] Getting result 6
+[1694654166478] Getting action 7
+[1694654166478] Getting result 7
+[1694654166478] Getting action 8
+[1694654166478] Getting result 8
+[1694654166478] Getting action 9
+[1694654166478] Getting result 9
+[1694654166478] Getting action 10
+[1694654166478] Getting result 10
+[1694654166478] --- Prompt ---
+[1694654166479] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 2.136461, -57.98254
+
+Time: Day 0, 12:50 PM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [5 hours ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [5 hours ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [6 hours ago]
+- Thomas Smith has started walking to 2, Y: -58. [9 hours ago]
+- I should be asleep until 7am. [12 hours ago]
+- The village location is 2, -58. [12 hours ago]
+- The Nume River flows through the village. [12 hours ago]
+- It's my job to protect the village. [12 hours ago]
+- The lumberyard is at 72, -55.1 [12 hours ago]
+- The campsite is at 7, -8.3 [12 hours ago]
+
+Previous Actions:
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [6 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [5 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [5 hours ago]
+- [move_to]: Thomas Smith walked to X: 3.6, Y: -54.9. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133715, Y: -57.94765. [46 minutes ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654166479] --- Action Functions ---
+[1694654166479] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654169104] --- Response ---
+[1694654169104] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 2,\n  \"y\": -58\n}"
+  }
+}
+[1694654169105] --- Verified Action ---
+[1694654169105] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2,
+    "y": -58
+  }
+}
+[1694654169307] [31m[createMemory][39m Thomas Smith has started walking to 2, Y: -58. [133.7798]
+[1694654169423] [31m[createMemory][39m Thomas Smith finished walking to 2, Y: -58. [133.859955]
+[1694654171786] Getting action 2
+[1694654171786] Getting result 2
+[1694654171786] Getting action 3
+[1694654171786] Getting result 3
+[1694654171786] Getting action 4
+[1694654171786] Getting result 4
+[1694654171786] Getting action 5
+[1694654171786] Getting result 5
+[1694654171786] Getting action 6
+[1694654171786] Getting result 6
+[1694654171786] Getting action 7
+[1694654171786] Getting result 7
+[1694654171786] Getting action 8
+[1694654171786] Getting result 8
+[1694654171786] Getting action 9
+[1694654171786] Getting result 9
+[1694654171786] Getting action 10
+[1694654171786] Getting result 10
+[1694654171787] Getting action 11
+[1694654171787] Getting result 11
+[1694654171787] --- Prompt ---
+[1694654171788] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 2.101744, -57.98698
+
+Time: Day 0, 1:23 PM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [5 hours ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [6 hours ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [7 hours ago]
+- Thomas Smith has started walking to 2, Y: -58. [10 hours ago]
+- I should be asleep until 7am. [13 hours ago]
+- The village location is 2, -58. [13 hours ago]
+- The Nume River flows through the village. [13 hours ago]
+- It's my job to protect the village. [13 hours ago]
+- The lumberyard is at 72, -55.1 [13 hours ago]
+- The campsite is at 7, -8.3 [13 hours ago]
+
+Previous Actions:
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [6 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [5 hours ago]
+- [move_to]: Thomas Smith walked to X: 3.6, Y: -54.9. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133715, Y: -57.94765. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [32 minutes ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654171788] --- Action Functions ---
+[1694654171788] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654175310] --- Response ---
+[1694654175310] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 2.134919,\n  \"y\": -57.96299\n}"
+  }
+}
+[1694654175310] --- Verified Action ---
+[1694654175310] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2.134919,
+    "y": -57.96299
+  }
+}
+[1694654175519] [31m[createMemory][39m Thomas Smith has started walking to 2.134919, Y: -57.96299. [139.979813]
+[1694654175630] [31m[createMemory][39m Thomas Smith finished walking to 2.134919, Y: -57.96299. [140.059952]
+[1694654178149] Getting action 3
+[1694654178149] Getting result 3
+[1694654178149] Getting action 4
+[1694654178149] Getting result 4
+[1694654178149] Getting action 5
+[1694654178149] Getting result 5
+[1694654178149] Getting action 6
+[1694654178149] Getting result 6
+[1694654178149] Getting action 7
+[1694654178149] Getting result 7
+[1694654178149] Getting action 8
+[1694654178149] Getting result 8
+[1694654178149] Getting action 9
+[1694654178149] Getting result 9
+[1694654178149] Getting action 10
+[1694654178149] Getting result 10
+[1694654178150] Getting action 11
+[1694654178150] Getting result 11
+[1694654178150] Getting action 12
+[1694654178150] Getting result 12
+[1694654178150] --- Prompt ---
+[1694654178150] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 2.130106, -57.96647
+
+Time: Day 0, 2:00 PM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [6 hours ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [6 hours ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [7 hours ago]
+- Thomas Smith has started walking to 2, Y: -58. [11 hours ago]
+- I should be asleep until 7am. [14 hours ago]
+- The village location is 2, -58. [14 hours ago]
+- The Nume River flows through the village. [14 hours ago]
+- It's my job to protect the village. [14 hours ago]
+- The lumberyard is at 72, -55.1 [14 hours ago]
+- The campsite is at 7, -8.3 [14 hours ago]
+
+Previous Actions:
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [6 hours ago]
+- [move_to]: Thomas Smith walked to X: 3.6, Y: -54.9. [5 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133715, Y: -57.94765. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [37 minutes ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654178150] --- Action Functions ---
+[1694654178150] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654181477] --- Response ---
+[1694654181477] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 2.134919,\n  \"y\": -57.96299\n}"
+  }
+}
+[1694654181478] --- Verified Action ---
+[1694654181478] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2.134919,
+    "y": -57.96299
+  }
+}
+[1694654181674] [31m[createMemory][39m Thomas Smith has started walking to 2.134919, Y: -57.96299. [146.046478]
+[1694654181798] [31m[createMemory][39m Thomas Smith finished walking to 2.134919, Y: -57.96299. [146.119949]
+[1694654184349] Getting action 4
+[1694654184349] Getting result 4
+[1694654184349] Getting action 5
+[1694654184349] Getting result 5
+[1694654184349] Getting action 6
+[1694654184349] Getting result 6
+[1694654184349] Getting action 7
+[1694654184349] Getting result 7
+[1694654184349] Getting action 8
+[1694654184349] Getting result 8
+[1694654184349] Getting action 9
+[1694654184349] Getting result 9
+[1694654184349] Getting action 10
+[1694654184349] Getting result 10
+[1694654184349] Getting action 11
+[1694654184349] Getting result 11
+[1694654184349] Getting action 12
+[1694654184349] Getting result 12
+[1694654184349] Getting action 13
+[1694654184349] Getting result 13
+[1694654184349] --- Prompt ---
+[1694654184349] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 2.158467, -57.94596
+
+Time: Day 0, 2:36 PM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [6 hours ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [7 hours ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [8 hours ago]
+- Thomas Smith has started walking to 2, Y: -58. [11 hours ago]
+- I should be asleep until 7am. [14 hours ago]
+- The village location is 2, -58. [14 hours ago]
+- The Nume River flows through the village. [14 hours ago]
+- It's my job to protect the village. [14 hours ago]
+- The lumberyard is at 72, -55.1 [14 hours ago]
+- The campsite is at 7, -8.3 [14 hours ago]
+
+Previous Actions:
+- [move_to]: Thomas Smith walked to X: 3.6, Y: -54.9. [5 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [5 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133715, Y: -57.94765. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [36 minutes ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654184349] --- Action Functions ---
+[1694654184350] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654186976] --- Response ---
+[1694654186976] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "drop_axe",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"itemId\": \"axe\"\n}"
+  }
+}
+[1694654186977] --- Verified Action ---
+[1694654186977] {
+  "type": "drop",
+  "data": {
+    "characterId": "A1",
+    "itemId": "axe"
+  }
+}
+[1694654187216] [31m[createMemory][39m Thomas Smith dropped Axe at X: 2.158467, Y: -57.94596 [151.546478]
+[1694654189755] Getting action 5
+[1694654189756] Getting result 5
+[1694654189756] Getting action 6
+[1694654189756] Getting result 6
+[1694654189756] Getting action 7
+[1694654189756] Getting result 7
+[1694654189756] Getting action 8
+[1694654189756] Getting result 8
+[1694654189756] Getting action 9
+[1694654189756] Getting result 9
+[1694654189756] Getting action 10
+[1694654189756] Getting result 10
+[1694654189756] Getting action 11
+[1694654189756] Getting result 11
+[1694654189756] Getting action 12
+[1694654189756] Getting result 12
+[1694654189756] Getting action 13
+[1694654189756] Getting result 13
+[1694654189756] Getting action 14
+[1694654189756] Getting result 14
+[1694654189756] --- Prompt ---
+[1694654189758] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 2.158467, -57.94596
+
+Time: Day 0, 3:09 PM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- Axe (Item ID: 100075ff-f722-487c-aec7-dadffd3f3253) [Direction: W, Distance: 0.091m]
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+
+Inventory (2/10):
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [7 hours ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [7 hours ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [9 hours ago]
+- Thomas Smith has started walking to 2, Y: -58. [12 hours ago]
+- I should be asleep until 7am. [15 hours ago]
+- The village location is 2, -58. [15 hours ago]
+- The Nume River flows through the village. [15 hours ago]
+- It's my job to protect the village. [15 hours ago]
+- The lumberyard is at 72, -55.1 [15 hours ago]
+- The campsite is at 7, -8.3 [15 hours ago]
+
+Previous Actions:
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [5 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133715, Y: -57.94765. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [32 minutes ago]
+- [drop]: Thomas Smith dropped Axe on the ground at X: 2.158467, Y: -57.94596. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654189758] --- Action Functions ---
+[1694654189758] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654192703] --- Response ---
+[1694654192703] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 2.158467,\n  \"y\": -57.94596\n}"
+  }
+}
+[1694654192704] --- Verified Action ---
+[1694654192704] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2.158467,
+    "y": -57.94596
+  }
+}
+[1694654192928] [31m[createMemory][39m Thomas Smith has started walking to 2.158467, Y: -57.94596. [157.246475]
+[1694654193006] [31m[createMemory][39m Thomas Smith finished walking to 2.158467, Y: -57.94596. [157.319946]
+[1694654195518] Getting action 6
+[1694654195518] Getting result 6
+[1694654195518] Getting action 7
+[1694654195518] Getting result 7
+[1694654195518] Getting action 8
+[1694654195518] Getting result 8
+[1694654195518] Getting action 9
+[1694654195518] Getting result 9
+[1694654195518] Getting action 10
+[1694654195518] Getting result 10
+[1694654195518] Getting action 11
+[1694654195518] Getting result 11
+[1694654195518] Getting action 12
+[1694654195518] Getting result 12
+[1694654195519] Getting action 13
+[1694654195519] Getting result 13
+[1694654195519] Getting action 14
+[1694654195519] Getting result 14
+[1694654195519] Getting action 15
+[1694654195519] Getting result 15
+[1694654195519] --- Prompt ---
+[1694654195519] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 2.158467, -57.94596
+
+Time: Day 0, 3:44 PM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- Axe (Item ID: 100075ff-f722-487c-aec7-dadffd3f3253) [Direction: W, Distance: 1.0m]
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+
+Inventory (2/10):
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [7 hours ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [8 hours ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [9 hours ago]
+- Thomas Smith has started walking to 2, Y: -58. [12 hours ago]
+- I should be asleep until 7am. [15 hours ago]
+- The village location is 2, -58. [15 hours ago]
+- The Nume River flows through the village. [15 hours ago]
+- It's my job to protect the village. [15 hours ago]
+- The lumberyard is at 72, -55.1 [15 hours ago]
+- The campsite is at 7, -8.3 [15 hours ago]
+
+Previous Actions:
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [5 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133715, Y: -57.94765. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [1 hours ago]
+- [drop]: Thomas Smith dropped Axe on the ground at X: 2.158467, Y: -57.94596. [34 minutes ago]
+- [move_to]: Thomas Smith walked to X: 2.158467, Y: -57.94596. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654195519] --- Action Functions ---
+[1694654195519] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654199253] --- Response ---
+[1694654199254] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 2.158467,\n  \"y\": -57.94596\n}"
+  }
+}
+[1694654199254] --- Verified Action ---
+[1694654199254] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2.158467,
+    "y": -57.94596
+  }
+}
+[1694654199461] [31m[createMemory][39m Thomas Smith has started walking to 2.158467, Y: -57.94596. [163.67981]
+[1694654199625] [31m[createMemory][39m Thomas Smith finished walking to 2.158467, Y: -57.94596. [163.759949]
+[1694654201983] Getting action 7
+[1694654201983] Getting result 7
+[1694654201983] Getting action 8
+[1694654201983] Getting result 8
+[1694654201983] Getting action 9
+[1694654201983] Getting result 9
+[1694654201984] Getting action 10
+[1694654201984] Getting result 10
+[1694654201984] Getting action 11
+[1694654201984] Getting result 11
+[1694654201984] Getting action 12
+[1694654201984] Getting result 12
+[1694654201984] Getting action 13
+[1694654201984] Getting result 13
+[1694654201984] Getting action 14
+[1694654201984] Getting result 14
+[1694654201984] Getting action 15
+[1694654201984] Getting result 15
+[1694654201984] Getting action 16
+[1694654201984] Getting result 16
+[1694654201984] --- Prompt ---
+[1694654201985] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 2.158467, -57.94596
+
+Time: Day 0, 4:22 PM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- Axe (Item ID: 100075ff-f722-487c-aec7-dadffd3f3253) [Direction: W, Distance: 1.0m]
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+
+Inventory (2/10):
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [8 hours ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [9 hours ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [10 hours ago]
+- Thomas Smith has started walking to 2, Y: -58. [13 hours ago]
+- I should be asleep until 7am. [16 hours ago]
+- The village location is 2, -58. [16 hours ago]
+- The Nume River flows through the village. [16 hours ago]
+- It's my job to protect the village. [16 hours ago]
+- The lumberyard is at 72, -55.1 [16 hours ago]
+- The campsite is at 7, -8.3 [16 hours ago]
+
+Previous Actions:
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [5 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133715, Y: -57.94765. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [1 hours ago]
+- [drop]: Thomas Smith dropped Axe on the ground at X: 2.158467, Y: -57.94596. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.158467, Y: -57.94596. [38 minutes ago]
+- [move_to]: Thomas Smith walked to X: 2.158467, Y: -57.94596. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654201985] --- Action Functions ---
+[1694654201985] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654206688] --- Response ---
+[1694654206688] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\":  2.158467,\n  \"y\": -57.94596\n}"
+  }
+}
+[1694654206689] --- Verified Action ---
+[1694654206689] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2.158467,
+    "y": -57.94596
+  }
+}
+[1694654206920] [31m[createMemory][39m Thomas Smith has started walking to 2.158467, Y: -57.94596. [171.046478]
+[1694654207007] [31m[createMemory][39m Thomas Smith finished walking to 2.158467, Y: -57.94596. [171.119934]
+[1694654209316] Getting action 8
+[1694654209316] Getting result 8
+[1694654209316] Getting action 9
+[1694654209316] Getting result 9
+[1694654209316] Getting action 10
+[1694654209316] Getting result 10
+[1694654209316] Getting action 11
+[1694654209316] Getting result 11
+[1694654209316] Getting action 12
+[1694654209316] Getting result 12
+[1694654209316] Getting action 13
+[1694654209316] Getting result 13
+[1694654209316] Getting action 14
+[1694654209316] Getting result 14
+[1694654209316] Getting action 15
+[1694654209316] Getting result 15
+[1694654209316] Getting action 16
+[1694654209316] Getting result 16
+[1694654209316] Getting action 17
+[1694654209316] Getting result 17
+[1694654209316] --- Prompt ---
+[1694654209318] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 2.158467, -57.94596
+
+Time: Day 0, 5:06 PM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- Axe (Item ID: 100075ff-f722-487c-aec7-dadffd3f3253) [Direction: W, Distance: 1.0m]
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+
+Inventory (2/10):
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [9 hours ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [9 hours ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [11 hours ago]
+- Thomas Smith has started walking to 2, Y: -58. [14 hours ago]
+- I should be asleep until 7am. [17 hours ago]
+- The village location is 2, -58. [17 hours ago]
+- The Nume River flows through the village. [17 hours ago]
+- It's my job to protect the village. [17 hours ago]
+- The lumberyard is at 72, -55.1 [17 hours ago]
+- The campsite is at 7, -8.3 [17 hours ago]
+
+Previous Actions:
+- [move_to]: Thomas Smith walked to X: 2.133712, Y: -57.94765. [5 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.133715, Y: -57.94765. [5 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [2 hours ago]
+- [drop]: Thomas Smith dropped Axe on the ground at X: 2.158467, Y: -57.94596. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.158467, Y: -57.94596. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.158467, Y: -57.94596. [44 minutes ago]
+- [move_to]: Thomas Smith walked to X: 2.158467, Y: -57.94596. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654209318] --- Action Functions ---
+[1694654209318] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654213521] --- Response ---
+[1694654213521] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 2.134919,\n  \"y\": -57.96299\n}"
+  }
+}
+[1694654213522] --- Verified Action ---
+[1694654213522] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2.134919,
+    "y": -57.96299
+  }
+}
+[1694654213849] [31m[createMemory][39m Thomas Smith has started walking to 2.134919, Y: -57.96299. [177.846481]
+[1694654213870] [31m[createMemory][39m Thomas Smith finished walking to 2.134919, Y: -57.96299. [177.919937]
+[1694654216726] Getting action 9
+[1694654216727] Getting result 9
+[1694654216727] Getting action 10
+[1694654216727] Getting result 10
+[1694654216727] Getting action 11
+[1694654216727] Getting result 11
+[1694654216727] Getting action 12
+[1694654216727] Getting result 12
+[1694654216727] Getting action 13
+[1694654216727] Getting result 13
+[1694654216727] Getting action 14
+[1694654216727] Getting result 14
+[1694654216727] Getting action 15
+[1694654216727] Getting result 15
+[1694654216727] Getting action 16
+[1694654216727] Getting result 16
+[1694654216727] Getting action 17
+[1694654216727] Getting result 17
+[1694654216727] Getting action 18
+[1694654216727] Getting result 18
+[1694654216728] --- Prompt ---
+[1694654216729] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 2.130107, -57.96647
+
+Time: Day 0, 5:47 PM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- Axe (Item ID: 100075ff-f722-487c-aec7-dadffd3f3253) [Direction: W, Distance: 1.0m]
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+
+Inventory (2/10):
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [10 hours ago]
+- Thomas Smith has started walking to 2.134919, Y: -57.96299. [10 hours ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [11 hours ago]
+- Thomas Smith has started walking to 2, Y: -58. [14 hours ago]
+- I should be asleep until 7am. [17 hours ago]
+- The village location is 2, -58. [17 hours ago]
+- The Nume River flows through the village. [17 hours ago]
+- It's my job to protect the village. [17 hours ago]
+- The lumberyard is at 72, -55.1 [17 hours ago]
+- The campsite is at 7, -8.3 [17 hours ago]
+
+Previous Actions:
+- [move_to]: Thomas Smith walked to X: 2.133715, Y: -57.94765. [5 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2, Y: -58. [4 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [3 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [3 hours ago]
+- [drop]: Thomas Smith dropped Axe on the ground at X: 2.158467, Y: -57.94596. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.158467, Y: -57.94596. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.158467, Y: -57.94596. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 2.158467, Y: -57.94596. [40 minutes ago]
+- [move_to]: Thomas Smith walked to X: 2.134919, Y: -57.96299. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694654216729] --- Action Functions ---
+[1694654216730] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694654220599] --- Response ---
+[1694654220599] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 2.130107,\n  \"y\": -57.96647\n}"
+  }
+}
+[1694654220600] --- Verified Action ---
+[1694654220600] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2.130107,
+    "y": -57.96647
+  }
+}
+[1694654220950] [31m[createMemory][39m Thomas Smith has started walking to 2.130107, Y: -57.96647. [185.007431]

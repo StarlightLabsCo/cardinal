@@ -1,0 +1,1123 @@
+[1694114500831] [31m[createMemory][39m I need to let Thomas know I'm going to explore. He's asked me in the past to let him know just in case I get hurt or lost. [0]
+[1694114500831] [31m[createMemory][39m I once found a secret clearing in the woods, it's my personal hideout now. [0]
+[1694114500831] [31m[createMemory][39m The world feels so big and full of wonders, I want to see them all! [0]
+[1694114500831] [31m[createMemory][39m I saw a deer up close once, our eyes met and we just stared for a moment. [0]
+[1694114500831] [31m[createMemory][39m Climbing trees is my favorite! The higher I go, the bigger the world looks. [0]
+[1694114500831] [31m[createMemory][39m Lucy showed me how to listen to the forest, it's like it's telling stories. [0]
+[1694114500831] [31m[createMemory][39m Every rock and leaf, every bird and bug, feels like a friend to me. [0]
+[1694114500831] [31m[createMemory][39m I once got lost, but the stars guided me home. They're like nature's map! [0]
+[1694114500831] [31m[createMemory][39m George tells me tales of old, turning every tree and hill into an adventure. [0]
+[1694114500831] [31m[createMemory][39m I made a whistle out of a reed! Nature is full of surprises. [0]
+[1694114500831] [31m[createMemory][39m The woods in autumn is my favorite. All those colors... like nature's painting! [0]
+[1694114500831] [31m[createMemory][39m I wish I could talk to animals. Imagine the stories they'd tell! [0]
+[1694114500831] [31m[createMemory][39m I've learned to move silently. That way, nature doesn’t hide from me. [0]
+[1694114500831] [31m[createMemory][39m Lucy once said every tree has a story. I'm trying to learn them all. [0]
+[1694114500831] [31m[createMemory][39m Rainy days? That's when the forest sings its loudest song! [0]
+[1694114500831] [31m[createMemory][39m I dreamt I could fly like a bird, seeing the world from above. Maybe one day... [0]
+[1694114509613] [31m[createMemory][39m John Green sees John Green at X: 39.93, Y: -58.92. [0]
+[1694114509614] [31m[createMemory][39m John Green sees John Green at X: 38.6, Y: -58.76. [0]
+[1694114509614] [31m[createMemory][39m Eli Green sees Lucy Wilde at X: 31.39, Y: -53.38. [0]
+[1694114509670] [Character] Eli created
+[1694114513867] --- Prompt ---
+[1694114513872] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 32.81001, -53.18
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 1.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.4m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 6.7m]
+- Chest (Health: 10/10) [Direction: NW, Distance: 6.8m]
+- Thomas Smith (Health: 25/25) [Direction: NW, Distance: 7.4m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 8.1m]
+- Will Turner (Health: 25/25) [Direction: NW, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.3m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Eli Green sees Lucy Wilde at X: 31.39, Y: -53.38. [just now]
+- John Green sees John Green at X: 39.93, Y: -58.92. [just now]
+- Rainy days? That's when the forest sings its loudest song! [just now]
+- I once found a secret clearing in the woods, it's my personal hideout now. [just now]
+- I once got lost, but the stars guided me home. They're like nature's map! [just now]
+- George tells me tales of old, turning every tree and hill into an adventure. [just now]
+- I dreamt I could fly like a bird, seeing the world from above. Maybe one day... [just now]
+- Lucy showed me how to listen to the forest, it's like it's telling stories. [just now]
+- The woods in autumn is my favorite. All those colors... like nature's painting! [just now]
+- Climbing trees is my favorite! The higher I go, the bigger the world looks. [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694114513872] --- Action Functions ---
+[1694114513875] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Lucy Wilde (ID: A4).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (3) in detail."
+        }
+      }
+    }
+  }
+]
+[1694114514155] --- Prompt ---
+[1694114514159] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 39.93, -58.92
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- John Green (Health: 25/25) [Direction: NW, Distance: 1.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.1m]
+- Will Turner (Health: 25/25) [Direction: NW, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.7m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Eli Green sees Lucy Wilde at X: 31.39, Y: -53.38. [just now]
+- John Green sees John Green at X: 39.93, Y: -58.92. [just now]
+- Rainy days? That's when the forest sings its loudest song! [just now]
+- I once found a secret clearing in the woods, it's my personal hideout now. [just now]
+- I once got lost, but the stars guided me home. They're like nature's map! [just now]
+- George tells me tales of old, turning every tree and hill into an adventure. [just now]
+- I dreamt I could fly like a bird, seeing the world from above. Maybe one day... [just now]
+- Lucy showed me how to listen to the forest, it's like it's telling stories. [just now]
+- The woods in autumn is my favorite. All those colors... like nature's painting! [just now]
+- Climbing trees is my favorite! The higher I go, the bigger the world looks. [just now]
+
+Hitbox (what you would hit with a swing based action):
+- John Green (Health: 25/25)
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694114514159] --- Action Functions ---
+[1694114514159] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with John Green (ID: A5).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (7) in detail."
+        }
+      }
+    }
+  }
+]
+[1694114514361] --- Prompt ---
+[1694114514361] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 38.6, -58.76
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- John Green (Health: 25/25) [Location: 39.93, -58.92, Direction: NW,  Distance: 1.3m]
+- Eli Green (Health: 25/25) [Location: 32.81001, -53.18, Direction: NW,  Distance: 8.0m]
+- Will Turner (Health: 25/25) [Location: 40.7, -50.62, Direction: NW,  Distance: 8.4m]
+- Tree (Health: 10/10) [Location: 43.53, -51.61, Direction: NW,  Distance: 8.7m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I've learned to move silently. That way, nature doesn’t hide from me. [just now]
+- The world feels so big and full of wonders, I want to see them all! [just now]
+- Climbing trees is my favorite! The higher I go, the bigger the world looks. [just now]
+- The woods in autumn is my favorite. All those colors... like nature's painting! [just now]
+- Lucy showed me how to listen to the forest, it's like it's telling stories. [just now]
+- I dreamt I could fly like a bird, seeing the world from above. Maybe one day... [just now]
+- George tells me tales of old, turning every tree and hill into an adventure. [just now]
+- I once got lost, but the stars guided me home. They're like nature's map! [just now]
+- I once found a secret clearing in the woods, it's my personal hideout now. [just now]
+- Rainy days? That's when the forest sings its loudest song! [just now]
+- John Green sees John Green at X: 39.93, Y: -58.92. [just now]
+- Eli Green sees Lucy Wilde at X: 31.39, Y: -53.38. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+- start_conversation: Start a conversation with John Green (ID: A5).
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694114515977] --- Response ---
+[1694114515977] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat",
+    "arguments": "{\n  \"characterId\": \"A5\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694114516000] --- Verified Action ---
+[1694114516000] {
+  "type": "eat",
+  "data": {
+    "characterId": "A5",
+    "foodId": "berries"
+  }
+}
+[1694114518887] --- Response ---
+[1694114518887] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "start_conversation",
+    "arguments": "{\n  \"characterId\": \"A5\",\n  \"targetCharacterId\": \"A5\",\n  \"conversationGoal\": \"Catch up with John Green and discuss the day's duties.\"\n}"
+  }
+}
+[1694114518889] --- Verified Action ---
+[1694114518889] {
+  "type": "start_conversation",
+  "data": {
+    "characterId": "A5",
+    "targetCharacterId": "A5",
+    "conversationGoal": "Catch up with John Green and discuss the day's duties."
+  }
+}
+[1694114519102] Getting action 0
+[1694114519103] Getting result 0
+[1694114519103] Getting action 1
+[1694114519103] Getting result 1
+[1694114519104] [31mResult for action 1 is undefined. Skipping...[39m
+[1694114519106] undefined
+[1694114519107] --- Prompt ---
+[1694114519113] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 32.81001, -53.18
+
+Time: Day 0, 12:49 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 1.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.4m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 6.7m]
+- Chest (Health: 10/10) [Direction: NW, Distance: 6.8m]
+- Thomas Smith (Health: 25/25) [Direction: NW, Distance: 6.9m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 8.1m]
+- Will Turner (Health: 25/25) [Direction: NW, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.3m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- John Green sees John Green at X: 38.6, Y: -58.76. [49 minutes ago]
+- I once found a secret clearing in the woods, it's my personal hideout now. [49 minutes ago]
+- George tells me tales of old, turning every tree and hill into an adventure. [49 minutes ago]
+- Eli Green sees Lucy Wilde at X: 31.39, Y: -53.38. [49 minutes ago]
+- John Green sees John Green at X: 39.93, Y: -58.92. [49 minutes ago]
+- Rainy days? That's when the forest sings its loudest song! [49 minutes ago]
+- I once got lost, but the stars guided me home. They're like nature's map! [49 minutes ago]
+- I dreamt I could fly like a bird, seeing the world from above. Maybe one day... [49 minutes ago]
+- Lucy showed me how to listen to the forest, it's like it's telling stories. [49 minutes ago]
+- The woods in autumn is my favorite. All those colors... like nature's painting! [49 minutes ago]
+
+Previous Actions:
+- [eat]: Eli Green ate Berries which restored 10 satiety. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694114519114] --- Action Functions ---
+[1694114519114] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Lucy Wilde (ID: A4).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (3) in detail."
+        }
+      }
+    }
+  }
+]
+[1694114521789] [31m[createMemory][39m Eli Green sees Thomas Smith at X: 28.70807, Y: -55.92153. [13.8406725]
+[1694114523899] [31mAgent A5 is already occupied. Skipping...[39m
+[1694114525081] [31m[createMemory][39m Eli Green no longer sees Human at X: 27.91614, Y: -50.95706 [17.041254]
+[1694114528308] --- Response ---
+[1694114528308] Updated Tasks: 
+[1694114528308] [
+  {
+    "task": "Eat some food",
+    "priority": 1
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 2
+  },
+  {
+    "task": "Catch up with John Green",
+    "priority": 3
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 4
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 5
+  },
+  {
+    "task": "Explore the surroundings",
+    "priority": 6
+  }
+]
+[1694114530577] [35m[CORTEX] Eli Green - Plan: [39m Eli Green has planned to climb the tallest tree at the edge of the forest tomorrow, hoping to see the sunrise from the top. His adventurous heart wants to experience nature's spectacle from new perspectives. He wants to make a map of the forest from that vantage point. Meanwhile, he also wishes to create more whistles from reeds, hoping to somehow establish communication with the forest birds. In addition, he is eager to listen to more of George's stories to inject his adventures with a touch of fantasy.
+[1694114531543] Getting action 0
+[1694114531544] Getting result 0
+[1694114531544] Getting action 1
+[1694114531544] Getting result 1
+[1694114531544] [31mResult for action 1 is undefined. Skipping...[39m
+[1694114531544] undefined
+[1694114531544] --- Prompt ---
+[1694114531560] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 38.6, -58.76
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- John Green (Health: 25/25) [Direction: NW, Distance: 1.3m]
+- Eli Green (Health: 25/25) [Direction: NW, Distance: 8.0m]
+- Will Turner (Health: 25/25) [Direction: NW, Distance: 8.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.7m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Eli Green sees Lucy Wilde at X: 31.39, Y: -53.38. [just now]
+- John Green sees John Green at X: 39.93, Y: -58.92. [just now]
+- John Green sees John Green at X: 38.6, Y: -58.76. [just now]
+- Rainy days? That's when the forest sings its loudest song! [just now]
+- I once found a secret clearing in the woods, it's my personal hideout now. [just now]
+- George tells me tales of old, turning every tree and hill into an adventure. [just now]
+- I dreamt I could fly like a bird, seeing the world from above. Maybe one day... [just now]
+- Lucy showed me how to listen to the forest, it's like it's telling stories. [just now]
+- The world feels so big and full of wonders, I want to see them all! [just now]
+- I've learned to move silently. That way, nature doesn’t hide from me. [just now]
+
+Previous Actions:
+- [eat]: Eli Green ate Berries which restored 10 satiety. [in the future]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694114531560] --- Action Functions ---
+[1694114531561] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with John Green (ID: A5).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (5) in detail."
+        }
+      }
+    }
+  }
+]
+[1694114532948] [35m[CORTEX] Eli Green - Say: [39mTomorrow, I'll climb the tallest tree. Perhaps, I'll see the whole world from there!
+
+[1694114532958] [35m[CORTEX] Eli Green - Prior Message: [39mTomorrow, I'll climb the tallest tree. Perhaps, I'll see the whole world from there!
+[1694114532959] [35m[CORTEX] Eli Green - Patience: [39m100
+[1694114532959] [35m[CORTEX] Eli Green - Conversation Goal: [39mfiguring out why Eli Green started a conversation with them.
+[1694114532959] [35m[CORTEX] Eli Green - Conversation Finished: [39mfalse
+[1694114534555] [31mAgent A5 is already occupied. Skipping...[39m
+[1694114535385] [35m[CORTEX] Eli Green - Feel: [39mTomorrow, I'll climb the tallest tree. Perhaps, I'll see the whole world from there!
+[1694114544502] [35m[CORTEX] Eli Green - Plan: [39m Tomorrow, Eli Green plans to climb the tallest tree in the village. He hopes to see the whole world from this vantage point and take in the view that it offers. He believes this will not only provide a different perspective to his adventures but could also stir up new ones. As per his usual routine, Eli will also make new discoveries on his way up. This could include spotting unusual bird nests or finding interesting branches to perch. His spirit of curiosity and exploration drives him as he looks forward to this new challenge.
+[1694114547148] [35m[CORTEX] Eli Green - Say: [39mTomorrow, I'll climb the tallest tree. Perhaps, I'll see the whole world from there!
+
+[1694114547149] [35m[CORTEX] Eli Green - Prior Message: [39mTomorrow, I'll climb the tallest tree. Perhaps, I'll see the whole world from there!
+[1694114547149] [35m[CORTEX] Eli Green - Patience: [39m100
+[1694114547149] [35m[CORTEX] Eli Green - Conversation Goal: [39mCatch up with John Green and discuss the day's duties.
+[1694114547149] [35m[CORTEX] Eli Green - Conversation Finished: [39mfalse
+[1694114550058] [31m[createMemory][39m Eli Green sees George Brown at X: 28.21722, Y: -55.25006. [42.02104]
+[1694114550671] [35m[CORTEX] Eli Green - Feel: [39mTomorrow, I'll climb the tallest tree. Perhaps, I'll see the whole world from there!
+[1694114551348] [31m[createMemory][39m Eli Green sees Thomas Smith at X: 27.95677, Y: -54.76004. [43.30062]
+[1694114552382] [35m[CORTEX] Eli Green - Explain: [39mEli Green's thoughts towards his goal
+[1694114553707] [35m[CORTEX] Eli Green - Did I make progress? [39m[yes]
+[1694114554681] [35m[CORTEX] Eli Green - Did I accomplish my goal? [39m[yes]
+[1694114560573] [35m[CORTEX] Eli Green - Prior Message: [39mEli, the demand for timber's increasing. We need to venture deeper into the forest and mark new trees. But we'll ensure to leave it better than we found it, as always.
+[1694114560573] [35m[CORTEX] Eli Green - Patience: [39m100
+[1694114560573] [35m[CORTEX] Eli Green - Conversation Goal: [39mfiguring out why Lucy Wilde started a conversation with them.
+[1694114560574] [35m[CORTEX] Eli Green - Conversation Finished: [39mfalse
+[1694114562416] [35m[CORTEX] Eli Green - Explain: [39mEli Green's thoughts have taken a shift towards exploring the forest more thoroughly. He's excitedly contemplating whether he should map the entire forest from the tallest tree's perspective. He's also pondering if his experiment in communicating with birds could work, drawing inspiration from George's enthralling stories. His conversations are leaning more towards his love for exploration and understanding of nature.
+[1694114563506] [35m[CORTEX] Eli Green - Should I end the conversation? [39m[yes]
+[1694114565870] [35m[CORTEX] Eli Green Goodbye: [39mGoodbye Eli Green, until our next adventure!
+[1694114566507] [35m[CORTEX] Eli Green - Feel: [39mI feel a pang of worry at the thought of venturing deeper into the forest, marking more trees for timber. It's a necessary task, but I hope we can stay true to our promise to leave it better than we found it.

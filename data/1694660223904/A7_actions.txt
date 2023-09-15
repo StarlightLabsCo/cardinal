@@ -1,0 +1,33 @@
+[
+  {
+    "type": "eat",
+    "data": {
+      "characterId": "A7",
+      "foodId": "berries"
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A7",
+      "x": -8.1,
+      "y": -7.9
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A7",
+      "x": -9.29,
+      "y": -3.6
+    }
+  },
+  {
+    "type": "start_conversation",
+    "data": {
+      "characterId": "A7",
+      "targetCharacterId": "A6",
+      "conversationGoal": "Catch up and share information with James McAllister"
+    }
+  }
+]

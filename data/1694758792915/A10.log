@@ -1,0 +1,2787 @@
+[1694758795173] [31m[createMemory][39m Harvest season is always a community event; everyone helps out. [0]
+[1694758795173] [31m[createMemory][39m My farm has been in my family for generations. [0]
+[1694758795173] [31m[createMemory][39m I take pride in the quality of my crops. [0]
+[1694758795173] [31m[createMemory][39m Watering the fields at dawn is my daily ritual. [0]
+[1694758795173] [31m[createMemory][39m I've helped build the village barn for community storage. [0]
+[1694758795173] [31m[createMemory][39m My optimism helps people through tough winters. [0]
+[1694758795173] [31m[createMemory][39m I've learned weather patterns to maximize crop yield. [0]
+[1694758795173] [31m[createMemory][39m I've taught my children the value of hard work. [0]
+[1694758795173] [31m[createMemory][39m We celebrate every successful harvest with a village feast. [0]
+[1694758795173] [31m[createMemory][39m I often exchange farming tips with other local farmers. [0]
+[1694758795173] [31m[createMemory][39m My tools are my most prized possessions; they've seen years of work. [0]
+[1694758795173] [31m[createMemory][39m The community market is where I sell my produce. [0]
+[1694758795173] [31m[createMemory][39m I've started experimenting with new types of seeds. [0]
+[1694758795173] [31m[createMemory][39m I remember how my parents taught me to respect the land. [0]
+[1694758795173] [31m[createMemory][39m I keep records of each harvest; helps in planning the next. [0]
+[1694758795173] [31m[createMemory][39m My farm's coordinates are 15, 28; right next to the creek. [0]
+[1694758795173] [31m[createMemory][39m The village square is at 5, 10; where the market is held. [0]
+[1694758795173] [31m[createMemory][39m The nearby forest is at 30, 40; it's a source of wild berries. [0]
+[1694758795173] [31m[createMemory][39m The village granary is at 2, 6; where we store excess produce. [0]
+[1694758795173] [31m[createMemory][39m The creek that feeds my farm flows from the north at 17, 35. [0]
+[1694758806784] [Character] Owen created
+[1694758829310] [31m[createMemory][39m Owen Greenfield sees Tree at X: 36.04, Y: -47.68999. [0]
+[1694758829310] [31m[createMemory][39m Owen Greenfield sees Harold Smith at X: 30.05, Y: -54.68. [0]
+[1694758835263] --- Prompt ---
+[1694758835266] Character: 
+- ID: A10
+- Name: Owen Greenfield
+- Age: 33
+- Occupation: Farmer
+- Personality: Hardworking, Optimistic, Community-Oriented
+
+Location: 32.13, -50.43
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Full
+
+Environment:
+- Harold Smith (Health: 25/25) [Location: 30.05, -54.68, Direction: NW,  Distance: 4.7m]
+- Tree (Health: 10/10) [Location: 36.04, -47.68999, Direction: NW,  Distance: 4.8m]
+- Chest (Health: 10/10) [Location: 37.52, -48.22, Direction: NW,  Distance: 5.8m]
+- Will Turner (Health: 25/25) [Location: 38.1, -51.08, Direction: NW,  Distance: 6.0m]
+- Tree Stump (Health: 5/5) [Location: 36.50999, -46.03, Direction: NW,  Distance: 6.2m]
+- Tree Stump (Health: 5/5) [Location: 38.7, -50.07, Direction: NW,  Distance: 6.6m]
+- Tree (Health: 10/10) [Location: 36.37, -44.45, Direction: NW,  Distance: 7.3m]
+- Tree (Health: 10/10) [Location: 39.4, -48.08, Direction: NW,  Distance: 7.6m]
+- Tree (Health: 10/10) [Location: 38.28, -45.67, Direction: NW,  Distance: 7.8m]
+- Tree (Health: 10/10) [Location: 25.76, -44.33, Direction: NW,  Distance: 8.8m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- The village square is at 5, 10; where the market is held. [just now]
+- The community market is where I sell my produce. [just now]
+- I remember how my parents taught me to respect the land. [just now]
+- Watering the fields at dawn is my daily ritual. [just now]
+- We celebrate every successful harvest with a village feast. [just now]
+- I've started experimenting with new types of seeds. [just now]
+- My tools are my most prized possessions; they've seen years of work. [just now]
+- The creek that feeds my farm flows from the north at 17, 35. [just now]
+- Harvest season is always a community event; everyone helps out. [just now]
+- My optimism helps people through tough winters. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694758861593] --- Response ---
+[1694758861593] Updated Tasks: 
+[1694758861593] [
+  {
+    "task": "Water the fields at dawn",
+    "priority": 1
+  },
+  {
+    "task": "Harvest produce for the market",
+    "priority": 2
+  },
+  {
+    "task": "Move to village square (5, 10) for the community market",
+    "priority": 3
+  },
+  {
+    "task": "Sell produce at the community market",
+    "priority": 4
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 5
+  },
+  {
+    "task": "Continue experimenting with new types of seeds",
+    "priority": 6
+  },
+  {
+    "task": "Check and maintain tools",
+    "priority": 7
+  },
+  {
+    "task": "Move to the creek at (17, 35) to fetch water for the next day",
+    "priority": 8
+  },
+  {
+    "task": "Eat to maintain a healthy lifestyle",
+    "priority": 9
+  },
+  {
+    "task": "Rest to restore energy for the next day",
+    "priority": 10
+  }
+]
+[1694758864154] --- Prompt ---
+[1694758864155] Character: 
+- ID: A10
+- Name: Owen Greenfield
+- Age: 33
+- Occupation: Farmer
+- Personality: Hardworking, Optimistic, Community-Oriented
+
+Location: 32.13, -50.43
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Full
+
+Environment:
+- Harold Smith (Health: 25/25) [Direction: NW, Distance: 4.7m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 4.8m]
+- Chest (Health: 10/10) [Direction: NW, Distance: 5.8m]
+- Will Turner (Health: 25/25) [Direction: NW, Distance: 6.0m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 6.2m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 6.6m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.6m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.8m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.8m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- My optimism helps people through tough winters. [just now]
+- Harvest season is always a community event; everyone helps out. [just now]
+- The creek that feeds my farm flows from the north at 17, 35. [just now]
+- My tools are my most prized possessions; they've seen years of work. [just now]
+- I've started experimenting with new types of seeds. [just now]
+- We celebrate every successful harvest with a village feast. [just now]
+- Watering the fields at dawn is my daily ritual. [just now]
+- I remember how my parents taught me to respect the land. [just now]
+- The community market is where I sell my produce. [just now]
+- The village square is at 5, 10; where the market is held. [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694758864155] --- Action Functions ---
+[1694758864156] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694758867643] --- Response ---
+[1694758867643] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A10\",\n  \"x\": 5,\n  \"y\": 10\n}"
+  }
+}
+[1694758867644] --- Verified Action ---
+[1694758867644] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A10",
+    "x": 5,
+    "y": 10
+  }
+}
+[1694758867810] [31m[createMemory][39m Owen Greenfield has started walking to 5, Y: 10. [31.9301758]
+[1694758867959] [31m[createMemory][39m Owen Greenfield no longer sees Human (6) at X: 30.05, Y: -54.68 [32.0135078]
+[1694758868120] [31m[createMemory][39m Owen Greenfield sees Chest at X: 37.52, Y: -48.22. [32.1801758]
+[1694758868283] [31m[createMemory][39m Owen Greenfield sees Tree Stump at X: 36.50999, Y: -46.03. [32.3301735]
+[1694758868846] [31m[createMemory][39m Owen Greenfield no longer sees Chest at X: 37.52, Y: -48.22 [32.7801743]
+[1694758869799] [31m[createMemory][39m Owen Greenfield sees Tree at X: 36.37, Y: -44.45. [33.74684]
+[1694758870736] [31m[createMemory][39m Owen Greenfield sees Tree at X: 25.76, Y: -44.33. [34.46351]
+[1694758870972] [31m[createMemory][39m Owen Greenfield no longer sees Stump (50) at X: 36.50999, Y: -46.03 [34.6801758]
+[1694758871048] [31m[createMemory][39m Owen Greenfield sees Stone Ore Deposit (Small) at X: 32.23, Y: -40.35. [34.74684]
+[1694758871243] [31m[createMemory][39m Owen Greenfield no longer sees Tree (649) at X: 36.04, Y: -47.68999 [34.96351]
+[1694758871272] [31m[createMemory][39m Owen Greenfield no longer sees Tree (655) at X: 36.37, Y: -44.45 [34.980175]
+[1694758871354] [31m[createMemory][39m Owen Greenfield sees Tree at X: 25.76, Y: -42.09. [35.0635071]
+[1694758872568] [31m[createMemory][39m Owen Greenfield sees Tree at X: 25.48, Y: -39.34. [36.2801743]
+[1694758872657] [31m[createMemory][39m Owen Greenfield sees Bryce Ironhammer at X: 33.63, Y: -40.38. [36.36351]
+[1694758873657] [31m[createMemory][39m Owen Greenfield sees Tree at X: 23.13, Y: -42.43. [37.2801743]
+[1694758873896] [31m[createMemory][39m Owen Greenfield no longer sees Human (10) at X: 33.63, Y: -40.38 [37.5301743]
+[1694758874126] [31m[createMemory][39m Owen Greenfield sees Tree at X: 24.93, Y: -36.81. [37.730175]
+[1694758874449] [31m[createMemory][39m Owen Greenfield sees Tree at X: 32.43, Y: -36.81211. [38.0635071]
+[1694758874594] [31m[createMemory][39m Owen Greenfield sees Tree Stump at X: 30.7, Y: -35.81. [38.1801758]
+[1694758875487] [31m[createMemory][39m Owen Greenfield sees Tree at X: 22.67, Y: -36.54. [38.96351]
+[1694758875664] [31m[createMemory][39m Owen Greenfield sees Tree at X: 24.38, Y: -34.45. [39.1301765]
+[1694758875805] [31m[createMemory][39m Owen Greenfield no longer sees Tree (336) at X: 25.76, Y: -44.33 [39.2635078]
+[1694758876088] [31m[createMemory][39m Owen Greenfield sees Tree at X: 31.45, Y: -34.49. [39.5635071]
+[1694758876164] [31m[createMemory][39m Owen Greenfield no longer sees Tree (335) at X: 23.13, Y: -42.43 [39.61351]
+[1694758876669] [31m[createMemory][39m Owen Greenfield no longer sees StoneOreSmall (10) at X: 32.23, Y: -40.35 [40.11351]
+[1694758877129] [31m[createMemory][39m Owen Greenfield no longer sees Tree (331) at X: 25.76, Y: -42.09 [40.5635071]
+[1694758877382] [31m[createMemory][39m Owen Greenfield sees Tree at X: 23.02, Y: -32.65. [40.6801758]
+[1694758878157] [31m[createMemory][39m Owen Greenfield sees Tree at X: 28.28, Y: -29.76. [41.480175]
+[1694758878442] [31m[createMemory][39m Owen Greenfield no longer sees Tree (302) at X: 32.43, Y: -36.81211 [41.7635078]
+[1694758878624] [31m[createMemory][39m Owen Greenfield sees Tree at X: 21.1, Y: -34.81. [41.96351]
+[1694758879053] [31m[createMemory][39m Owen Greenfield no longer sees Tree (330) at X: 25.48, Y: -39.34 [42.36351]
+[1694758879610] [31m[createMemory][39m Owen Greenfield sees Tree at X: 27.86, Y: -27.79. [42.84684]
+[1694758879948] [31m[createMemory][39m Owen Greenfield no longer sees Tree (301) at X: 31.45, Y: -34.49 [43.16351]
+[1694758880039] [31m[createMemory][39m Owen Greenfield no longer sees Stump (25) at X: 30.7, Y: -35.81 [43.24684]
+[1694758880905] [31m[createMemory][39m Owen Greenfield sees Tree at X: 30.73, Y: -29.31. [44.0801735]
+[1694758880975] [31m[createMemory][39m Owen Greenfield no longer sees Tree (286) at X: 22.67, Y: -36.54 [43.9468422]
+[1694758881022] [31m[createMemory][39m Owen Greenfield sees Tree at X: 29.28, Y: -26.96. [44.1801758]
+[1694758881033] [31m[createMemory][39m Owen Greenfield no longer sees Tree (263) at X: 24.93, Y: -36.81 [44.0135078]
+[1694758881208] [31m[createMemory][39m Owen Greenfield no longer sees Tree (291) at X: 21.1, Y: -34.81 [44.34684]
+[1694758881634] [31m[createMemory][39m Owen Greenfield sees Tree at X: 28.12, Y: -25.2. [44.74684]
+[1694758882386] [31m[createMemory][39m Owen Greenfield no longer sees Tree (259) at X: 24.38, Y: -34.45 [45.36351]
+[1694758882503] [31m[createMemory][39m Owen Greenfield no longer sees Tree (730) at X: 30.73, Y: -29.31 [45.5635071]
+[1694758882815] [31m[createMemory][39m Owen Greenfield sees Tree at X: 26.2, Y: -23.09. [45.8301735]
+[1694758882833] [31m[createMemory][39m Owen Greenfield sees Tree at X: 22.59, Y: -23.18. [45.86351]
+[1694758883104] [31m[createMemory][39m Owen Greenfield sees Tree Stump at X: 21.26, Y: -23.66788. [46.0801735]
+[1694758883756] [31m[createMemory][39m Owen Greenfield sees Tree at X: 24.08, Y: -21.93. [46.71351]
+[1694758883818] [31m[createMemory][39m Owen Greenfield no longer sees Tree (161) at X: 29.28, Y: -26.96 [46.7635078]
+[1694758883874] [31m[createMemory][39m Owen Greenfield no longer sees Tree (287) at X: 23.02, Y: -32.65 [46.7635078]
+[1694758883895] [31m[createMemory][39m Owen Greenfield sees Tree at X: 20.14, Y: -22.62. [46.8135071]
+[1694758884106] [31m[createMemory][39m Owen Greenfield no longer sees Tree (265) at X: 28.28, Y: -29.76 [47.04684]
+[1694758884770] [31m[createMemory][39m Owen Greenfield no longer sees Tree (260) at X: 28.12, Y: -25.2 [47.6801758]
+[1694758884881] [31m[createMemory][39m Owen Greenfield sees Tree at X: 18.28, Y: -21.95. [47.7635078]
+[1694758884900] [31m[createMemory][39m Owen Greenfield no longer sees Tree (264) at X: 27.86, Y: -27.79 [47.7635078]
+[1694758885706] [31m[createMemory][39m Owen Greenfield sees Tree at X: 21.54, Y: -20.29. [48.5301743]
+[1694758885830] [31m[createMemory][39m Owen Greenfield no longer sees Tree (156) at X: 26.2, Y: -23.09 [48.6301765]
+[1694758886909] [31m[createMemory][39m Owen Greenfield sees Tree at X: 14.11, Y: -27.17. [49.6301765]
+[1694758887157] [31m[createMemory][39m Owen Greenfield sees Tree at X: 19.34, Y: -19.25. [49.91351]
+[1694758887309] [31m[createMemory][39m Owen Greenfield no longer sees Tree (155) at X: 24.08, Y: -21.93 [50.0301743]
+[1694758887760] [31m[createMemory][39m Owen Greenfield sees Stone Ore Deposit (Small) at X: 15.88, Y: -18.99. [50.46351]
+[1694758888545] [31m[createMemory][39m Owen Greenfield sees Stone Ore Deposit (Small) at X: 14.39, Y: -18.34. [51.21351]
+[1694758888580] [31m[createMemory][39m Owen Greenfield sees Tree at X: 11.96, Y: -25.18. [51.2635078]
+[1694758888740] [31m[createMemory][39m Owen Greenfield sees Tree at X: 12.43, Y: -19.6. [51.3801765]
+[1694758888891] [31m[createMemory][39m Owen Greenfield no longer sees Tree (34) at X: 22.59, Y: -23.18 [51.5135078]
+[1694758889211] [31m[createMemory][39m Owen Greenfield no longer sees Tree (149) at X: 21.54, Y: -20.29 [51.8135071]
+[1694758889564] [31m[createMemory][39m Owen Greenfield no longer sees Stump (15) at X: 21.26, Y: -23.66788 [52.146843]
+[1694758890544] [31m[createMemory][39m Owen Greenfield sees Tree at X: 15.22, Y: -16.78. [53.0301743]
+[1694758890560] [31m[createMemory][39m Owen Greenfield sees Tree at X: 13.25, Y: -16.78. [53.04684]
+[1694758890582] [31m[createMemory][39m Owen Greenfield no longer sees Tree (33) at X: 20.14, Y: -22.62 [53.0801735]
+[1694758890726] [31m[createMemory][39m Owen Greenfield no longer sees Tree (148) at X: 19.34, Y: -19.25 [53.230175]
+[1694758890745] [31m[createMemory][39m Owen Greenfield sees Tree at X: 9.26, Y: -25.09. [53.2635078]
+[1694758891424] [31m[createMemory][39m Owen Greenfield no longer sees Tree (256) at X: 14.11, Y: -27.17 [53.84684]
+[1694758891525] [31m[createMemory][39m Owen Greenfield sees Tree at X: 10.73, Y: -16.49. [53.980175]
+[1694758891965] [31m[createMemory][39m Owen Greenfield no longer sees Tree (29) at X: 18.28, Y: -21.95 [54.3135071]
+[1694758891979] [31m[createMemory][39m Owen Greenfield sees Tree at X: 7.04, Y: -22.88. [54.3301735]
+[1694758892529] [31m[createMemory][39m Owen Greenfield sees Tree at X: 6, Y: -20.83. [54.8801765]
+[1694758892613] [31m[createMemory][39m Owen Greenfield sees Tree at X: 6.79, Y: -17.79. [54.91351]
+[1694758893347] [31m[createMemory][39m Owen Greenfield sees Tree at X: 4.96, Y: -19.42. [55.6301765]
+[1694758893440] [31m[createMemory][39m Owen Greenfield no longer sees Tree (54) at X: 15.22, Y: -16.78 [55.730175]
+[1694758893525] [31m[createMemory][39m Owen Greenfield no longer sees StoneOreSmall (1) at X: 15.88, Y: -18.99 [55.7801743]
+[1694758893636] [31m[createMemory][39m Owen Greenfield no longer sees Tree (261) at X: 11.96, Y: -25.18 [55.9468422]
+[1694758893773] [31m[createMemory][39m Owen Greenfield sees Tree at X: 9.45, Y: -14.39. [56.0301743]
+[1694758893825] [31m[createMemory][39m Owen Greenfield no longer sees Tree (262) at X: 9.26, Y: -25.09 [56.11351]
+[1694758893874] [31m[createMemory][39m Owen Greenfield sees Tree at X: 11.84, Y: -14.35. [56.16351]
+[1694758894440] [31m[createMemory][39m Owen Greenfield sees Tree at X: 15.22, Y: -16.78. [56.66351]
+[1694758894943] [31m[createMemory][39m Owen Greenfield sees Tree at X: 13.75, Y: -13.81. [57.1301765]
+[1694758894969] [31m[createMemory][39m Owen Greenfield no longer sees Tree (067) at X: 7.04, Y: -22.88 [57.16351]
+[1694758895045] [31m[createMemory][39m Owen Greenfield sees Tree at X: 11.7, Y: -12.56. [57.230175]
+[1694758895401] [31m[createMemory][39m Owen Greenfield no longer sees Tree (54) at X: 15.22, Y: -16.78 [57.5801735]
+[1694758895486] [31m[createMemory][39m Owen Greenfield sees Tree at X: 3.77, Y: -16.34. [57.66351]
+[1694758895717] [31m[createMemory][39m Owen Greenfield sees Tree Stump at X: 3.68, Y: -17.74. [57.86351]
+[1694758895886] [31m[createMemory][39m Owen Greenfield no longer sees StoneOreSmall at X: 14.39, Y: -18.34 [58.0301743]
+[1694758895937] [31m[createMemory][39m Owen Greenfield sees Tree at X: 3.98, Y: -13.79. [58.0301743]
+[1694758896376] [31m[createMemory][39m Owen Greenfield sees Tree at X: 4.59, Y: -12.01. [58.46351]
+[1694758896478] [31m[createMemory][39m Owen Greenfield no longer sees Tree (66) at X: 6, Y: -20.83 [58.5135078]
+[1694758896819] [31m[createMemory][39m Owen Greenfield no longer sees Tree (72) at X: 12.43, Y: -19.6 [58.8801765]
+[1694758897025] [31m[createMemory][39m Owen Greenfield sees Tree Stump at X: 8.41, Y: -9.870001. [59.0635071]
+[1694758897283] [31m[createMemory][39m Owen Greenfield no longer sees Tree (39) at X: 13.75, Y: -13.81 [59.3135071]
+[1694758897427] [31m[createMemory][39m Owen Greenfield no longer sees Tree (44) at X: 13.25, Y: -16.78 [59.46351]
+[1694758897474] [31m[createMemory][39m Owen Greenfield no longer sees Tree (63) at X: 4.96, Y: -19.42 [59.46351]
+[1694758897670] [31m[createMemory][39m Owen Greenfield sees Tree at X: 2.16, Y: -14.95. [59.5801735]
+[1694758897675] [31m[createMemory][39m Owen Greenfield sees Tree at X: 2.8, Y: -11.64. [59.5301743]
+[1694758898080] [31m[createMemory][39m Owen Greenfield no longer sees Tree (28) at X: 2.16, Y: -14.95 [59.9301758]
+[1694758898210] [31m[createMemory][39m Owen Greenfield no longer sees Stump (8) at X: 3.68, Y: -17.74 [60.1301765]
+[1694758898798] [31m[createMemory][39m Owen Greenfield sees Tree Stump at X: 9.14, Y: -7.77. [60.4301758]
+[1694758899100] [31m[createMemory][39m Owen Greenfield no longer sees Tree (45) at X: 6.79, Y: -17.79 [60.71351]
+[1694758899135] [31m[createMemory][39m Owen Greenfield sees Tree Stump at X: 5.58, Y: -7.27. [60.8301735]
+[1694758899155] [31m[createMemory][39m Owen Greenfield no longer sees Tree (25) at X: 3.77, Y: -16.34 [60.8301735]
+[1694758899383] [31m[createMemory][39m Owen Greenfield sees Tree Stump at X: 8.46, Y: -6.74. [60.96351]
+[1694758899401] [31m[createMemory][39m Owen Greenfield sees Tree at X: 2.38, Y: -9.700001. [61.04684]
+[1694758899570] [31m[createMemory][39m Owen Greenfield no longer sees Tree (40) at X: 10.73, Y: -16.49 [61.146843]
+[1694758900346] [31m[createMemory][39m Owen Greenfield no longer sees Tree (38) at X: 11.84, Y: -14.35 [61.9301758]
+[1694758901090] [31m[createMemory][39m Owen Greenfield no longer sees Tree (27) at X: 3.98, Y: -13.79 [62.3801765]
+[1694758901135] [31m[createMemory][39m Owen Greenfield sees Tree at X: 11.02, Y: -4.68. [62.4301758]
+[1694758901331] [31m[createMemory][39m Owen Greenfield no longer sees Tree (26) at X: 9.45, Y: -14.39 [62.61351]
+[1694758901727] [31m[createMemory][39m Owen Greenfield no longer sees Tree (84) at X: 2.8, Y: -11.64 [62.84684]
+[1694758901833] [31m[createMemory][39m Owen Greenfield no longer sees Tree (77) at X: 11.7, Y: -12.56 [63.0301743]
+[1694758901950] [31m[createMemory][39m Owen Greenfield sees Tree at X: 4.14, Y: -3.639999. [63.1801758]
+[1694758901954] [31m[createMemory][39m Owen Greenfield sees Tree at X: 4.14, Y: -3.639999. [63.1801758]
+[1694758902232] [31m[createMemory][39m Owen Greenfield no longer sees Tree (13) at X: 2.38, Y: -9.700001 [63.4468422]
+[1694758902232] [31m[createMemory][39m Owen Greenfield sees Tree at X: 13.38, Y: -6.209999. [63.46351]
+[1694758902289] [31m[createMemory][39m Owen Greenfield no longer sees Tree (78) at X: 4.59, Y: -12.01 [63.6301765]
+[1694758902370] [31m[createMemory][39m Owen Greenfield sees Tree at X: 12.09, Y: -3.32. [63.71351]
+[1694758902373] [31m[createMemory][39m Owen Greenfield sees Tree at X: 12.09, Y: -3.32. [63.71351]
+[1694758904120] [31m[createMemory][39m Owen Greenfield no longer sees Tree (42) at X: 13.38, Y: -6.209999 [65.0301743]
+[1694758904243] [31m[getLatestMemories] Retrieving top 100 latest memories.[39m
+[1694758904648] [31m[createMemory][39m Owen Greenfield sees Tree at X: 2.89, Y: -1.01. [65.4301758]
+[1694758904666] [31m[createMemory][39m Owen Greenfield sees Tree at X: 2.89, Y: -1.01. [65.4301758]
+[1694758904712] [31m[createMemory][39m Owen Greenfield no longer sees Stump (2) at X: 8.41, Y: -9.870001 [65.48018]
+[1694758904852] [31m[createMemory][39m Owen Greenfield sees Tree at X: 12.93, Y: -1.15. [65.61351]
+[1694758904898] [31m[createMemory][39m Owen Greenfield sees Tree at X: 12.93, Y: -1.15. [65.61351]
+[1694758905256] [
+  {
+    "id": "clmk7ozrx00fqvdyktppnd82w",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 12.09, Y: -3.32.",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:43.622Z",
+    "time": 63.71351,
+    "createdAt": "2023-09-15T06:21:43.622Z",
+    "updatedAt": "2023-09-15T06:21:43.622Z"
+  },
+  {
+    "id": "clmk7oz0z00fhvdyknypxvm5i",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 4.14, Y: -3.639999.",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:42.988Z",
+    "time": 63.1801758,
+    "createdAt": "2023-09-15T06:21:42.988Z",
+    "updatedAt": "2023-09-15T06:21:42.988Z"
+  },
+  {
+    "id": "clmk7oyns00f6vdykkbkp1jh2",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 11.02, Y: -4.68.",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:42.275Z",
+    "time": 62.4301758,
+    "createdAt": "2023-09-15T06:21:42.275Z",
+    "updatedAt": "2023-09-15T06:21:42.275Z"
+  },
+  {
+    "id": "clmk7oy0h00ezvdyk9704dmnt",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (38) at X: 11.84, Y: -14.35",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:41.613Z",
+    "time": 61.9301758,
+    "createdAt": "2023-09-15T06:21:41.613Z",
+    "updatedAt": "2023-09-15T06:21:41.613Z"
+  },
+  {
+    "id": "clmk7ox3i00exvdyklq5367jf",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (40) at X: 10.73, Y: -16.49",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:40.443Z",
+    "time": 61.146843,
+    "createdAt": "2023-09-15T06:21:40.443Z",
+    "updatedAt": "2023-09-15T06:21:40.443Z"
+  },
+  {
+    "id": "clmk7owt300euvdyk3i9ipclu",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 2.38, Y: -9.700001.",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:40.058Z",
+    "time": 61.04684,
+    "createdAt": "2023-09-15T06:21:40.058Z",
+    "updatedAt": "2023-09-15T06:21:40.058Z"
+  },
+  {
+    "id": "clmk7owsz00etvdykv20ubvav",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree Stump at X: 8.46, Y: -6.74.",
+    "importance": 7,
+    "accessedAt": "2023-09-15T06:21:40.058Z",
+    "time": 60.96351,
+    "createdAt": "2023-09-15T06:21:40.058Z",
+    "updatedAt": "2023-09-15T06:21:40.058Z"
+  },
+  {
+    "id": "clmk7owu300evvdykfzqvt9bl",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree Stump at X: 5.58, Y: -7.27.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:40.069Z",
+    "time": 60.8301735,
+    "createdAt": "2023-09-15T06:21:40.069Z",
+    "updatedAt": "2023-09-15T06:21:40.069Z"
+  },
+  {
+    "id": "clmk7owr000ervdykqrapk4eg",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (25) at X: 3.77, Y: -16.34",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:40.019Z",
+    "time": 60.8301735,
+    "createdAt": "2023-09-15T06:21:40.019Z",
+    "updatedAt": "2023-09-15T06:21:40.019Z"
+  },
+  {
+    "id": "clmk7owsw00esvdyk6z9kqsn2",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (45) at X: 6.79, Y: -17.79",
+    "importance": 6,
+    "accessedAt": "2023-09-15T06:21:40.036Z",
+    "time": 60.71351,
+    "createdAt": "2023-09-15T06:21:40.036Z",
+    "updatedAt": "2023-09-15T06:21:40.036Z"
+  },
+  {
+    "id": "clmk7ow6a00elvdyk7qxq81qw",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree Stump at X: 9.14, Y: -7.77.",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:39.589Z",
+    "time": 60.4301758,
+    "createdAt": "2023-09-15T06:21:39.589Z",
+    "updatedAt": "2023-09-15T06:21:39.589Z"
+  },
+  {
+    "id": "clmk7ovr200eivdykdy5x7z3h",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Stump (8) at X: 3.68, Y: -17.74",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:38.881Z",
+    "time": 60.1301765,
+    "createdAt": "2023-09-15T06:21:38.881Z",
+    "updatedAt": "2023-09-15T06:21:38.881Z"
+  },
+  {
+    "id": "clmk7ovlw00efvdyk9innwvo4",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (28) at X: 2.16, Y: -14.95",
+    "importance": 7.5,
+    "accessedAt": "2023-09-15T06:21:38.771Z",
+    "time": 59.9301758,
+    "createdAt": "2023-09-15T06:21:38.771Z",
+    "updatedAt": "2023-09-15T06:21:38.771Z"
+  },
+  {
+    "id": "clmk7ovap00ebvdyk6b6vb6vc",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 2.16, Y: -14.95.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:38.281Z",
+    "time": 59.5801735,
+    "createdAt": "2023-09-15T06:21:38.281Z",
+    "updatedAt": "2023-09-15T06:21:38.281Z"
+  },
+  {
+    "id": "clmk7ovdp00ecvdykovawniwr",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 2.8, Y: -11.64.",
+    "importance": 4.5,
+    "accessedAt": "2023-09-15T06:21:38.355Z",
+    "time": 59.5301743,
+    "createdAt": "2023-09-15T06:21:38.355Z",
+    "updatedAt": "2023-09-15T06:21:38.355Z"
+  },
+  {
+    "id": "clmk7ouyl00e6vdykpg742luq",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (44) at X: 13.25, Y: -16.78",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:38.109Z",
+    "time": 59.46351,
+    "createdAt": "2023-09-15T06:21:38.109Z",
+    "updatedAt": "2023-09-15T06:21:38.109Z"
+  },
+  {
+    "id": "clmk7ov1k00e9vdykinms5i27",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (63) at X: 4.96, Y: -19.42",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:38.151Z",
+    "time": 59.46351,
+    "createdAt": "2023-09-15T06:21:38.151Z",
+    "updatedAt": "2023-09-15T06:21:38.151Z"
+  },
+  {
+    "id": "clmk7ouzi00e8vdykhv7o0kre",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (39) at X: 13.75, Y: -13.81",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:38.139Z",
+    "time": 59.3135071,
+    "createdAt": "2023-09-15T06:21:38.139Z",
+    "updatedAt": "2023-09-15T06:21:38.139Z"
+  },
+  {
+    "id": "clmk7oul400e3vdyka9z3pg0r",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree Stump at X: 8.41, Y: -9.870001.",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:37.493Z",
+    "time": 59.0635071,
+    "createdAt": "2023-09-15T06:21:37.493Z",
+    "updatedAt": "2023-09-15T06:21:37.493Z"
+  },
+  {
+    "id": "clmk7oud000e0vdykqlko6v6h",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (72) at X: 12.43, Y: -19.6",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:37.308Z",
+    "time": 58.8801765,
+    "createdAt": "2023-09-15T06:21:37.308Z",
+    "updatedAt": "2023-09-15T06:21:37.308Z"
+  },
+  {
+    "id": "clmk7ou2200duvdyk2aj3kfst",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (66) at X: 6, Y: -20.83",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:36.938Z",
+    "time": 58.5135078,
+    "createdAt": "2023-09-15T06:21:36.938Z",
+    "updatedAt": "2023-09-15T06:21:36.938Z"
+  },
+  {
+    "id": "clmk7ou6000dwvdyk3s00tazb",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 4.59, Y: -12.01.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:37.081Z",
+    "time": 58.46351,
+    "createdAt": "2023-09-15T06:21:37.081Z",
+    "updatedAt": "2023-09-15T06:21:37.081Z"
+  },
+  {
+    "id": "clmk7ou8k00dyvdyk6rpmitis",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees StoneOreSmall at X: 14.39, Y: -18.34",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:37.173Z",
+    "time": 58.0301743,
+    "createdAt": "2023-09-15T06:21:37.173Z",
+    "updatedAt": "2023-09-15T06:21:37.173Z"
+  },
+  {
+    "id": "clmk7otr000dpvdykay2j96ev",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 3.98, Y: -13.79.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:36.540Z",
+    "time": 58.0301743,
+    "createdAt": "2023-09-15T06:21:36.540Z",
+    "updatedAt": "2023-09-15T06:21:36.540Z"
+  },
+  {
+    "id": "clmk7othy00dmvdykatk1bj5n",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree Stump at X: 3.68, Y: -17.74.",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:36.214Z",
+    "time": 57.86351,
+    "createdAt": "2023-09-15T06:21:36.214Z",
+    "updatedAt": "2023-09-15T06:21:36.214Z"
+  },
+  {
+    "id": "clmk7otbi00dlvdykup4q12kb",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 3.77, Y: -16.34.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:35.982Z",
+    "time": 57.66351,
+    "createdAt": "2023-09-15T06:21:35.982Z",
+    "updatedAt": "2023-09-15T06:21:35.982Z"
+  },
+  {
+    "id": "clmk7otax00dkvdyk2q0tjtil",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (54) at X: 15.22, Y: -16.78",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:35.962Z",
+    "time": 57.5801735,
+    "createdAt": "2023-09-15T06:21:35.962Z",
+    "updatedAt": "2023-09-15T06:21:35.962Z"
+  },
+  {
+    "id": "clmk7ot2a00dhvdykjrd4heoc",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 11.7, Y: -12.56.",
+    "importance": 3.5,
+    "accessedAt": "2023-09-15T06:21:35.650Z",
+    "time": 57.230175,
+    "createdAt": "2023-09-15T06:21:35.650Z",
+    "updatedAt": "2023-09-15T06:21:35.650Z"
+  },
+  {
+    "id": "clmk7osxp00ddvdykhjvmuvrw",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (067) at X: 7.04, Y: -22.88",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:35.486Z",
+    "time": 57.16351,
+    "createdAt": "2023-09-15T06:21:35.486Z",
+    "updatedAt": "2023-09-15T06:21:35.486Z"
+  },
+  {
+    "id": "clmk7osw500dcvdyk3uer2wuu",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 13.75, Y: -13.81.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:35.430Z",
+    "time": 57.1301765,
+    "createdAt": "2023-09-15T06:21:35.430Z",
+    "updatedAt": "2023-09-15T06:21:35.430Z"
+  },
+  {
+    "id": "clmk7osji00dbvdyk54lqzq2t",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 15.22, Y: -16.78.",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:34.974Z",
+    "time": 56.66351,
+    "createdAt": "2023-09-15T06:21:34.974Z",
+    "updatedAt": "2023-09-15T06:21:34.974Z"
+  },
+  {
+    "id": "clmk7os1j00d6vdykv3cllvid",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 11.84, Y: -14.35.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:34.328Z",
+    "time": 56.16351,
+    "createdAt": "2023-09-15T06:21:34.328Z",
+    "updatedAt": "2023-09-15T06:21:34.328Z"
+  },
+  {
+    "id": "clmk7os0s00d5vdyk4tc7xp5p",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (262) at X: 9.26, Y: -25.09",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:34.301Z",
+    "time": 56.11351,
+    "createdAt": "2023-09-15T06:21:34.301Z",
+    "updatedAt": "2023-09-15T06:21:34.301Z"
+  },
+  {
+    "id": "clmk7orzi00d4vdykwnz2xum1",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 9.45, Y: -14.39.",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:34.255Z",
+    "time": 56.0301743,
+    "createdAt": "2023-09-15T06:21:34.255Z",
+    "updatedAt": "2023-09-15T06:21:34.255Z"
+  },
+  {
+    "id": "clmk7os3200d7vdyk5yxf2mbd",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (261) at X: 11.96, Y: -25.18",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:34.382Z",
+    "time": 55.9468422,
+    "createdAt": "2023-09-15T06:21:34.382Z",
+    "updatedAt": "2023-09-15T06:21:34.382Z"
+  },
+  {
+    "id": "clmk7orte00d1vdyk630n1lrg",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees StoneOreSmall (1) at X: 15.88, Y: -18.99",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:34.034Z",
+    "time": 55.7801743,
+    "createdAt": "2023-09-15T06:21:34.034Z",
+    "updatedAt": "2023-09-15T06:21:34.034Z"
+  },
+  {
+    "id": "clmk7orr400d0vdyk59odniep",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (54) at X: 15.22, Y: -16.78",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:33.952Z",
+    "time": 55.730175,
+    "createdAt": "2023-09-15T06:21:33.952Z",
+    "updatedAt": "2023-09-15T06:21:33.952Z"
+  },
+  {
+    "id": "clmk7oroy00cyvdykwtya137j",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 4.96, Y: -19.42.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:33.875Z",
+    "time": 55.6301765,
+    "createdAt": "2023-09-15T06:21:33.875Z",
+    "updatedAt": "2023-09-15T06:21:33.875Z"
+  },
+  {
+    "id": "clmk7or8d00cuvdyk5o0za7ve",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 6.79, Y: -17.79.",
+    "importance": 6.79,
+    "accessedAt": "2023-09-15T06:21:33.278Z",
+    "time": 54.91351,
+    "createdAt": "2023-09-15T06:21:33.278Z",
+    "updatedAt": "2023-09-15T06:21:33.278Z"
+  },
+  {
+    "id": "clmk7or1000csvdykdy3dxsqx",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 6, Y: -20.83.",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:33.012Z",
+    "time": 54.8801765,
+    "createdAt": "2023-09-15T06:21:33.012Z",
+    "updatedAt": "2023-09-15T06:21:33.012Z"
+  },
+  {
+    "id": "clmk7oqnf00cqvdykdkxtq623",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 7.04, Y: -22.88.",
+    "importance": 6,
+    "accessedAt": "2023-09-15T06:21:32.523Z",
+    "time": 54.3301735,
+    "createdAt": "2023-09-15T06:21:32.523Z",
+    "updatedAt": "2023-09-15T06:21:32.523Z"
+  },
+  {
+    "id": "clmk7oqkz00covdykbnj16oyp",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (29) at X: 18.28, Y: -21.95",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:32.436Z",
+    "time": 54.3135071,
+    "createdAt": "2023-09-15T06:21:32.436Z",
+    "updatedAt": "2023-09-15T06:21:32.436Z"
+  },
+  {
+    "id": "clmk7oq9b00cmvdyki5cg5j04",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 10.73, Y: -16.49.",
+    "importance": 6,
+    "accessedAt": "2023-09-15T06:21:32.016Z",
+    "time": 53.980175,
+    "createdAt": "2023-09-15T06:21:32.016Z",
+    "updatedAt": "2023-09-15T06:21:32.016Z"
+  },
+  {
+    "id": "clmk7oq7100ckvdykh6fge3c8",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (256) at X: 14.11, Y: -27.17",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:31.933Z",
+    "time": 53.84684,
+    "createdAt": "2023-09-15T06:21:31.933Z",
+    "updatedAt": "2023-09-15T06:21:31.933Z"
+  },
+  {
+    "id": "clmk7opu900civdykbe2p35jo",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 9.26, Y: -25.09.",
+    "importance": 7,
+    "accessedAt": "2023-09-15T06:21:31.474Z",
+    "time": 53.2635078,
+    "createdAt": "2023-09-15T06:21:31.474Z",
+    "updatedAt": "2023-09-15T06:21:31.474Z"
+  },
+  {
+    "id": "clmk7opph00chvdykqlfmvj65",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (148) at X: 19.34, Y: -19.25",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:31.302Z",
+    "time": 53.230175,
+    "createdAt": "2023-09-15T06:21:31.302Z",
+    "updatedAt": "2023-09-15T06:21:31.302Z"
+  },
+  {
+    "id": "clmk7opnd00cgvdykn6fytqii",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (33) at X: 20.14, Y: -22.62",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:31.226Z",
+    "time": 53.0801735,
+    "createdAt": "2023-09-15T06:21:31.226Z",
+    "updatedAt": "2023-09-15T06:21:31.226Z"
+  },
+  {
+    "id": "clmk7opii00cevdyk4avziwlh",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 13.25, Y: -16.78.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:31.051Z",
+    "time": 53.04684,
+    "createdAt": "2023-09-15T06:21:31.051Z",
+    "updatedAt": "2023-09-15T06:21:31.051Z"
+  },
+  {
+    "id": "clmk7opj200cfvdykx303c2yz",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 15.22, Y: -16.78.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:31.070Z",
+    "time": 53.0301743,
+    "createdAt": "2023-09-15T06:21:31.070Z",
+    "updatedAt": "2023-09-15T06:21:31.070Z"
+  },
+  {
+    "id": "clmk7oose00c8vdykvh5cj1s9",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Stump (15) at X: 21.26, Y: -23.66788",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:30.110Z",
+    "time": 52.146843,
+    "createdAt": "2023-09-15T06:21:30.110Z",
+    "updatedAt": "2023-09-15T06:21:30.110Z"
+  },
+  {
+    "id": "clmk7ookc00c4vdykdimawgx9",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (149) at X: 21.54, Y: -20.29",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:29.820Z",
+    "time": 51.8135071,
+    "createdAt": "2023-09-15T06:21:29.820Z",
+    "updatedAt": "2023-09-15T06:21:29.820Z"
+  },
+  {
+    "id": "clmk7oo8e00c3vdyk3jajsg60",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (34) at X: 22.59, Y: -23.18",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:29.390Z",
+    "time": 51.5135078,
+    "createdAt": "2023-09-15T06:21:29.390Z",
+    "updatedAt": "2023-09-15T06:21:29.390Z"
+  },
+  {
+    "id": "clmk7oo3u00c0vdykemufwcoa",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 12.43, Y: -19.6.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:29.226Z",
+    "time": 51.3801765,
+    "createdAt": "2023-09-15T06:21:29.226Z",
+    "updatedAt": "2023-09-15T06:21:29.226Z"
+  },
+  {
+    "id": "clmk7onyz00byvdyk8v6679yq",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 11.96, Y: -25.18.",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:29.051Z",
+    "time": 51.2635078,
+    "createdAt": "2023-09-15T06:21:29.051Z",
+    "updatedAt": "2023-09-15T06:21:29.051Z"
+  },
+  {
+    "id": "clmk7oo4u00c1vdykpz0twywh",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Stone Ore Deposit (Small) at X: 14.39, Y: -18.34.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:29.263Z",
+    "time": 51.21351,
+    "createdAt": "2023-09-15T06:21:29.263Z",
+    "updatedAt": "2023-09-15T06:21:29.263Z"
+  },
+  {
+    "id": "clmk7onci00buvdykqxhwmrmf",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Stone Ore Deposit (Small) at X: 15.88, Y: -18.99.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:28.242Z",
+    "time": 50.46351,
+    "createdAt": "2023-09-15T06:21:28.242Z",
+    "updatedAt": "2023-09-15T06:21:28.242Z"
+  },
+  {
+    "id": "clmk7omzc00brvdyk1gl8fabh",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (155) at X: 24.08, Y: -21.93",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:27.769Z",
+    "time": 50.0301743,
+    "createdAt": "2023-09-15T06:21:27.769Z",
+    "updatedAt": "2023-09-15T06:21:27.769Z"
+  },
+  {
+    "id": "clmk7omvb00bqvdykbn1mfexb",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 19.34, Y: -19.25.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:27.624Z",
+    "time": 49.91351,
+    "createdAt": "2023-09-15T06:21:27.624Z",
+    "updatedAt": "2023-09-15T06:21:27.624Z"
+  },
+  {
+    "id": "clmk7omoz00bovdyk4dj0avqp",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 14.11, Y: -27.17.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:27.395Z",
+    "time": 49.6301765,
+    "createdAt": "2023-09-15T06:21:27.395Z",
+    "updatedAt": "2023-09-15T06:21:27.395Z"
+  },
+  {
+    "id": "clmk7olw800bhvdyk2c8ccoh5",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (156) at X: 26.2, Y: -23.09",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:26.360Z",
+    "time": 48.6301765,
+    "createdAt": "2023-09-15T06:21:26.360Z",
+    "updatedAt": "2023-09-15T06:21:26.360Z"
+  },
+  {
+    "id": "clmk7olqw00bevdykqcd2fmqt",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 21.54, Y: -20.29.",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:26.168Z",
+    "time": 48.5301743,
+    "createdAt": "2023-09-15T06:21:26.168Z",
+    "updatedAt": "2023-09-15T06:21:26.168Z"
+  },
+  {
+    "id": "clmk7ol7400b9vdyk9bsszh1w",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (264) at X: 27.86, Y: -27.79",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:25.457Z",
+    "time": 47.7635078,
+    "createdAt": "2023-09-15T06:21:25.457Z",
+    "updatedAt": "2023-09-15T06:21:25.457Z"
+  },
+  {
+    "id": "clmk7ol5600b8vdyki2osweau",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 18.28, Y: -21.95.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:25.387Z",
+    "time": 47.7635078,
+    "createdAt": "2023-09-15T06:21:25.387Z",
+    "updatedAt": "2023-09-15T06:21:25.387Z"
+  },
+  {
+    "id": "clmk7ol9500bavdyk1rb3sg4j",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (260) at X: 28.12, Y: -25.2",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:25.529Z",
+    "time": 47.6801758,
+    "createdAt": "2023-09-15T06:21:25.529Z",
+    "updatedAt": "2023-09-15T06:21:25.529Z"
+  },
+  {
+    "id": "clmk7okk500b5vdykbo9bhk2r",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (265) at X: 28.28, Y: -29.76",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:24.629Z",
+    "time": 47.04684,
+    "createdAt": "2023-09-15T06:21:24.629Z",
+    "updatedAt": "2023-09-15T06:21:24.629Z"
+  },
+  {
+    "id": "clmk7okfy00b4vdykzrb5j89h",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 20.14, Y: -22.62.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:24.447Z",
+    "time": 46.8135071,
+    "createdAt": "2023-09-15T06:21:24.447Z",
+    "updatedAt": "2023-09-15T06:21:24.447Z"
+  },
+  {
+    "id": "clmk7okf100b2vdykuwq1vg35",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (287) at X: 23.02, Y: -32.65",
+    "importance": 7.5,
+    "accessedAt": "2023-09-15T06:21:24.445Z",
+    "time": 46.7635078,
+    "createdAt": "2023-09-15T06:21:24.445Z",
+    "updatedAt": "2023-09-15T06:21:24.445Z"
+  },
+  {
+    "id": "clmk7oka400b0vdykzpv7bue2",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (161) at X: 29.28, Y: -26.96",
+    "importance": 6,
+    "accessedAt": "2023-09-15T06:21:24.268Z",
+    "time": 46.7635078,
+    "createdAt": "2023-09-15T06:21:24.268Z",
+    "updatedAt": "2023-09-15T06:21:24.268Z"
+  },
+  {
+    "id": "clmk7okav00b1vdyk6jszvqbs",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 24.08, Y: -21.93.",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:24.295Z",
+    "time": 46.71351,
+    "createdAt": "2023-09-15T06:21:24.295Z",
+    "updatedAt": "2023-09-15T06:21:24.295Z"
+  },
+  {
+    "id": "clmk7ojx100axvdykuaj11zos",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree Stump at X: 21.26, Y: -23.66788.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:23.758Z",
+    "time": 46.0801735,
+    "createdAt": "2023-09-15T06:21:23.758Z",
+    "updatedAt": "2023-09-15T06:21:23.758Z"
+  },
+  {
+    "id": "clmk7ojkr00avvdyk7t79mal9",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 22.59, Y: -23.18.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:23.356Z",
+    "time": 45.86351,
+    "createdAt": "2023-09-15T06:21:23.356Z",
+    "updatedAt": "2023-09-15T06:21:23.356Z"
+  },
+  {
+    "id": "clmk7ojlm00awvdyklk50llyq",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 26.2, Y: -23.09.",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:23.387Z",
+    "time": 45.8301735,
+    "createdAt": "2023-09-15T06:21:23.387Z",
+    "updatedAt": "2023-09-15T06:21:23.387Z"
+  },
+  {
+    "id": "clmk7oja100atvdykhe8cfgd7",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (730) at X: 30.73, Y: -29.31",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:22.970Z",
+    "time": 45.5635071,
+    "createdAt": "2023-09-15T06:21:22.970Z",
+    "updatedAt": "2023-09-15T06:21:22.970Z"
+  },
+  {
+    "id": "clmk7oje800auvdyky2oo60sh",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (259) at X: 24.38, Y: -34.45",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:23.117Z",
+    "time": 45.36351,
+    "createdAt": "2023-09-15T06:21:23.117Z",
+    "updatedAt": "2023-09-15T06:21:23.117Z"
+  },
+  {
+    "id": "clmk7oir900apvdykinz3edrp",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 28.12, Y: -25.2.",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:22.293Z",
+    "time": 44.74684,
+    "createdAt": "2023-09-15T06:21:22.293Z",
+    "updatedAt": "2023-09-15T06:21:22.293Z"
+  },
+  {
+    "id": "clmk7oicf00alvdyk85y0wrre",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (291) at X: 21.1, Y: -34.81",
+    "importance": 7,
+    "accessedAt": "2023-09-15T06:21:21.759Z",
+    "time": 44.34684,
+    "createdAt": "2023-09-15T06:21:21.759Z",
+    "updatedAt": "2023-09-15T06:21:21.759Z"
+  },
+  {
+    "id": "clmk7oi4z00akvdykhtilmos7",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 29.28, Y: -26.96.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:21.492Z",
+    "time": 44.1801758,
+    "createdAt": "2023-09-15T06:21:21.492Z",
+    "updatedAt": "2023-09-15T06:21:21.492Z"
+  },
+  {
+    "id": "clmk7oi3200aivdykr8vhz2yf",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 30.73, Y: -29.31.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:21.422Z",
+    "time": 44.0801735,
+    "createdAt": "2023-09-15T06:21:21.422Z",
+    "updatedAt": "2023-09-15T06:21:21.422Z"
+  },
+  {
+    "id": "clmk7oidc00amvdyknstper12",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (263) at X: 24.93, Y: -36.81",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:21.793Z",
+    "time": 44.0135078,
+    "createdAt": "2023-09-15T06:21:21.793Z",
+    "updatedAt": "2023-09-15T06:21:21.793Z"
+  },
+  {
+    "id": "clmk7oi4a00ajvdykudkytrd0",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (286) at X: 22.67, Y: -36.54",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:21.464Z",
+    "time": 43.9468422,
+    "createdAt": "2023-09-15T06:21:21.464Z",
+    "updatedAt": "2023-09-15T06:21:21.464Z"
+  },
+  {
+    "id": "clmk7ohfs00ahvdykt090ibnc",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Stump (25) at X: 30.7, Y: -35.81",
+    "importance": 6,
+    "accessedAt": "2023-09-15T06:21:20.584Z",
+    "time": 43.24684,
+    "createdAt": "2023-09-15T06:21:20.584Z",
+    "updatedAt": "2023-09-15T06:21:20.584Z"
+  },
+  {
+    "id": "clmk7ohcs00agvdykl6mjx5bl",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (301) at X: 31.45, Y: -34.49",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:20.476Z",
+    "time": 43.16351,
+    "createdAt": "2023-09-15T06:21:20.476Z",
+    "updatedAt": "2023-09-15T06:21:20.476Z"
+  },
+  {
+    "id": "clmk7oh2s00advdyk2quanh9y",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 27.86, Y: -27.79.",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:20.116Z",
+    "time": 42.84684,
+    "createdAt": "2023-09-15T06:21:20.116Z",
+    "updatedAt": "2023-09-15T06:21:20.116Z"
+  },
+  {
+    "id": "clmk7ognr00a9vdykiuqghq7d",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (330) at X: 25.48, Y: -39.34",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:19.575Z",
+    "time": 42.36351,
+    "createdAt": "2023-09-15T06:21:19.575Z",
+    "updatedAt": "2023-09-15T06:21:19.575Z"
+  },
+  {
+    "id": "clmk7ogay00a5vdykptkrkfdy",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 21.1, Y: -34.81.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:19.115Z",
+    "time": 41.96351,
+    "createdAt": "2023-09-15T06:21:19.115Z",
+    "updatedAt": "2023-09-15T06:21:19.115Z"
+  },
+  {
+    "id": "clmk7og6x00a3vdykcppef4s3",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (302) at X: 32.43, Y: -36.81211",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:18.969Z",
+    "time": 41.7635078,
+    "createdAt": "2023-09-15T06:21:18.969Z",
+    "updatedAt": "2023-09-15T06:21:18.969Z"
+  },
+  {
+    "id": "clmk7og0j00a2vdykuapcpkj0",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 28.28, Y: -29.76.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:18.739Z",
+    "time": 41.480175,
+    "createdAt": "2023-09-15T06:21:18.739Z",
+    "updatedAt": "2023-09-15T06:21:18.739Z"
+  },
+  {
+    "id": "clmk7ofcz009uvdykvy2y1wl0",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 23.02, Y: -32.65.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:17.892Z",
+    "time": 40.6801758,
+    "createdAt": "2023-09-15T06:21:17.892Z",
+    "updatedAt": "2023-09-15T06:21:17.892Z"
+  },
+  {
+    "id": "clmk7of4e009svdyk98dl3y9u",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (331) at X: 25.76, Y: -42.09",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:17.582Z",
+    "time": 40.5635071,
+    "createdAt": "2023-09-15T06:21:17.582Z",
+    "updatedAt": "2023-09-15T06:21:17.582Z"
+  },
+  {
+    "id": "clmk7oexn009qvdykdtq2tvq4",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees StoneOreSmall (10) at X: 32.23, Y: -40.35",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:17.339Z",
+    "time": 40.11351,
+    "createdAt": "2023-09-15T06:21:17.339Z",
+    "updatedAt": "2023-09-15T06:21:17.339Z"
+  },
+  {
+    "id": "clmk7oeg6009mvdyk7wst3ejg",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (335) at X: 23.13, Y: -42.43",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:16.711Z",
+    "time": 39.61351,
+    "createdAt": "2023-09-15T06:21:16.711Z",
+    "updatedAt": "2023-09-15T06:21:16.711Z"
+  },
+  {
+    "id": "clmk7oec2009lvdykwmqn489j",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 31.45, Y: -34.49.",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:16.563Z",
+    "time": 39.5635071,
+    "createdAt": "2023-09-15T06:21:16.563Z",
+    "updatedAt": "2023-09-15T06:21:16.563Z"
+  },
+  {
+    "id": "clmk7oe4e009ivdykhfxzn75a",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (336) at X: 25.76, Y: -44.33",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:16.286Z",
+    "time": 39.2635078,
+    "createdAt": "2023-09-15T06:21:16.286Z",
+    "updatedAt": "2023-09-15T06:21:16.286Z"
+  },
+  {
+    "id": "clmk7oe01009gvdykgarv1h9u",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 24.38, Y: -34.45.",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:16.128Z",
+    "time": 39.1301765,
+    "createdAt": "2023-09-15T06:21:16.128Z",
+    "updatedAt": "2023-09-15T06:21:16.128Z"
+  },
+  {
+    "id": "clmk7oduu009fvdykekc0lgjf",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 22.67, Y: -36.54.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:15.943Z",
+    "time": 38.96351,
+    "createdAt": "2023-09-15T06:21:15.943Z",
+    "updatedAt": "2023-09-15T06:21:15.943Z"
+  },
+  {
+    "id": "clmk7od8j009avdykgrgdxwa3",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree Stump at X: 30.7, Y: -35.81.",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:15.140Z",
+    "time": 38.1801758,
+    "createdAt": "2023-09-15T06:21:15.140Z",
+    "updatedAt": "2023-09-15T06:21:15.140Z"
+  },
+  {
+    "id": "clmk7od8m009bvdykxvkpi98s",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 32.43, Y: -36.81211.",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:15.142Z",
+    "time": 38.0635071,
+    "createdAt": "2023-09-15T06:21:15.142Z",
+    "updatedAt": "2023-09-15T06:21:15.142Z"
+  },
+  {
+    "id": "clmk7ocuf0098vdykdpvury18",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 24.93, Y: -36.81.",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:14.632Z",
+    "time": 37.730175,
+    "createdAt": "2023-09-15T06:21:14.632Z",
+    "updatedAt": "2023-09-15T06:21:14.632Z"
+  },
+  {
+    "id": "clmk7ocn10096vdyksmvbbmwa",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Human (10) at X: 33.63, Y: -40.38",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:14.366Z",
+    "time": 37.5301743,
+    "createdAt": "2023-09-15T06:21:14.366Z",
+    "updatedAt": "2023-09-15T06:21:14.366Z"
+  },
+  {
+    "id": "clmk7ochc0095vdykfrptqy5p",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 23.13, Y: -42.43.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:14.160Z",
+    "time": 37.2801743,
+    "createdAt": "2023-09-15T06:21:14.160Z",
+    "updatedAt": "2023-09-15T06:21:14.160Z"
+  }
+]
+[1694758905259] [32m[REFLECTION] Retrieved 100 latest memories for reflection generation.[39m
+[1694758905262] 1. Owen Greenfield sees Tree at X: 12.09, Y: -3.32.
+2. Owen Greenfield sees Tree at X: 4.14, Y: -3.639999.
+3. Owen Greenfield sees Tree at X: 11.02, Y: -4.68.
+4. Owen Greenfield no longer sees Tree (38) at X: 11.84, Y: -14.35
+5. Owen Greenfield no longer sees Tree (40) at X: 10.73, Y: -16.49
+6. Owen Greenfield sees Tree at X: 2.38, Y: -9.700001.
+7. Owen Greenfield sees Tree Stump at X: 8.46, Y: -6.74.
+8. Owen Greenfield sees Tree Stump at X: 5.58, Y: -7.27.
+9. Owen Greenfield no longer sees Tree (25) at X: 3.77, Y: -16.34
+10. Owen Greenfield no longer sees Tree (45) at X: 6.79, Y: -17.79
+11. Owen Greenfield sees Tree Stump at X: 9.14, Y: -7.77.
+12. Owen Greenfield no longer sees Stump (8) at X: 3.68, Y: -17.74
+13. Owen Greenfield no longer sees Tree (28) at X: 2.16, Y: -14.95
+14. Owen Greenfield sees Tree at X: 2.16, Y: -14.95.
+15. Owen Greenfield sees Tree at X: 2.8, Y: -11.64.
+16. Owen Greenfield no longer sees Tree (44) at X: 13.25, Y: -16.78
+17. Owen Greenfield no longer sees Tree (63) at X: 4.96, Y: -19.42
+18. Owen Greenfield no longer sees Tree (39) at X: 13.75, Y: -13.81
+19. Owen Greenfield sees Tree Stump at X: 8.41, Y: -9.870001.
+20. Owen Greenfield no longer sees Tree (72) at X: 12.43, Y: -19.6
+21. Owen Greenfield no longer sees Tree (66) at X: 6, Y: -20.83
+22. Owen Greenfield sees Tree at X: 4.59, Y: -12.01.
+23. Owen Greenfield no longer sees StoneOreSmall at X: 14.39, Y: -18.34
+24. Owen Greenfield sees Tree at X: 3.98, Y: -13.79.
+25. Owen Greenfield sees Tree Stump at X: 3.68, Y: -17.74.
+26. Owen Greenfield sees Tree at X: 3.77, Y: -16.34.
+27. Owen Greenfield no longer sees Tree (54) at X: 15.22, Y: -16.78
+28. Owen Greenfield sees Tree at X: 11.7, Y: -12.56.
+29. Owen Greenfield no longer sees Tree (067) at X: 7.04, Y: -22.88
+30. Owen Greenfield sees Tree at X: 13.75, Y: -13.81.
+31. Owen Greenfield sees Tree at X: 15.22, Y: -16.78.
+32. Owen Greenfield sees Tree at X: 11.84, Y: -14.35.
+33. Owen Greenfield no longer sees Tree (262) at X: 9.26, Y: -25.09
+34. Owen Greenfield sees Tree at X: 9.45, Y: -14.39.
+35. Owen Greenfield no longer sees Tree (261) at X: 11.96, Y: -25.18
+36. Owen Greenfield no longer sees StoneOreSmall (1) at X: 15.88, Y: -18.99
+37. Owen Greenfield no longer sees Tree (54) at X: 15.22, Y: -16.78
+38. Owen Greenfield sees Tree at X: 4.96, Y: -19.42.
+39. Owen Greenfield sees Tree at X: 6.79, Y: -17.79.
+40. Owen Greenfield sees Tree at X: 6, Y: -20.83.
+41. Owen Greenfield sees Tree at X: 7.04, Y: -22.88.
+42. Owen Greenfield no longer sees Tree (29) at X: 18.28, Y: -21.95
+43. Owen Greenfield sees Tree at X: 10.73, Y: -16.49.
+44. Owen Greenfield no longer sees Tree (256) at X: 14.11, Y: -27.17
+45. Owen Greenfield sees Tree at X: 9.26, Y: -25.09.
+46. Owen Greenfield no longer sees Tree (148) at X: 19.34, Y: -19.25
+47. Owen Greenfield no longer sees Tree (33) at X: 20.14, Y: -22.62
+48. Owen Greenfield sees Tree at X: 13.25, Y: -16.78.
+49. Owen Greenfield sees Tree at X: 15.22, Y: -16.78.
+50. Owen Greenfield no longer sees Stump (15) at X: 21.26, Y: -23.66788
+51. Owen Greenfield no longer sees Tree (149) at X: 21.54, Y: -20.29
+52. Owen Greenfield no longer sees Tree (34) at X: 22.59, Y: -23.18
+53. Owen Greenfield sees Tree at X: 12.43, Y: -19.6.
+54. Owen Greenfield sees Tree at X: 11.96, Y: -25.18.
+55. Owen Greenfield sees Stone Ore Deposit (Small) at X: 14.39, Y: -18.34.
+56. Owen Greenfield sees Stone Ore Deposit (Small) at X: 15.88, Y: -18.99.
+57. Owen Greenfield no longer sees Tree (155) at X: 24.08, Y: -21.93
+58. Owen Greenfield sees Tree at X: 19.34, Y: -19.25.
+59. Owen Greenfield sees Tree at X: 14.11, Y: -27.17.
+60. Owen Greenfield no longer sees Tree (156) at X: 26.2, Y: -23.09
+61. Owen Greenfield sees Tree at X: 21.54, Y: -20.29.
+62. Owen Greenfield no longer sees Tree (264) at X: 27.86, Y: -27.79
+63. Owen Greenfield sees Tree at X: 18.28, Y: -21.95.
+64. Owen Greenfield no longer sees Tree (260) at X: 28.12, Y: -25.2
+65. Owen Greenfield no longer sees Tree (265) at X: 28.28, Y: -29.76
+66. Owen Greenfield sees Tree at X: 20.14, Y: -22.62.
+67. Owen Greenfield no longer sees Tree (287) at X: 23.02, Y: -32.65
+68. Owen Greenfield no longer sees Tree (161) at X: 29.28, Y: -26.96
+69. Owen Greenfield sees Tree at X: 24.08, Y: -21.93.
+70. Owen Greenfield sees Tree Stump at X: 21.26, Y: -23.66788.
+71. Owen Greenfield sees Tree at X: 22.59, Y: -23.18.
+72. Owen Greenfield sees Tree at X: 26.2, Y: -23.09.
+73. Owen Greenfield no longer sees Tree (730) at X: 30.73, Y: -29.31
+74. Owen Greenfield no longer sees Tree (259) at X: 24.38, Y: -34.45
+75. Owen Greenfield sees Tree at X: 28.12, Y: -25.2.
+76. Owen Greenfield no longer sees Tree (291) at X: 21.1, Y: -34.81
+77. Owen Greenfield sees Tree at X: 29.28, Y: -26.96.
+78. Owen Greenfield sees Tree at X: 30.73, Y: -29.31.
+79. Owen Greenfield no longer sees Tree (263) at X: 24.93, Y: -36.81
+80. Owen Greenfield no longer sees Tree (286) at X: 22.67, Y: -36.54
+81. Owen Greenfield no longer sees Stump (25) at X: 30.7, Y: -35.81
+82. Owen Greenfield no longer sees Tree (301) at X: 31.45, Y: -34.49
+83. Owen Greenfield sees Tree at X: 27.86, Y: -27.79.
+84. Owen Greenfield no longer sees Tree (330) at X: 25.48, Y: -39.34
+85. Owen Greenfield sees Tree at X: 21.1, Y: -34.81.
+86. Owen Greenfield no longer sees Tree (302) at X: 32.43, Y: -36.81211
+87. Owen Greenfield sees Tree at X: 28.28, Y: -29.76.
+88. Owen Greenfield sees Tree at X: 23.02, Y: -32.65.
+89. Owen Greenfield no longer sees Tree (331) at X: 25.76, Y: -42.09
+90. Owen Greenfield no longer sees StoneOreSmall (10) at X: 32.23, Y: -40.35
+91. Owen Greenfield no longer sees Tree (335) at X: 23.13, Y: -42.43
+92. Owen Greenfield sees Tree at X: 31.45, Y: -34.49.
+93. Owen Greenfield no longer sees Tree (336) at X: 25.76, Y: -44.33
+94. Owen Greenfield sees Tree at X: 24.38, Y: -34.45.
+95. Owen Greenfield sees Tree at X: 22.67, Y: -36.54.
+96. Owen Greenfield sees Tree Stump at X: 30.7, Y: -35.81.
+97. Owen Greenfield sees Tree at X: 32.43, Y: -36.81211.
+98. Owen Greenfield sees Tree at X: 24.93, Y: -36.81.
+99. Owen Greenfield no longer sees Human (10) at X: 33.63, Y: -40.38
+100. Owen Greenfield sees Tree at X: 23.13, Y: -42.43.
+Given only the information above, what are 3 most salient high-level questions we can answer about the subjects in the statements from Owen Greenfield's point of view?
+
+[1694758905842] [31m[createMemory][39m Owen Greenfield no longer sees Stump (3) at X: 9.14, Y: -7.77 [66.63017]
+[1694758906029] [31m[getLatestMemories] Retrieving top 100 latest memories.[39m
+[1694758906119] [31m[createMemory][39m Owen Greenfield no longer sees Stump (1) at X: 5.58, Y: -7.27 [66.81351]
+[1694758906385] [31m[createMemory][39m Owen Greenfield sees Tree at X: 10.57, Y: 3.68. [67.06351]
+[1694758906386] [31m[createMemory][39m Owen Greenfield sees Tree at X: 10.57, Y: 3.68. [67.06351]
+[1694758906430] [31m[createMemory][39m Owen Greenfield sees Tree at X: 13.13, Y: 1.139999. [67.1801758]
+[1694758906441] [31m[createMemory][39m Owen Greenfield sees Tree at X: 13.13, Y: 1.139999. [67.1801758]
+[1694758906539] [31m[createMemory][39m Owen Greenfield sees Tree at X: 5.62, Y: 4.21. [67.24684]
+[1694758906539] [31m[createMemory][39m Owen Greenfield sees Tree at X: 5.62, Y: 4.21. [67.24684]
+[1694758906571] [31m[createMemory][39m Owen Greenfield no longer sees Stump (4) at X: 8.46, Y: -6.74 [67.26351]
+[1694758906958] [
+  {
+    "id": "clmk7ozrx00fqvdyktppnd82w",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 12.09, Y: -3.32.",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:43.622Z",
+    "time": 63.71351,
+    "createdAt": "2023-09-15T06:21:43.622Z",
+    "updatedAt": "2023-09-15T06:21:43.622Z"
+  },
+  {
+    "id": "clmk7ozx100frvdykeafz77vd",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 12.09, Y: -3.32.",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:43.736Z",
+    "time": 63.71351,
+    "createdAt": "2023-09-15T06:21:43.736Z",
+    "updatedAt": "2023-09-15T06:21:43.736Z"
+  },
+  {
+    "id": "clmk7p01t00fsvdykuxrcs7ck",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (78) at X: 4.59, Y: -12.01",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:43.952Z",
+    "time": 63.6301765,
+    "createdAt": "2023-09-15T06:21:43.952Z",
+    "updatedAt": "2023-09-15T06:21:43.952Z"
+  },
+  {
+    "id": "clmk7oz0z00fhvdyknypxvm5i",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 4.14, Y: -3.639999.",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:42.988Z",
+    "time": 63.1801758,
+    "createdAt": "2023-09-15T06:21:42.988Z",
+    "updatedAt": "2023-09-15T06:21:42.988Z"
+  },
+  {
+    "id": "clmk7oyvt00fbvdykz0l94wpa",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (84) at X: 2.8, Y: -11.64",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:42.563Z",
+    "time": 62.84684,
+    "createdAt": "2023-09-15T06:21:42.563Z",
+    "updatedAt": "2023-09-15T06:21:42.563Z"
+  },
+  {
+    "id": "clmk7oytj00f8vdykjuwn86dv",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (26) at X: 9.45, Y: -14.39",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:42.438Z",
+    "time": 62.61351,
+    "createdAt": "2023-09-15T06:21:42.438Z",
+    "updatedAt": "2023-09-15T06:21:42.438Z"
+  },
+  {
+    "id": "clmk7oyns00f6vdykkbkp1jh2",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 11.02, Y: -4.68.",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:42.275Z",
+    "time": 62.4301758,
+    "createdAt": "2023-09-15T06:21:42.275Z",
+    "updatedAt": "2023-09-15T06:21:42.275Z"
+  },
+  {
+    "id": "clmk7oyf000f4vdykmonubeef",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (27) at X: 3.98, Y: -13.79",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:42.160Z",
+    "time": 62.3801765,
+    "createdAt": "2023-09-15T06:21:42.160Z",
+    "updatedAt": "2023-09-15T06:21:42.160Z"
+  },
+  {
+    "id": "clmk7oy0h00ezvdyk9704dmnt",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (38) at X: 11.84, Y: -14.35",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:41.613Z",
+    "time": 61.9301758,
+    "createdAt": "2023-09-15T06:21:41.613Z",
+    "updatedAt": "2023-09-15T06:21:41.613Z"
+  },
+  {
+    "id": "clmk7ox3i00exvdyklq5367jf",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (40) at X: 10.73, Y: -16.49",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:40.443Z",
+    "time": 61.146843,
+    "createdAt": "2023-09-15T06:21:40.443Z",
+    "updatedAt": "2023-09-15T06:21:40.443Z"
+  },
+  {
+    "id": "clmk7owt300euvdyk3i9ipclu",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 2.38, Y: -9.700001.",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:40.058Z",
+    "time": 61.04684,
+    "createdAt": "2023-09-15T06:21:40.058Z",
+    "updatedAt": "2023-09-15T06:21:40.058Z"
+  },
+  {
+    "id": "clmk7owsz00etvdykv20ubvav",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree Stump at X: 8.46, Y: -6.74.",
+    "importance": 7,
+    "accessedAt": "2023-09-15T06:21:40.058Z",
+    "time": 60.96351,
+    "createdAt": "2023-09-15T06:21:40.058Z",
+    "updatedAt": "2023-09-15T06:21:40.058Z"
+  },
+  {
+    "id": "clmk7owu300evvdykfzqvt9bl",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree Stump at X: 5.58, Y: -7.27.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:40.069Z",
+    "time": 60.8301735,
+    "createdAt": "2023-09-15T06:21:40.069Z",
+    "updatedAt": "2023-09-15T06:21:40.069Z"
+  },
+  {
+    "id": "clmk7owr000ervdykqrapk4eg",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (25) at X: 3.77, Y: -16.34",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:40.019Z",
+    "time": 60.8301735,
+    "createdAt": "2023-09-15T06:21:40.019Z",
+    "updatedAt": "2023-09-15T06:21:40.019Z"
+  },
+  {
+    "id": "clmk7owsw00esvdyk6z9kqsn2",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (45) at X: 6.79, Y: -17.79",
+    "importance": 6,
+    "accessedAt": "2023-09-15T06:21:40.036Z",
+    "time": 60.71351,
+    "createdAt": "2023-09-15T06:21:40.036Z",
+    "updatedAt": "2023-09-15T06:21:40.036Z"
+  },
+  {
+    "id": "clmk7ow6a00elvdyk7qxq81qw",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree Stump at X: 9.14, Y: -7.77.",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:39.589Z",
+    "time": 60.4301758,
+    "createdAt": "2023-09-15T06:21:39.589Z",
+    "updatedAt": "2023-09-15T06:21:39.589Z"
+  },
+  {
+    "id": "clmk7ovr200eivdykdy5x7z3h",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Stump (8) at X: 3.68, Y: -17.74",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:38.881Z",
+    "time": 60.1301765,
+    "createdAt": "2023-09-15T06:21:38.881Z",
+    "updatedAt": "2023-09-15T06:21:38.881Z"
+  },
+  {
+    "id": "clmk7ovlw00efvdyk9innwvo4",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (28) at X: 2.16, Y: -14.95",
+    "importance": 7.5,
+    "accessedAt": "2023-09-15T06:21:38.771Z",
+    "time": 59.9301758,
+    "createdAt": "2023-09-15T06:21:38.771Z",
+    "updatedAt": "2023-09-15T06:21:38.771Z"
+  },
+  {
+    "id": "clmk7ovap00ebvdyk6b6vb6vc",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 2.16, Y: -14.95.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:38.281Z",
+    "time": 59.5801735,
+    "createdAt": "2023-09-15T06:21:38.281Z",
+    "updatedAt": "2023-09-15T06:21:38.281Z"
+  },
+  {
+    "id": "clmk7ovdp00ecvdykovawniwr",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 2.8, Y: -11.64.",
+    "importance": 4.5,
+    "accessedAt": "2023-09-15T06:21:38.355Z",
+    "time": 59.5301743,
+    "createdAt": "2023-09-15T06:21:38.355Z",
+    "updatedAt": "2023-09-15T06:21:38.355Z"
+  },
+  {
+    "id": "clmk7ov1k00e9vdykinms5i27",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (63) at X: 4.96, Y: -19.42",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:38.151Z",
+    "time": 59.46351,
+    "createdAt": "2023-09-15T06:21:38.151Z",
+    "updatedAt": "2023-09-15T06:21:38.151Z"
+  },
+  {
+    "id": "clmk7ouyl00e6vdykpg742luq",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (44) at X: 13.25, Y: -16.78",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:38.109Z",
+    "time": 59.46351,
+    "createdAt": "2023-09-15T06:21:38.109Z",
+    "updatedAt": "2023-09-15T06:21:38.109Z"
+  },
+  {
+    "id": "clmk7ouzi00e8vdykhv7o0kre",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (39) at X: 13.75, Y: -13.81",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:38.139Z",
+    "time": 59.3135071,
+    "createdAt": "2023-09-15T06:21:38.139Z",
+    "updatedAt": "2023-09-15T06:21:38.139Z"
+  },
+  {
+    "id": "clmk7oul400e3vdyka9z3pg0r",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree Stump at X: 8.41, Y: -9.870001.",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:37.493Z",
+    "time": 59.0635071,
+    "createdAt": "2023-09-15T06:21:37.493Z",
+    "updatedAt": "2023-09-15T06:21:37.493Z"
+  },
+  {
+    "id": "clmk7oud000e0vdykqlko6v6h",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (72) at X: 12.43, Y: -19.6",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:37.308Z",
+    "time": 58.8801765,
+    "createdAt": "2023-09-15T06:21:37.308Z",
+    "updatedAt": "2023-09-15T06:21:37.308Z"
+  },
+  {
+    "id": "clmk7ou2200duvdyk2aj3kfst",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (66) at X: 6, Y: -20.83",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:36.938Z",
+    "time": 58.5135078,
+    "createdAt": "2023-09-15T06:21:36.938Z",
+    "updatedAt": "2023-09-15T06:21:36.938Z"
+  },
+  {
+    "id": "clmk7ou6000dwvdyk3s00tazb",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 4.59, Y: -12.01.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:37.081Z",
+    "time": 58.46351,
+    "createdAt": "2023-09-15T06:21:37.081Z",
+    "updatedAt": "2023-09-15T06:21:37.081Z"
+  },
+  {
+    "id": "clmk7ou8k00dyvdyk6rpmitis",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees StoneOreSmall at X: 14.39, Y: -18.34",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:37.173Z",
+    "time": 58.0301743,
+    "createdAt": "2023-09-15T06:21:37.173Z",
+    "updatedAt": "2023-09-15T06:21:37.173Z"
+  },
+  {
+    "id": "clmk7otr000dpvdykay2j96ev",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 3.98, Y: -13.79.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:36.540Z",
+    "time": 58.0301743,
+    "createdAt": "2023-09-15T06:21:36.540Z",
+    "updatedAt": "2023-09-15T06:21:36.540Z"
+  },
+  {
+    "id": "clmk7othy00dmvdykatk1bj5n",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree Stump at X: 3.68, Y: -17.74.",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:36.214Z",
+    "time": 57.86351,
+    "createdAt": "2023-09-15T06:21:36.214Z",
+    "updatedAt": "2023-09-15T06:21:36.214Z"
+  },
+  {
+    "id": "clmk7otbi00dlvdykup4q12kb",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 3.77, Y: -16.34.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:35.982Z",
+    "time": 57.66351,
+    "createdAt": "2023-09-15T06:21:35.982Z",
+    "updatedAt": "2023-09-15T06:21:35.982Z"
+  },
+  {
+    "id": "clmk7otax00dkvdyk2q0tjtil",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (54) at X: 15.22, Y: -16.78",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:35.962Z",
+    "time": 57.5801735,
+    "createdAt": "2023-09-15T06:21:35.962Z",
+    "updatedAt": "2023-09-15T06:21:35.962Z"
+  },
+  {
+    "id": "clmk7ot2a00dhvdykjrd4heoc",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 11.7, Y: -12.56.",
+    "importance": 3.5,
+    "accessedAt": "2023-09-15T06:21:35.650Z",
+    "time": 57.230175,
+    "createdAt": "2023-09-15T06:21:35.650Z",
+    "updatedAt": "2023-09-15T06:21:35.650Z"
+  },
+  {
+    "id": "clmk7osxp00ddvdykhjvmuvrw",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (067) at X: 7.04, Y: -22.88",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:35.486Z",
+    "time": 57.16351,
+    "createdAt": "2023-09-15T06:21:35.486Z",
+    "updatedAt": "2023-09-15T06:21:35.486Z"
+  },
+  {
+    "id": "clmk7osw500dcvdyk3uer2wuu",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 13.75, Y: -13.81.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:35.430Z",
+    "time": 57.1301765,
+    "createdAt": "2023-09-15T06:21:35.430Z",
+    "updatedAt": "2023-09-15T06:21:35.430Z"
+  },
+  {
+    "id": "clmk7osji00dbvdyk54lqzq2t",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 15.22, Y: -16.78.",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:34.974Z",
+    "time": 56.66351,
+    "createdAt": "2023-09-15T06:21:34.974Z",
+    "updatedAt": "2023-09-15T06:21:34.974Z"
+  },
+  {
+    "id": "clmk7os1j00d6vdykv3cllvid",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 11.84, Y: -14.35.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:34.328Z",
+    "time": 56.16351,
+    "createdAt": "2023-09-15T06:21:34.328Z",
+    "updatedAt": "2023-09-15T06:21:34.328Z"
+  },
+  {
+    "id": "clmk7os0s00d5vdyk4tc7xp5p",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (262) at X: 9.26, Y: -25.09",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:34.301Z",
+    "time": 56.11351,
+    "createdAt": "2023-09-15T06:21:34.301Z",
+    "updatedAt": "2023-09-15T06:21:34.301Z"
+  },
+  {
+    "id": "clmk7orzi00d4vdykwnz2xum1",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 9.45, Y: -14.39.",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:34.255Z",
+    "time": 56.0301743,
+    "createdAt": "2023-09-15T06:21:34.255Z",
+    "updatedAt": "2023-09-15T06:21:34.255Z"
+  },
+  {
+    "id": "clmk7os3200d7vdyk5yxf2mbd",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (261) at X: 11.96, Y: -25.18",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:34.382Z",
+    "time": 55.9468422,
+    "createdAt": "2023-09-15T06:21:34.382Z",
+    "updatedAt": "2023-09-15T06:21:34.382Z"
+  },
+  {
+    "id": "clmk7orte00d1vdyk630n1lrg",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees StoneOreSmall (1) at X: 15.88, Y: -18.99",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:34.034Z",
+    "time": 55.7801743,
+    "createdAt": "2023-09-15T06:21:34.034Z",
+    "updatedAt": "2023-09-15T06:21:34.034Z"
+  },
+  {
+    "id": "clmk7orr400d0vdyk59odniep",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (54) at X: 15.22, Y: -16.78",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:33.952Z",
+    "time": 55.730175,
+    "createdAt": "2023-09-15T06:21:33.952Z",
+    "updatedAt": "2023-09-15T06:21:33.952Z"
+  },
+  {
+    "id": "clmk7oroy00cyvdykwtya137j",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 4.96, Y: -19.42.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:33.875Z",
+    "time": 55.6301765,
+    "createdAt": "2023-09-15T06:21:33.875Z",
+    "updatedAt": "2023-09-15T06:21:33.875Z"
+  },
+  {
+    "id": "clmk7or8d00cuvdyk5o0za7ve",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 6.79, Y: -17.79.",
+    "importance": 6.79,
+    "accessedAt": "2023-09-15T06:21:33.278Z",
+    "time": 54.91351,
+    "createdAt": "2023-09-15T06:21:33.278Z",
+    "updatedAt": "2023-09-15T06:21:33.278Z"
+  },
+  {
+    "id": "clmk7or1000csvdykdy3dxsqx",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 6, Y: -20.83.",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:33.012Z",
+    "time": 54.8801765,
+    "createdAt": "2023-09-15T06:21:33.012Z",
+    "updatedAt": "2023-09-15T06:21:33.012Z"
+  },
+  {
+    "id": "clmk7oqnf00cqvdykdkxtq623",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 7.04, Y: -22.88.",
+    "importance": 6,
+    "accessedAt": "2023-09-15T06:21:32.523Z",
+    "time": 54.3301735,
+    "createdAt": "2023-09-15T06:21:32.523Z",
+    "updatedAt": "2023-09-15T06:21:32.523Z"
+  },
+  {
+    "id": "clmk7oqkz00covdykbnj16oyp",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (29) at X: 18.28, Y: -21.95",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:32.436Z",
+    "time": 54.3135071,
+    "createdAt": "2023-09-15T06:21:32.436Z",
+    "updatedAt": "2023-09-15T06:21:32.436Z"
+  },
+  {
+    "id": "clmk7oq9b00cmvdyki5cg5j04",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 10.73, Y: -16.49.",
+    "importance": 6,
+    "accessedAt": "2023-09-15T06:21:32.016Z",
+    "time": 53.980175,
+    "createdAt": "2023-09-15T06:21:32.016Z",
+    "updatedAt": "2023-09-15T06:21:32.016Z"
+  },
+  {
+    "id": "clmk7oq7100ckvdykh6fge3c8",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (256) at X: 14.11, Y: -27.17",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:31.933Z",
+    "time": 53.84684,
+    "createdAt": "2023-09-15T06:21:31.933Z",
+    "updatedAt": "2023-09-15T06:21:31.933Z"
+  },
+  {
+    "id": "clmk7opu900civdykbe2p35jo",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 9.26, Y: -25.09.",
+    "importance": 7,
+    "accessedAt": "2023-09-15T06:21:31.474Z",
+    "time": 53.2635078,
+    "createdAt": "2023-09-15T06:21:31.474Z",
+    "updatedAt": "2023-09-15T06:21:31.474Z"
+  },
+  {
+    "id": "clmk7opph00chvdykqlfmvj65",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (148) at X: 19.34, Y: -19.25",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:31.302Z",
+    "time": 53.230175,
+    "createdAt": "2023-09-15T06:21:31.302Z",
+    "updatedAt": "2023-09-15T06:21:31.302Z"
+  },
+  {
+    "id": "clmk7opnd00cgvdykn6fytqii",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (33) at X: 20.14, Y: -22.62",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:31.226Z",
+    "time": 53.0801735,
+    "createdAt": "2023-09-15T06:21:31.226Z",
+    "updatedAt": "2023-09-15T06:21:31.226Z"
+  },
+  {
+    "id": "clmk7opii00cevdyk4avziwlh",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 13.25, Y: -16.78.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:31.051Z",
+    "time": 53.04684,
+    "createdAt": "2023-09-15T06:21:31.051Z",
+    "updatedAt": "2023-09-15T06:21:31.051Z"
+  },
+  {
+    "id": "clmk7opj200cfvdykx303c2yz",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 15.22, Y: -16.78.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:31.070Z",
+    "time": 53.0301743,
+    "createdAt": "2023-09-15T06:21:31.070Z",
+    "updatedAt": "2023-09-15T06:21:31.070Z"
+  },
+  {
+    "id": "clmk7oose00c8vdykvh5cj1s9",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Stump (15) at X: 21.26, Y: -23.66788",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:30.110Z",
+    "time": 52.146843,
+    "createdAt": "2023-09-15T06:21:30.110Z",
+    "updatedAt": "2023-09-15T06:21:30.110Z"
+  },
+  {
+    "id": "clmk7ookc00c4vdykdimawgx9",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (149) at X: 21.54, Y: -20.29",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:29.820Z",
+    "time": 51.8135071,
+    "createdAt": "2023-09-15T06:21:29.820Z",
+    "updatedAt": "2023-09-15T06:21:29.820Z"
+  },
+  {
+    "id": "clmk7oo8e00c3vdyk3jajsg60",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (34) at X: 22.59, Y: -23.18",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:29.390Z",
+    "time": 51.5135078,
+    "createdAt": "2023-09-15T06:21:29.390Z",
+    "updatedAt": "2023-09-15T06:21:29.390Z"
+  },
+  {
+    "id": "clmk7oo3u00c0vdykemufwcoa",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 12.43, Y: -19.6.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:29.226Z",
+    "time": 51.3801765,
+    "createdAt": "2023-09-15T06:21:29.226Z",
+    "updatedAt": "2023-09-15T06:21:29.226Z"
+  },
+  {
+    "id": "clmk7onyz00byvdyk8v6679yq",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 11.96, Y: -25.18.",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:29.051Z",
+    "time": 51.2635078,
+    "createdAt": "2023-09-15T06:21:29.051Z",
+    "updatedAt": "2023-09-15T06:21:29.051Z"
+  },
+  {
+    "id": "clmk7oo4u00c1vdykpz0twywh",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Stone Ore Deposit (Small) at X: 14.39, Y: -18.34.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:29.263Z",
+    "time": 51.21351,
+    "createdAt": "2023-09-15T06:21:29.263Z",
+    "updatedAt": "2023-09-15T06:21:29.263Z"
+  },
+  {
+    "id": "clmk7onci00buvdykqxhwmrmf",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Stone Ore Deposit (Small) at X: 15.88, Y: -18.99.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:28.242Z",
+    "time": 50.46351,
+    "createdAt": "2023-09-15T06:21:28.242Z",
+    "updatedAt": "2023-09-15T06:21:28.242Z"
+  },
+  {
+    "id": "clmk7omzc00brvdyk1gl8fabh",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (155) at X: 24.08, Y: -21.93",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:27.769Z",
+    "time": 50.0301743,
+    "createdAt": "2023-09-15T06:21:27.769Z",
+    "updatedAt": "2023-09-15T06:21:27.769Z"
+  },
+  {
+    "id": "clmk7omvb00bqvdykbn1mfexb",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 19.34, Y: -19.25.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:27.624Z",
+    "time": 49.91351,
+    "createdAt": "2023-09-15T06:21:27.624Z",
+    "updatedAt": "2023-09-15T06:21:27.624Z"
+  },
+  {
+    "id": "clmk7omoz00bovdyk4dj0avqp",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 14.11, Y: -27.17.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:27.395Z",
+    "time": 49.6301765,
+    "createdAt": "2023-09-15T06:21:27.395Z",
+    "updatedAt": "2023-09-15T06:21:27.395Z"
+  },
+  {
+    "id": "clmk7olw800bhvdyk2c8ccoh5",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (156) at X: 26.2, Y: -23.09",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:26.360Z",
+    "time": 48.6301765,
+    "createdAt": "2023-09-15T06:21:26.360Z",
+    "updatedAt": "2023-09-15T06:21:26.360Z"
+  },
+  {
+    "id": "clmk7olqw00bevdykqcd2fmqt",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 21.54, Y: -20.29.",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:26.168Z",
+    "time": 48.5301743,
+    "createdAt": "2023-09-15T06:21:26.168Z",
+    "updatedAt": "2023-09-15T06:21:26.168Z"
+  },
+  {
+    "id": "clmk7ol7400b9vdyk9bsszh1w",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (264) at X: 27.86, Y: -27.79",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:25.457Z",
+    "time": 47.7635078,
+    "createdAt": "2023-09-15T06:21:25.457Z",
+    "updatedAt": "2023-09-15T06:21:25.457Z"
+  },
+  {
+    "id": "clmk7ol5600b8vdyki2osweau",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 18.28, Y: -21.95.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:25.387Z",
+    "time": 47.7635078,
+    "createdAt": "2023-09-15T06:21:25.387Z",
+    "updatedAt": "2023-09-15T06:21:25.387Z"
+  },
+  {
+    "id": "clmk7ol9500bavdyk1rb3sg4j",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (260) at X: 28.12, Y: -25.2",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:25.529Z",
+    "time": 47.6801758,
+    "createdAt": "2023-09-15T06:21:25.529Z",
+    "updatedAt": "2023-09-15T06:21:25.529Z"
+  },
+  {
+    "id": "clmk7okk500b5vdykbo9bhk2r",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (265) at X: 28.28, Y: -29.76",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:24.629Z",
+    "time": 47.04684,
+    "createdAt": "2023-09-15T06:21:24.629Z",
+    "updatedAt": "2023-09-15T06:21:24.629Z"
+  },
+  {
+    "id": "clmk7okfy00b4vdykzrb5j89h",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 20.14, Y: -22.62.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:24.447Z",
+    "time": 46.8135071,
+    "createdAt": "2023-09-15T06:21:24.447Z",
+    "updatedAt": "2023-09-15T06:21:24.447Z"
+  },
+  {
+    "id": "clmk7okf100b2vdykuwq1vg35",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (287) at X: 23.02, Y: -32.65",
+    "importance": 7.5,
+    "accessedAt": "2023-09-15T06:21:24.445Z",
+    "time": 46.7635078,
+    "createdAt": "2023-09-15T06:21:24.445Z",
+    "updatedAt": "2023-09-15T06:21:24.445Z"
+  },
+  {
+    "id": "clmk7oka400b0vdykzpv7bue2",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (161) at X: 29.28, Y: -26.96",
+    "importance": 6,
+    "accessedAt": "2023-09-15T06:21:24.268Z",
+    "time": 46.7635078,
+    "createdAt": "2023-09-15T06:21:24.268Z",
+    "updatedAt": "2023-09-15T06:21:24.268Z"
+  },
+  {
+    "id": "clmk7okav00b1vdyk6jszvqbs",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 24.08, Y: -21.93.",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:24.295Z",
+    "time": 46.71351,
+    "createdAt": "2023-09-15T06:21:24.295Z",
+    "updatedAt": "2023-09-15T06:21:24.295Z"
+  },
+  {
+    "id": "clmk7ojx100axvdykuaj11zos",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree Stump at X: 21.26, Y: -23.66788.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:23.758Z",
+    "time": 46.0801735,
+    "createdAt": "2023-09-15T06:21:23.758Z",
+    "updatedAt": "2023-09-15T06:21:23.758Z"
+  },
+  {
+    "id": "clmk7ojkr00avvdyk7t79mal9",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 22.59, Y: -23.18.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:23.356Z",
+    "time": 45.86351,
+    "createdAt": "2023-09-15T06:21:23.356Z",
+    "updatedAt": "2023-09-15T06:21:23.356Z"
+  },
+  {
+    "id": "clmk7ojlm00awvdyklk50llyq",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 26.2, Y: -23.09.",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:23.387Z",
+    "time": 45.8301735,
+    "createdAt": "2023-09-15T06:21:23.387Z",
+    "updatedAt": "2023-09-15T06:21:23.387Z"
+  },
+  {
+    "id": "clmk7oja100atvdykhe8cfgd7",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (730) at X: 30.73, Y: -29.31",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:22.970Z",
+    "time": 45.5635071,
+    "createdAt": "2023-09-15T06:21:22.970Z",
+    "updatedAt": "2023-09-15T06:21:22.970Z"
+  },
+  {
+    "id": "clmk7oje800auvdyky2oo60sh",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (259) at X: 24.38, Y: -34.45",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:23.117Z",
+    "time": 45.36351,
+    "createdAt": "2023-09-15T06:21:23.117Z",
+    "updatedAt": "2023-09-15T06:21:23.117Z"
+  },
+  {
+    "id": "clmk7oir900apvdykinz3edrp",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 28.12, Y: -25.2.",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:22.293Z",
+    "time": 44.74684,
+    "createdAt": "2023-09-15T06:21:22.293Z",
+    "updatedAt": "2023-09-15T06:21:22.293Z"
+  },
+  {
+    "id": "clmk7oicf00alvdyk85y0wrre",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (291) at X: 21.1, Y: -34.81",
+    "importance": 7,
+    "accessedAt": "2023-09-15T06:21:21.759Z",
+    "time": 44.34684,
+    "createdAt": "2023-09-15T06:21:21.759Z",
+    "updatedAt": "2023-09-15T06:21:21.759Z"
+  },
+  {
+    "id": "clmk7oi4z00akvdykhtilmos7",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 29.28, Y: -26.96.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:21.492Z",
+    "time": 44.1801758,
+    "createdAt": "2023-09-15T06:21:21.492Z",
+    "updatedAt": "2023-09-15T06:21:21.492Z"
+  },
+  {
+    "id": "clmk7oi3200aivdykr8vhz2yf",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 30.73, Y: -29.31.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:21.422Z",
+    "time": 44.0801735,
+    "createdAt": "2023-09-15T06:21:21.422Z",
+    "updatedAt": "2023-09-15T06:21:21.422Z"
+  },
+  {
+    "id": "clmk7oidc00amvdyknstper12",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (263) at X: 24.93, Y: -36.81",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:21.793Z",
+    "time": 44.0135078,
+    "createdAt": "2023-09-15T06:21:21.793Z",
+    "updatedAt": "2023-09-15T06:21:21.793Z"
+  },
+  {
+    "id": "clmk7oi4a00ajvdykudkytrd0",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (286) at X: 22.67, Y: -36.54",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:21.464Z",
+    "time": 43.9468422,
+    "createdAt": "2023-09-15T06:21:21.464Z",
+    "updatedAt": "2023-09-15T06:21:21.464Z"
+  },
+  {
+    "id": "clmk7ohfs00ahvdykt090ibnc",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Stump (25) at X: 30.7, Y: -35.81",
+    "importance": 6,
+    "accessedAt": "2023-09-15T06:21:20.584Z",
+    "time": 43.24684,
+    "createdAt": "2023-09-15T06:21:20.584Z",
+    "updatedAt": "2023-09-15T06:21:20.584Z"
+  },
+  {
+    "id": "clmk7ohcs00agvdykl6mjx5bl",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (301) at X: 31.45, Y: -34.49",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:20.476Z",
+    "time": 43.16351,
+    "createdAt": "2023-09-15T06:21:20.476Z",
+    "updatedAt": "2023-09-15T06:21:20.476Z"
+  },
+  {
+    "id": "clmk7oh2s00advdyk2quanh9y",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 27.86, Y: -27.79.",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:20.116Z",
+    "time": 42.84684,
+    "createdAt": "2023-09-15T06:21:20.116Z",
+    "updatedAt": "2023-09-15T06:21:20.116Z"
+  },
+  {
+    "id": "clmk7ognr00a9vdykiuqghq7d",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (330) at X: 25.48, Y: -39.34",
+    "importance": 4,
+    "accessedAt": "2023-09-15T06:21:19.575Z",
+    "time": 42.36351,
+    "createdAt": "2023-09-15T06:21:19.575Z",
+    "updatedAt": "2023-09-15T06:21:19.575Z"
+  },
+  {
+    "id": "clmk7ogay00a5vdykptkrkfdy",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 21.1, Y: -34.81.",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:19.115Z",
+    "time": 41.96351,
+    "createdAt": "2023-09-15T06:21:19.115Z",
+    "updatedAt": "2023-09-15T06:21:19.115Z"
+  },
+  {
+    "id": "clmk7og6x00a3vdykcppef4s3",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (302) at X: 32.43, Y: -36.81211",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:18.969Z",
+    "time": 41.7635078,
+    "createdAt": "2023-09-15T06:21:18.969Z",
+    "updatedAt": "2023-09-15T06:21:18.969Z"
+  },
+  {
+    "id": "clmk7og0j00a2vdykuapcpkj0",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 28.28, Y: -29.76.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:18.739Z",
+    "time": 41.480175,
+    "createdAt": "2023-09-15T06:21:18.739Z",
+    "updatedAt": "2023-09-15T06:21:18.739Z"
+  },
+  {
+    "id": "clmk7ofcz009uvdykvy2y1wl0",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 23.02, Y: -32.65.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:17.892Z",
+    "time": 40.6801758,
+    "createdAt": "2023-09-15T06:21:17.892Z",
+    "updatedAt": "2023-09-15T06:21:17.892Z"
+  },
+  {
+    "id": "clmk7of4e009svdyk98dl3y9u",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (331) at X: 25.76, Y: -42.09",
+    "importance": 2,
+    "accessedAt": "2023-09-15T06:21:17.582Z",
+    "time": 40.5635071,
+    "createdAt": "2023-09-15T06:21:17.582Z",
+    "updatedAt": "2023-09-15T06:21:17.582Z"
+  },
+  {
+    "id": "clmk7oexn009qvdykdtq2tvq4",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees StoneOreSmall (10) at X: 32.23, Y: -40.35",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:17.339Z",
+    "time": 40.11351,
+    "createdAt": "2023-09-15T06:21:17.339Z",
+    "updatedAt": "2023-09-15T06:21:17.339Z"
+  },
+  {
+    "id": "clmk7oeg6009mvdyk7wst3ejg",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (335) at X: 23.13, Y: -42.43",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:16.711Z",
+    "time": 39.61351,
+    "createdAt": "2023-09-15T06:21:16.711Z",
+    "updatedAt": "2023-09-15T06:21:16.711Z"
+  },
+  {
+    "id": "clmk7oec2009lvdykwmqn489j",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 31.45, Y: -34.49.",
+    "importance": 3,
+    "accessedAt": "2023-09-15T06:21:16.563Z",
+    "time": 39.5635071,
+    "createdAt": "2023-09-15T06:21:16.563Z",
+    "updatedAt": "2023-09-15T06:21:16.563Z"
+  },
+  {
+    "id": "clmk7oe4e009ivdykhfxzn75a",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield no longer sees Tree (336) at X: 25.76, Y: -44.33",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:16.286Z",
+    "time": 39.2635078,
+    "createdAt": "2023-09-15T06:21:16.286Z",
+    "updatedAt": "2023-09-15T06:21:16.286Z"
+  },
+  {
+    "id": "clmk7oe01009gvdykgarv1h9u",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 24.38, Y: -34.45.",
+    "importance": 5,
+    "accessedAt": "2023-09-15T06:21:16.128Z",
+    "time": 39.1301765,
+    "createdAt": "2023-09-15T06:21:16.128Z",
+    "updatedAt": "2023-09-15T06:21:16.128Z"
+  },
+  {
+    "id": "clmk7oduu009fvdykekc0lgjf",
+    "characterId": "clmk7mn9a0005vdykxbeal3qr",
+    "memory": "Owen Greenfield sees Tree at X: 22.67, Y: -36.54.",
+    "importance": 1,
+    "accessedAt": "2023-09-15T06:21:15.943Z",
+    "time": 38.96351,
+    "createdAt": "2023-09-15T06:21:15.943Z",
+    "updatedAt": "2023-09-15T06:21:15.943Z"
+  }
+]
+[1694758906959] [32m[REFLECTION] Retrieved 100 latest memories for reflection generation.[39m
+[1694758906960] 1. Owen Greenfield sees Tree at X: 12.09, Y: -3.32.
+2. Owen Greenfield sees Tree at X: 12.09, Y: -3.32.
+3. Owen Greenfield no longer sees Tree (78) at X: 4.59, Y: -12.01
+4. Owen Greenfield sees Tree at X: 4.14, Y: -3.639999.
+5. Owen Greenfield no longer sees Tree (84) at X: 2.8, Y: -11.64
+6. Owen Greenfield no longer sees Tree (26) at X: 9.45, Y: -14.39
+7. Owen Greenfield sees Tree at X: 11.02, Y: -4.68.
+8. Owen Greenfield no longer sees Tree (27) at X: 3.98, Y: -13.79
+9. Owen Greenfield no longer sees Tree (38) at X: 11.84, Y: -14.35
+10. Owen Greenfield no longer sees Tree (40) at X: 10.73, Y: -16.49
+11. Owen Greenfield sees Tree at X: 2.38, Y: -9.700001.
+12. Owen Greenfield sees Tree Stump at X: 8.46, Y: -6.74.
+13. Owen Greenfield sees Tree Stump at X: 5.58, Y: -7.27.
+14. Owen Greenfield no longer sees Tree (25) at X: 3.77, Y: -16.34
+15. Owen Greenfield no longer sees Tree (45) at X: 6.79, Y: -17.79
+16. Owen Greenfield sees Tree Stump at X: 9.14, Y: -7.77.
+17. Owen Greenfield no longer sees Stump (8) at X: 3.68, Y: -17.74
+18. Owen Greenfield no longer sees Tree (28) at X: 2.16, Y: -14.95
+19. Owen Greenfield sees Tree at X: 2.16, Y: -14.95.
+20. Owen Greenfield sees Tree at X: 2.8, Y: -11.64.
+21. Owen Greenfield no longer sees Tree (63) at X: 4.96, Y: -19.42
+22. Owen Greenfield no longer sees Tree (44) at X: 13.25, Y: -16.78
+23. Owen Greenfield no longer sees Tree (39) at X: 13.75, Y: -13.81
+24. Owen Greenfield sees Tree Stump at X: 8.41, Y: -9.870001.
+25. Owen Greenfield no longer sees Tree (72) at X: 12.43, Y: -19.6
+26. Owen Greenfield no longer sees Tree (66) at X: 6, Y: -20.83
+27. Owen Greenfield sees Tree at X: 4.59, Y: -12.01.
+28. Owen Greenfield no longer sees StoneOreSmall at X: 14.39, Y: -18.34
+29. Owen Greenfield sees Tree at X: 3.98, Y: -13.79.
+30. Owen Greenfield sees Tree Stump at X: 3.68, Y: -17.74.
+31. Owen Greenfield sees Tree at X: 3.77, Y: -16.34.
+32. Owen Greenfield no longer sees Tree (54) at X: 15.22, Y: -16.78
+33. Owen Greenfield sees Tree at X: 11.7, Y: -12.56.
+34. Owen Greenfield no longer sees Tree (067) at X: 7.04, Y: -22.88
+35. Owen Greenfield sees Tree at X: 13.75, Y: -13.81.
+36. Owen Greenfield sees Tree at X: 15.22, Y: -16.78.
+37. Owen Greenfield sees Tree at X: 11.84, Y: -14.35.
+38. Owen Greenfield no longer sees Tree (262) at X: 9.26, Y: -25.09
+39. Owen Greenfield sees Tree at X: 9.45, Y: -14.39.
+40. Owen Greenfield no longer sees Tree (261) at X: 11.96, Y: -25.18
+41. Owen Greenfield no longer sees StoneOreSmall (1) at X: 15.88, Y: -18.99
+42. Owen Greenfield no longer sees Tree (54) at X: 15.22, Y: -16.78
+43. Owen Greenfield sees Tree at X: 4.96, Y: -19.42.
+44. Owen Greenfield sees Tree at X: 6.79, Y: -17.79.
+45. Owen Greenfield sees Tree at X: 6, Y: -20.83.
+46. Owen Greenfield sees Tree at X: 7.04, Y: -22.88.
+47. Owen Greenfield no longer sees Tree (29) at X: 18.28, Y: -21.95
+48. Owen Greenfield sees Tree at X: 10.73, Y: -16.49.
+49. Owen Greenfield no longer sees Tree (256) at X: 14.11, Y: -27.17
+50. Owen Greenfield sees Tree at X: 9.26, Y: -25.09.
+51. Owen Greenfield no longer sees Tree (148) at X: 19.34, Y: -19.25
+52. Owen Greenfield no longer sees Tree (33) at X: 20.14, Y: -22.62
+53. Owen Greenfield sees Tree at X: 13.25, Y: -16.78.
+54. Owen Greenfield sees Tree at X: 15.22, Y: -16.78.
+55. Owen Greenfield no longer sees Stump (15) at X: 21.26, Y: -23.66788
+56. Owen Greenfield no longer sees Tree (149) at X: 21.54, Y: -20.29
+57. Owen Greenfield no longer sees Tree (34) at X: 22.59, Y: -23.18
+58. Owen Greenfield sees Tree at X: 12.43, Y: -19.6.
+59. Owen Greenfield sees Tree at X: 11.96, Y: -25.18.
+60. Owen Greenfield sees Stone Ore Deposit (Small) at X: 14.39, Y: -18.34.
+61. Owen Greenfield sees Stone Ore Deposit (Small) at X: 15.88, Y: -18.99.
+62. Owen Greenfield no longer sees Tree (155) at X: 24.08, Y: -21.93
+63. Owen Greenfield sees Tree at X: 19.34, Y: -19.25.
+64. Owen Greenfield sees Tree at X: 14.11, Y: -27.17.
+65. Owen Greenfield no longer sees Tree (156) at X: 26.2, Y: -23.09
+66. Owen Greenfield sees Tree at X: 21.54, Y: -20.29.
+67. Owen Greenfield no longer sees Tree (264) at X: 27.86, Y: -27.79
+68. Owen Greenfield sees Tree at X: 18.28, Y: -21.95.
+69. Owen Greenfield no longer sees Tree (260) at X: 28.12, Y: -25.2
+70. Owen Greenfield no longer sees Tree (265) at X: 28.28, Y: -29.76
+71. Owen Greenfield sees Tree at X: 20.14, Y: -22.62.
+72. Owen Greenfield no longer sees Tree (287) at X: 23.02, Y: -32.65
+73. Owen Greenfield no longer sees Tree (161) at X: 29.28, Y: -26.96
+74. Owen Greenfield sees Tree at X: 24.08, Y: -21.93.
+75. Owen Greenfield sees Tree Stump at X: 21.26, Y: -23.66788.
+76. Owen Greenfield sees Tree at X: 22.59, Y: -23.18.
+77. Owen Greenfield sees Tree at X: 26.2, Y: -23.09.
+78. Owen Greenfield no longer sees Tree (730) at X: 30.73, Y: -29.31
+79. Owen Greenfield no longer sees Tree (259) at X: 24.38, Y: -34.45
+80. Owen Greenfield sees Tree at X: 28.12, Y: -25.2.
+81. Owen Greenfield no longer sees Tree (291) at X: 21.1, Y: -34.81
+82. Owen Greenfield sees Tree at X: 29.28, Y: -26.96.
+83. Owen Greenfield sees Tree at X: 30.73, Y: -29.31.
+84. Owen Greenfield no longer sees Tree (263) at X: 24.93, Y: -36.81
+85. Owen Greenfield no longer sees Tree (286) at X: 22.67, Y: -36.54
+86. Owen Greenfield no longer sees Stump (25) at X: 30.7, Y: -35.81
+87. Owen Greenfield no longer sees Tree (301) at X: 31.45, Y: -34.49
+88. Owen Greenfield sees Tree at X: 27.86, Y: -27.79.
+89. Owen Greenfield no longer sees Tree (330) at X: 25.48, Y: -39.34
+90. Owen Greenfield sees Tree at X: 21.1, Y: -34.81.
+91. Owen Greenfield no longer sees Tree (302) at X: 32.43, Y: -36.81211
+92. Owen Greenfield sees Tree at X: 28.28, Y: -29.76.
+93. Owen Greenfield sees Tree at X: 23.02, Y: -32.65.
+94. Owen Greenfield no longer sees Tree (331) at X: 25.76, Y: -42.09
+95. Owen Greenfield no longer sees StoneOreSmall (10) at X: 32.23, Y: -40.35
+96. Owen Greenfield no longer sees Tree (335) at X: 23.13, Y: -42.43
+97. Owen Greenfield sees Tree at X: 31.45, Y: -34.49.
+98. Owen Greenfield no longer sees Tree (336) at X: 25.76, Y: -44.33
+99. Owen Greenfield sees Tree at X: 24.38, Y: -34.45.
+100. Owen Greenfield sees Tree at X: 22.67, Y: -36.54.
+Given only the information above, what are 3 most salient high-level questions we can answer about the subjects in the statements from Owen Greenfield's point of view?
+
+[1694758906972] [31m[createMemory][39m Owen Greenfield sees Tree at X: 8.26, Y: 5.17. [67.6635056]
+[1694758906980] [31m[createMemory][39m Owen Greenfield sees Tree at X: 8.26, Y: 5.17. [67.6635056]
+[1694758907280] [31m[createMemory][39m Owen Greenfield no longer sees Tree (56) at X: 11.02, Y: -4.68 [67.81351]
+[1694758907399] [31m[createMemory][39m Owen Greenfield no longer sees Tree (530) at X: 12.09, Y: -3.32 [68.08018]
+[1694758907421] [31m[createMemory][39m Owen Greenfield no longer sees Tree (82) at X: 12.09, Y: -3.32 [68.08018]
+[1694758907573] [31m[createMemory][39m Owen Greenfield sees Tree at X: 12.35, Y: 4.33. [68.24684]
+[1694758907630] [31m[createMemory][39m Owen Greenfield sees Tree at X: 12.35, Y: 4.33. [68.24684]
+[1694758907633] [31m[createMemory][39m Owen Greenfield no longer sees Tree (10) at X: 4.14, Y: -3.639999 [68.24684]
+[1694758907633] [31m[createMemory][39m Owen Greenfield no longer sees Tree (517) at X: 4.14, Y: -3.639999 [68.24684]
+[1694758907840] [31m[createMemory][39m Owen Greenfield sees Tree Stump at X: 4.49, Y: 5.49. [68.4301758]
+[1694758907907] [31m[createMemory][39m Owen Greenfield sees Tree Stump at X: 4.49, Y: 5.49. [68.4301758]
+[1694758907975] [31m[createMemory][39m Owen Greenfield no longer sees Tree (786) at X: 12.93, Y: -1.15 [68.64684]
+[1694758908050] [31m[createMemory][39m Owen Greenfield no longer sees Tree (96) at X: 12.93, Y: -1.15 [68.64684]
+[1694758908158] [31m[createMemory][39m Owen Greenfield sees Tree at X: 9.18, Y: 6.9. [68.6801758]
+[1694758908207] [31m[createMemory][39m Owen Greenfield sees Tree at X: 9.18, Y: 6.9. [68.6801758]
+[1694758908208] [31m[createMemory][39m Owen Greenfield sees Tree at X: 5.81, Y: 6.9. [68.74684]
+[1694758908255] [31m[createMemory][39m Owen Greenfield sees Tree at X: 11.74, Y: 5.87. [68.76351]
+[1694758908257] [31m[createMemory][39m Owen Greenfield sees Tree at X: 5.81, Y: 6.9. [68.74684]
+[1694758908266] [31m[createMemory][39m Owen Greenfield sees Tree at X: 11.74, Y: 5.87. [68.76351]
+[1694758908345] [31m[createMemory][39m Owen Greenfield sees Tree at X: 2.71, Y: 4.690001. [68.86351]
+[1694758908346] [31m[createMemory][39m Owen Greenfield sees Tree at X: 2.71, Y: 4.690001. [68.86351]
+[1694758908514] [31m[createMemory][39m Owen Greenfield no longer sees Tree (480) at X: 2.89, Y: -1.01 [69.01351]
+[1694758908538] [31m[createMemory][39m Owen Greenfield no longer sees Tree (3) at X: 2.89, Y: -1.01 [69.01351]
+[1694758909381] [31m[createMemory][39m Owen Greenfield sees Tree at X: 7.61, Y: 8.54. [69.58018]
+[1694758909407] [31m[createMemory][39m Owen Greenfield sees Tree at X: 7.61, Y: 8.54. [69.58018]
+[1694758909588] [31m[createMemory][39m Owen Greenfield no longer sees Tree (787) at X: 13.13, Y: 1.139999 [69.71351]
+[1694758909603] [31m[createMemory][39m Owen Greenfield no longer sees Tree (97) at X: 13.13, Y: 1.139999 [69.71351]
+[1694758909742] [31m[createMemory][39m Owen Greenfield sees Tree at X: 3.15, Y: 6.9. [69.74684]
+[1694758909779] [31m[createMemory][39m Owen Greenfield sees Tree at X: 3.15, Y: 6.9. [69.74684]
+[1694758909923] [31m[createMemory][39m Owen Greenfield sees Tree Stump at X: 9.65, Y: 8.56. [69.83018]
+[1694758909992] [31m[createMemory][39m Owen Greenfield sees Tree Stump at X: 9.65, Y: 8.56. [69.83018]
+[1694758910231] [31m[createMemory][39m Owen Greenfield sees Tree at X: 5.02, Y: 8.8. [69.98018]
+[1694758910249] [31m[createMemory][39m Owen Greenfield sees Tree at X: 5.02, Y: 8.8. [69.98018]
+[1694758911148] [31m[createMemory][39m Owen Greenfield sees Tree at X: 11.42, Y: 8.92. [70.4301758]
+[1694758911164] [31m[createMemory][39m Owen Greenfield sees Tree at X: 11.42, Y: 8.92. [70.4301758]
+[1694758911815] [31m[createMemory][39m Owen Greenfield sees Tree at X: 9.51, Y: 10.14. [70.71351]
+[1694758911843] [31m[createMemory][39m Owen Greenfield sees Tree at X: 9.51, Y: 10.14. [70.71351]
+[1694758912465] [31m[getLatestMemories] Retrieving top 100 latest memories.[39m
+[1694758912552] [31m[createMemory][39m Owen Greenfield sees Tree at X: 6.5, Y: 10.93. [71.0468445]
+[1694758912577] [31m[createMemory][39m Owen Greenfield sees Tree at X: 6.5, Y: 10.93. [71.0468445]
+[1694758913003] [31m[createMemory][39m Owen Greenfield sees Tree at X: 3.31, Y: 10.14. [71.23018]
+[1694758913045] [31m[createMemory][39m Owen Greenfield sees Tree at X: 3.31, Y: 10.14. [71.23018]
+[1694758913313] {
+  "role": "assistant",
+  "content": "1. Why do certain trees seem to disappear from my view and then reappear in the same location?\n2. What factors could be influencing my shifting perception of the trees' locations?\n3. What is the significance of differentiating between the complete trees and tree stumps in my observations?"
+}
+[1694758914007] [31m[createMemory][39m Owen Greenfield no longer sees Tree (117) at X: 12.35, Y: 4.33 [71.44684]
+[1694758914037] [31m[createMemory][39m Owen Greenfield no longer sees Tree (799) at X: 12.35, Y: 4.33 [71.44684]
+[1694758914382] [31m[createMemory][39m Owen Greenfield sees Tree at X: 4.7, Y: 11.67. [71.6635056]
+[1694758914416] [31m[createMemory][39m Owen Greenfield sees Tree at X: 4.7, Y: 11.67. [71.6635056]
+[1694758914474] {
+  "role": "assistant",
+  "content": "1. Why do some trees and tree stumps appear and disappear from my sight at different locations? Could it be due to movement or changes in visibility?\n2. How do these trees and stumps distribute throughout the environment, considering their locations in terms of X and Y coordinates?\n3. Why do I no longer see certain specific trees and other objects like StoneOreSmall or a human at certain coordinates? Did these objects move or did I move away from them?"
+}
+[1694758914673] [31m[createMemory][39m Owen Greenfield sees Tree at X: 1.53, Y: 9.18. [71.83018]
+[1694758914681] [31m[createMemory][39m Owen Greenfield sees Tree at X: 1.53, Y: 9.18. [71.83018]

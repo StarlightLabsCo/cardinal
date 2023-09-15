@@ -1,0 +1,387 @@
+[1694757490787] [Character] Creating Thomas
+[1694757491445] [31m[createMemory][39m I should be asleep until 7am. [0]
+[1694757491445] [31m[createMemory][39m It's my job to protect the village. [0]
+[1694757491445] [31m[createMemory][39m I need to make sure everyone is safe. [0]
+[1694757491445] [31m[createMemory][39m I do the work that no one else wants to do. [0]
+[1694757491445] [31m[createMemory][39m I try to be as honest as possible. [0]
+[1694757491445] [31m[createMemory][39m I'm not afraid of anything. [0]
+[1694757491445] [31m[createMemory][39m I go to bed at 10pm. [0]
+[1694757491445] [31m[createMemory][39m I like strawberries. [0]
+[1694757491445] [31m[createMemory][39m The village location is 2, -58. [0]
+[1694757491446] [31m[createMemory][39m The mine site is at 51, 17. [0]
+[1694757491446] [31m[createMemory][39m The lumberyard is at 72, -55.1 [0]
+[1694757491446] [31m[createMemory][39m The campsite is at 7, -8.3 [0]
+[1694757491446] [31m[createMemory][39m The Nume River flows through the village. [0]
+[1694757491446] [31m[createMemory][39m Nume Falls are north of the village, and west of the campsite. [0]
+[1694757491446] [31m[createMemory][39m The area is surrounded by forested monutains, filled with wildlife, rivers, and lakes. [0]
+[1694757503653] [Character] Thomas created (clmk6upbv0005vdp8mqb500c9)
+[1694757571812] [31m[createMemory][39m Thomas Smith sees Tree at X: 18.55, Y: -53.24. [0]
+[1694757571812] [31m[createMemory][39m Thomas Smith sees Tree at X: 18.3, Y: -59.99. [0]
+[1694757571827] [31m[createMemory][39m Thomas Smith sees House at X: 14.06, Y: -56.01. [0]
+[1694757578480] --- Prompt ---
+[1694757578485] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 16.43, -57.62
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Full
+
+Environment:
+- House (Health: 100/100) [Location: 14.06, -56.01, Direction: W,  Distance: 2.9m]
+- Tree (Health: 10/10) [Location: 18.3, -59.99, Direction: W,  Distance: 3.0m]
+- Tree (Health: 10/10) [Location: 18.55, -53.24, Direction: W,  Distance: 4.9m]
+- Tree (Health: 10/10) [Location: 18.81, -50.7, Direction: W,  Distance: 7.3m]
+- House (Health: 100/100) [Location: 9.44, -53.9, Direction: W,  Distance: 7.9m]
+- Will Turner (Health: 25/25) [Location: 20.32, -50.5, Direction: W,  Distance: 8.1m]
+- Tree Stump (Health: 5/5) [Location: 21.23, -50.62, Direction: NW,  Distance: 8.5m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I go to bed at 10pm. [just now]
+- The area is surrounded by forested monutains, filled with wildlife, rivers, and lakes. [just now]
+- Nume Falls are north of the village, and west of the campsite. [just now]
+- I need to make sure everyone is safe. [just now]
+- I like strawberries. [just now]
+- I try to be as honest as possible. [just now]
+- I'm not afraid of anything. [just now]
+- The lumberyard is at 72, -55.1 [just now]
+- The village location is 2, -58. [just now]
+- The campsite is at 7, -8.3 [just now]
+- Thomas Smith sees Tree at X: 18.3, Y: -59.99. [just now]
+- Thomas Smith sees House at X: 14.06, Y: -56.01. [just now]
+- Thomas Smith sees Tree at X: 18.55, Y: -53.24. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694757597126] --- Response ---
+[1694757597126] Updated Tasks: 
+[1694757597126] [
+  {
+    "task": "Meet with Will Turner",
+    "priority": 1
+  },
+  {
+    "task": "Inspect village houses",
+    "priority": 2
+  },
+  {
+    "task": "Check the health of the trees",
+    "priority": 3
+  },
+  {
+    "task": "Eat the berries",
+    "priority": 4
+  },
+  {
+    "task": "Visit the lumberyard",
+    "priority": 5
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 6
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 7
+  },
+  {
+    "task": "Ensure own safety",
+    "priority": 8
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 9
+  }
+]
+[1694757599608] --- Prompt ---
+[1694757599615] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 16.43, -57.62
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Full
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 2.9m]
+- Tree (Health: 10/10) [Direction: W, Distance: 3.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 4.9m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.3m]
+- House (Health: 100/100) [Direction: W, Distance: 7.9m]
+- Will Turner (Health: 25/25) [Direction: W, Distance: 8.1m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 8.5m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- The campsite is at 7, -8.3 [just now]
+- The village location is 2, -58. [just now]
+- Thomas Smith sees Tree at X: 18.55, Y: -53.24. [just now]
+- Thomas Smith sees House at X: 14.06, Y: -56.01. [just now]
+- Thomas Smith sees Tree at X: 18.3, Y: -59.99. [just now]
+- The lumberyard is at 72, -55.1 [just now]
+- I'm not afraid of anything. [just now]
+- I like strawberries. [just now]
+- I need to make sure everyone is safe. [just now]
+- Nume Falls are north of the village, and west of the campsite. [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694757599616] --- Action Functions ---
+[1694757599616] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694757602263] [31m[createMemory][39m Thomas Smith sees Lucy Wilde at X: 11.64807, Y: -59.35194. [24.1479435]
+[1694757604368] --- Response ---
+[1694757604368] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 2,\n  \"y\": -58\n}"
+  }
+}
+[1694757604371] --- Verified Action ---
+[1694757604371] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 2,
+    "y": -58
+  }
+}
+[1694757604643] [31m[createMemory][39m Thomas Smith has started walking to 2, Y: -58. [26.1312752]
+[1694757604719] [31m[createMemory][39m Thomas Smith sees House at X: 9.44, Y: -53.9. [26.26461]
+[1694757605765] [31m[createMemory][39m Thomas Smith no longer sees Tree (1133) at X: 18.55, Y: -53.24 [27.247942]
+[1694757606643] [31m[createMemory][39m Thomas Smith no longer sees Tree (1132) at X: 18.3, Y: -59.99 [28.1146088]
+[1694757606754] [31m[createMemory][39m Thomas Smith sees John Swift at X: 8.42, Y: -54.8. [28.1312752]
+[1694757606945] [31m[createMemory][39m Thomas Smith no longer sees Human (3) at X: 18.02147, Y: -57.25001 [28.26461]
+[1694757607832] [31m[createMemory][39m Thomas Smith sees House at X: 3.663626, Y: -54.92766. [29.1146088]
+[1694757608558] [31m[createMemory][39m Thomas Smith no longer sees House at X: 14.06, Y: -56.01 [29.9312763]
+[1694757609433] [31m[createMemory][39m Thomas Smith sees Cedric Warborn at X: 4.756029, Y: -60.98911. [30.7312756]
+[1694757610765] [31m[createMemory][39m Thomas Smith no longer sees House 1 at X: 9.44, Y: -53.9 [31.7312756]
+[1694757611372] [31m[createMemory][39m Thomas Smith sees Tree at X: 2.75, Y: -62.47. [32.5479431]
+[1694757612441] [31m[createMemory][39m Thomas Smith sees Tree at X: -1.900001, Y: -55.92. [33.4812775]
+[1694757613055] [31m[createMemory][39m Thomas Smith sees Tree at X: -0.6500006, Y: -52.92. [33.96461]
+[1694757613242] [31m[createMemory][39m Thomas Smith sees Tree at X: -0.29, Y: -62.41. [34.11461]
+[1694757613685] [31m[createMemory][39m Thomas Smith finished walking to 2, Y: -58. [34.35999]

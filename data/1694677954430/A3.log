@@ -1,0 +1,987 @@
+[1694677956847] [31m[createMemory][39m Today was my first day in the mines. [0]
+[1694677956848] [31m[createMemory][39m George and Thomas have been really helpful. [0]
+[1694677956848] [31m[createMemory][39m The depth and darkness of the mines can be intimidating. [0]
+[1694677956848] [31m[createMemory][39m I accidentally broke a pickaxe on my first day. [0]
+[1694677956848] [31m[createMemory][39m The older miners have so many stories to tell. [0]
+[1694677956848] [31m[createMemory][39m I've always dreamed of being a miner like my father. [0]
+[1694677956848] [31m[createMemory][39m The echo in the mines is fascinating. [0]
+[1694677956848] [31m[createMemory][39m I need to remember to wear my helmet at all times. [0]
+[1694677956848] [31m[createMemory][39m The village has been supportive of my new journey. [0]
+[1694677956848] [31m[createMemory][39m I'm still learning the different routes in the mine. [0]
+[1694677956848] [31m[createMemory][39m I was startled by the sound of a mine cart today. [0]
+[1694677956848] [31m[createMemory][39m It's tiring, but I'm determined to make everyone proud. [0]
+[1694677956848] [31m[createMemory][39m I hope to find a rare gem or mineral soon. [0]
+[1694677956848] [31m[createMemory][39m The lanterns light up the mines in such a mysterious way. [0]
+[1694677956848] [31m[createMemory][39m I can't wait to tell my family about my adventures here. [0]
+[1694677956848] [31m[createMemory][39m Nume Village is located west of the crossroads at 2, -58. [0]
+[1694677956848] [31m[createMemory][39m I grew up in Nume Village, it's my home and located at (2, -58) [0]
+[1694677956848] [31m[createMemory][39m The mine site is north east of Nume Village, through the forest at 51, 17. [0]
+[1694677956848] [31m[createMemory][39m The lumberyard is straight east of Nume Village and located at 72, -55.1 [0]
+[1694677956848] [31m[createMemory][39m The campsite is North, but slightly west at 7, -8.3. You'll take a left at the fork in the road. [0]
+[1694677974545] [Character] Will created
+[1694678001164] [31m[createMemory][39m Will Turner sees House at X: 3.663626, Y: -54.92766. [0.0199999921]
+[1694678001164] [31m[createMemory][39m Will Turner sees House at X: 9.44, Y: -53.9. [0.0199999921]
+[1694678001164] [31m[createMemory][39m Will Turner sees Lucy Wilde at X: 6.2, Y: -55.4. [0.0199999921]
+[1694678001165] [31m[createMemory][39m Will Turner sees House at X: 14.06, Y: -56.01. [0.0199999921]
+[1694678009995] --- Prompt ---
+[1694678009996] Character: 
+- ID: A3
+- Name: Will Turner
+- Age: 19
+- Occupation: Apprentice Miner
+- Personality: Curious, Eager, Naive
+
+Location: 10.1, -58
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Starving
+
+Environment:
+- House (Health: 100/100) [Location: 9.44, -53.9, Direction: W,  Distance: 4.2m]
+- House (Health: 100/100) [Location: 14.06, -56.01, Direction: W,  Distance: 4.4m]
+- Lucy Wilde (Health: 25/25) [Location: 6.2, -55.4, Direction: W,  Distance: 4.7m]
+- Eli Green (Health: 25/25) [Location: 16.4, -56.7, Direction: W,  Distance: 6.4m]
+- House (Health: 100/100) [Location: 3.663626, -54.92766, Direction: W,  Distance: 7.1m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I accidentally broke a pickaxe on my first day. [0 minutes ago]
+- The campsite is North, but slightly west at 7, -8.3. You'll take a left at the fork in the road. [0 minutes ago]
+- Today was my first day in the mines. [0 minutes ago]
+- It's tiring, but I'm determined to make everyone proud. [0 minutes ago]
+- The older miners have so many stories to tell. [0 minutes ago]
+- I grew up in Nume Village, it's my home and located at (2, -58) [0 minutes ago]
+- The lanterns light up the mines in such a mysterious way. [0 minutes ago]
+- I was startled by the sound of a mine cart today. [0 minutes ago]
+- The village has been supportive of my new journey. [0 minutes ago]
+- Nume Village is located west of the crossroads at 2, -58. [0 minutes ago]
+- The lumberyard is straight east of Nume Village and located at 72, -55.1 [0 minutes ago]
+- The echo in the mines is fascinating. [0 minutes ago]
+- Will Turner sees House at X: 14.06, Y: -56.01. [in the future]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694678024200] --- Response ---
+[1694678024200] Updated Tasks: 
+[1694678024201] [
+  {
+    "task": "Eat some food",
+    "priority": 1
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 2
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 3
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 4
+  },
+  {
+    "task": "Locate around and familiarize with the environment",
+    "priority": 5
+  }
+]
+[1694678028152] --- Prompt ---
+[1694678028153] Character: 
+- ID: A3
+- Name: Will Turner
+- Age: 19
+- Occupation: Apprentice Miner
+- Personality: Curious, Eager, Naive
+
+Location: 10.1, -58
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Starving
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 4.2m]
+- House (Health: 100/100) [Direction: W, Distance: 4.4m]
+- Lucy Wilde (Health: 25/25) [Direction: W, Distance: 4.7m]
+- Eli Green (Health: 25/25) [Direction: W, Distance: 6.4m]
+- House (Health: 100/100) [Direction: W, Distance: 7.1m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Will Turner sees House at X: 3.663626, Y: -54.92766. [in the future]
+- Will Turner sees Lucy Wilde at X: 6.2, Y: -55.4. [in the future]
+- Will Turner sees House at X: 14.06, Y: -56.01. [in the future]
+- The depth and darkness of the mines can be intimidating. [0 minutes ago]
+- The echo in the mines is fascinating. [0 minutes ago]
+- Nume Village is located west of the crossroads at 2, -58. [0 minutes ago]
+- I was startled by the sound of a mine cart today. [0 minutes ago]
+- The lanterns light up the mines in such a mysterious way. [0 minutes ago]
+- The older miners have so many stories to tell. [0 minutes ago]
+- I accidentally broke a pickaxe on my first day. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694678028153] --- Action Functions ---
+[1694678028153] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694678030770] --- Response ---
+[1694678030770] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat",
+    "arguments": "{\n  \"characterId\": \"A3\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694678030773] --- Verified Action ---
+[1694678030773] {
+  "type": "eat",
+  "data": {
+    "characterId": "A3",
+    "foodId": "berries"
+  }
+}
+[1694678034173] Getting action 0
+[1694678034173] Getting result 0
+[1694678034173] --- Prompt ---
+[1694678034174] Character: 
+- ID: A3
+- Name: Will Turner
+- Age: 19
+- Occupation: Apprentice Miner
+- Personality: Curious, Eager, Naive
+
+Location: 10.1, -58
+
+Time: Day 0, 3:01 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 4.2m]
+- House (Health: 100/100) [Direction: W, Distance: 4.4m]
+- Lucy Wilde (Health: 25/25) [Direction: W, Distance: 4.7m]
+- Eli Green (Health: 25/25) [Direction: W, Distance: 6.4m]
+- House (Health: 100/100) [Direction: W, Distance: 7.1m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Will Turner sees House at X: 3.663626, Y: -54.92766. [3 hours ago]
+- Will Turner sees Lucy Wilde at X: 6.2, Y: -55.4. [3 hours ago]
+- Will Turner sees House at X: 14.06, Y: -56.01. [3 hours ago]
+- The depth and darkness of the mines can be intimidating. [3 hours ago]
+- The echo in the mines is fascinating. [3 hours ago]
+- Nume Village is located west of the crossroads at 2, -58. [3 hours ago]
+- I was startled by the sound of a mine cart today. [3 hours ago]
+- The lanterns light up the mines in such a mysterious way. [3 hours ago]
+- The older miners have so many stories to tell. [3 hours ago]
+- I accidentally broke a pickaxe on my first day. [3 hours ago]
+
+Previous Actions:
+- [eat]: Will Turner ate Berries which restored 10 satiety. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694678034174] --- Action Functions ---
+[1694678034175] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694678037890] --- Response ---
+[1694678037890] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A3\",\n  \"x\": 14.06,\n  \"y\": -56.01\n}"
+  }
+}
+[1694678037893] --- Verified Action ---
+[1694678037904] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A3",
+    "x": 14.06,
+    "y": -56.01
+  }
+}
+[1694678038204] [31m[createMemory][39m Will Turner has started walking to 14.06, Y: -56.01. [37.3769073]
+[1694678038988] [31m[createMemory][39m Will Turner sees Eli Green at X: 16.4, Y: -56.7. [38.18107]
+[1694678039070] [31m[createMemory][39m Will Turner no longer sees Human (3) at X: 6.2, Y: -55.4 [38.2014275]
+[1694678039224] [31m[createMemory][39m Will Turner no longer sees House 2 at X: 3.663626, Y: -54.92766 [38.4003067]
+[1694678041015] [31m[createMemory][39m Will Turner finished walking to 14.06, Y: -56.01. [40.1199875]
+[1694678044210] Getting action 0
+[1694678044210] Getting result 0
+[1694678044210] Getting action 1
+[1694678044210] Getting result 1
+[1694678044210] --- Prompt ---
+[1694678044211] Character: 
+- ID: A3
+- Name: Will Turner
+- Age: 19
+- Occupation: Apprentice Miner
+- Personality: Curious, Eager, Naive
+
+Location: 13.99927, -56.12765
+
+Time: Day 0, 4:00 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 0.13m]
+- Eli Green (Health: 25/25) [Direction: W, Distance: 2.5m]
+- House (Health: 100/100) [Direction: W, Distance: 5.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.3m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.8m]
+- Lucy Wilde (Health: 25/25) [Direction: W, Distance: 7.8m]
+- House (Health: 100/100) [Direction: W, Distance: 10m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Will Turner no longer sees House 2 at X: 3.663626, Y: -54.92766 [10 minutes ago]
+- Will Turner sees House at X: 3.663626, Y: -54.92766. [4 hours ago]
+- Will Turner sees House at X: 14.06, Y: -56.01. [4 hours ago]
+- The depth and darkness of the mines can be intimidating. [4 hours ago]
+- The echo in the mines is fascinating. [4 hours ago]
+- Nume Village is located west of the crossroads at 2, -58. [4 hours ago]
+- I was startled by the sound of a mine cart today. [4 hours ago]
+- The lanterns light up the mines in such a mysterious way. [4 hours ago]
+- The older miners have so many stories to tell. [4 hours ago]
+- I accidentally broke a pickaxe on my first day. [4 hours ago]
+
+Hitbox (what you would hit with a swing based action):
+- House (Health: 100/100)
+
+Previous Actions:
+- [eat]: Will Turner ate Berries which restored 10 satiety. [59 minutes ago]
+- [move_to]: Will Turner walked to X: 14.06, Y: -56.01. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694678044211] --- Action Functions ---
+[1694678044212] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694678048948] --- Response ---
+[1694678048948] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A3\",\n  \"x\": 13.99927,\n  \"y\": -56.12765\n}"
+  }
+}
+[1694678048953] --- Verified Action ---
+[1694678048954] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A3",
+    "x": 13.99927,
+    "y": -56.12765
+  }
+}
+[1694678049243] [31m[createMemory][39m Will Turner has started walking to 13.99927, Y: -56.12765. [48.4071274]
+[1694678049307] [31m[createMemory][39m Will Turner finished walking to 13.99927, Y: -56.12765. [48.4599838]
+[1694678053039] Getting action 0
+[1694678053040] Getting result 0
+[1694678053040] Getting action 1
+[1694678053040] Getting result 1
+[1694678053040] Getting action 2
+[1694678053040] Getting result 2
+[1694678053040] --- Prompt ---
+[1694678053055] Character: 
+- ID: A3
+- Name: Will Turner
+- Age: 19
+- Occupation: Apprentice Miner
+- Personality: Curious, Eager, Naive
+
+Location: 13.99927, -56.12765
+
+Time: Day 0, 4:50 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 0.13m]
+- Eli Green (Health: 25/25) [Direction: W, Distance: 0.20m]
+- House (Health: 100/100) [Direction: W, Distance: 5.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.3m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.8m]
+- Lucy Wilde (Health: 25/25) [Direction: W, Distance: 7.8m]
+- House (Health: 100/100) [Direction: W, Distance: 10m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Will Turner no longer sees House 2 at X: 3.663626, Y: -54.92766 [1 hours ago]
+- Will Turner sees House at X: 3.663626, Y: -54.92766. [4 hours ago]
+- Will Turner sees Lucy Wilde at X: 6.2, Y: -55.4. [4 hours ago]
+- Will Turner sees House at X: 14.06, Y: -56.01. [4 hours ago]
+- The echo in the mines is fascinating. [4 hours ago]
+- Nume Village is located west of the crossroads at 2, -58. [4 hours ago]
+- I was startled by the sound of a mine cart today. [4 hours ago]
+- The lanterns light up the mines in such a mysterious way. [4 hours ago]
+- The older miners have so many stories to tell. [4 hours ago]
+- I accidentally broke a pickaxe on my first day. [4 hours ago]
+
+Hitbox (what you would hit with a swing based action):
+- House (Health: 100/100)
+
+Previous Actions:
+- [eat]: Will Turner ate Berries which restored 10 satiety. [1 hours ago]
+- [move_to]: Will Turner walked to X: 14.06, Y: -56.01. [50 minutes ago]
+- [move_to]: Will Turner walked to X: 13.99927, Y: -56.12765. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694678053055] --- Action Functions ---
+[1694678053056] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Eli Green (ID: A5).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (4) in detail."
+        }
+      }
+    }
+  }
+]
+[1694678053482] [31m[createMemory][39m Will Turner no longer sees Human (4) at X: 18.99864, Y: -57.2402 [52.6422]
+[1694678057522] --- Response ---
+[1694678057530] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "start_conversation",
+    "arguments": "{\n  \"characterId\": \"A3\",\n  \"targetCharacterId\": \"A5\",\n  \"conversationGoal\": \"Learn more about daily village life and activities.\"\n}"
+  }
+}
+[1694678057532] --- Verified Action ---
+[1694678057532] {
+  "type": "start_conversation",
+  "data": {
+    "characterId": "A3",
+    "targetCharacterId": "A5",
+    "conversationGoal": "Learn more about daily village life and activities."
+  }
+}
+[1694678074110] [35m[CORTEX] Will Turner - Plan: [39m Will Turner plans to know more about the local area, seeking out older stories related to mining and tales from the elders of Nume Village. From Eli Green, a village elder, Will hopes to gain more insight into the everyday happenings of the village. Armed with his newfound knowledge, he wants to better navigate his surroundings and tasks in the mine. In addition, Will Turner is also keen on building a stronger rapport with Eli, as part of his integration into the mining community and the village as a whole.
+[1694678078407] [35m[CORTEX] Will Turner - Say: [39mEli, could you share with me some stories from the old mining days? I'm eager to learn more about our heritage.
+

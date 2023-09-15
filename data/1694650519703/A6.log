@@ -1,0 +1,968 @@
+[1694650521158] [Character] Creating James
+[1694650521782] [31m[createMemory][39m First sale I ever made was a pocket watch. Still got the knack for timepieces. [0]
+[1694650521782] [31m[createMemory][39m I've visited so many towns, I could draw a map from memory. [0]
+[1694650521782] [31m[createMemory][39m Every road has its bumps. Literally. My cart’s wheels are proof. [0]
+[1694650521782] [31m[createMemory][39m I always have a joke up my sleeve. Lightens the mood and loosens wallets. [0]
+[1694650521782] [31m[createMemory][39m I have a sixth sense for what people want. Makes for good business. [0]
+[1694650521782] [31m[createMemory][39m Harold once told me, 'Even a salesman could learn from the sea.' He’s not wrong. [0]
+[1694650521782] [31m[createMemory][39m If I’m not selling, I’m learning. Everyone’s got something to teach. [0]
+[1694650521782] [31m[createMemory][39m Eli’s curiosity reminds me of my younger days. Hope he keeps it. [0]
+[1694650521782] [31m[createMemory][39m Met a craftsman who made the most exquisite jewelry. Talked him into a partnership. [0]
+[1694650521782] [31m[createMemory][39m You can't just sell a product; you sell dreams, comfort, a better tomorrow. [0]
+[1694650521782] [31m[createMemory][39m I carry a lucky coin. Hasn’t failed me yet. [0]
+[1694650521782] [31m[createMemory][39m Some folks call it selling. I call it helping people make decisions. [0]
+[1694650521782] [31m[createMemory][39m My biggest sale? A grand piano. Don't ask how I managed to carry it. [0]
+[1694650521782] [31m[createMemory][39m No one knows it, but I can play the harmonica. Helps pass the lonely roads. [0]
+[1694650521782] [31m[createMemory][39m I’ve learned to spot a deal from a dud. The eyes always give it away. [0]
+[1694650528738] [Character] James created
+[1694650573014] [31m[createMemory][39m James McAllister sees House at X: 14.06, Y: -56.01. [0.0199999921]
+[1694650573164] [31m[createMemory][39m James McAllister sees House at X: 9.44, Y: -53.9. [0.0199999921]
+[1694650581103] --- Prompt ---
+[1694650581103] Character: 
+- ID: A6
+- Name: James McAllister
+- Age: 42
+- Occupation: Traveling Salesman
+- Personality: Charming, Shrewd, Optimistic
+
+Location: 16.1, -57.5
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- House (Health: 100/100) [Location: 14.06, -56.01, Direction: W,  Distance: 2.5m]
+- Tree (Health: 10/10) [Location: 18.81, -50.7, Direction: W,  Distance: 7.3m]
+- House (Health: 100/100) [Location: 9.44, -53.9, Direction: W,  Distance: 7.6m]
+- Tree Stump (Health: 5/5) [Location: 21.23, -50.62, Direction: NW,  Distance: 8.6m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I've visited so many towns, I could draw a map from memory. [0 minutes ago]
+- You can't just sell a product; you sell dreams, comfort, a better tomorrow. [0 minutes ago]
+- I have a sixth sense for what people want. Makes for good business. [0 minutes ago]
+- No one knows it, but I can play the harmonica. Helps pass the lonely roads. [0 minutes ago]
+- Eli’s curiosity reminds me of my younger days. Hope he keeps it. [0 minutes ago]
+- I’ve learned to spot a deal from a dud. The eyes always give it away. [0 minutes ago]
+- Every road has its bumps. Literally. My cart’s wheels are proof. [0 minutes ago]
+- Met a craftsman who made the most exquisite jewelry. Talked him into a partnership. [0 minutes ago]
+- My biggest sale? A grand piano. Don't ask how I managed to carry it. [0 minutes ago]
+- Harold once told me, 'Even a salesman could learn from the sea.' He’s not wrong. [0 minutes ago]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694650591941] --- Response ---
+[1694650591941] Updated Tasks: 
+[1694650591942] [
+  {
+    "task": "Find food",
+    "priority": 1
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 2
+  },
+  {
+    "task": "Explore the area and map important features",
+    "priority": 3
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 4
+  },
+  {
+    "task": "Practice harmonica",
+    "priority": 5
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 6
+  }
+]
+[1694650594651] --- Prompt ---
+[1694650594651] Character: 
+- ID: A6
+- Name: James McAllister
+- Age: 42
+- Occupation: Traveling Salesman
+- Personality: Charming, Shrewd, Optimistic
+
+Location: 16.1, -57.5
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 2.5m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.3m]
+- House (Health: 100/100) [Direction: W, Distance: 7.6m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 8.6m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- James McAllister sees House at X: 14.06, Y: -56.01. [in the future]
+- Harold once told me, 'Even a salesman could learn from the sea.' He’s not wrong. [0 minutes ago]
+- My biggest sale? A grand piano. Don't ask how I managed to carry it. [0 minutes ago]
+- Every road has its bumps. Literally. My cart’s wheels are proof. [0 minutes ago]
+- I’ve learned to spot a deal from a dud. The eyes always give it away. [0 minutes ago]
+- Eli’s curiosity reminds me of my younger days. Hope he keeps it. [0 minutes ago]
+- No one knows it, but I can play the harmonica. Helps pass the lonely roads. [0 minutes ago]
+- I have a sixth sense for what people want. Makes for good business. [0 minutes ago]
+- You can't just sell a product; you sell dreams, comfort, a better tomorrow. [0 minutes ago]
+- I've visited so many towns, I could draw a map from memory. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694650594651] --- Action Functions ---
+[1694650594652] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694650597471] --- Response ---
+[1694650597472] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat",
+    "arguments": "{\n  \"characterId\": \"A6\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694650597473] --- Verified Action ---
+[1694650597473] {
+  "type": "eat",
+  "data": {
+    "characterId": "A6",
+    "foodId": "berries"
+  }
+}
+[1694650601726] Getting action 0
+[1694650601727] Getting result 0
+[1694650601727] --- Prompt ---
+[1694650601728] Character: 
+- ID: A6
+- Name: James McAllister
+- Age: 42
+- Occupation: Traveling Salesman
+- Personality: Charming, Shrewd, Optimistic
+
+Location: 16.1, -57.5
+
+Time: Day 0, 2:27 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 2.5m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.3m]
+- House (Health: 100/100) [Direction: W, Distance: 7.6m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 8.6m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- James McAllister sees House at X: 14.06, Y: -56.01. [2 hours ago]
+- Harold once told me, 'Even a salesman could learn from the sea.' He’s not wrong. [2 hours ago]
+- My biggest sale? A grand piano. Don't ask how I managed to carry it. [2 hours ago]
+- Every road has its bumps. Literally. My cart’s wheels are proof. [2 hours ago]
+- I’ve learned to spot a deal from a dud. The eyes always give it away. [2 hours ago]
+- Eli’s curiosity reminds me of my younger days. Hope he keeps it. [2 hours ago]
+- No one knows it, but I can play the harmonica. Helps pass the lonely roads. [2 hours ago]
+- I have a sixth sense for what people want. Makes for good business. [2 hours ago]
+- You can't just sell a product; you sell dreams, comfort, a better tomorrow. [2 hours ago]
+- I've visited so many towns, I could draw a map from memory. [2 hours ago]
+
+Previous Actions:
+- [eat]: James McAllister ate Berries which restored 10 satiety. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694650601728] --- Action Functions ---
+[1694650601728] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694650604567] --- Response ---
+[1694650604567] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A6\",\n  \"x\": 14.06,\n  \"y\": -56.01\n}"
+  }
+}
+[1694650604568] --- Verified Action ---
+[1694650604568] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A6",
+    "x": 14.06,
+    "y": -56.01
+  }
+}
+[1694650604793] [31m[createMemory][39m James McAllister has started walking to 14.06, Y: -56.01. [31.648737]
+[1694650606531] [31m[createMemory][39m James McAllister finished walking to 14.06, Y: -56.01. [33.099987]
+[1694650609704] Getting action 0
+[1694650609704] Getting result 0
+[1694650609704] Getting action 1
+[1694650609704] Getting result 1
+[1694650609704] --- Prompt ---
+[1694650609705] Character: 
+- ID: A6
+- Name: James McAllister
+- Age: 42
+- Occupation: Traveling Salesman
+- Personality: Charming, Shrewd, Optimistic
+
+Location: 14.19277, -56.06841
+
+Time: Day 0, 3:18 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 0.15m]
+- House (Health: 100/100) [Direction: W, Distance: 5.2m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.7m]
+- House (Health: 100/100) [Direction: W, Distance: 11m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- James McAllister has started walking to 14.06, Y: -56.01. [8 minutes ago]
+- James McAllister sees House at X: 14.06, Y: -56.01. [3 hours ago]
+- Harold once told me, 'Even a salesman could learn from the sea.' He’s not wrong. [3 hours ago]
+- My biggest sale? A grand piano. Don't ask how I managed to carry it. [3 hours ago]
+- Every road has its bumps. Literally. My cart’s wheels are proof. [3 hours ago]
+- I’ve learned to spot a deal from a dud. The eyes always give it away. [3 hours ago]
+- Eli’s curiosity reminds me of my younger days. Hope he keeps it. [3 hours ago]
+- No one knows it, but I can play the harmonica. Helps pass the lonely roads. [3 hours ago]
+- I have a sixth sense for what people want. Makes for good business. [3 hours ago]
+- You can't just sell a product; you sell dreams, comfort, a better tomorrow. [3 hours ago]
+
+Previous Actions:
+- [eat]: James McAllister ate Berries which restored 10 satiety. [51 minutes ago]
+- [move_to]: James McAllister walked to X: 14.06, Y: -56.01. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694650609705] --- Action Functions ---
+[1694650609705] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694650610397] [31m[createMemory][39m James McAllister sees Harold Smith at X: 9.208051, Y: -57.25001. [37.0487366]
+[1694650612735] --- Response ---
+[1694650612736] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A6\",\n  \"x\": 14.19277,\n  \"y\": -56.06841\n}"
+  }
+}
+[1694650612737] --- Verified Action ---
+[1694650612737] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A6",
+    "x": 14.19277,
+    "y": -56.06841
+  }
+}
+[1694650612951] [31m[createMemory][39m James McAllister has started walking to 14.19277, Y: -56.06841. [39.78207]
+[1694650613054] [31m[createMemory][39m James McAllister finished walking to 14.19277, Y: -56.06841. [39.8599854]
+[1694650615787] Getting action 0
+[1694650615787] Getting result 0
+[1694650615787] Getting action 1
+[1694650615788] Getting result 1
+[1694650615788] Getting action 2
+[1694650615788] Getting result 2
+[1694650615788] --- Prompt ---
+[1694650615788] Character: 
+- ID: A6
+- Name: James McAllister
+- Age: 42
+- Occupation: Traveling Salesman
+- Personality: Charming, Shrewd, Optimistic
+
+Location: 14.19277, -56.06841
+
+Time: Day 0, 3:59 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 0.15m]
+- Harold Smith (Health: 25/25) [Direction: W, Distance: 1.2m]
+- House (Health: 100/100) [Direction: W, Distance: 5.2m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.7m]
+- House (Health: 100/100) [Direction: W, Distance: 11m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- James McAllister finished walking to 14.19277, Y: -56.06841. [0 minutes ago]
+- James McAllister has started walking to 14.19277, Y: -56.06841. [0 minutes ago]
+- James McAllister sees Harold Smith at X: 9.208051, Y: -57.25001. [17 minutes ago]
+- James McAllister has started walking to 14.06, Y: -56.01. [49 minutes ago]
+- James McAllister sees House at X: 14.06, Y: -56.01. [3 hours ago]
+- My biggest sale? A grand piano. Don't ask how I managed to carry it. [3 hours ago]
+- Harold once told me, 'Even a salesman could learn from the sea.' He’s not wrong. [3 hours ago]
+- Every road has its bumps. Literally. My cart’s wheels are proof. [3 hours ago]
+- I’ve learned to spot a deal from a dud. The eyes always give it away. [3 hours ago]
+- No one knows it, but I can play the harmonica. Helps pass the lonely roads. [3 hours ago]
+
+Previous Actions:
+- [eat]: James McAllister ate Berries which restored 10 satiety. [1 hours ago]
+- [move_to]: James McAllister walked to X: 14.06, Y: -56.01. [40 minutes ago]
+- [move_to]: James McAllister walked to X: 14.19277, Y: -56.06841. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694650615788] --- Action Functions ---
+[1694650615788] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Harold Smith (ID: A7).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (6) in detail."
+        }
+      }
+    }
+  }
+]
+[1694650615946] [31m[createMemory][39m James McAllister no longer sees Human (6) at X: 19.18301, Y: -57.25001 [42.7487373]
+[1694650619679] --- Response ---
+[1694650619680] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "start_conversation",
+    "arguments": "{\n  \"characterId\": \"A6\",\n  \"targetCharacterId\": \"A7\",\n  \"conversationGoal\": \"Catch up with Harold Smith, gather information about the villagers\"\n}"
+  }
+}
+[1694650619682] --- Verified Action ---
+[1694650619682] {
+  "type": "start_conversation",
+  "data": {
+    "characterId": "A6",
+    "targetCharacterId": "A7",
+    "conversationGoal": "Catch up with Harold Smith, gather information about the villagers"
+  }
+}
+[1694650631085] [35m[CORTEX] James McAllister - Plan: [39m James plans to continue his journey to the next town. He heard rumors about a village up north that's been struggling with failed harvests. James thinks he might be able to help with some gadgets from his cart that could help the villagers in their farming efforts. But before he leaves, he plans to have a chat with Eli. Eli's tales about his adventures in the woods always brightens up his day and James could use a good story for the road ahead.
+[1694650635366] [35m[CORTEX] James McAllister - Say: [39mHarold, my friend, life is too short to only find comfort in the constancy of the sea. There's a whole world out there, full of stories, waiting to be discovered.
+

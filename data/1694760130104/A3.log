@@ -1,0 +1,404 @@
+[1694760131601] [Character] Creating Will
+[1694760132263] [31m[createMemory][39m Today was my first day in the mines. [0]
+[1694760132263] [31m[createMemory][39m George and Thomas have been really helpful. [0]
+[1694760132263] [31m[createMemory][39m The depth and darkness of the mines can be intimidating. [0]
+[1694760132263] [31m[createMemory][39m I accidentally broke a pickaxe on my first day. [0]
+[1694760132263] [31m[createMemory][39m The older miners have so many stories to tell. [0]
+[1694760132263] [31m[createMemory][39m I've always dreamed of being a miner like my father. [0]
+[1694760132263] [31m[createMemory][39m The echo in the mines is fascinating. [0]
+[1694760132263] [31m[createMemory][39m I need to remember to wear my helmet at all times. [0]
+[1694760132263] [31m[createMemory][39m The village has been supportive of my new journey. [0]
+[1694760132263] [31m[createMemory][39m I'm still learning the different routes in the mine. [0]
+[1694760132263] [31m[createMemory][39m I was startled by the sound of a mine cart today. [0]
+[1694760132263] [31m[createMemory][39m It's tiring, but I'm determined to make everyone proud. [0]
+[1694760132263] [31m[createMemory][39m I hope to find a rare gem or mineral soon. [0]
+[1694760132263] [31m[createMemory][39m The lanterns light up the mines in such a mysterious way. [0]
+[1694760132263] [31m[createMemory][39m I can't wait to tell my family about my adventures here. [0]
+[1694760132263] [31m[createMemory][39m Nume Village is located west of the crossroads at 2, -58. [0]
+[1694760132263] [31m[createMemory][39m I grew up in Nume Village, it's my home and located at (2, -58) [0]
+[1694760132263] [31m[createMemory][39m The mine site is north east of Nume Village, through the forest at 51, 17. [0]
+[1694760132263] [31m[createMemory][39m The lumberyard is straight east of Nume Village and located at 72, -55.1 [0]
+[1694760132263] [31m[createMemory][39m The campsite is North, but slightly west at 7, -8.3. You'll take a left at the fork in the road. [0]
+[1694760143137] [Character] Will created
+[1694760171379] [31m[createMemory][39m Will Turner sees Harold Smith at X: 21.79, Y: -57.11. [0]
+[1694760171379] [31m[createMemory][39m Will Turner sees House at X: 14.06, Y: -56.01. [0]
+[1694760171381] [31m[createMemory][39m Will Turner sees Tree at X: 18.55, Y: -53.24. [0]
+[1694760171381] [31m[createMemory][39m Will Turner sees Tree at X: 25.89, Y: -59.87. [0]
+[1694760171381] [31m[createMemory][39m Will Turner sees Tree at X: 18.3, Y: -59.99. [0]
+[1694760179545] --- Prompt ---
+[1694760179546] Character: 
+- ID: A3
+- Name: Will Turner
+- Age: 19
+- Occupation: Apprentice Miner
+- Personality: Curious, Eager, Naive
+
+Location: 21.19, -57.58
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Full
+
+Environment:
+- Harold Smith (Health: 25/25) [Location: 21.79, -57.11, Direction: W,  Distance: 0.76m]
+- Tree (Health: 10/10) [Location: 18.3, -59.99, Direction: W,  Distance: 3.8m]
+- Tree (Health: 10/10) [Location: 18.55, -53.24, Direction: W,  Distance: 5.1m]
+- Tree (Health: 10/10) [Location: 25.89, -59.87, Direction: NW,  Distance: 5.2m]
+- Tree Stump (Health: 5/5) [Location: 21.23, -50.62, Direction: NW,  Distance: 7.0m]
+- Tree (Health: 10/10) [Location: 18.81, -50.7, Direction: W,  Distance: 7.3m]
+- House (Health: 100/100) [Location: 14.06, -56.01, Direction: W,  Distance: 7.3m]
+- James McAllister (Health: 25/25) [Location: 13.55, -57.75, Direction: W,  Distance: 7.6m]
+- Eleanor Wraithwind (Health: 25/25) [Location: 23.26, -49.85, Direction: NW,  Distance: 8.0m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Chop wood with Eleanor Wraithwind",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Today was my first day in the mines. [just now]
+- I grew up in Nume Village, it's my home and located at (2, -58) [just now]
+- The depth and darkness of the mines can be intimidating. [just now]
+- Nume Village is located west of the crossroads at 2, -58. [just now]
+- I was startled by the sound of a mine cart today. [just now]
+- I accidentally broke a pickaxe on my first day. [just now]
+- George and Thomas have been really helpful. [just now]
+- The campsite is North, but slightly west at 7, -8.3. You'll take a left at the fork in the road. [just now]
+- I've always dreamed of being a miner like my father. [just now]
+- The village has been supportive of my new journey. [just now]
+- The echo in the mines is fascinating. [just now]
+- Will Turner sees Harold Smith at X: 21.79, Y: -57.11. [just now]
+- Will Turner sees Tree at X: 25.89, Y: -59.87. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+- start_conversation: Start a conversation with Harold Smith (ID: A7).
+
+Hitbox (what you would hit with a swing based action):
+- Harold Smith (Health: 25/25)
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694760201426] --- Response ---
+[1694760201426] Updated Tasks: 
+[1694760201432] [
+  {
+    "task": "Move towards Eleanor Wraithwind",
+    "priority": 1
+  },
+  {
+    "task": "Chop wood with Eleanor Wraithwind",
+    "priority": 2
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 3
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 4
+  },
+  {
+    "task": "Avoid startle from mine cart tomorrow",
+    "priority": 5
+  },
+  {
+    "task": "Get a new pickaxe",
+    "priority": 6
+  },
+  {
+    "task": "Learn more about mining from George and Thomas",
+    "priority": 7
+  },
+  {
+    "task": "Locate the campsite",
+    "priority": 8
+  },
+  {
+    "task": "Find a way to improve work efficiency in the mines",
+    "priority": 9
+  }
+]
+[1694760204150] --- Prompt ---
+[1694760204150] Character: 
+- ID: A3
+- Name: Will Turner
+- Age: 19
+- Occupation: Apprentice Miner
+- Personality: Curious, Eager, Naive
+
+Location: 21.19, -57.58
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Full
+
+Environment:
+- Harold Smith (Health: 25/25) [Direction: W, Distance: 0.76m]
+- Tree (Health: 10/10) [Direction: W, Distance: 3.8m]
+- Tree (Health: 10/10) [Direction: W, Distance: 5.1m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 5.2m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.3m]
+- House (Health: 100/100) [Direction: W, Distance: 7.3m]
+- James McAllister (Health: 25/25) [Direction: W, Distance: 7.6m]
+- Eleanor Wraithwind (Health: 25/25) [Direction: NW, Distance: 8.0m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Chop wood with Eleanor Wraithwind",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Will Turner sees Tree at X: 25.89, Y: -59.87. [just now]
+- Will Turner sees Harold Smith at X: 21.79, Y: -57.11. [just now]
+- The echo in the mines is fascinating. [just now]
+- The village has been supportive of my new journey. [just now]
+- I've always dreamed of being a miner like my father. [just now]
+- I was startled by the sound of a mine cart today. [just now]
+- Nume Village is located west of the crossroads at 2, -58. [just now]
+- The depth and darkness of the mines can be intimidating. [just now]
+- I grew up in Nume Village, it's my home and located at (2, -58) [just now]
+- Today was my first day in the mines. [just now]
+
+Hitbox (what you would hit with a swing based action):
+- Harold Smith (Health: 25/25)
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694760204150] --- Action Functions ---
+[1694760204151] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Harold Smith (ID: A7).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (6) in detail."
+        }
+      }
+    }
+  }
+]
+[1694760206672] [31m[createMemory][39m Harold Smith started a conversation with me. [21.3871021]
+[1694760210374] [31mAgent A3 is already occupied. Skipping...[39m
+[1694760213513] [31m[createMemory][39m Will Turner sees Lucy Wilde at X: 15.94373, Y: -57.30762. [27.60377]
+[1694760218257] [31m[createMemory][39m Will Turner sees Cedric Warborn at X: 15.93551, Y: -57.25001. [32.1871033]
+[1694760221374] [35m[CORTEX] Will Turner - Prior Message: [39mSon, being brave doesn't mean you aren’t scared. It means you go on, even when you’re scared.
+[1694760221374] [35m[CORTEX] Will Turner - Patience: [39m100
+[1694760221374] [35m[CORTEX] Will Turner - Conversation Goal: [39mfiguring out why Harold Smith started a conversation with them.
+[1694760221374] [35m[CORTEX] Will Turner - Conversation Finished: [39mfalse
+[1694760225330] [35m[CORTEX] Will Turner - Feel: [39mI feel encouraged by Harold's wisdom, reminding me that bravery is not absence of fear but conquering it.
+[1694760229158] [35m[CORTEX] Will Turner - Plan: [39m Will Turner plans to continue his journey through the mines, determined and resolved, despite the fear and challenges that might come his way.
+[1694760232857] [35m[CORTEX] Will Turner - Say: [39mThank you for your wisdom, Harold. I won't let fear hold me back. I'll keep pushing forward!
+

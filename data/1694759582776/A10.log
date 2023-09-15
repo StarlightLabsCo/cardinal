@@ -1,0 +1,352 @@
+[1694759583462] [Character] Creating Owen
+[1694759584106] [31m[createMemory][39m Harvest season is always a community event; everyone helps out. [0]
+[1694759584106] [31m[createMemory][39m My farm has been in my family for generations. [0]
+[1694759584106] [31m[createMemory][39m I take pride in the quality of my crops. [0]
+[1694759584106] [31m[createMemory][39m Watering the fields at dawn is my daily ritual. [0]
+[1694759584106] [31m[createMemory][39m I've helped build the village barn for community storage. [0]
+[1694759584106] [31m[createMemory][39m My optimism helps people through tough winters. [0]
+[1694759584106] [31m[createMemory][39m I've learned weather patterns to maximize crop yield. [0]
+[1694759584106] [31m[createMemory][39m I've taught my children the value of hard work. [0]
+[1694759584106] [31m[createMemory][39m We celebrate every successful harvest with a village feast. [0]
+[1694759584106] [31m[createMemory][39m I often exchange farming tips with other local farmers. [0]
+[1694759584106] [31m[createMemory][39m My tools are my most prized possessions; they've seen years of work. [0]
+[1694759584106] [31m[createMemory][39m The community market is where I sell my produce. [0]
+[1694759584106] [31m[createMemory][39m I've started experimenting with new types of seeds. [0]
+[1694759584106] [31m[createMemory][39m I remember how my parents taught me to respect the land. [0]
+[1694759584106] [31m[createMemory][39m I keep records of each harvest; helps in planning the next. [0]
+[1694759584106] [31m[createMemory][39m My farm's coordinates are 15, 28; right next to the creek. [0]
+[1694759584106] [31m[createMemory][39m The village square is at 5, 10; where the market is held. [0]
+[1694759584106] [31m[createMemory][39m The nearby forest is at 30, 40; it's a source of wild berries. [0]
+[1694759584106] [31m[createMemory][39m The village granary is at 2, 6; where we store excess produce. [0]
+[1694759584106] [31m[createMemory][39m The creek that feeds my farm flows from the north at 17, 35. [0]
+[1694759596236] [Character] Owen created
+[1694759606730] --- Prompt ---
+[1694759606732] Character: 
+- ID: A10
+- Name: Owen Greenfield
+- Age: 33
+- Occupation: Farmer
+- Personality: Hardworking, Optimistic, Community-Oriented
+
+Location: 32.18, -53.84
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Tree (Health: 10/10) [Location: 36.04, -47.68999, Direction: NW,  Distance: 7.3m]
+- Tree Stump (Health: 5/5) [Location: 38.7, -50.07, Direction: NW,  Distance: 7.5m]
+- Chest (Health: 10/10) [Location: 37.52, -48.22, Direction: NW,  Distance: 7.8m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I've learned weather patterns to maximize crop yield. [0 minutes ago]
+- My farm has been in my family for generations. [0 minutes ago]
+- I've helped build the village barn for community storage. [0 minutes ago]
+- Watering the fields at dawn is my daily ritual. [0 minutes ago]
+- The village granary is at 2, 6; where we store excess produce. [0 minutes ago]
+- The creek that feeds my farm flows from the north at 17, 35. [0 minutes ago]
+- My tools are my most prized possessions; they've seen years of work. [0 minutes ago]
+- Harvest season is always a community event; everyone helps out. [0 minutes ago]
+- My optimism helps people through tough winters. [0 minutes ago]
+- I often exchange farming tips with other local farmers. [0 minutes ago]
+- The community market is where I sell my produce. [0 minutes ago]
+- I keep records of each harvest; helps in planning the next. [0 minutes ago]
+- My farm's coordinates are 15, 28; right next to the creek. [0 minutes ago]
+- I've started experimenting with new types of seeds. [0 minutes ago]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694759632909] --- Response ---
+[1694759632909] Updated Tasks: 
+[1694759632910] [
+  {
+    "task": "Move to farm at 15, 28",
+    "priority": 1
+  },
+  {
+    "task": "Perform daily duties at farm",
+    "priority": 2
+  },
+  {
+    "task": "Water the fields at dawn",
+    "priority": 3
+  },
+  {
+    "task": "Eat berries for energy",
+    "priority": 4
+  },
+  {
+    "task": "Keep records of today's work for future planning",
+    "priority": 5
+  },
+  {
+    "task": "Try out new types of seeds",
+    "priority": 6
+  },
+  {
+    "task": "Meet other villagers at community market",
+    "priority": 7
+  },
+  {
+    "task": "Exchange farming tips with local farmers",
+    "priority": 8
+  },
+  {
+    "task": "Check the village granary at 2, 6 to determine excess produce",
+    "priority": 9
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 10
+  }
+]
+[1694759635395] --- Prompt ---
+[1694759635396] Character: 
+- ID: A10
+- Name: Owen Greenfield
+- Age: 33
+- Occupation: Farmer
+- Personality: Hardworking, Optimistic, Community-Oriented
+
+Location: 32.18, -53.84
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.3m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 7.5m]
+- Chest (Health: 10/10) [Direction: NW, Distance: 7.8m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- My optimism helps people through tough winters. [0 minutes ago]
+- Harvest season is always a community event; everyone helps out. [0 minutes ago]
+- The creek that feeds my farm flows from the north at 17, 35. [0 minutes ago]
+- My farm has been in my family for generations. [0 minutes ago]
+- I've started experimenting with new types of seeds. [0 minutes ago]
+- My farm's coordinates are 15, 28; right next to the creek. [0 minutes ago]
+- I keep records of each harvest; helps in planning the next. [0 minutes ago]
+- The community market is where I sell my produce. [0 minutes ago]
+- I often exchange farming tips with other local farmers. [0 minutes ago]
+- My tools are my most prized possessions; they've seen years of work. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694759635396] --- Action Functions ---
+[1694759635398] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]

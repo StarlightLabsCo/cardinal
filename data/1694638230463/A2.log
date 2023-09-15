@@ -1,0 +1,1578 @@
+[1694638232780] [Character] Creating George
+[1694638233462] [31m[createMemory][39m George Brown is quite tired today. [0]
+[1694638233462] [31m[createMemory][39m Working in the mines is tough but rewarding. [0]
+[1694638233462] [31m[createMemory][39m I've been friends with Thomas for a long time. [0]
+[1694638233462] [31m[createMemory][39m Safety in the mines is a top priority for me. [0]
+[1694638233462] [31m[createMemory][39m I've discovered some rare minerals during my time here. [0]
+[1694638233463] [31m[createMemory][39m I'm usually one of the first to arrive at the mine site. [0]
+[1694638233463] [31m[createMemory][39m My family has been mining for generations. [0]
+[1694638233463] [31m[createMemory][39m I enjoy a cold beverage after a long day in the mines. [0]
+[1694638233463] [31m[createMemory][39m I've been taught traditional mining songs by the older miners. [0]
+[1694638233463] [31m[createMemory][39m I've saved up to buy a house near the village. [0]
+[1694638233463] [31m[createMemory][39m I know a secret tunnel in the mine that few know about. [0]
+[1694638233463] [31m[createMemory][39m It's important to have the right tools for the job. [0]
+[1694638233463] [31m[createMemory][39m I take pride in my work and look after my equipment. [0]
+[1694638233463] [31m[createMemory][39m I sometimes join Thomas and others for a meal after work. [0]
+[1694638233463] [31m[createMemory][39m I've had a few close calls, but always came out safe. [0]
+[1694638233464] [31m[createMemory][39m The village festivities are something I look forward to every year. [0]
+[1694638271227] --- Prompt ---
+[1694638271228] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 20.53, -62.05
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Starving
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Location: 24.33, -56.01, Direction: NW,  Distance: 7.1m]
+- Eli Green (Health: 25/25) [Location: 25.55, -55.73, Direction: NW,  Distance: 8.1m]
+- House (Health: 100/100) [Location: 14.06, -56.01, Direction: W,  Distance: 8.9m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I've been friends with Thomas for a long time. [0 minutes ago]
+- I know a secret tunnel in the mine that few know about. [0 minutes ago]
+- I've had a few close calls, but always came out safe. [0 minutes ago]
+- I've discovered some rare minerals during my time here. [0 minutes ago]
+- The village festivities are something I look forward to every year. [0 minutes ago]
+- I've been taught traditional mining songs by the older miners. [0 minutes ago]
+- I take pride in my work and look after my equipment. [0 minutes ago]
+- George Brown is quite tired today. [0 minutes ago]
+- It's important to have the right tools for the job. [0 minutes ago]
+- I've saved up to buy a house near the village. [0 minutes ago]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694638294786] --- Response ---
+[1694638294786] Updated Tasks: 
+[1694638294787] [
+  {
+    "task": "Eat some food to deal with hunger",
+    "priority": 1
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 2
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 3
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 4
+  },
+  {
+    "task": "Rest to recover energy",
+    "priority": 5
+  },
+  {
+    "task": "Explore the secret tunnel in the mine",
+    "priority": 6
+  },
+  {
+    "task": "Prepare for the village festivities",
+    "priority": 7
+  },
+  {
+    "task": "Take care of mining equipment",
+    "priority": 8
+  },
+  {
+    "task": "Spend some time singing traditional mining songs",
+    "priority": 9
+  },
+  {
+    "task": "Save up to buy a house near the village",
+    "priority": 10
+  },
+  {
+    "task": "Ensure to have the right tools for work",
+    "priority": 11
+  }
+]
+[1694638297555] --- Prompt ---
+[1694638297556] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 20.53, -62.05
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Starving
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 7.1m]
+- Eli Green (Health: 25/25) [Direction: NW, Distance: 8.1m]
+- House (Health: 100/100) [Direction: W, Distance: 8.9m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I've saved up to buy a house near the village. [0 minutes ago]
+- It's important to have the right tools for the job. [0 minutes ago]
+- George Brown is quite tired today. [0 minutes ago]
+- I take pride in my work and look after my equipment. [0 minutes ago]
+- I've been taught traditional mining songs by the older miners. [0 minutes ago]
+- The village festivities are something I look forward to every year. [0 minutes ago]
+- I've discovered some rare minerals during my time here. [0 minutes ago]
+- I've had a few close calls, but always came out safe. [0 minutes ago]
+- I know a secret tunnel in the mine that few know about. [0 minutes ago]
+- I've been friends with Thomas for a long time. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694638297556] --- Action Functions ---
+[1694638297556] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694638300741] --- Response ---
+[1694638300741] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694638300744] --- Verified Action ---
+[1694638300744] {
+  "type": "eat",
+  "data": {
+    "characterId": "A2",
+    "foodId": "berries"
+  }
+}
+[1694638303577] Getting action 0
+[1694638303578] Getting result 0
+[1694638303578] --- Prompt ---
+[1694638303592] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 20.53, -62.05
+
+Time: Day 0, 2:26 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 7.1m]
+- Eli Green (Health: 25/25) [Direction: NW, Distance: 8.1m]
+- House (Health: 100/100) [Direction: W, Distance: 8.9m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I've saved up to buy a house near the village. [2 hours ago]
+- It's important to have the right tools for the job. [2 hours ago]
+- George Brown is quite tired today. [2 hours ago]
+- I take pride in my work and look after my equipment. [2 hours ago]
+- I've been taught traditional mining songs by the older miners. [2 hours ago]
+- The village festivities are something I look forward to every year. [2 hours ago]
+- I've discovered some rare minerals during my time here. [2 hours ago]
+- I've had a few close calls, but always came out safe. [2 hours ago]
+- I know a secret tunnel in the mine that few know about. [2 hours ago]
+- I've been friends with Thomas for a long time. [2 hours ago]
+
+Previous Actions:
+- [eat]: George Brown ate Berries which restored 10 satiety. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694638303593] --- Action Functions ---
+[1694638303593] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694638306692] --- Response ---
+[1694638306693] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 20.53,\n  \"y\": -62.05\n}"
+  }
+}
+[1694638306693] --- Verified Action ---
+[1694638306693] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A2",
+    "x": 20.53,
+    "y": -62.05
+  }
+}
+[1694638306893] [31m[createMemory][39m George Brown has started walking to 20.53, Y: -62.05. [28.99961]
+[1694638306948] [31m[createMemory][39m George Brown finished walking to 20.53, Y: -62.05. [29.05999]
+[1694638309486] Getting action 0
+[1694638309486] Getting result 0
+[1694638309486] Getting action 1
+[1694638309486] Getting result 1
+[1694638309486] --- Prompt ---
+[1694638309487] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 20.53, -62.05
+
+Time: Day 0, 2:54 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 7.1m]
+- Eli Green (Health: 25/25) [Direction: NW, Distance: 8.1m]
+- House (Health: 100/100) [Direction: W, Distance: 8.9m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- George Brown finished walking to 20.53, Y: -62.05. [0 minutes ago]
+- I've saved up to buy a house near the village. [2 hours ago]
+- It's important to have the right tools for the job. [2 hours ago]
+- George Brown is quite tired today. [2 hours ago]
+- I take pride in my work and look after my equipment. [2 hours ago]
+- I've been taught traditional mining songs by the older miners. [2 hours ago]
+- The village festivities are something I look forward to every year. [2 hours ago]
+- I've discovered some rare minerals during my time here. [2 hours ago]
+- I've had a few close calls, but always came out safe. [2 hours ago]
+- I know a secret tunnel in the mine that few know about. [2 hours ago]
+
+Previous Actions:
+- [eat]: George Brown ate Berries which restored 10 satiety. [28 minutes ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694638309487] --- Action Functions ---
+[1694638309488] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694638312508] --- Response ---
+[1694638312508] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 20.53,\n  \"y\": -62.05\n}"
+  }
+}
+[1694638312509] --- Verified Action ---
+[1694638312509] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A2",
+    "x": 20.53,
+    "y": -62.05
+  }
+}
+[1694638312731] [31m[createMemory][39m George Brown has started walking to 20.53, Y: -62.05. [34.8145943]
+[1694638312750] [31m[createMemory][39m George Brown finished walking to 20.53, Y: -62.05. [34.85999]
+[1694638315251] Getting action 0
+[1694638315251] Getting result 0
+[1694638315251] Getting action 1
+[1694638315251] Getting result 1
+[1694638315251] Getting action 2
+[1694638315251] Getting result 2
+[1694638315251] --- Prompt ---
+[1694638315251] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 20.53, -62.05
+
+Time: Day 0, 3:29 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 7.1m]
+- Eli Green (Health: 25/25) [Direction: NW, Distance: 8.1m]
+- House (Health: 100/100) [Direction: W, Distance: 8.9m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- George Brown finished walking to 20.53, Y: -62.05. [0 minutes ago]
+- George Brown has started walking to 20.53, Y: -62.05. [0 minutes ago]
+- George Brown finished walking to 20.53, Y: -62.05. [34 minutes ago]
+- I've saved up to buy a house near the village. [3 hours ago]
+- George Brown is quite tired today. [3 hours ago]
+- I take pride in my work and look after my equipment. [3 hours ago]
+- I've been taught traditional mining songs by the older miners. [3 hours ago]
+- The village festivities are something I look forward to every year. [3 hours ago]
+- I've discovered some rare minerals during my time here. [3 hours ago]
+- I've had a few close calls, but always came out safe. [3 hours ago]
+
+Previous Actions:
+- [eat]: George Brown ate Berries which restored 10 satiety. [1 hours ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [34 minutes ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694638315251] --- Action Functions ---
+[1694638315251] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694638319322] --- Response ---
+[1694638319324] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 20.53,\n  \"y\": -62.05\n}"
+  }
+}
+[1694638319326] --- Verified Action ---
+[1694638319326] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A2",
+    "x": 20.53,
+    "y": -62.05
+  }
+}
+[1694638319589] [31m[createMemory][39m George Brown has started walking to 20.53, Y: -62.05. [40.334938]
+[1694638319640] [31m[createMemory][39m George Brown finished walking to 20.53, Y: -62.05. [40.3999863]
+[1694638322981] Getting action 0
+[1694638322981] Getting result 0
+[1694638322981] Getting action 1
+[1694638322981] Getting result 1
+[1694638322981] Getting action 2
+[1694638322981] Getting result 2
+[1694638322981] Getting action 3
+[1694638322981] Getting result 3
+[1694638322981] --- Prompt ---
+[1694638322981] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 20.53, -62.05
+
+Time: Day 0, 4:02 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 7.1m]
+- Eli Green (Health: 25/25) [Direction: NW, Distance: 8.1m]
+- House (Health: 100/100) [Direction: W, Distance: 8.9m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- George Brown finished walking to 20.53, Y: -62.05. [0 minutes ago]
+- George Brown has started walking to 20.53, Y: -62.05. [0 minutes ago]
+- George Brown finished walking to 20.53, Y: -62.05. [33 minutes ago]
+- George Brown has started walking to 20.53, Y: -62.05. [33 minutes ago]
+- George Brown finished walking to 20.53, Y: -62.05. [1 hours ago]
+- I've saved up to buy a house near the village. [4 hours ago]
+- George Brown is quite tired today. [4 hours ago]
+- I take pride in my work and look after my equipment. [4 hours ago]
+- I've been taught traditional mining songs by the older miners. [4 hours ago]
+- The village festivities are something I look forward to every year. [4 hours ago]
+
+Previous Actions:
+- [eat]: George Brown ate Berries which restored 10 satiety. [1 hours ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [1 hours ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [33 minutes ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694638322981] --- Action Functions ---
+[1694638322981] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694638327294] --- Response ---
+[1694638327295] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 20.53,\n  \"y\": -62.05\n}"
+  }
+}
+[1694638327296] --- Verified Action ---
+[1694638327296] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A2",
+    "x": 20.53,
+    "y": -62.05
+  }
+}
+[1694638327512] [31m[createMemory][39m George Brown has started walking to 20.53, Y: -62.05. [48.2016068]
+[1694638327586] [31m[createMemory][39m George Brown finished walking to 20.53, Y: -62.05. [48.2599831]
+[1694638330241] Getting action 0
+[1694638330241] Getting result 0
+[1694638330241] Getting action 1
+[1694638330241] Getting result 1
+[1694638330241] Getting action 2
+[1694638330241] Getting result 2
+[1694638330241] Getting action 3
+[1694638330241] Getting result 3
+[1694638330241] Getting action 4
+[1694638330241] Getting result 4
+[1694638330241] --- Prompt ---
+[1694638330241] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 20.53, -62.05
+
+Time: Day 0, 4:49 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 7.1m]
+- Eli Green (Health: 25/25) [Direction: NW, Distance: 8.1m]
+- House (Health: 100/100) [Direction: W, Distance: 8.9m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- George Brown finished walking to 20.53, Y: -62.05. [47 minutes ago]
+- George Brown has started walking to 20.53, Y: -62.05. [47 minutes ago]
+- George Brown finished walking to 20.53, Y: -62.05. [1 hours ago]
+- George Brown finished walking to 20.53, Y: -62.05. [1 hours ago]
+- I've saved up to buy a house near the village. [4 hours ago]
+- George Brown is quite tired today. [4 hours ago]
+- I take pride in my work and look after my equipment. [4 hours ago]
+- The village festivities are something I look forward to every year. [4 hours ago]
+- I've had a few close calls, but always came out safe. [4 hours ago]
+- I've been friends with Thomas for a long time. [4 hours ago]
+
+Previous Actions:
+- [eat]: George Brown ate Berries which restored 10 satiety. [2 hours ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [1 hours ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [1 hours ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [47 minutes ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694638330242] --- Action Functions ---
+[1694638330242] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694638333446] --- Response ---
+[1694638333446] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 30.0,\n  \"y\": -50.0\n}"
+  }
+}
+[1694638333447] --- Verified Action ---
+[1694638333447] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A2",
+    "x": 30,
+    "y": -50
+  }
+}
+[1694638333687] [31m[createMemory][39m George Brown has started walking to 30, Y: -50. [54.31827]
+[1694638334759] [31m[createMemory][39m George Brown sees Lucy Wilde at X: 24.33, Y: -56.01. [55.3849373]
+[1694638335418] [31m[createMemory][39m George Brown sees Eli Green at X: 25.55, Y: -55.73. [56.0516052]
+[1694638336042] [31m[createMemory][39m George Brown sees House at X: 14.06, Y: -56.01. [56.6016045]
+[1694638336622] [31m[createMemory][39m George Brown no longer sees House at X: 14.06, Y: -56.01 [57.2682724]
+[1694638341300] [31m[createMemory][39m George Brown no longer sees Human (3) at X: 24.33, Y: -56.01 [61.9016037]
+[1694638342038] [31m[createMemory][39m George Brown no longer sees Human (4) at X: 25.55, Y: -55.73 [62.6516037]
+[1694638345003] [31m[createMemory][39m George Brown finished walking to 30, Y: -50. [65.5599747]
+[1694638347657] Getting action 0
+[1694638347657] Getting result 0
+[1694638347657] Getting action 1
+[1694638347657] Getting result 1
+[1694638347657] Getting action 2
+[1694638347657] Getting result 2
+[1694638347657] Getting action 3
+[1694638347657] Getting result 3
+[1694638347657] Getting action 4
+[1694638347657] Getting result 4
+[1694638347657] Getting action 5
+[1694638347658] Getting result 5
+[1694638347658] --- Prompt ---
+[1694638347658] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 30.09214, -50.09537
+
+Time: Day 0, 6:33 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.2m]
+- Eli Green (Health: 25/25) [Direction: NW, Distance: 7.2m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 7.6m]
+- Chest (Health: 10/10) [Direction: NW, Distance: 7.7m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.6m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- George Brown sees Eli Green at X: 25.55, Y: -55.73. [57 minutes ago]
+- George Brown finished walking to 20.53, Y: -62.05. [2 hours ago]
+- George Brown has started walking to 20.53, Y: -62.05. [2 hours ago]
+- George Brown finished walking to 20.53, Y: -62.05. [3 hours ago]
+- George Brown finished walking to 20.53, Y: -62.05. [3 hours ago]
+- I've saved up to buy a house near the village. [6 hours ago]
+- George Brown is quite tired today. [6 hours ago]
+- The village festivities are something I look forward to every year. [6 hours ago]
+- I've had a few close calls, but always came out safe. [6 hours ago]
+- I've been friends with Thomas for a long time. [6 hours ago]
+
+Previous Actions:
+- [eat]: George Brown ate Berries which restored 10 satiety. [4 hours ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [3 hours ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [3 hours ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [2 hours ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [1 hours ago]
+- [move_to]: George Brown walked to X: 30, Y: -50. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694638347658] --- Action Functions ---
+[1694638347658] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694638352012] --- Response ---
+[1694638352012] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 25.55,\n  \"y\": -55.73\n}"
+  }
+}
+[1694638352014] --- Verified Action ---
+[1694638352017] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A2",
+    "x": 25.55,
+    "y": -55.73
+  }
+}
+[1694638352283] [31m[createMemory][39m George Brown has started walking to 25.55, Y: -55.73. [71.88494]
+[1694638353123] [31m[createMemory][39m George Brown sees Tree at X: 36.04, Y: -47.68999. [72.76827]
+[1694638353151] [31m[createMemory][39m George Brown no longer sees Tree (649) at X: 36.04, Y: -47.68999 [72.8016052]

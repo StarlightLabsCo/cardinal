@@ -1,0 +1,33 @@
+[
+  {
+    "type": "eat",
+    "data": {
+      "characterId": "A3",
+      "foodId": "berries"
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A3",
+      "x": 14.06,
+      "y": -56.01
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A3",
+      "x": 13.99927,
+      "y": -56.12765
+    }
+  },
+  {
+    "type": "start_conversation",
+    "data": {
+      "characterId": "A3",
+      "targetCharacterId": "A5",
+      "conversationGoal": "Learn more about daily village life and activities."
+    }
+  }
+]

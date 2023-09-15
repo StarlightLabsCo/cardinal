@@ -1,0 +1,2252 @@
+[1694114460108] [Character] Creating Eli
+[1694114460934] [31m[createMemory][39m I need to let Thomas know I'm going to explore. He's asked me in the past to let him know just in case I get hurt or lost. [0]
+[1694114460934] [31m[createMemory][39m I once found a secret clearing in the woods, it's my personal hideout now. [0]
+[1694114460934] [31m[createMemory][39m The world feels so big and full of wonders, I want to see them all! [0]
+[1694114460935] [31m[createMemory][39m I saw a deer up close once, our eyes met and we just stared for a moment. [0]
+[1694114460935] [31m[createMemory][39m Climbing trees is my favorite! The higher I go, the bigger the world looks. [0]
+[1694114460935] [31m[createMemory][39m Lucy showed me how to listen to the forest, it's like it's telling stories. [0]
+[1694114460935] [31m[createMemory][39m Every rock and leaf, every bird and bug, feels like a friend to me. [0]
+[1694114460935] [31m[createMemory][39m I once got lost, but the stars guided me home. They're like nature's map! [0]
+[1694114460935] [31m[createMemory][39m George tells me tales of old, turning every tree and hill into an adventure. [0]
+[1694114460935] [31m[createMemory][39m I made a whistle out of a reed! Nature is full of surprises. [0]
+[1694114460935] [31m[createMemory][39m The woods in autumn is my favorite. All those colors... like nature's painting! [0]
+[1694114460935] [31m[createMemory][39m I wish I could talk to animals. Imagine the stories they'd tell! [0]
+[1694114460935] [31m[createMemory][39m I've learned to move silently. That way, nature doesn’t hide from me. [0]
+[1694114460936] [31m[createMemory][39m Lucy once said every tree has a story. I'm trying to learn them all. [0]
+[1694114460936] [31m[createMemory][39m Rainy days? That's when the forest sings its loudest song! [0]
+[1694114460936] [31m[createMemory][39m I dreamt I could fly like a bird, seeing the world from above. Maybe one day... [0]
+[1694114469401] [Character] Eli created
+[1694114471613] [31m[createMemory][39m John Green sees John Green at X: 39.93, Y: -58.92. [0.0199999921]
+[1694114471613] [31m[createMemory][39m John Green sees John Green at X: 38.6, Y: -58.76. [0.0199999921]
+[1694114471614] [31m[createMemory][39m Eli Green sees Lucy Wilde at X: 31.39, Y: -53.38. [0.0199999921]
+[1694114478777] --- Prompt ---
+[1694114478777] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 39.93, -58.92
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- John Green (Health: 25/25) [Direction: NW, Distance: 1.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.1m]
+- Will Turner (Health: 25/25) [Direction: NW, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.7m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I made a whistle out of a reed! Nature is full of surprises. [0 minutes ago]
+- I saw a deer up close once, our eyes met and we just stared for a moment. [0 minutes ago]
+- I wish I could talk to animals. Imagine the stories they'd tell! [0 minutes ago]
+- Lucy showed me how to listen to the forest, it's like it's telling stories. [0 minutes ago]
+- Lucy once said every tree has a story. I'm trying to learn them all. [0 minutes ago]
+- The world feels so big and full of wonders, I want to see them all! [0 minutes ago]
+- I once found a secret clearing in the woods, it's my personal hideout now. [0 minutes ago]
+- George tells me tales of old, turning every tree and hill into an adventure. [0 minutes ago]
+- I've learned to move silently. That way, nature doesn’t hide from me. [0 minutes ago]
+- The woods in autumn is my favorite. All those colors... like nature's painting! [0 minutes ago]
+
+Hitbox (what you would hit with a swing based action):
+- John Green (Health: 25/25)
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694114478778] --- Action Functions ---
+[1694114478788] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with John Green (ID: A5).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (7) in detail."
+        }
+      }
+    }
+  }
+]
+[1694114479326] --- Prompt ---
+[1694114479329] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 32.81001, -53.18
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 1.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.4m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 6.7m]
+- Chest (Health: 10/10) [Direction: NW, Distance: 6.8m]
+- Thomas Smith (Health: 25/25) [Direction: NW, Distance: 7.4m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 8.1m]
+- Will Turner (Health: 25/25) [Direction: NW, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.3m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I made a whistle out of a reed! Nature is full of surprises. [0 minutes ago]
+- I saw a deer up close once, our eyes met and we just stared for a moment. [0 minutes ago]
+- I wish I could talk to animals. Imagine the stories they'd tell! [0 minutes ago]
+- Lucy showed me how to listen to the forest, it's like it's telling stories. [0 minutes ago]
+- Lucy once said every tree has a story. I'm trying to learn them all. [0 minutes ago]
+- The world feels so big and full of wonders, I want to see them all! [0 minutes ago]
+- I once found a secret clearing in the woods, it's my personal hideout now. [0 minutes ago]
+- George tells me tales of old, turning every tree and hill into an adventure. [0 minutes ago]
+- I've learned to move silently. That way, nature doesn’t hide from me. [0 minutes ago]
+- The woods in autumn is my favorite. All those colors... like nature's painting! [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694114479329] --- Action Functions ---
+[1694114479329] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Lucy Wilde (ID: A4).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (3) in detail."
+        }
+      }
+    }
+  }
+]
+[1694114479533] --- Prompt ---
+[1694114479549] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 38.6, -58.76
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- John Green (Health: 25/25) [Location: 39.93, -58.92, Direction: NW,  Distance: 1.3m]
+- Eli Green (Health: 25/25) [Location: 32.81001, -53.18, Direction: NW,  Distance: 8.0m]
+- Will Turner (Health: 25/25) [Location: 40.7, -50.62, Direction: NW,  Distance: 8.4m]
+- Tree (Health: 10/10) [Location: 43.53, -51.61, Direction: NW,  Distance: 8.7m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I once got lost, but the stars guided me home. They're like nature's map! [0 minutes ago]
+- Rainy days? That's when the forest sings its loudest song! [0 minutes ago]
+- The woods in autumn is my favorite. All those colors... like nature's painting! [0 minutes ago]
+- I've learned to move silently. That way, nature doesn’t hide from me. [0 minutes ago]
+- I saw a deer up close once, our eyes met and we just stared for a moment. [0 minutes ago]
+- George tells me tales of old, turning every tree and hill into an adventure. [0 minutes ago]
+- I once found a secret clearing in the woods, it's my personal hideout now. [0 minutes ago]
+- I made a whistle out of a reed! Nature is full of surprises. [0 minutes ago]
+- The world feels so big and full of wonders, I want to see them all! [0 minutes ago]
+- Lucy once said every tree has a story. I'm trying to learn them all. [0 minutes ago]
+- Lucy showed me how to listen to the forest, it's like it's telling stories. [0 minutes ago]
+- I wish I could talk to animals. Imagine the stories they'd tell! [0 minutes ago]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+- start_conversation: Start a conversation with John Green (ID: A5).
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694114482122] --- Response ---
+[1694114482122] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat",
+    "arguments": "{\n  \"characterId\": \"A5\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694114482126] --- Verified Action ---
+[1694114482126] {
+  "type": "eat",
+  "data": {
+    "characterId": "A5",
+    "foodId": "berries"
+  }
+}
+[1694114482486] --- Response ---
+[1694114482486] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "start_conversation",
+    "arguments": "{\n  \"characterId\": \"A5\",\n  \"targetCharacterId\": \"John Green\"\n}"
+  }
+}
+[1694114482510] {
+  "issues": [
+    {
+      "code": "invalid_union",
+      "unionErrors": [
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "add_to_chest",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"add_to_chest\""
+            },
+            {
+              "code": "invalid_union",
+              "unionErrors": [
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "wood",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"wood\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "stone",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"stone\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "iron",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"iron\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "diamond",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"diamond\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "copper",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"copper\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "coal",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"coal\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "axe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"axe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "pickaxe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"pickaxe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "sword",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"sword\""
+                    }
+                  ],
+                  "name": "ZodError"
+                }
+              ],
+              "path": [
+                "data",
+                "itemId"
+              ],
+              "message": "Invalid input"
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "chestId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "remove_from_chest",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"remove_from_chest\""
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "itemId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "chestId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "move_to",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"move_to\""
+            },
+            {
+              "code": "invalid_type",
+              "expected": "number",
+              "received": "undefined",
+              "path": [
+                "data",
+                "x"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "invalid_type",
+              "expected": "number",
+              "received": "undefined",
+              "path": [
+                "data",
+                "y"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "drop",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"drop\""
+            },
+            {
+              "code": "invalid_union",
+              "unionErrors": [
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "wood",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"wood\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "stone",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"stone\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "iron",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"iron\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "diamond",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"diamond\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "copper",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"copper\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "coal",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"coal\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "axe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"axe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "pickaxe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"pickaxe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "sword",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"sword\""
+                    }
+                  ],
+                  "name": "ZodError"
+                }
+              ],
+              "path": [
+                "data",
+                "itemId"
+              ],
+              "message": "Invalid input"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "swing_axe",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"swing_axe\""
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "swing_sword",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"swing_sword\""
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "swing_pickaxe",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"swing_pickaxe\""
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "conversationGoal"
+              ],
+              "message": "Required"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "eat",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"eat\""
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "foodId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        }
+      ],
+      "path": [],
+      "message": "Invalid input"
+    }
+  ],
+  "name": "ZodError"
+}
+[1694114482511] --- Prompt ---
+[1694114482511] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 39.93, -58.92
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- John Green (Health: 25/25) [Direction: NW, Distance: 1.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.1m]
+- Will Turner (Health: 25/25) [Direction: NW, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.7m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I made a whistle out of a reed! Nature is full of surprises. [0 minutes ago]
+- I saw a deer up close once, our eyes met and we just stared for a moment. [0 minutes ago]
+- I wish I could talk to animals. Imagine the stories they'd tell! [0 minutes ago]
+- Lucy showed me how to listen to the forest, it's like it's telling stories. [0 minutes ago]
+- Lucy once said every tree has a story. I'm trying to learn them all. [0 minutes ago]
+- The world feels so big and full of wonders, I want to see them all! [0 minutes ago]
+- I once found a secret clearing in the woods, it's my personal hideout now. [0 minutes ago]
+- George tells me tales of old, turning every tree and hill into an adventure. [0 minutes ago]
+- I've learned to move silently. That way, nature doesn’t hide from me. [0 minutes ago]
+- The woods in autumn is my favorite. All those colors... like nature's painting! [0 minutes ago]
+
+Hitbox (what you would hit with a swing based action):
+- John Green (Health: 25/25)
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+
+[1694114482511] --- Action Functions ---
+[1694114482511] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with John Green (ID: A5).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (7) in detail."
+        }
+      }
+    }
+  }
+]
+[1694114485311] --- Response ---
+[1694114485312] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "start_conversation",
+    "arguments": "{\n  \"characterId\": \"A5\",\n  \"targetCharacterId\": \"John Green\"\n}"
+  }
+}
+[1694114485330] {
+  "issues": [
+    {
+      "code": "invalid_union",
+      "unionErrors": [
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "add_to_chest",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"add_to_chest\""
+            },
+            {
+              "code": "invalid_union",
+              "unionErrors": [
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "wood",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"wood\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "stone",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"stone\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "iron",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"iron\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "diamond",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"diamond\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "copper",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"copper\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "coal",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"coal\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "axe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"axe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "pickaxe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"pickaxe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "sword",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"sword\""
+                    }
+                  ],
+                  "name": "ZodError"
+                }
+              ],
+              "path": [
+                "data",
+                "itemId"
+              ],
+              "message": "Invalid input"
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "chestId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "remove_from_chest",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"remove_from_chest\""
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "itemId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "chestId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "move_to",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"move_to\""
+            },
+            {
+              "code": "invalid_type",
+              "expected": "number",
+              "received": "undefined",
+              "path": [
+                "data",
+                "x"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "invalid_type",
+              "expected": "number",
+              "received": "undefined",
+              "path": [
+                "data",
+                "y"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "drop",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"drop\""
+            },
+            {
+              "code": "invalid_union",
+              "unionErrors": [
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "wood",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"wood\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "stone",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"stone\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "iron",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"iron\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "diamond",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"diamond\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "copper",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"copper\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "coal",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"coal\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "axe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"axe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "pickaxe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"pickaxe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "sword",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"sword\""
+                    }
+                  ],
+                  "name": "ZodError"
+                }
+              ],
+              "path": [
+                "data",
+                "itemId"
+              ],
+              "message": "Invalid input"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "swing_axe",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"swing_axe\""
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "swing_sword",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"swing_sword\""
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "swing_pickaxe",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"swing_pickaxe\""
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "conversationGoal"
+              ],
+              "message": "Required"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "eat",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"eat\""
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "foodId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        }
+      ],
+      "path": [],
+      "message": "Invalid input"
+    }
+  ],
+  "name": "ZodError"
+}
+[1694114485330] --- Prompt ---
+[1694114485330] Character: 
+- ID: A5
+- Name: Eli Green
+- Age: 12
+- Occupation: Explorer
+- Personality: Curious, Energetic, Kind-hearted
+
+Location: 39.93, -58.92
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- John Green (Health: 25/25) [Direction: NW, Distance: 1.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.1m]
+- Will Turner (Health: 25/25) [Direction: NW, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.7m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I made a whistle out of a reed! Nature is full of surprises. [0 minutes ago]
+- I saw a deer up close once, our eyes met and we just stared for a moment. [0 minutes ago]
+- I wish I could talk to animals. Imagine the stories they'd tell! [0 minutes ago]
+- Lucy showed me how to listen to the forest, it's like it's telling stories. [0 minutes ago]
+- Lucy once said every tree has a story. I'm trying to learn them all. [0 minutes ago]
+- The world feels so big and full of wonders, I want to see them all! [0 minutes ago]
+- I once found a secret clearing in the woods, it's my personal hideout now. [0 minutes ago]
+- George tells me tales of old, turning every tree and hill into an adventure. [0 minutes ago]
+- I've learned to move silently. That way, nature doesn’t hide from me. [0 minutes ago]
+- The woods in autumn is my favorite. All those colors... like nature's painting! [0 minutes ago]
+
+Hitbox (what you would hit with a swing based action):
+- John Green (Health: 25/25)
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+
+
+[1694114485330] --- Action Functions ---
+[1694114485331] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with John Green (ID: A5).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (7) in detail."
+        }
+      }
+    }
+  }
+]
+[1694114490709] --- Response ---
+[1694114490710] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "start_conversation",
+    "arguments": "{\n  \"characterId\": \"A5\",\n  \"targetCharacterId\": \"John Green\",\n  \"conversationGoal\": \"Catch up with other villagers\"\n}"
+  }
+}
+[1694114490711] --- Verified Action ---
+[1694114490711] {
+  "type": "start_conversation",
+  "data": {
+    "characterId": "A5",
+    "targetCharacterId": "John Green",
+    "conversationGoal": "Catch up with other villagers"
+  }
+}
+[1694114493293] --- Response ---
+[1694114493293] Updated Tasks: 
+[1694114493294] [
+  {
+    "task": "Eat some food",
+    "priority": 1
+  },
+  {
+    "task": "Move to the location of John Green",
+    "priority": 2
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 3
+  },
+  {
+    "task": "Start a conversation with John Green",
+    "priority": 4
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 5
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 6
+  },
+  {
+    "task": "Explore the area",
+    "priority": 7
+  }
+]

@@ -1,0 +1,451 @@
+[1694757716940] [Character] Creating Cedric
+[1694757717538] [31m[createMemory][39m I’ve fought in three major campaigns during my youth. [0]
+[1694757717538] [31m[createMemory][39m I spend my mornings meditating, reflecting on life’s complexities. [0]
+[1694757717538] [31m[createMemory][39m I’ve mentored several of the village’s young men and women. [0]
+[1694757717538] [31m[createMemory][39m My home has a collection of artifacts from my time as a soldier. [0]
+[1694757717538] [31m[createMemory][39m The village festival every spring is a tradition I helped start. [0]
+[1694757717538] [31m[createMemory][39m People often seek my counsel for settling disputes. [0]
+[1694757717538] [31m[createMemory][39m I’ve learned the value of diplomacy over brute force. [0]
+[1694757717538] [31m[createMemory][39m I've authored several scrolls on strategy and leadership. [0]
+[1694757717538] [31m[createMemory][39m The woods to the north are full of medicinal herbs. [0]
+[1694757717538] [31m[createMemory][39m I have an old battle wound that acts up during the winter. [0]
+[1694757717538] [31m[createMemory][39m I enjoy listening to the blacksmith’s tales; reminds me of the forge of life. [0]
+[1694757717538] [31m[createMemory][39m I've seen leaders rise and fall; humility is key to greatness. [0]
+[1694757717538] [31m[createMemory][39m My children have moved to distant lands; they write often. [0]
+[1694757717538] [31m[createMemory][39m I've helped construct some of the village’s most iconic structures. [0]
+[1694757717539] [31m[createMemory][39m I find solace in reading the ancient texts kept in the village library. [0]
+[1694757717539] [31m[createMemory][39m My abode is at coordinates 8, 17; near the Wisdom Oak tree. [0]
+[1694757717539] [31m[createMemory][39m The village library is at coordinates 12, 6; I visit often. [0]
+[1694757717539] [31m[createMemory][39m The Wisdom Oak tree stands tall at 6, 20; a symbol of the village's age. [0]
+[1694757717539] [31m[createMemory][39m The old battleground is at 35, 40; a reminder of past conflicts. [0]
+[1694757717539] [31m[createMemory][39m The village cemetery is at 1, 28; I've laid many old friends to rest there. [0]
+[1694757729244] [Character] Cedric created
+[1694757739416] [31m[createMemory][39m Cedric Warborn sees House at X: 3.663626, Y: -54.92766. [0.0199999921]
+[1694757739417] [31m[createMemory][39m Cedric Warborn sees John Swift at X: 8.42, Y: -54.8. [0.0199999921]
+[1694757739417] [31m[createMemory][39m Cedric Warborn sees Tree at X: 2.75, Y: -62.47. [0.0199999921]
+[1694757744964] --- Prompt ---
+[1694757744966] Character: 
+- ID: A12
+- Name: Cedric Warborn
+- Age: 65
+- Occupation: Retired Soldier, Village Mentor
+- Personality: Sage, Observant, Stoic
+
+Location: 4.8, -58.14
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- House (Health: 100/100) [Location: 3.663626, -54.92766, Direction: W,  Distance: 3.4m]
+- Tree (Health: 10/10) [Location: 2.75, -62.47, Direction: W,  Distance: 4.8m]
+- John Swift (Health: 25/25) [Location: 8.42, -54.8, Direction: W,  Distance: 4.9m]
+- Lucy Wilde (Health: 25/25) [Location: 8.73, -62.46, Direction: W,  Distance: 5.8m]
+- House (Health: 100/100) [Location: 9.44, -53.9, Direction: W,  Distance: 6.3m]
+- Tree (Health: 10/10) [Location: -0.29, -62.41, Direction: W,  Distance: 6.6m]
+- Tree (Health: 10/10) [Location: -1.900001, -55.92, Direction: W,  Distance: 7.1m]
+- Tree (Health: 10/10) [Location: 0.3800001, -64.07, Direction: W,  Distance: 7.4m]
+- Tree (Health: 10/10) [Location: -0.6500006, -52.92, Direction: W,  Distance: 7.5m]
+- Tree (Health: 10/10) [Location: 3.57, -66.16, Direction: W,  Distance: 8.1m]
+- Tree (Health: 10/10) [Location: 1.349999, -50.67, Direction: W,  Distance: 8.2m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I spend my mornings meditating, reflecting on life’s complexities. [0 minutes ago]
+- I've seen leaders rise and fall; humility is key to greatness. [0 minutes ago]
+- The village library is at coordinates 12, 6; I visit often. [0 minutes ago]
+- The village cemetery is at 1, 28; I've laid many old friends to rest there. [0 minutes ago]
+- The woods to the north are full of medicinal herbs. [0 minutes ago]
+- My home has a collection of artifacts from my time as a soldier. [0 minutes ago]
+- People often seek my counsel for settling disputes. [0 minutes ago]
+- My children have moved to distant lands; they write often. [0 minutes ago]
+- My abode is at coordinates 8, 17; near the Wisdom Oak tree. [0 minutes ago]
+- I've helped construct some of the village’s most iconic structures. [0 minutes ago]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694757767837] --- Response ---
+[1694757767837] Updated Tasks: 
+[1694757767837] [
+  {
+    "task": "Meditate and reflect on life",
+    "priority": 1
+  },
+  {
+    "task": "Check house and artifacts for any need of maintenance",
+    "priority": 2
+  },
+  {
+    "task": "Go to the library at coordinates 12, 6",
+    "priority": 3
+  },
+  {
+    "task": "Visit the cemetery at 1, 28 to pay respects",
+    "priority": 4
+  },
+  {
+    "task": "Venture into the woods to collect medicinal herbs",
+    "priority": 5
+  },
+  {
+    "task": "Offer counsel at village center for dispute settlement",
+    "priority": 6
+  },
+  {
+    "task": "Write a letter to the children in distant lands",
+    "priority": 7
+  },
+  {
+    "task": "Maintain a healthy diet, eat and relax",
+    "priority": 8
+  }
+]
+[1694757768777] [31m[createMemory][39m Cedric Warborn sees Thomas Smith at X: 10.03537, Y: -57.75. [24.7642479]
+[1694757770940] --- Prompt ---
+[1694757770941] Character: 
+- ID: A12
+- Name: Cedric Warborn
+- Age: 65
+- Occupation: Retired Soldier, Village Mentor
+- Personality: Sage, Observant, Stoic
+
+Location: 4.8, -58.14
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+- Tree (Health: 10/10) [Direction: W, Distance: 4.8m]
+- John Swift (Health: 25/25) [Direction: W, Distance: 4.9m]
+- Lucy Wilde (Health: 25/25) [Direction: W, Distance: 5.8m]
+- House (Health: 100/100) [Direction: W, Distance: 6.3m]
+- Tree (Health: 10/10) [Direction: W, Distance: 6.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.4m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.5m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.2m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Cedric Warborn sees Tree at X: 2.75, Y: -62.47. [in the future]
+- I've helped construct some of the village’s most iconic structures. [0 minutes ago]
+- My abode is at coordinates 8, 17; near the Wisdom Oak tree. [0 minutes ago]
+- My children have moved to distant lands; they write often. [0 minutes ago]
+- My home has a collection of artifacts from my time as a soldier. [0 minutes ago]
+- The woods to the north are full of medicinal herbs. [0 minutes ago]
+- The village cemetery is at 1, 28; I've laid many old friends to rest there. [0 minutes ago]
+- The village library is at coordinates 12, 6; I visit often. [0 minutes ago]
+- I've seen leaders rise and fall; humility is key to greatness. [0 minutes ago]
+- I spend my mornings meditating, reflecting on life’s complexities. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694757770941] --- Action Functions ---
+[1694757770942] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694757773811] --- Response ---
+[1694757773813] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A12\",\n  \"x\": 12,\n  \"y\": 6\n}"
+  }
+}
+[1694757773814] --- Verified Action ---
+[1694757773814] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A12",
+    "x": 12,
+    "y": 6
+  }
+}
+[1694757774032] [31m[createMemory][39m Cedric Warborn has started walking to 12, Y: 6. [29.5309143]
+[1694757774637] [31m[createMemory][39m Cedric Warborn no longer sees Tree (1108) at X: 2.75, Y: -62.47 [29.9475822]
+[1694757775284] [31m[createMemory][39m Cedric Warborn sees House at X: 9.44, Y: -53.9. [30.6142483]
+[1694757775902] [31m[createMemory][39m Cedric Warborn no longer sees Human at X: 2.153761, Y: -57.95707 [31.16425]
+[1694757776208] [31m[createMemory][39m Cedric Warborn sees Lucy Wilde at X: 9.332959, Y: -61.68935. [31.4642487]
+[1694757777351] [31m[createMemory][39m Cedric Warborn sees House at X: 14.06, Y: -56.01. [32.5809135]
+[1694757777579] [31m[createMemory][39m Cedric Warborn no longer sees Human (7) at X: 4.745522, Y: -56.25809 [32.71425]
+[1694757778604] [31m[createMemory][39m Cedric Warborn no longer sees House 2 at X: 3.663626, Y: -54.92766 [33.66425]
+[1694757779674] [31m[createMemory][39m Cedric Warborn sees Tree at X: 18.3, Y: -59.99. [34.66425]
+[1694757780002] [31m[createMemory][39m Cedric Warborn sees Tree at X: 18.55, Y: -53.24. [35.0642471]
+[1694757781763] [31m[createMemory][39m Cedric Warborn no longer sees Human (3) at X: 11.53426, Y: -57.87683 [36.5642471]
+[1694757781783] [31m[createMemory][39m Cedric Warborn no longer sees House 1 at X: 9.44, Y: -53.9 [36.5642471]
+[1694757785307] [31m[createMemory][39m Cedric Warborn sees Tree at X: 25.89, Y: -59.87. [39.1809158]
+[1694757785766] [31m[createMemory][39m Cedric Warborn no longer sees Tree (1132) at X: 18.3, Y: -59.99 [40.0309143]
+[1694757785871] [31m[createMemory][39m Cedric Warborn no longer sees House at X: 14.06, Y: -56.01 [40.1309166]
+[1694757786448] [31m[createMemory][39m Cedric Warborn sees Harold Smith at X: 28.72, Y: -55.01. [40.71425]
+[1694757786609] [31m[createMemory][39m Cedric Warborn no longer sees Tree (1133) at X: 18.55, Y: -53.24 [40.74758]
+[1694757787294] [31m[createMemory][39m Cedric Warborn sees James McAllister at X: 29.83, Y: -54.61. [41.3475838]
+[1694757789806] [31m[createMemory][39m Cedric Warborn no longer sees Tree (1121) at X: 25.89, Y: -59.87 [43.7809143]
+[1694757793522] [31m[createMemory][39m Cedric Warborn sees Tree at X: 36.04, Y: -47.68999. [46.9475822]
+[1694757793892] [31m[createMemory][39m Cedric Warborn no longer sees Human (6) at X: 28.72, Y: -55.01 [47.16425]
+[1694757794116] [31m[createMemory][39m Cedric Warborn no longer sees Human (5) at X: 29.83, Y: -54.61 [47.6309166]
+[1694757796325] [31m[createMemory][39m Cedric Warborn sees Tree Stump at X: 36.50999, Y: -46.03. [48.7809143]
+[1694757796637] [31m[createMemory][39m Cedric Warborn sees Tree at X: 36.37, Y: -44.45. [49.11425]
+[1694757797015] [31m[createMemory][39m Cedric Warborn sees Tree at X: 25.76, Y: -44.33. [49.7809143]
+[1694757797077] [31m[createMemory][39m Cedric Warborn sees Stone Ore Deposit (Small) at X: 32.23, Y: -40.35. [49.96425]
+[1694757797242] [31m[createMemory][39m Cedric Warborn sees Tree at X: 35.27, Y: -40.99. [50.2809143]
+[1694757797677] [31m[createMemory][39m Cedric Warborn no longer sees Tree (649) at X: 36.04, Y: -47.68999 [50.7309151]
+[1694757798026] [31m[createMemory][39m Cedric Warborn sees Tree at X: 25.76, Y: -42.09. [50.9475822]
+[1694757798074] [31m[createMemory][39m Cedric Warborn no longer sees Stump (50) at X: 36.50999, Y: -46.03 [50.9809151]
+[1694757798631] [31m[createMemory][39m Cedric Warborn no longer sees Tree (655) at X: 36.37, Y: -44.45 [51.41425]
+[1694757799207] [31m[createMemory][39m Cedric Warborn sees Tree at X: 25.48, Y: -39.34. [51.8809166]
+[1694757800277] [31m[createMemory][39m Cedric Warborn sees Tree at X: 32.43, Y: -36.81211. [52.5142479]
+[1694757800593] [31m[createMemory][39m Cedric Warborn no longer sees Tree (344) at X: 35.27, Y: -40.99 [52.8309135]
+[1694757800915] [31m[createMemory][39m Cedric Warborn sees Tree Stump at X: 30.7, Y: -35.81. [53.147583]
+[1694757801002] [31m[createMemory][39m Cedric Warborn sees Tree at X: 24.93, Y: -36.81. [53.2309151]
+[1694757801907] [31m[createMemory][39m Cedric Warborn no longer sees Tree (336) at X: 25.76, Y: -44.33 [54.0309143]
+[1694757801971] [31m[createMemory][39m Cedric Warborn sees Tree at X: 31.45, Y: -34.49. [54.04758]
+[1694757802675] [31m[createMemory][39m Cedric Warborn sees Tree at X: 24.38, Y: -34.45. [54.7642479]
+[1694757803246] [31m[createMemory][39m Cedric Warborn no longer sees Tree (331) at X: 25.76, Y: -42.09 [55.3142471]
+[1694757803489] [31m[createMemory][39m Cedric Warborn sees Tree at X: 33.12, Y: -33.14. [55.4809151]
+[1694757804393] [31m[createMemory][39m Cedric Warborn no longer sees StoneOreSmall (10) at X: 32.23, Y: -40.35 [56.147583]
+[1694757804686] [31m[createMemory][39m Cedric Warborn sees Tree at X: 34.39, Y: -34.21. [56.3142471]
+[1694757804758] [31m[createMemory][39m Cedric Warborn sees Tree at X: 28.28, Y: -29.76. [56.5142479]
+[1694757805219] [31m[createMemory][39m Cedric Warborn no longer sees Tree (330) at X: 25.48, Y: -39.34 [56.7809143]
+[1694757805362] [31m[createMemory][39m Cedric Warborn sees Tree at X: 30.73, Y: -29.31. [56.86425]
+[1694757805805] [31m[createMemory][39m Cedric Warborn sees Tree at X: 23.02, Y: -32.65. [57.4809151]
+[1694757805856] [31m[createMemory][39m Cedric Warborn no longer sees Tree (351) at X: 34.39, Y: -34.21 [57.4809151]
+[1694757806173] [31m[createMemory][39m Cedric Warborn sees Tree at X: 27.86, Y: -27.79. [57.6809158]
+[1694757806436] [31m[createMemory][39m Cedric Warborn no longer sees Tree (302) at X: 32.43, Y: -36.81211 [57.9309158]
+[1694757807312] [31m[createMemory][39m Cedric Warborn sees Tree at X: 29.28, Y: -26.96. [58.4309158]
+[1694757807449] [31m[createMemory][39m Cedric Warborn no longer sees Tree (300) at X: 33.12, Y: -33.14 [58.54758]
+[1694757808019] [31m[createMemory][39m Cedric Warborn no longer sees Tree (263) at X: 24.93, Y: -36.81 [58.96425]
+[1694757808167] [31m[createMemory][39m Cedric Warborn no longer sees Stump (25) at X: 30.7, Y: -35.81 [59.147583]
+[1694757808264] [31m[createMemory][39m Cedric Warborn no longer sees Tree (301) at X: 31.45, Y: -34.49 [59.3142471]
+[1694757808331] [31m[createMemory][39m Cedric Warborn sees Tree at X: 28.12, Y: -25.2. [59.5809135]
+[1694757809257] [31m[createMemory][39m Cedric Warborn no longer sees Tree (259) at X: 24.38, Y: -34.45 [60.7309151]
+[1694757809615] [31m[createMemory][39m Cedric Warborn no longer sees Tree (730) at X: 30.73, Y: -29.31 [61.0309143]
+[1694757809770] [31m[createMemory][39m Cedric Warborn sees Tree at X: 26.2, Y: -23.09. [61.24758]
+[1694757809802] [31m[createMemory][39m Cedric Warborn sees Tree at X: 22.59, Y: -23.18. [61.2809143]
+[1694757809991] [31m[createMemory][39m Cedric Warborn sees Tree Stump at X: 21.26, Y: -23.66788. [61.5142479]
+[1694757810477] [31m[createMemory][39m Cedric Warborn sees Tree at X: 24.08, Y: -21.93. [62.1309166]
+[1694757810492] [31m[createMemory][39m Cedric Warborn no longer sees Tree (287) at X: 23.02, Y: -32.65 [62.21425]
+[1694757810492] [31m[createMemory][39m Cedric Warborn no longer sees Tree (161) at X: 29.28, Y: -26.96 [62.21425]
+[1694757810509] [31m[createMemory][39m Cedric Warborn sees Tree at X: 20.14, Y: -22.62. [62.2309151]
+[1694757811314] [31m[createMemory][39m Cedric Warborn no longer sees Tree (265) at X: 28.28, Y: -29.76 [62.4809151]
+[1694757811880] [35m[CORTEX] Cedric Warborn - Prior Message: [39mCedric, have you ever heard a tree whisper its secrets? If you listen closely, you'll hear more than just the rustle of leaves.
+[1694757811880] [35m[CORTEX] Cedric Warborn - Patience: [39m100
+[1694757811880] [35m[CORTEX] Cedric Warborn - Conversation Goal: [39mfiguring out why Lucy Wilde started a conversation with them.
+[1694757811880] [35m[CORTEX] Cedric Warborn - Conversation Finished: [39mfalse
+[1694757813869] [31m[createMemory][39m Cedric Warborn no longer sees Tree (260) at X: 28.12, Y: -25.2 [63.1309166]
+[1694757814013] [31m[createMemory][39m Cedric Warborn sees Tree at X: 18.28, Y: -21.95. [63.1809158]
+[1694757814029] [31m[createMemory][39m Cedric Warborn no longer sees Tree (264) at X: 27.86, Y: -27.79 [63.1809158]

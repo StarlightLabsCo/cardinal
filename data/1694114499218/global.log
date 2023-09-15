@@ -1,0 +1,5446 @@
+[1694114499219] [Starlight] Creating instance
+[1694114500131] [Character] Creating Thomas's logger
+[1694114500132] [Character] Creating George's logger
+[1694114500133] [Character] Creating Will's logger
+[1694114500134] [Character] Creating Lucy's logger
+[1694114500134] [Character] Creating Eli's logger
+[1694114500137] [Main] WebSocket server listening on port 8082
+[1694114500734] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114500737] [33m[OPENAI] Creating embedding...[39m
+[1694114500737] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114500737] [33m[OPENAI] Creating embedding...[39m
+[1694114500737] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114500738] [33m[OPENAI] Creating embedding...[39m
+[1694114500738] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114500738] [33m[OPENAI] Creating embedding...[39m
+[1694114500738] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114500738] [33m[OPENAI] Creating embedding...[39m
+[1694114500738] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114500739] [33m[OPENAI] Creating embedding...[39m
+[1694114500739] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114500739] [33m[OPENAI] Creating embedding...[39m
+[1694114500739] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114500739] [33m[OPENAI] Creating embedding...[39m
+[1694114500739] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114500739] [33m[OPENAI] Creating embedding...[39m
+[1694114500739] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114500739] [33m[OPENAI] Creating embedding...[39m
+[1694114500739] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114500740] [33m[OPENAI] Creating embedding...[39m
+[1694114500740] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114500740] [33m[OPENAI] Creating embedding...[39m
+[1694114500740] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114500740] [33m[OPENAI] Creating embedding...[39m
+[1694114500740] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114500740] [33m[OPENAI] Creating embedding...[39m
+[1694114500740] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114500740] [33m[OPENAI] Creating embedding...[39m
+[1694114500993] [32m[OPENAI] Embedding created successfully.[39m
+[1694114500993] [32m[OPENAI] Embedding created successfully.[39m
+[1694114500994] [32m[OPENAI] Embedding created successfully.[39m
+[1694114500994] [32m[OPENAI] Embedding created successfully.[39m
+[1694114500994] [32m[OPENAI] Embedding created successfully.[39m
+[1694114500994] [32m[OPENAI] Embedding created successfully.[39m
+[1694114500994] [32m[OPENAI] Embedding created successfully.[39m
+[1694114500996] [32m[OPENAI] Embedding created successfully.[39m
+[1694114500997] [32m[OPENAI] Embedding created successfully.[39m
+[1694114500998] {
+  "id": "chatcmpl-7wErMAgjeZYusJCX9fuOrqEFphDCq",
+  "object": "chat.completion",
+  "created": 1694114500,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 93,
+    "completion_tokens": 1,
+    "total_tokens": 94
+  }
+}
+[1694114500998] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114500999] [36m[OPENAI] Chat completion took 257.72549998760223ms[39m
+[1694114500999] [36m[OPENAI] Tokens per second: 3.880097235423365tps[39m
+[1694114500999] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501001] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501002] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501007] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501015] {
+  "id": "chatcmpl-7wErMs0jkUx5HTqnAc2c4mSv3NJny",
+  "object": "chat.completion",
+  "created": 1694114500,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 91,
+    "completion_tokens": 1,
+    "total_tokens": 92
+  }
+}
+[1694114501015] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114501015] [36m[OPENAI] Chat completion took 275.14208298921585ms[39m
+[1694114501015] [36m[OPENAI] Tokens per second: 3.634485823236262tps[39m
+[1694114501015] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501018] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501038] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501038] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501046] {
+  "id": "chatcmpl-7wErMwH9TnS7MmiOyjHMa7LdT0aqQ",
+  "object": "chat.completion",
+  "created": 1694114500,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "7"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 91,
+    "completion_tokens": 1,
+    "total_tokens": 92
+  }
+}
+[1694114501046] {
+  "role": "assistant",
+  "content": "7"
+}
+[1694114501046] [36m[OPENAI] Chat completion took 307.8767499923706ms[39m
+[1694114501046] [36m[OPENAI] Tokens per second: 3.2480529953131594tps[39m
+[1694114501046] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501046] {
+  "id": "chatcmpl-7wErM0tseDUpXaWXJDUyPFFeDDwcZ",
+  "object": "chat.completion",
+  "created": 1694114500,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 1,
+    "total_tokens": 95
+  }
+}
+[1694114501046] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114501046] [36m[OPENAI] Chat completion took 306.474749982357ms[39m
+[1694114501046] [36m[OPENAI] Tokens per second: 3.2629115451030386tps[39m
+[1694114501046] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501047] {
+  "id": "chatcmpl-7wErMy0niRGRJnoJvpWvn3ITJm3tl",
+  "object": "chat.completion",
+  "created": 1694114500,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 91,
+    "completion_tokens": 1,
+    "total_tokens": 92
+  }
+}
+[1694114501047] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114501047] [36m[OPENAI] Chat completion took 312.07166600227356ms[39m
+[1694114501047] [36m[OPENAI] Tokens per second: 3.2043921603338212tps[39m
+[1694114501047] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501054] {
+  "id": "chatcmpl-7wErM8NRo6NyLx4b7SGMFDCsFmIqD",
+  "object": "chat.completion",
+  "created": 1694114500,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 91,
+    "completion_tokens": 1,
+    "total_tokens": 92
+  }
+}
+[1694114501054] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114501054] [36m[OPENAI] Chat completion took 315.38225001096725ms[39m
+[1694114501054] [36m[OPENAI] Tokens per second: 3.1707554878729716tps[39m
+[1694114501054] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501061] {
+  "id": "chatcmpl-7wErM3cG20OGYZ1GICcLWHAiNo24c",
+  "object": "chat.completion",
+  "created": 1694114500,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 102,
+    "completion_tokens": 1,
+    "total_tokens": 103
+  }
+}
+[1694114501061] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114501061] [36m[OPENAI] Chat completion took 320.20966696739197ms[39m
+[1694114501061] [36m[OPENAI] Tokens per second: 3.1229538117031095tps[39m
+[1694114501061] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501062] {
+  "id": "chatcmpl-7wErMgXsbtKxsOKlSAp9GEPqNlW8t",
+  "object": "chat.completion",
+  "created": 1694114500,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 1,
+    "total_tokens": 95
+  }
+}
+[1694114501062] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114501062] [36m[OPENAI] Chat completion took 323.68054097890854ms[39m
+[1694114501062] [36m[OPENAI] Tokens per second: 3.0894659190067326tps[39m
+[1694114501062] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501064] {
+  "id": "chatcmpl-7wErMScNte6bCKpOGwQ2HfXTs34Ha",
+  "object": "chat.completion",
+  "created": 1694114500,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 98,
+    "completion_tokens": 1,
+    "total_tokens": 99
+  }
+}
+[1694114501064] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114501064] [36m[OPENAI] Chat completion took 323.6115420460701ms[39m
+[1694114501064] [36m[OPENAI] Tokens per second: 3.0901246404172986tps[39m
+[1694114501064] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501066] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501066] [33m[OPENAI] Creating embedding...[39m
+[1694114501066] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501066] [33m[OPENAI] Creating embedding...[39m
+[1694114501066] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501066] [33m[OPENAI] Creating embedding...[39m
+[1694114501066] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501066] [33m[OPENAI] Creating embedding...[39m
+[1694114501066] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501067] [33m[OPENAI] Creating embedding...[39m
+[1694114501067] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501067] [33m[OPENAI] Creating embedding...[39m
+[1694114501067] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501067] [33m[OPENAI] Creating embedding...[39m
+[1694114501067] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501067] [33m[OPENAI] Creating embedding...[39m
+[1694114501067] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501067] [33m[OPENAI] Creating embedding...[39m
+[1694114501067] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501067] [33m[OPENAI] Creating embedding...[39m
+[1694114501067] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501067] [33m[OPENAI] Creating embedding...[39m
+[1694114501067] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501067] [33m[OPENAI] Creating embedding...[39m
+[1694114501067] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501067] [33m[OPENAI] Creating embedding...[39m
+[1694114501067] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501067] [33m[OPENAI] Creating embedding...[39m
+[1694114501067] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501067] [33m[OPENAI] Creating embedding...[39m
+[1694114501072] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501072] [33m[OPENAI] Creating embedding...[39m
+[1694114501072] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501072] [33m[OPENAI] Creating embedding...[39m
+[1694114501072] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501072] [33m[OPENAI] Creating embedding...[39m
+[1694114501072] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501072] [33m[OPENAI] Creating embedding...[39m
+[1694114501072] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501072] [33m[OPENAI] Creating embedding...[39m
+[1694114501072] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501072] [33m[OPENAI] Creating embedding...[39m
+[1694114501073] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501073] [33m[OPENAI] Creating embedding...[39m
+[1694114501073] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501073] [33m[OPENAI] Creating embedding...[39m
+[1694114501073] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501073] [33m[OPENAI] Creating embedding...[39m
+[1694114501073] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501073] [33m[OPENAI] Creating embedding...[39m
+[1694114501073] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501073] [33m[OPENAI] Creating embedding...[39m
+[1694114501073] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501073] [33m[OPENAI] Creating embedding...[39m
+[1694114501073] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501073] [33m[OPENAI] Creating embedding...[39m
+[1694114501073] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501073] [33m[OPENAI] Creating embedding...[39m
+[1694114501073] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501073] [33m[OPENAI] Creating embedding...[39m
+[1694114501073] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501073] [33m[OPENAI] Creating embedding...[39m
+[1694114501089] {
+  "id": "chatcmpl-7wErMBfGgny0twLy9pZEQyhByXsEK",
+  "object": "chat.completion",
+  "created": 1694114500,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 86,
+    "completion_tokens": 1,
+    "total_tokens": 87
+  }
+}
+[1694114501089] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114501089] [36m[OPENAI] Chat completion took 350.1968750357628ms[39m
+[1694114501089] [36m[OPENAI] Tokens per second: 2.855536617503734tps[39m
+[1694114501089] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501095] {
+  "id": "chatcmpl-7wErMeaRdXA9rZEjIHksWyrQgNFcp",
+  "object": "chat.completion",
+  "created": 1694114500,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "5"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 91,
+    "completion_tokens": 1,
+    "total_tokens": 92
+  }
+}
+[1694114501096] {
+  "role": "assistant",
+  "content": "5"
+}
+[1694114501096] [36m[OPENAI] Chat completion took 358.1572080254555ms[39m
+[1694114501096] [36m[OPENAI] Tokens per second: 2.7920700116942125tps[39m
+[1694114501096] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501109] {
+  "id": "chatcmpl-7wErMtlWVS5OhwDMbX4qK9qu5nMbV",
+  "object": "chat.completion",
+  "created": 1694114500,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 89,
+    "completion_tokens": 1,
+    "total_tokens": 90
+  }
+}
+[1694114501109] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114501109] [36m[OPENAI] Chat completion took 370.8809580206871ms[39m
+[1694114501109] [36m[OPENAI] Tokens per second: 2.6962829403180675tps[39m
+[1694114501109] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501115] {
+  "id": "chatcmpl-7wErNcW4xhJpWR0AOI5CZpzOG7joi",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 92,
+    "completion_tokens": 1,
+    "total_tokens": 93
+  }
+}
+[1694114501115] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114501115] [36m[OPENAI] Chat completion took 375.50020802021027ms[39m
+[1694114501115] [36m[OPENAI] Tokens per second: 2.6631143702220736tps[39m
+[1694114501115] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501150] {
+  "id": "chatcmpl-7wErMTJ4nUiSk15SZrDbg8D7mMcsq",
+  "object": "chat.completion",
+  "created": 1694114500,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "6"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 1,
+    "total_tokens": 95
+  }
+}
+[1694114501150] {
+  "role": "assistant",
+  "content": "6"
+}
+[1694114501150] [36m[OPENAI] Chat completion took 410.11816704273224ms[39m
+[1694114501150] [36m[OPENAI] Tokens per second: 2.4383216359586553tps[39m
+[1694114501150] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501169] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501169] [33m[OPENAI] Creating embedding...[39m
+[1694114501169] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501169] [33m[OPENAI] Creating embedding...[39m
+[1694114501169] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501169] [33m[OPENAI] Creating embedding...[39m
+[1694114501169] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501169] [33m[OPENAI] Creating embedding...[39m
+[1694114501169] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501169] [33m[OPENAI] Creating embedding...[39m
+[1694114501169] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501170] [33m[OPENAI] Creating embedding...[39m
+[1694114501170] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501170] [33m[OPENAI] Creating embedding...[39m
+[1694114501170] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501170] [33m[OPENAI] Creating embedding...[39m
+[1694114501170] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501170] [33m[OPENAI] Creating embedding...[39m
+[1694114501170] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501170] [33m[OPENAI] Creating embedding...[39m
+[1694114501170] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501170] [33m[OPENAI] Creating embedding...[39m
+[1694114501170] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501170] [33m[OPENAI] Creating embedding...[39m
+[1694114501170] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501170] [33m[OPENAI] Creating embedding...[39m
+[1694114501170] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501170] [33m[OPENAI] Creating embedding...[39m
+[1694114501170] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501170] [33m[OPENAI] Creating embedding...[39m
+[1694114501178] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501178] [33m[OPENAI] Creating embedding...[39m
+[1694114501178] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501178] [33m[OPENAI] Creating embedding...[39m
+[1694114501178] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501178] [33m[OPENAI] Creating embedding...[39m
+[1694114501178] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501178] [33m[OPENAI] Creating embedding...[39m
+[1694114501178] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501178] [33m[OPENAI] Creating embedding...[39m
+[1694114501178] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501178] [33m[OPENAI] Creating embedding...[39m
+[1694114501178] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501178] [33m[OPENAI] Creating embedding...[39m
+[1694114501178] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501178] [33m[OPENAI] Creating embedding...[39m
+[1694114501178] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501178] [33m[OPENAI] Creating embedding...[39m
+[1694114501178] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501178] [33m[OPENAI] Creating embedding...[39m
+[1694114501178] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501178] [33m[OPENAI] Creating embedding...[39m
+[1694114501178] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501178] [33m[OPENAI] Creating embedding...[39m
+[1694114501178] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501178] [33m[OPENAI] Creating embedding...[39m
+[1694114501178] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501178] [33m[OPENAI] Creating embedding...[39m
+[1694114501178] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114501178] [33m[OPENAI] Creating embedding...[39m
+[1694114501189] {
+  "id": "chatcmpl-7wErNvE5RMAogpDNwkneawMTJ71mL",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 91,
+    "completion_tokens": 1,
+    "total_tokens": 92
+  }
+}
+[1694114501189] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114501189] [36m[OPENAI] Chat completion took 450.46654200553894ms[39m
+[1694114501189] [36m[OPENAI] Tokens per second: 2.2199206972128556tps[39m
+[1694114501189] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501231] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501240] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501244] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501250] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501252] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501270] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501272] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501275] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501285] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501287] {
+  "id": "chatcmpl-7wErN9OY0J0yKW4shcHQu47ELyjBk",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 1,
+    "total_tokens": 95
+  }
+}
+[1694114501287] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114501287] [36m[OPENAI] Chat completion took 219.86062496900558ms[39m
+[1694114501287] [36m[OPENAI] Tokens per second: 4.548336020335488tps[39m
+[1694114501287] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501305] {
+  "id": "chatcmpl-7wErNPT1uToCZw5v1qeEn8oLFmFkm",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "5"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 1,
+    "total_tokens": 96
+  }
+}
+[1694114501305] {
+  "role": "assistant",
+  "content": "5"
+}
+[1694114501305] [36m[OPENAI] Chat completion took 238.4418749809265ms[39m
+[1694114501305] [36m[OPENAI] Tokens per second: 4.193894214596292tps[39m
+[1694114501305] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501306] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501314] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501314] {
+  "id": "chatcmpl-7wErNR2H0NPfwyum46ZpQbhxoeU6l",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 91,
+    "completion_tokens": 1,
+    "total_tokens": 92
+  }
+}
+[1694114501314] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114501314] [36m[OPENAI] Chat completion took 247.6631669998169ms[39m
+[1694114501314] [36m[OPENAI] Tokens per second: 4.037742116092456tps[39m
+[1694114501314] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501314] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501314] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501317] {
+  "id": "chatcmpl-7wErNNvWcYqrRuBOduDSrcDJ7RUhv",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 1,
+    "total_tokens": 91
+  }
+}
+[1694114501317] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114501317] [36m[OPENAI] Chat completion took 249.95337504148483ms[39m
+[1694114501317] [36m[OPENAI] Tokens per second: 4.000746138490948tps[39m
+[1694114501317] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501317] {
+  "id": "chatcmpl-7wErNq5BHkVeOXGGwy9KmlP3sj7rT",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "6"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 1,
+    "total_tokens": 95
+  }
+}
+[1694114501317] {
+  "role": "assistant",
+  "content": "6"
+}
+[1694114501317] [36m[OPENAI] Chat completion took 250.01137501001358ms[39m
+[1694114501317] [36m[OPENAI] Tokens per second: 3.9998180081204207tps[39m
+[1694114501317] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501322] {
+  "id": "chatcmpl-7wErNUcd3YaFx3eyOypFgdKqjxOvX",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "7"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 1,
+    "total_tokens": 95
+  }
+}
+[1694114501323] {
+  "role": "assistant",
+  "content": "7"
+}
+[1694114501323] [36m[OPENAI] Chat completion took 255.7517910003662ms[39m
+[1694114501323] [36m[OPENAI] Tokens per second: 3.9100410444381524tps[39m
+[1694114501323] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501326] {
+  "id": "chatcmpl-7wErNAQVVkY0m9dlPtAhVaSzr4bXd",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 98,
+    "completion_tokens": 1,
+    "total_tokens": 99
+  }
+}
+[1694114501326] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114501326] [36m[OPENAI] Chat completion took 253.65454202890396ms[39m
+[1694114501326] [36m[OPENAI] Tokens per second: 3.942369775842807tps[39m
+[1694114501326] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501327] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501328] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501333] {
+  "id": "chatcmpl-7wErNSZOpXQ9b9wEXNX2YNg02jDGI",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 1,
+    "total_tokens": 100
+  }
+}
+[1694114501333] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114501333] [36m[OPENAI] Chat completion took 260.10791701078415ms[39m
+[1694114501333] [36m[OPENAI] Tokens per second: 3.8445581030066824tps[39m
+[1694114501333] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501333] {
+  "id": "chatcmpl-7wErN1x5zzQmekX9XrjHj6DznkPG9",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 1,
+    "total_tokens": 100
+  }
+}
+[1694114501333] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114501333] [36m[OPENAI] Chat completion took 260.4363340139389ms[39m
+[1694114501333] [36m[OPENAI] Tokens per second: 3.8397100150644827tps[39m
+[1694114501333] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501336] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501344] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501344] {
+  "id": "chatcmpl-7wErNWqzpd8ggxU5PPieQEqoFtGpC",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "8"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 1,
+    "total_tokens": 100
+  }
+}
+[1694114501344] {
+  "role": "assistant",
+  "content": "8"
+}
+[1694114501344] [36m[OPENAI] Chat completion took 271.8193749785423ms[39m
+[1694114501344] [36m[OPENAI] Tokens per second: 3.6789136170993735tps[39m
+[1694114501344] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501347] {
+  "id": "chatcmpl-7wErNjZYn4GjkqkkUbiV95HEMCQN9",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "6"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 1,
+    "total_tokens": 100
+  }
+}
+[1694114501347] {
+  "role": "assistant",
+  "content": "6"
+}
+[1694114501348] [36m[OPENAI] Chat completion took 275.08625000715256ms[39m
+[1694114501348] [36m[OPENAI] Tokens per second: 3.635223497990172tps[39m
+[1694114501348] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501348] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501350] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501352] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501355] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501358] {
+  "id": "chatcmpl-7wErN08SjO3tAlnK1IAcfteFZIh7e",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 1,
+    "total_tokens": 95
+  }
+}
+[1694114501358] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114501358] [36m[OPENAI] Chat completion took 290.64154201745987ms[39m
+[1694114501358] [36m[OPENAI] Tokens per second: 3.440664376670306tps[39m
+[1694114501358] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501362] {
+  "id": "chatcmpl-7wErNioyR1ATfzWaBZYjtUmgVQ3Z3",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "5"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114501362] {
+  "role": "assistant",
+  "content": "5"
+}
+[1694114501362] [36m[OPENAI] Chat completion took 289.64637500047684ms[39m
+[1694114501362] [36m[OPENAI] Tokens per second: 3.4524858113565333tps[39m
+[1694114501362] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501368] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501369] {
+  "id": "chatcmpl-7wErNIp8fFltHa9xp2W3bNeVFPPaH",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 1,
+    "total_tokens": 95
+  }
+}
+[1694114501369] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114501369] [36m[OPENAI] Chat completion took 302.3714169859886ms[39m
+[1694114501369] [36m[OPENAI] Tokens per second: 3.307190904378168tps[39m
+[1694114501369] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501372] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501375] {
+  "id": "chatcmpl-7wErNad7kTXLSaeuBbQ2zW7SwUmPr",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 96,
+    "completion_tokens": 1,
+    "total_tokens": 97
+  }
+}
+[1694114501375] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114501375] [36m[OPENAI] Chat completion took 308.2193750143051ms[39m
+[1694114501375] [36m[OPENAI] Tokens per second: 3.244442371455681tps[39m
+[1694114501375] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501378] {
+  "id": "chatcmpl-7wErN802UpBRDMG3Qus0Y1gjFqsca",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "7"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 1,
+    "total_tokens": 101
+  }
+}
+[1694114501378] {
+  "role": "assistant",
+  "content": "7"
+}
+[1694114501378] [36m[OPENAI] Chat completion took 305.42170894145966ms[39m
+[1694114501378] [36m[OPENAI] Tokens per second: 3.27416149777248tps[39m
+[1694114501378] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501378] {
+  "id": "chatcmpl-7wErNtxKKCl7rbivDrZI83XIi6RmV",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "6"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 1,
+    "total_tokens": 100
+  }
+}
+[1694114501378] {
+  "role": "assistant",
+  "content": "6"
+}
+[1694114501378] [36m[OPENAI] Chat completion took 305.13641595840454ms[39m
+[1694114501378] [36m[OPENAI] Tokens per second: 3.277222736129658tps[39m
+[1694114501378] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501378] {
+  "id": "chatcmpl-7wErN6tlN6yCMfBE9TJ2LoSaSda9L",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "6"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 1,
+    "total_tokens": 101
+  }
+}
+[1694114501378] {
+  "role": "assistant",
+  "content": "6"
+}
+[1694114501378] [36m[OPENAI] Chat completion took 305.6996250152588ms[39m
+[1694114501378] [36m[OPENAI] Tokens per second: 3.2711849088793805tps[39m
+[1694114501378] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501379] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501380] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501384] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501386] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501389] {
+  "id": "chatcmpl-7wErNb07scc3fNJphw530PvqRUX8a",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 93,
+    "completion_tokens": 1,
+    "total_tokens": 94
+  }
+}
+[1694114501389] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114501389] [36m[OPENAI] Chat completion took 322.42620795965195ms[39m
+[1694114501389] [36m[OPENAI] Tokens per second: 3.101484852388733tps[39m
+[1694114501389] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501390] {
+  "id": "chatcmpl-7wErNSi1nkAxzLj9ysAYaE1vM0IeL",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "7"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 1,
+    "total_tokens": 101
+  }
+}
+[1694114501390] {
+  "role": "assistant",
+  "content": "7"
+}
+[1694114501390] [36m[OPENAI] Chat completion took 220.93012499809265ms[39m
+[1694114501390] [36m[OPENAI] Tokens per second: 4.526317993114942tps[39m
+[1694114501390] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501392] {
+  "id": "chatcmpl-7wErNIO8sXSwD7yQ7FHv7HuKInB5E",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "7"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 102,
+    "completion_tokens": 1,
+    "total_tokens": 103
+  }
+}
+[1694114501392] {
+  "role": "assistant",
+  "content": "7"
+}
+[1694114501392] [36m[OPENAI] Chat completion took 318.78358298540115ms[39m
+[1694114501392] [36m[OPENAI] Tokens per second: 3.1369244006702672tps[39m
+[1694114501392] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501393] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501489] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501490] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501493] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501494] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501501] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501503] {
+  "id": "chatcmpl-7wErNvK51Y15Zmjb5NOME0jAfHQD2",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 97,
+    "completion_tokens": 1,
+    "total_tokens": 98
+  }
+}
+[1694114501503] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114501503] [36m[OPENAI] Chat completion took 430.3340420126915ms[39m
+[1694114501503] [36m[OPENAI] Tokens per second: 2.3237761886625456tps[39m
+[1694114501503] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501504] {
+  "id": "chatcmpl-7wErNRhykyDEudlTitiYCkI1so4Mh",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "8"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 98,
+    "completion_tokens": 1,
+    "total_tokens": 99
+  }
+}
+[1694114501504] {
+  "role": "assistant",
+  "content": "8"
+}
+[1694114501504] [36m[OPENAI] Chat completion took 430.88758397102356ms[39m
+[1694114501504] [36m[OPENAI] Tokens per second: 2.3207909375899964tps[39m
+[1694114501504] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501505] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501506] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501517] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501518] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501520] {
+  "id": "chatcmpl-7wErNrarsJgFUwf7B1GXZHB513uOJ",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 93,
+    "completion_tokens": 1,
+    "total_tokens": 94
+  }
+}
+[1694114501520] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114501520] [36m[OPENAI] Chat completion took 453.5730000138283ms[39m
+[1694114501520] [36m[OPENAI] Tokens per second: 2.2047167709927895tps[39m
+[1694114501520] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501521] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501524] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501526] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501528] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501528] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501530] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501530] {
+  "id": "chatcmpl-7wErNIMaDZzVfLhGknqyzgH2U8Lyy",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "6"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 97,
+    "completion_tokens": 1,
+    "total_tokens": 98
+  }
+}
+[1694114501530] {
+  "role": "assistant",
+  "content": "6"
+}
+[1694114501530] [36m[OPENAI] Chat completion took 361.08808302879333ms[39m
+[1694114501530] [36m[OPENAI] Tokens per second: 2.7694073745442864tps[39m
+[1694114501530] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501538] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501538] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501538] {
+  "id": "chatcmpl-7wErNbgnhL2evVDAQtTLuV2VFQpUQ",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 114,
+    "completion_tokens": 1,
+    "total_tokens": 115
+  }
+}
+[1694114501538] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114501538] [36m[OPENAI] Chat completion took 466.1879170536995ms[39m
+[1694114501538] [36m[OPENAI] Tokens per second: 2.1450577404922564tps[39m
+[1694114501538] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501539] {
+  "id": "chatcmpl-7wErNJq2CSXA3yyfFEh747ne8jHAM",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "6"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114501539] {
+  "role": "assistant",
+  "content": "6"
+}
+[1694114501539] [36m[OPENAI] Chat completion took 466.1017079949379ms[39m
+[1694114501539] [36m[OPENAI] Tokens per second: 2.1454544852490876tps[39m
+[1694114501539] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501539] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501539] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501547] {
+  "id": "chatcmpl-7wErN0HHWygR2WlGHUHklzmwMgqrs",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "5"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 1,
+    "total_tokens": 101
+  }
+}
+[1694114501547] {
+  "role": "assistant",
+  "content": "5"
+}
+[1694114501547] [36m[OPENAI] Chat completion took 474.2989999651909ms[39m
+[1694114501547] [36m[OPENAI] Tokens per second: 2.1083746752014885tps[39m
+[1694114501547] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501547] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501547] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501550] {
+  "id": "chatcmpl-7wErNUy113VEzOLFOHkxXpj0vgg2X",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 1,
+    "total_tokens": 91
+  }
+}
+[1694114501550] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114501550] [36m[OPENAI] Chat completion took 371.5494589805603ms[39m
+[1694114501550] [36m[OPENAI] Tokens per second: 2.691431721482659tps[39m
+[1694114501550] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501550] {
+  "id": "chatcmpl-7wErNLKYN43hbH6Tip6kdgJQKNXUX",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "8"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 97,
+    "completion_tokens": 1,
+    "total_tokens": 98
+  }
+}
+[1694114501550] {
+  "role": "assistant",
+  "content": "8"
+}
+[1694114501550] [36m[OPENAI] Chat completion took 380.25104200839996ms[39m
+[1694114501550] [36m[OPENAI] Tokens per second: 2.6298415770755716tps[39m
+[1694114501550] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501550] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501551] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501554] {
+  "id": "chatcmpl-7wErNEFc6ClKQQtOAh2fkIVIgVL37",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 1,
+    "total_tokens": 95
+  }
+}
+[1694114501554] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114501554] [36m[OPENAI] Chat completion took 384.223040997982ms[39m
+[1694114501554] [36m[OPENAI] Tokens per second: 2.6026549511518025tps[39m
+[1694114501554] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501554] {
+  "id": "chatcmpl-7wErNybVwPSCaNYqBBwCBHNYQJLCY",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "5"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 93,
+    "completion_tokens": 1,
+    "total_tokens": 94
+  }
+}
+[1694114501554] {
+  "role": "assistant",
+  "content": "5"
+}
+[1694114501554] [36m[OPENAI] Chat completion took 376.4233750104904ms[39m
+[1694114501554] [36m[OPENAI] Tokens per second: 2.6565831624354663tps[39m
+[1694114501554] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501554] {
+  "id": "chatcmpl-7wErNbhuwbONiUdIH7OcDJp9t5MhR",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "5"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 1,
+    "total_tokens": 96
+  }
+}
+[1694114501554] {
+  "role": "assistant",
+  "content": "5"
+}
+[1694114501554] [36m[OPENAI] Chat completion took 384.3837910294533ms[39m
+[1694114501554] [36m[OPENAI] Tokens per second: 2.6015665159079906tps[39m
+[1694114501554] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501555] {
+  "id": "chatcmpl-7wErNNiFhJdKXjJipM7KrY5Cx773p",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "5"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 92,
+    "completion_tokens": 1,
+    "total_tokens": 93
+  }
+}
+[1694114501555] {
+  "role": "assistant",
+  "content": "5"
+}
+[1694114501555] [36m[OPENAI] Chat completion took 376.6587920188904ms[39m
+[1694114501555] [36m[OPENAI] Tokens per second: 2.6549227608361456tps[39m
+[1694114501555] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501589] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501589] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501589] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501590] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501591] {
+  "id": "chatcmpl-7wErNT0PHHtpKlPdjBARNEvCjoY5H",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "7."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 2,
+    "total_tokens": 106
+  }
+}
+[1694114501591] {
+  "role": "assistant",
+  "content": "7."
+}
+[1694114501591] [36m[OPENAI] Chat completion took 420.43829095363617ms[39m
+[1694114501591] [36m[OPENAI] Tokens per second: 4.756940657007261tps[39m
+[1694114501591] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501592] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501593] {
+  "id": "chatcmpl-7wErNCq2L1T36zQar2owwmbIQn3a3",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 1,
+    "total_tokens": 95
+  }
+}
+[1694114501593] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114501593] [36m[OPENAI] Chat completion took 414.7718330025673ms[39m
+[1694114501593] [36m[OPENAI] Tokens per second: 2.410964102265378tps[39m
+[1694114501593] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501595] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501595] {
+  "id": "chatcmpl-7wErN8O299Rf1Pj7N4BNnwjeePcy7",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "5"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 98,
+    "completion_tokens": 1,
+    "total_tokens": 99
+  }
+}
+[1694114501595] {
+  "role": "assistant",
+  "content": "5"
+}
+[1694114501595] [36m[OPENAI] Chat completion took 425.6320829987526ms[39m
+[1694114501595] [36m[OPENAI] Tokens per second: 2.34944695182419tps[39m
+[1694114501595] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501597] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501598] {
+  "id": "chatcmpl-7wErNvD8LpITlFkRPSPsBhKRguWgZ",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "5"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 93,
+    "completion_tokens": 1,
+    "total_tokens": 94
+  }
+}
+[1694114501598] {
+  "role": "assistant",
+  "content": "5"
+}
+[1694114501598] [36m[OPENAI] Chat completion took 419.45620799064636ms[39m
+[1694114501598] [36m[OPENAI] Tokens per second: 2.3840390985995357tps[39m
+[1694114501598] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501604] {
+  "id": "chatcmpl-7wErNPwUiE3NNcayk0QA9ljGgIrQv",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 96,
+    "completion_tokens": 1,
+    "total_tokens": 97
+  }
+}
+[1694114501605] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114501605] [36m[OPENAI] Chat completion took 426.14612501859665ms[39m
+[1694114501605] [36m[OPENAI] Tokens per second: 2.346612913484455tps[39m
+[1694114501605] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501606] {
+  "id": "chatcmpl-7wErNFTxSz6m1opzK3c4cwbD1tDys",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 1,
+    "total_tokens": 96
+  }
+}
+[1694114501606] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114501606] [36m[OPENAI] Chat completion took 539.6411249637604ms[39m
+[1694114501606] [36m[OPENAI] Tokens per second: 1.8530833803060414tps[39m
+[1694114501606] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501607] {
+  "id": "chatcmpl-7wErN9OKBqSAqNyKPPIswYSwkeci8",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "7"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 92,
+    "completion_tokens": 1,
+    "total_tokens": 93
+  }
+}
+[1694114501607] {
+  "role": "assistant",
+  "content": "7"
+}
+[1694114501607] [36m[OPENAI] Chat completion took 428.40237498283386ms[39m
+[1694114501607] [36m[OPENAI] Tokens per second: 2.3342540994084597tps[39m
+[1694114501607] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501613] {
+  "id": "chatcmpl-7wErNoIFwoNyUWhP0jN0VAiLWzslc",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 1,
+    "total_tokens": 95
+  }
+}
+[1694114501613] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114501613] [36m[OPENAI] Chat completion took 434.6850829720497ms[39m
+[1694114501613] [36m[OPENAI] Tokens per second: 2.3005160268274034tps[39m
+[1694114501613] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501613] {
+  "id": "chatcmpl-7wErNyyvhB8TLqDOxy9iWcywdZ31m",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "6."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 97,
+    "completion_tokens": 2,
+    "total_tokens": 99
+  }
+}
+[1694114501613] {
+  "role": "assistant",
+  "content": "6."
+}
+[1694114501613] [36m[OPENAI] Chat completion took 442.9330000281334ms[39m
+[1694114501613] [36m[OPENAI] Tokens per second: 4.51535559525474tps[39m
+[1694114501613] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501613] {
+  "id": "chatcmpl-7wErNq9I9lVlY6Qvrkoe6Wnll6kss",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 93,
+    "completion_tokens": 1,
+    "total_tokens": 94
+  }
+}
+[1694114501613] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114501613] [36m[OPENAI] Chat completion took 546.8350419998169ms[39m
+[1694114501613] [36m[OPENAI] Tokens per second: 1.8287050448393445tps[39m
+[1694114501613] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501613] {
+  "id": "chatcmpl-7wErN2GGRpPk0vQo1qkcGukJNldyD",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 1,
+    "total_tokens": 91
+  }
+}
+[1694114501613] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114501613] [36m[OPENAI] Chat completion took 435.5774999856949ms[39m
+[1694114501613] [36m[OPENAI] Tokens per second: 2.2958026987914706tps[39m
+[1694114501613] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501614] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501616] {
+  "id": "chatcmpl-7wErNtQxZDhKxtzdT3pxIB8ND1X2r",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "6."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 2,
+    "total_tokens": 102
+  }
+}
+[1694114501616] {
+  "role": "assistant",
+  "content": "6."
+}
+[1694114501616] [36m[OPENAI] Chat completion took 446.2049999833107ms[39m
+[1694114501616] [36m[OPENAI] Tokens per second: 4.48224470831749tps[39m
+[1694114501616] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501617] {
+  "id": "chatcmpl-7wErNGCezwjFW4YBqHgGUMgCtlZfb",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 97,
+    "completion_tokens": 1,
+    "total_tokens": 98
+  }
+}
+[1694114501617] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114501617] [36m[OPENAI] Chat completion took 447.2041249871254ms[39m
+[1694114501617] [36m[OPENAI] Tokens per second: 2.236115331066745tps[39m
+[1694114501617] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501617] {
+  "id": "chatcmpl-7wErNBQektRh52Amg0VvPXO50J2sv",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "5"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 1,
+    "total_tokens": 100
+  }
+}
+[1694114501617] {
+  "role": "assistant",
+  "content": "5"
+}
+[1694114501617] [36m[OPENAI] Chat completion took 447.40933299064636ms[39m
+[1694114501617] [36m[OPENAI] Tokens per second: 2.2350897182131564tps[39m
+[1694114501617] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501620] {
+  "id": "chatcmpl-7wErNBYcCJcs8jaOk2xzMAdpsMEIj",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "5"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 91,
+    "completion_tokens": 1,
+    "total_tokens": 92
+  }
+}
+[1694114501620] {
+  "role": "assistant",
+  "content": "5"
+}
+[1694114501620] [36m[OPENAI] Chat completion took 442.7299579977989ms[39m
+[1694114501620] [36m[OPENAI] Tokens per second: 2.2587131996271452tps[39m
+[1694114501620] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501621] {
+  "id": "chatcmpl-7wErNdZeso40Uza6m9dstbvfpCRD6",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 1,
+    "total_tokens": 96
+  }
+}
+[1694114501621] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114501621] [36m[OPENAI] Chat completion took 442.2568749785423ms[39m
+[1694114501621] [36m[OPENAI] Tokens per second: 2.2611293494273403tps[39m
+[1694114501621] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501621] {
+  "id": "chatcmpl-7wErNCHFERj5FRHEOUMrGyEUazpmU",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 93,
+    "completion_tokens": 1,
+    "total_tokens": 94
+  }
+}
+[1694114501621] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114501621] [36m[OPENAI] Chat completion took 443.04862505197525ms[39m
+[1694114501621] [36m[OPENAI] Tokens per second: 2.257088598080374tps[39m
+[1694114501621] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501621] {
+  "id": "chatcmpl-7wErNNc4e4THaodbIespa4CAmd8oW",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 1,
+    "total_tokens": 96
+  }
+}
+[1694114501621] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114501621] [36m[OPENAI] Chat completion took 442.6868749856949ms[39m
+[1694114501621] [36m[OPENAI] Tokens per second: 2.2589330212970835tps[39m
+[1694114501621] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501621] {
+  "id": "chatcmpl-7wErN1Vnew04apBV1CuwEMizhIHKD",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 93,
+    "completion_tokens": 1,
+    "total_tokens": 94
+  }
+}
+[1694114501621] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114501621] [36m[OPENAI] Chat completion took 442.875500023365ms[39m
+[1694114501621] [36m[OPENAI] Tokens per second: 2.2579709194734017tps[39m
+[1694114501621] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501625] {
+  "id": "chatcmpl-7wErNtkDyIGWrB3bfLUXn5lYLZOgW",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 96,
+    "completion_tokens": 1,
+    "total_tokens": 97
+  }
+}
+[1694114501625] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114501625] [36m[OPENAI] Chat completion took 557.5552499890327ms[39m
+[1694114501625] [36m[OPENAI] Tokens per second: 1.7935442272665718tps[39m
+[1694114501625] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501628] {
+  "id": "chatcmpl-7wErNhu67wTqvgPs1tJE9MzQ7QDcN",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "6"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 97,
+    "completion_tokens": 1,
+    "total_tokens": 98
+  }
+}
+[1694114501628] {
+  "role": "assistant",
+  "content": "6"
+}
+[1694114501628] [36m[OPENAI] Chat completion took 554.9499999880791ms[39m
+[1694114501628] [36m[OPENAI] Tokens per second: 1.8019641409523042tps[39m
+[1694114501628] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501690] {
+  "id": "chatcmpl-7wErNdRz52it9m0xeO9YNZqXfTgRI",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "7."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 2,
+    "total_tokens": 97
+  }
+}
+[1694114501690] {
+  "role": "assistant",
+  "content": "7."
+}
+[1694114501690] [36m[OPENAI] Chat completion took 520.9589169621468ms[39m
+[1694114501690] [36m[OPENAI] Tokens per second: 3.8390743202219175tps[39m
+[1694114501690] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501723] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501737] [32m[OPENAI] Embedding created successfully.[39m
+[1694114501742] {
+  "id": "chatcmpl-7wErNVkK7gPy7v9qQCILdSIjMx5fU",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "6."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 2,
+    "total_tokens": 102
+  }
+}
+[1694114501742] {
+  "role": "assistant",
+  "content": "6."
+}
+[1694114501742] [36m[OPENAI] Chat completion took 572.5238329768181ms[39m
+[1694114501742] [36m[OPENAI] Tokens per second: 3.4933043566082977tps[39m
+[1694114501742] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501770] {
+  "id": "chatcmpl-7wErNJdbTshVI34d24JP0aNcPWaQI",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "5."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 2,
+    "total_tokens": 96
+  }
+}
+[1694114501770] {
+  "role": "assistant",
+  "content": "5."
+}
+[1694114501770] [36m[OPENAI] Chat completion took 591.8556659817696ms[39m
+[1694114501770] [36m[OPENAI] Tokens per second: 3.37920225310744tps[39m
+[1694114501770] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501797] {
+  "id": "chatcmpl-7wErNasVsYvXXtzqvqCFUx75qhkBg",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "7"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 98,
+    "completion_tokens": 1,
+    "total_tokens": 99
+  }
+}
+[1694114501797] {
+  "role": "assistant",
+  "content": "7"
+}
+[1694114501797] [36m[OPENAI] Chat completion took 627.0182499885559ms[39m
+[1694114501797] [36m[OPENAI] Tokens per second: 1.594849910697578tps[39m
+[1694114501797] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114501824] {
+  "id": "chatcmpl-7wErNcZp9xhQ0ziZdHq3k9s7yytN4",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 1,
+    "total_tokens": 95
+  }
+}
+[1694114501824] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114501824] [36m[OPENAI] Chat completion took 654.0742499828339ms[39m
+[1694114501824] [36m[OPENAI] Tokens per second: 1.5288784110156377tps[39m
+[1694114501824] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114502065] {
+  "id": "chatcmpl-7wErNvGvkpAJd87J7Yoa8NJGIUeiv",
+  "object": "chat.completion",
+  "created": 1694114501,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 1,
+    "total_tokens": 95
+  }
+}
+[1694114502065] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114502065] [36m[OPENAI] Chat completion took 997.4697920084ms[39m
+[1694114502065] [36m[OPENAI] Tokens per second: 1.0025366261834412tps[39m
+[1694114502065] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114507331] [Main] WebSocket connection established
+[1694114507361] [Character] Getting character: A5
+[1694114507362] --- Observations received -- 
+[1694114507363] {
+  "observerId": "A5",
+  "observation": "John Green sees John Green at X: 39.93, Y: -58.92.",
+  "time": 0
+}
+[1694114507363] [Character] Getting character: A5
+[1694114507363] [Character] Getting character: A5
+[1694114507364] --- Observations received -- 
+[1694114507364] {
+  "observerId": "A5",
+  "observation": "John Green sees John Green at X: 38.6, Y: -58.76.",
+  "time": 0
+}
+[1694114507364] [Character] Getting character: A5
+[1694114507364] [Character] Getting character: A5
+[1694114507364] --- Observations received -- 
+[1694114507365] {
+  "observerId": "A5",
+  "observation": "Eli Green sees Lucy Wilde at X: 31.39, Y: -53.38.",
+  "time": 0
+}
+[1694114507365] [Character] Getting character: A5
+[1694114507365] [Character] Getting character: A2
+[1694114507365] [Character] Getting character: A4
+[1694114507365] --- Observations received -- 
+[1694114507365] {
+  "observerId": "A4",
+  "observation": "Lucy Wilde sees Eli Green at X: 32.81001, Y: -53.18.",
+  "time": 0
+}
+[1694114507365] [Character] Getting character: A4
+[1694114507372] [Character] Getting character: A3
+[1694114507372] --- Observations received -- 
+[1694114507372] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Tree at X: 44.35, Y: -46.47.",
+  "time": 0
+}
+[1694114507372] [Character] Getting character: A3
+[1694114507372] --- Observations received -- 
+[1694114507372] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Tree at X: 44.75, Y: -48.82.",
+  "time": 0
+}
+[1694114507372] [Character] Getting character: A3
+[1694114507372] --- Observations received -- 
+[1694114507372] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Tree at X: 42.62, Y: -48.29.",
+  "time": 0
+}
+[1694114507372] [Character] Getting character: A3
+[1694114507372] --- Observations received -- 
+[1694114507372] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Tree at X: 38.28, Y: -45.67.",
+  "time": 0
+}
+[1694114507372] [Character] Getting character: A3
+[1694114507372] --- Observations received -- 
+[1694114507372] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Chest at X: 37.52, Y: -48.22.",
+  "time": 0
+}
+[1694114507372] [Character] Getting character: A3
+[1694114507372] --- Observations received -- 
+[1694114507372] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Tree at X: 40.72, Y: -46.88.",
+  "time": 0
+}
+[1694114507372] [Character] Getting character: A3
+[1694114507372] --- Observations received -- 
+[1694114507372] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Tree at X: 41.96, Y: -50.43.",
+  "time": 0
+}
+[1694114507372] [Character] Getting character: A3
+[1694114507372] --- Observations received -- 
+[1694114507372] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Tree at X: 36.04, Y: -47.68999.",
+  "time": 0
+}
+[1694114507372] [Character] Getting character: A3
+[1694114507372] --- Observations received -- 
+[1694114507372] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Tree at X: 43.53, Y: -51.61.",
+  "time": 0
+}
+[1694114507372] [Character] Getting character: A3
+[1694114507372] --- Observations received -- 
+[1694114507372] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Tree at X: 45.95, Y: -51.07.",
+  "time": 0
+}
+[1694114507372] [Character] Getting character: A3
+[1694114507373] --- Observations received -- 
+[1694114507373] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Tree Stump at X: 38.7, Y: -50.07.",
+  "time": 0
+}
+[1694114507373] [Character] Getting character: A3
+[1694114507373] --- Observations received -- 
+[1694114507373] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Tree at X: 39.4, Y: -48.08.",
+  "time": 0
+}
+[1694114507373] [Character] Getting character: A3
+[1694114509615] [33m[OPENAI] Creating embedding...[39m
+[1694114509615] [33m[OPENAI] Creating embedding...[39m
+[1694114509616] [33m[OPENAI] Creating embedding...[39m
+[1694114509616] [33m[OPENAI] Creating embedding...[39m
+[1694114509635] [33m[OPENAI] Creating embedding...[39m
+[1694114509669] [33m[OPENAI] Creating embedding...[39m
+[1694114509897] [32m[OPENAI] Embedding created successfully.[39m
+[1694114509898] [32m[OPENAI] Embedding created successfully.[39m
+[1694114509899] [32m[OPENAI] Embedding created successfully.[39m
+[1694114509899] [32m[OPENAI] Embedding created successfully.[39m
+[1694114509982] [32m[OPENAI] Embedding created successfully.[39m
+[1694114509986] [32m[OPENAI] Embedding created successfully.[39m
+[1694114509999] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114509999] [33m[OPENAI] Creating embedding...[39m
+[1694114509999] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114509999] [33m[OPENAI] Creating embedding...[39m
+[1694114509999] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114509999] [33m[OPENAI] Creating embedding...[39m
+[1694114509999] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114509999] [33m[OPENAI] Creating embedding...[39m
+[1694114509999] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114509999] [33m[OPENAI] Creating embedding...[39m
+[1694114509999] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114509999] [33m[OPENAI] Creating embedding...[39m
+[1694114509999] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114509999] [33m[OPENAI] Creating embedding...[39m
+[1694114509999] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114509999] [33m[OPENAI] Creating embedding...[39m
+[1694114509999] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114509999] [33m[OPENAI] Creating embedding...[39m
+[1694114509999] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114509999] [33m[OPENAI] Creating embedding...[39m
+[1694114509999] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114509999] [33m[OPENAI] Creating embedding...[39m
+[1694114509999] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114509999] [33m[OPENAI] Creating embedding...[39m
+[1694114510006] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114510006] [33m[OPENAI] Creating embedding...[39m
+[1694114510006] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114510006] [33m[OPENAI] Creating embedding...[39m
+[1694114510006] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114510006] [33m[OPENAI] Creating embedding...[39m
+[1694114510006] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114510006] [33m[OPENAI] Creating embedding...[39m
+[1694114510144] [32m[OPENAI] Embedding created successfully.[39m
+[1694114510211] {
+  "id": "chatcmpl-7wErWhXfxfMbqD4JnB9hK3dgEd11i",
+  "object": "chat.completion",
+  "created": 1694114510,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114510211] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114510211] [36m[OPENAI] Chat completion took 211.65470796823502ms[39m
+[1694114510211] [36m[OPENAI] Tokens per second: 4.724676382582897tps[39m
+[1694114510211] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114510212] [32m[OPENAI] Embedding created successfully.[39m
+[1694114510213] [32m[OPENAI] Embedding created successfully.[39m
+[1694114510226] [32m[OPENAI] Embedding created successfully.[39m
+[1694114510229] {
+  "id": "chatcmpl-7wErW7y60TyLSUveDnnMqxKTkv6Sn",
+  "object": "chat.completion",
+  "created": 1694114510,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114510229] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114510229] [36m[OPENAI] Chat completion took 229.786042034626ms[39m
+[1694114510229] [36m[OPENAI] Tokens per second: 4.351874426947621tps[39m
+[1694114510229] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114510246] [32m[OPENAI] Embedding created successfully.[39m
+[1694114510246] [32m[OPENAI] Embedding created successfully.[39m
+[1694114510246] [32m[OPENAI] Embedding created successfully.[39m
+[1694114510247] [32m[OPENAI] Embedding created successfully.[39m
+[1694114510247] [32m[OPENAI] Embedding created successfully.[39m
+[1694114510252] [32m[OPENAI] Embedding created successfully.[39m
+[1694114510253] [32m[OPENAI] Embedding created successfully.[39m
+[1694114510256] [32m[OPENAI] Embedding created successfully.[39m
+[1694114510274] {
+  "id": "chatcmpl-7wErWrWBHur454JpxAzX1m8yQtKmQ",
+  "object": "chat.completion",
+  "created": 1694114510,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 102,
+    "completion_tokens": 1,
+    "total_tokens": 103
+  }
+}
+[1694114510274] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114510274] [36m[OPENAI] Chat completion took 267.2050830125809ms[39m
+[1694114510274] [36m[OPENAI] Tokens per second: 3.742443776613773tps[39m
+[1694114510274] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114510274] [32m[OPENAI] Embedding created successfully.[39m
+[1694114510293] {
+  "id": "chatcmpl-7wErWfO9caRzYWNfafc1xy9A8TMtk",
+  "object": "chat.completion",
+  "created": 1694114510,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114510294] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114510294] [36m[OPENAI] Chat completion took 294.0558329820633ms[39m
+[1694114510294] [36m[OPENAI] Tokens per second: 3.400714720938719tps[39m
+[1694114510294] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114510298] [32m[OPENAI] Embedding created successfully.[39m
+[1694114510299] {
+  "id": "chatcmpl-7wErWNkS6FnVCAPhooEMlPSgZbhP6",
+  "object": "chat.completion",
+  "created": 1694114510,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114510299] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114510300] [36m[OPENAI] Chat completion took 300.36808401346207ms[39m
+[1694114510300] [36m[OPENAI] Tokens per second: 3.329248522806376tps[39m
+[1694114510300] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114510305] {
+  "id": "chatcmpl-7wErWqWRoow6GyiuYsJMel6YAIn20",
+  "object": "chat.completion",
+  "created": 1694114510,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 102,
+    "completion_tokens": 1,
+    "total_tokens": 103
+  }
+}
+[1694114510305] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114510305] [36m[OPENAI] Chat completion took 299.2153329849243ms[39m
+[1694114510305] [36m[OPENAI] Tokens per second: 3.34207471931388tps[39m
+[1694114510305] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114510306] {
+  "id": "chatcmpl-7wErWsSNwwbdKPqRjK5PlZ9PNHEFj",
+  "object": "chat.completion",
+  "created": 1694114510,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "5"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114510306] {
+  "role": "assistant",
+  "content": "5"
+}
+[1694114510306] [36m[OPENAI] Chat completion took 306.56633299589157ms[39m
+[1694114510306] [36m[OPENAI] Tokens per second: 3.261936789430173tps[39m
+[1694114510306] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114510415] {
+  "id": "chatcmpl-7wErWemHGoybDncEpnm4yJlZvnxDo",
+  "object": "chat.completion",
+  "created": 1694114510,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114510415] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114510415] [36m[OPENAI] Chat completion took 415.6139580011368ms[39m
+[1694114510415] [36m[OPENAI] Tokens per second: 2.4060789604117794tps[39m
+[1694114510415] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114510415] [32m[OPENAI] Embedding created successfully.[39m
+[1694114510415] {
+  "id": "chatcmpl-7wErWx34NaWcso9VvSV9FYBWffjTF",
+  "object": "chat.completion",
+  "created": 1694114510,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "5"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114510415] {
+  "role": "assistant",
+  "content": "5"
+}
+[1694114510415] [36m[OPENAI] Chat completion took 416.41412502527237ms[39m
+[1694114510415] [36m[OPENAI] Tokens per second: 2.401455522046255tps[39m
+[1694114510415] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114510416] {
+  "id": "chatcmpl-7wErWd6C94AU7zzmCgNXmOzGBfm21",
+  "object": "chat.completion",
+  "created": 1694114510,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 103,
+    "completion_tokens": 1,
+    "total_tokens": 104
+  }
+}
+[1694114510417] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114510417] [36m[OPENAI] Chat completion took 409.12645798921585ms[39m
+[1694114510417] [36m[OPENAI] Tokens per second: 2.4442320472619223tps[39m
+[1694114510417] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114510417] {
+  "id": "chatcmpl-7wErWASwFVxKLGnt0jZmCaNqPODkx",
+  "object": "chat.completion",
+  "created": 1694114510,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 102,
+    "completion_tokens": 1,
+    "total_tokens": 103
+  }
+}
+[1694114510417] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114510417] [36m[OPENAI] Chat completion took 410.3307920098305ms[39m
+[1694114510417] [36m[OPENAI] Tokens per second: 2.4370581478955704tps[39m
+[1694114510417] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114510418] [32m[OPENAI] Embedding created successfully.[39m
+[1694114510524] {
+  "id": "chatcmpl-7wErWyY0uZc78wOmdQ1mVpPp1lc2D",
+  "object": "chat.completion",
+  "created": 1694114510,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 102,
+    "completion_tokens": 1,
+    "total_tokens": 103
+  }
+}
+[1694114510524] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114510524] [36m[OPENAI] Chat completion took 524.168084025383ms[39m
+[1694114510524] [36m[OPENAI] Tokens per second: 1.9077849843898065tps[39m
+[1694114510524] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114510525] {
+  "id": "chatcmpl-7wErWVfbZnQwJ0ikAF2FDRGaBAsjG",
+  "object": "chat.completion",
+  "created": 1694114510,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114510525] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114510525] [36m[OPENAI] Chat completion took 525.9374169707298ms[39m
+[1694114510525] [36m[OPENAI] Tokens per second: 1.901366907416008tps[39m
+[1694114510525] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114510525] {
+  "id": "chatcmpl-7wErWRggkVnWLLqKaFgQMRpFDA1Fx",
+  "object": "chat.completion",
+  "created": 1694114510,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114510525] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114510525] [36m[OPENAI] Chat completion took 526.0385829806328ms[39m
+[1694114510525] [36m[OPENAI] Tokens per second: 1.9010012427868188tps[39m
+[1694114510525] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114510537] {
+  "id": "chatcmpl-7wErWz0zK2HZfLfnhdIk69kmrGOIH",
+  "object": "chat.completion",
+  "created": 1694114510,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114510537] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114510537] [36m[OPENAI] Chat completion took 537.6371660232544ms[39m
+[1694114510537] [36m[OPENAI] Tokens per second: 1.8599904604748754tps[39m
+[1694114510537] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114510655] [33m[OPENAI] Creating embedding...[39m
+[1694114510787] [33m[OPENAI] Creating embedding...[39m
+[1694114510939] [32m[OPENAI] Embedding created successfully.[39m
+[1694114511010] [33m[OPENAI] Creating embedding...[39m
+[1694114511032] [32m[OPENAI] Embedding created successfully.[39m
+[1694114511151] [33m[OPENAI] Creating embedding...[39m
+[1694114511211] [32m[OPENAI] Embedding created successfully.[39m
+[1694114511336] {
+  "id": "chatcmpl-7wErXACH5mghzOYYLRXGdfYA9Q5Oi",
+  "object": "chat.completion",
+  "created": 1694114511,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 103,
+    "completion_tokens": 1,
+    "total_tokens": 104
+  }
+}
+[1694114511337] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114511337] [36m[OPENAI] Chat completion took 1336.7129999995232ms[39m
+[1694114511337] [36m[OPENAI] Tokens per second: 0.7481037440350746tps[39m
+[1694114511340] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114511368] [32m[OPENAI] Embedding created successfully.[39m
+[1694114511452] [33m[OPENAI] Creating embedding...[39m
+[1694114511624] [32m[OPENAI] Embedding created successfully.[39m
+[1694114511725] [33m[OPENAI] Creating embedding...[39m
+[1694114512028] [32m[OPENAI] Embedding created successfully.[39m
+[1694114512506] [33m[OPENAI] Creating embedding...[39m
+[1694114512658] [33m[OPENAI] Creating embedding...[39m
+[1694114512727] [32m[OPENAI] Embedding created successfully.[39m
+[1694114512826] [32m[OPENAI] Embedding created successfully.[39m
+[1694114512844] [33m[OPENAI] Creating embedding...[39m
+[1694114513026] [33m[OPENAI] Creating embedding...[39m
+[1694114513088] [32m[OPENAI] Embedding created successfully.[39m
+[1694114513232] [32m[OPENAI] Embedding created successfully.[39m
+[1694114513250] [33m[OPENAI] Creating embedding...[39m
+[1694114513379] [32m[OPENAI] Embedding created successfully.[39m
+[1694114513386] [33m[OPENAI] Creating embedding...[39m
+[1694114513595] [32m[OPENAI] Embedding created successfully.[39m
+[1694114513714] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114513875] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114514085] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114514159] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114514236] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114514361] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114515976] {
+  "id": "chatcmpl-7wEraEaedB4446MzxTDjZf8hz8qPS",
+  "object": "chat.completion",
+  "created": 1694114514,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "eat",
+          "arguments": "{\n  \"characterId\": \"A5\",\n  \"foodId\": \"berries\"\n}"
+        }
+      },
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1130,
+    "completion_tokens": 25,
+    "total_tokens": 1155
+  }
+}
+[1694114515977] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat",
+    "arguments": "{\n  \"characterId\": \"A5\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694114515977] [36m[OPENAI] Chat completion took 2101.362874984741ms[39m
+[1694114515977] [36m[OPENAI] Tokens per second: 11.897040866957134tps[39m
+[1694114515977] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114516027] [Character] Getting character: A5
+[1694114516286] [33m[OPENAI] Creating embedding...[39m
+[1694114516452] [32m[OPENAI] Embedding created successfully.[39m
+[1694114517231] [33m[OPENAI] Creating embedding...[39m
+[1694114517407] [32m[OPENAI] Embedding created successfully.[39m
+[1694114518109] [33m[OPENAI] Creating embedding...[39m
+[1694114518430] [32m[OPENAI] Embedding created successfully.[39m
+[1694114518886] {
+  "id": "chatcmpl-7wEraOObnfvLdQeA27veY22JJ1adk",
+  "object": "chat.completion",
+  "created": 1694114514,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "start_conversation",
+          "arguments": "{\n  \"characterId\": \"A5\",\n  \"targetCharacterId\": \"A5\",\n  \"conversationGoal\": \"Catch up with John Green and discuss the day's duties.\"\n}"
+        }
+      },
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 46,
+    "total_tokens": 1102
+  }
+}
+[1694114518887] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "start_conversation",
+    "arguments": "{\n  \"characterId\": \"A5\",\n  \"targetCharacterId\": \"A5\",\n  \"conversationGoal\": \"Catch up with John Green and discuss the day's duties.\"\n}"
+  }
+}
+[1694114518887] [36m[OPENAI] Chat completion took 4727.024292051792ms[39m
+[1694114518887] [36m[OPENAI] Tokens per second: 9.731280644642814tps[39m
+[1694114518887] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114518911] [33m[CONVERSATION] Starting conversation...[39m
+[1694114518911] [33m[CONVERSATION] Character 1: A5[39m
+[1694114518911] [33m[CONVERSATION] Character 2: A5[39m
+[1694114518911] [33m[CONVERSATION] Conversation goal: Catch up with John Green and discuss the day's duties.[39m
+[1694114519114] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114519400] [33m[OPENAI] Creating embedding...[39m
+[1694114519715] [32m[OPENAI] Embedding created successfully.[39m
+[1694114520328] --- Observations received -- 
+[1694114520331] {
+  "observerId": "A4",
+  "observation": "Lucy Wilde sees Thomas Smith at X: 29.45051, Y: -57.70452.",
+  "time": 12.5410719
+}
+[1694114520333] [Character] Getting character: A4
+[1694114520487] [33m[OPENAI] Creating embedding...[39m
+[1694114520690] [32m[OPENAI] Embedding created successfully.[39m
+[1694114520736] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114520736] [33m[OPENAI] Creating embedding...[39m
+[1694114520937] [32m[OPENAI] Embedding created successfully.[39m
+[1694114520958] {
+  "id": "chatcmpl-7wErgeUNZeuSJQYi0mJbu7M9nJecx",
+  "object": "chat.completion",
+  "created": 1694114520,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 1,
+    "total_tokens": 105
+  }
+}
+[1694114520958] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114520958] [36m[OPENAI] Chat completion took 221.89433300495148ms[39m
+[1694114520958] [36m[OPENAI] Tokens per second: 4.506649568097286tps[39m
+[1694114520958] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114521630] --- Observations received -- 
+[1694114521631] {
+  "observerId": "A5",
+  "observation": "Eli Green sees Thomas Smith at X: 28.70807, Y: -55.92153.",
+  "time": 13.8406725
+}
+[1694114521631] [Character] Getting character: A5
+[1694114522042] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114522042] [33m[OPENAI] Creating embedding...[39m
+[1694114522237] [32m[OPENAI] Embedding created successfully.[39m
+[1694114522268] {
+  "id": "chatcmpl-7wEriMBJ9MVnDIVimBDTmp1rf6dAR",
+  "object": "chat.completion",
+  "created": 1694114522,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 1,
+    "total_tokens": 105
+  }
+}
+[1694114522268] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114522268] [36m[OPENAI] Chat completion took 225.45033299922943ms[39m
+[1694114522268] [36m[OPENAI] Tokens per second: 4.4355667463281945tps[39m
+[1694114522268] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114523898] {
+  "id": "chatcmpl-7wErfqcbJzahpAWdWMFMtZqFW19PA",
+  "object": "chat.completion",
+  "created": 1694114519,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "start_conversation",
+          "arguments": "{\n\"characterId\": \"A5\",\n\"targetCharacterId\": \"A4\",\n\"conversationGoal\": \"Catch up with Lucy Wilde to complete the task of catching up with other villagers and also maintain a healthy lifestyle through social interaction.\"\n}"
+        }
+      },
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1044,
+    "completion_tokens": 56,
+    "total_tokens": 1100
+  }
+}
+[1694114523899] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "start_conversation",
+    "arguments": "{\n\"characterId\": \"A5\",\n\"targetCharacterId\": \"A4\",\n\"conversationGoal\": \"Catch up with Lucy Wilde to complete the task of catching up with other villagers and also maintain a healthy lifestyle through social interaction.\"\n}"
+  }
+}
+[1694114523899] [36m[OPENAI] Chat completion took 4783.631458044052ms[39m
+[1694114523899] [36m[OPENAI] Tokens per second: 11.706587451638148tps[39m
+[1694114523899] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114524555] {
+  "id": "chatcmpl-7wEra9ifYenfN51S566IuKD9b0Op6",
+  "object": "chat.completion",
+  "created": 1694114514,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "[\n  {\n    \"task\": \"Eat some food\",\n    \"priority\": 1\n  },\n  {\n    \"task\": \"Carry out daily duties in mine\",\n    \"priority\": 2\n  },\n  {\n    \"task\": \"Maintain a healthy lifestyle\",\n    \"priority\": 3\n  },\n  {\n    \"task\": \"Socialize with Thomas and other villagers after work\",\n    \"priority\": 4\n  },\n  {\n    \"task\": \"Ensure safety protocols are followed in mining\",\n    \"priority\": 5\n  }\n]"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 505,
+    "completion_tokens": 118,
+    "total_tokens": 623
+  }
+}
+[1694114524556] {
+  "role": "assistant",
+  "content": "[\n  {\n    \"task\": \"Eat some food\",\n    \"priority\": 1\n  },\n  {\n    \"task\": \"Carry out daily duties in mine\",\n    \"priority\": 2\n  },\n  {\n    \"task\": \"Maintain a healthy lifestyle\",\n    \"priority\": 3\n  },\n  {\n    \"task\": \"Socialize with Thomas and other villagers after work\",\n    \"priority\": 4\n  },\n  {\n    \"task\": \"Ensure safety protocols are followed in mining\",\n    \"priority\": 5\n  }\n]"
+}
+[1694114524556] [36m[OPENAI] Chat completion took 10469.689791023731ms[39m
+[1694114524556] [36m[OPENAI] Tokens per second: 11.270630014383828tps[39m
+[1694114524556] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114524556] [Character] Getting character: A2
+[1694114524720] [33m[OPENAI] Creating embedding...[39m
+[1694114524829] --- Observations received -- 
+[1694114524830] {
+  "observerId": "A5",
+  "observation": "Eli Green no longer sees Human at X: 27.91614, Y: -50.95706",
+  "time": 17.041254
+}
+[1694114524830] [Character] Getting character: A5
+[1694114524895] [32m[OPENAI] Embedding created successfully.[39m
+[1694114525239] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114525239] [33m[OPENAI] Creating embedding...[39m
+[1694114525459] [32m[OPENAI] Embedding created successfully.[39m
+[1694114525496] {
+  "id": "chatcmpl-7wErleYCvsLcVM9Hzv3TXr88hAHw1",
+  "object": "chat.completion",
+  "created": 1694114525,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 1,
+    "total_tokens": 105
+  }
+}
+[1694114525496] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114525497] [36m[OPENAI] Chat completion took 256.58141696453094ms[39m
+[1694114525497] [36m[OPENAI] Tokens per second: 3.8973983846158156tps[39m
+[1694114525499] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114525589] --- Observations received -- 
+[1694114525589] {
+  "observerId": "A4",
+  "observation": "Lucy Wilde no longer sees Human at X: 26.58615, Y: -50.95706",
+  "time": 17.8003578
+}
+[1694114525589] [Character] Getting character: A4
+[1694114525689] [33m[OPENAI] Creating embedding...[39m
+[1694114525853] [32m[OPENAI] Embedding created successfully.[39m
+[1694114525993] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114525994] [33m[OPENAI] Creating embedding...[39m
+[1694114526144] [32m[OPENAI] Embedding created successfully.[39m
+[1694114526232] {
+  "id": "chatcmpl-7wErm4qQeuYxnnOPtBqlP7qREIykm",
+  "object": "chat.completion",
+  "created": 1694114526,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 1,
+    "total_tokens": 105
+  }
+}
+[1694114526232] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114526232] [36m[OPENAI] Chat completion took 238.85845798254013ms[39m
+[1694114526232] [36m[OPENAI] Tokens per second: 4.1865798198910635tps[39m
+[1694114526232] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114526520] [33m[OPENAI] Creating embedding...[39m
+[1694114526785] [32m[OPENAI] Embedding created successfully.[39m
+[1694114526909] {
+  "id": "chatcmpl-7wErah1NygJSNSKWxkUiYR9yEDdQj",
+  "object": "chat.completion",
+  "created": 1694114514,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "[\n  {\n    \"task\": \"Eat berries\",\n    \"priority\": 1\n  },\n  {\n    \"task\": \"Carry out your daily duties\",\n    \"priority\": 2\n  },\n  {\n    \"task\": \"Explore chest at X: 37.52, Y: -48.22\",\n    \"priority\": 3\n  },\n  {\n    \"task\": \"Catch up with other villagers\",\n    \"priority\": 4\n  },\n  {\n    \"task\": \"Collect wood from nearby trees\",\n    \"priority\": 5\n  },\n  {\n    \"task\": \"Maintain a healthy lifestyle\",\n    \"priority\": 6\n  }\n]"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1585,
+    "completion_tokens": 143,
+    "total_tokens": 1728
+  }
+}
+[1694114526910] {
+  "role": "assistant",
+  "content": "[\n  {\n    \"task\": \"Eat berries\",\n    \"priority\": 1\n  },\n  {\n    \"task\": \"Carry out your daily duties\",\n    \"priority\": 2\n  },\n  {\n    \"task\": \"Explore chest at X: 37.52, Y: -48.22\",\n    \"priority\": 3\n  },\n  {\n    \"task\": \"Catch up with other villagers\",\n    \"priority\": 4\n  },\n  {\n    \"task\": \"Collect wood from nearby trees\",\n    \"priority\": 5\n  },\n  {\n    \"task\": \"Maintain a healthy lifestyle\",\n    \"priority\": 6\n  }\n]"
+}
+[1694114526910] [36m[OPENAI] Chat completion took 12673.285667002201ms[39m
+[1694114526910] [36m[OPENAI] Tokens per second: 11.283577420836746tps[39m
+[1694114526910] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114526910] [Character] Getting character: A3
+[1694114527067] [33m[OPENAI] Creating embedding...[39m
+[1694114527269] [32m[OPENAI] Embedding created successfully.[39m
+[1694114527484] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114527702] {
+  "id": "chatcmpl-7wErZsXazQX8VNGzuMmYO4O7LZ4jI",
+  "object": "chat.completion",
+  "created": 1694114513,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "[\n  {\n    \"task\": \"Eat some food to address hunger\",\n    \"priority\": 1\n  },\n  {\n    \"task\": \"Carry out daily duties: chop down trees\",\n    \"priority\": 2\n  },\n  {\n    \"task\": \"Maintain a healthy lifestyle: replant trees\",\n    \"priority\": 3\n  },\n  {\n    \"task\": \"Check on the chest for useful items\",\n    \"priority\": 4\n  },\n  {\n    \"task\": \"Catch up with Eli Green, make sure he is okay\",\n    \"priority\": 5\n  },\n  {\n    \"task\": \"Search for more food to ensure stability\",\n    \"priority\": 6\n  }\n]"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 806,
+    "completion_tokens": 153,
+    "total_tokens": 959
+  }
+}
+[1694114527708] {
+  "role": "assistant",
+  "content": "[\n  {\n    \"task\": \"Eat some food to address hunger\",\n    \"priority\": 1\n  },\n  {\n    \"task\": \"Carry out daily duties: chop down trees\",\n    \"priority\": 2\n  },\n  {\n    \"task\": \"Maintain a healthy lifestyle: replant trees\",\n    \"priority\": 3\n  },\n  {\n    \"task\": \"Check on the chest for useful items\",\n    \"priority\": 4\n  },\n  {\n    \"task\": \"Catch up with Eli Green, make sure he is okay\",\n    \"priority\": 5\n  },\n  {\n    \"task\": \"Search for more food to ensure stability\",\n    \"priority\": 6\n  }\n]"
+}
+[1694114527708] [36m[OPENAI] Chat completion took 13987.852916955948ms[39m
+[1694114527708] [36m[OPENAI] Tokens per second: 10.938061824666086tps[39m
+[1694114527708] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114527709] [Character] Getting character: A4
+[1694114527885] [33m[OPENAI] Creating embedding...[39m
+[1694114527906] [33m[OPENAI] Creating embedding...[39m
+[1694114528084] [32m[OPENAI] Embedding created successfully.[39m
+[1694114528218] [32m[OPENAI] Embedding created successfully.[39m
+[1694114528305] {
+  "id": "chatcmpl-7wEra2oa1JyPnmcqvSIMgDUmaSsk2",
+  "object": "chat.completion",
+  "created": 1694114514,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "[\n  {\n    \"task\": \"Eat some food\",\n    \"priority\": 1\n  },\n  {\n    \"task\": \"Carry out your daily duties\",\n    \"priority\": 2\n  },\n  {\n    \"task\": \"Catch up with John Green\",\n    \"priority\": 3\n  },\n  {\n    \"task\": \"Catch up with other villagers\",\n    \"priority\": 4\n  },\n  {\n    \"task\": \"Maintain a healthy lifestyle\",\n    \"priority\": 5\n  },\n  {\n    \"task\": \"Explore the surroundings\",\n    \"priority\": 6\n  }\n]"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 781,
+    "completion_tokens": 131,
+    "total_tokens": 912
+  }
+}
+[1694114528307] {
+  "role": "assistant",
+  "content": "[\n  {\n    \"task\": \"Eat some food\",\n    \"priority\": 1\n  },\n  {\n    \"task\": \"Carry out your daily duties\",\n    \"priority\": 2\n  },\n  {\n    \"task\": \"Catch up with John Green\",\n    \"priority\": 3\n  },\n  {\n    \"task\": \"Catch up with other villagers\",\n    \"priority\": 4\n  },\n  {\n    \"task\": \"Maintain a healthy lifestyle\",\n    \"priority\": 5\n  },\n  {\n    \"task\": \"Explore the surroundings\",\n    \"priority\": 6\n  }\n]"
+}
+[1694114528307] [36m[OPENAI] Chat completion took 13943.897374987602ms[39m
+[1694114528308] [36m[OPENAI] Tokens per second: 9.394790887875168tps[39m
+[1694114528308] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114528308] [Character] Getting character: A5
+[1694114528499] [33m[OPENAI] Creating embedding...[39m
+[1694114528752] [32m[OPENAI] Embedding created successfully.[39m
+[1694114528864] [33m[OPENAI] Creating embedding...[39m
+[1694114529000] [33m[OPENAI] Creating embedding...[39m
+[1694114529002] [32m[OPENAI] Embedding created successfully.[39m
+[1694114529282] [32m[OPENAI] Embedding created successfully.[39m
+[1694114529580] [33m[OPENAI] Creating embedding...[39m
+[1694114529806] [33m[OPENAI] Creating embedding...[39m
+[1694114529811] [32m[OPENAI] Embedding created successfully.[39m
+[1694114529885] {
+  "id": "chatcmpl-7wErnsVjZJ4jOHKeFeb04mNMnznn3",
+  "object": "chat.completion",
+  "created": 1694114527,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "eat",
+          "arguments": "{\n  \"characterId\": \"A2\",\n  \"foodId\": \"berries\"\n}"
+        }
+      },
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 785,
+    "completion_tokens": 25,
+    "total_tokens": 810
+  }
+}
+[1694114529885] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694114529885] [36m[OPENAI] Chat completion took 2400.674374997616ms[39m
+[1694114529885] [36m[OPENAI] Tokens per second: 10.413740514069023tps[39m
+[1694114529886] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114529905] [Character] Getting character: A2
+[1694114529934] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114529952] [32m[OPENAI] Embedding created successfully.[39m
+[1694114530068] [33m[OPENAI] Creating embedding...[39m
+[1694114530335] [32m[OPENAI] Embedding created successfully.[39m
+[1694114530614] [33m[OPENAI] Creating embedding...[39m
+[1694114530861] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114530863] [32m[OPENAI] Embedding created successfully.[39m
+[1694114531022] [33m[OPENAI] Creating embedding...[39m
+[1694114531194] [32m[OPENAI] Embedding created successfully.[39m
+[1694114531490] --- Observations received -- 
+[1694114531491] {
+  "observerId": "A1",
+  "observation": "Thomas Smith picked up Wood at X: 21.61436, Y: -49.07608",
+  "time": 23.7009125
+}
+[1694114531491] [Character] Getting character: A1
+[1694114531561] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114531927] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114531928] [33m[OPENAI] Creating embedding...[39m
+[1694114531935] [33m[OPENAI] Creating embedding...[39m
+[1694114532120] [32m[OPENAI] Embedding created successfully.[39m
+[1694114532163] [32m[OPENAI] Embedding created successfully.[39m
+[1694114532626] {
+  "id": "chatcmpl-7wErsa3AEJ5ITJgrTgLMGfbOS8MpM",
+  "object": "chat.completion",
+  "created": 1694114532,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 103,
+    "completion_tokens": 1,
+    "total_tokens": 104
+  }
+}
+[1694114532626] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114532626] [36m[OPENAI] Chat completion took 698.5071669816971ms[39m
+[1694114532626] [36m[OPENAI] Tokens per second: 1.4316245376852417tps[39m
+[1694114532627] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114532805] {
+  "id": "chatcmpl-7wErqr3X1hIAUm6q5k2Kxc3GTWOtE",
+  "object": "chat.completion",
+  "created": 1694114530,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "eat",
+          "arguments": "{\n  \"characterId\": \"A3\",\n  \"foodId\": \"berries\"\n}"
+        }
+      },
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1545,
+    "completion_tokens": 25,
+    "total_tokens": 1570
+  }
+}
+[1694114532806] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat",
+    "arguments": "{\n  \"characterId\": \"A3\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694114532806] [36m[OPENAI] Chat completion took 2871.214332997799ms[39m
+[1694114532806] [36m[OPENAI] Tokens per second: 8.707117303185727tps[39m
+[1694114532806] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114532815] [Character] Getting character: A3
+[1694114533076] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114533120] [33m[OPENAI] Creating embedding...[39m
+[1694114533285] [32m[OPENAI] Embedding created successfully.[39m
+[1694114533998] [33m[OPENAI] Creating embedding...[39m
+[1694114533999] {
+  "id": "chatcmpl-7wErrbhivzKLaIK8tGwmooelgxULm",
+  "object": "chat.completion",
+  "created": 1694114531,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "eat",
+          "arguments": "{\n  \"characterId\": \"A4\",\n  \"foodId\": \"berries\"\n}"
+        }
+      },
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1065,
+    "completion_tokens": 25,
+    "total_tokens": 1090
+  }
+}
+[1694114533999] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat",
+    "arguments": "{\n  \"characterId\": \"A4\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694114533999] [36m[OPENAI] Chat completion took 3138.2852079868317ms[39m
+[1694114533999] [36m[OPENAI] Tokens per second: 7.966133841620204tps[39m
+[1694114533999] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114534010] [Character] Getting character: A4
+[1694114534209] [32m[OPENAI] Embedding created successfully.[39m
+[1694114534222] [33m[OPENAI] Creating embedding...[39m
+[1694114534517] [32m[OPENAI] Embedding created successfully.[39m
+[1694114534555] {
+  "id": "chatcmpl-7wErr0QwfTSL3uSQd3WnCGhrsxUAq",
+  "object": "chat.completion",
+  "created": 1694114531,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "eat",
+          "arguments": "{\n  \"characterId\": \"A5\",\n  \"foodId\": \"berries\"\n}"
+        }
+      },
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1058,
+    "completion_tokens": 25,
+    "total_tokens": 1083
+  }
+}
+[1694114534555] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat",
+    "arguments": "{\n  \"characterId\": \"A5\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694114534555] [36m[OPENAI] Chat completion took 2994.046333014965ms[39m
+[1694114534555] [36m[OPENAI] Tokens per second: 8.349904182954086tps[39m
+[1694114534555] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114534861] [33m[OPENAI] Creating embedding...[39m
+[1694114535050] [32m[OPENAI] Embedding created successfully.[39m
+[1694114535326] [33m[OPENAI] Creating embedding...[39m
+[1694114535709] [32m[OPENAI] Embedding created successfully.[39m
+[1694114535725] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114536507] [33m[OPENAI] Creating embedding...[39m
+[1694114536619] {
+  "id": "chatcmpl-7wErtKACk8rmb6HSu5tiO8csLmXcu",
+  "object": "chat.completion",
+  "created": 1694114533,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "move_to",
+          "arguments": "{\n\"characterId\": \"A2\",\n\"x\": 20.76,\n\"y\": -62.03\n}"
+        }
+      },
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 697,
+    "completion_tokens": 31,
+    "total_tokens": 728
+  }
+}
+[1694114536619] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n\"characterId\": \"A2\",\n\"x\": 20.76,\n\"y\": -62.03\n}"
+  }
+}
+[1694114536619] [36m[OPENAI] Chat completion took 3542.900375008583ms[39m
+[1694114536619] [36m[OPENAI] Tokens per second: 8.749893228348228tps[39m
+[1694114536619] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114536658] --- Observations received -- 
+[1694114536658] {
+  "observerId": "A2",
+  "observation": "George Brown has started walking to 20.76, Y: -62.03.",
+  "time": 28.8542728
+}
+[1694114536658] [Character] Getting character: A2
+[1694114536679] [32m[OPENAI] Embedding created successfully.[39m
+[1694114536710] --- Observations received -- 
+[1694114536710] {
+  "observerId": "A2",
+  "observation": "George Brown finished walking to 20.76, Y: -62.03.",
+  "time": 28.91999
+}
+[1694114536710] [Character] Getting character: A2
+[1694114536711] [Character] Getting character: A2
+[1694114536911] [33m[OPENAI] Creating embedding...[39m
+[1694114537144] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114537145] [33m[OPENAI] Creating embedding...[39m
+[1694114537156] [32m[OPENAI] Embedding created successfully.[39m
+[1694114537209] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114537209] [33m[OPENAI] Creating embedding...[39m
+[1694114537325] [32m[OPENAI] Embedding created successfully.[39m
+[1694114537386] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114537408] {
+  "id": "chatcmpl-7wErxProQ31fTLa2JtLvmdDgy62na",
+  "object": "chat.completion",
+  "created": 1694114537,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 2,
+    "total_tokens": 102
+  }
+}
+[1694114537408] {
+  "role": "assistant",
+  "content": "2."
+}
+[1694114537408] [36m[OPENAI] Chat completion took 264.0727080106735ms[39m
+[1694114537408] [36m[OPENAI] Tokens per second: 7.573671717408837tps[39m
+[1694114537408] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114537447] {
+  "id": "chatcmpl-7wErxj1npxUDxRCDvkwT6KrBRSKSC",
+  "object": "chat.completion",
+  "created": 1694114537,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 1,
+    "total_tokens": 100
+  }
+}
+[1694114537448] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114537448] [36m[OPENAI] Chat completion took 238.09583300352097ms[39m
+[1694114537448] [36m[OPENAI] Tokens per second: 4.199989505844111tps[39m
+[1694114537448] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114537510] [32m[OPENAI] Embedding created successfully.[39m
+[1694114537841] [33m[OPENAI] Creating embedding...[39m
+[1694114538014] [32m[OPENAI] Embedding created successfully.[39m
+[1694114538870] [33m[OPENAI] Creating embedding...[39m
+[1694114539034] [32m[OPENAI] Embedding created successfully.[39m
+[1694114539257] {
+  "id": "chatcmpl-7wErvWOQfwE1rvktLF86Qjkn3T85R",
+  "object": "chat.completion",
+  "created": 1694114535,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "move_to",
+          "arguments": "{\n  \"characterId\": \"A3\",\n  \"x\": 38.7,\n  \"y\": -50.07\n}"
+        }
+      },
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1457,
+    "completion_tokens": 35,
+    "total_tokens": 1492
+  }
+}
+[1694114539257] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A3\",\n  \"x\": 38.7,\n  \"y\": -50.07\n}"
+  }
+}
+[1694114539258] [36m[OPENAI] Chat completion took 3532.134666979313ms[39m
+[1694114539258] [36m[OPENAI] Tokens per second: 9.9090219654428tps[39m
+[1694114539258] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114539263] --- Observations received -- 
+[1694114539266] {
+  "observerId": "A3",
+  "observation": "Will Turner has started walking to 38.7, Y: -50.07.",
+  "time": 31.4754562
+}
+[1694114539266] [Character] Getting character: A3
+[1694114539549] --- Observations received -- 
+[1694114539549] {
+  "observerId": "A3",
+  "observation": "Will Turner no longer sees Tree (651) at X: 45.95, Y: -51.07",
+  "time": 31.7615471
+}
+[1694114539549] [Character] Getting character: A3
+[1694114539629] --- Observations received -- 
+[1694114539629] {
+  "observerId": "A3",
+  "observation": "Will Turner no longer sees Tree (652) at X: 44.35, Y: -46.47",
+  "time": 31.8409
+}
+[1694114539629] [Character] Getting character: A3
+[1694114539653] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114539653] [33m[OPENAI] Creating embedding...[39m
+[1694114539812] --- Observations received -- 
+[1694114539814] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Tree Stump at X: 36.50999, Y: -46.03.",
+  "time": 32.020546
+}
+[1694114539814] [Character] Getting character: A3
+[1694114539815] [32m[OPENAI] Embedding created successfully.[39m
+[1694114539855] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114540046] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114540046] [33m[OPENAI] Creating embedding...[39m
+[1694114540079] {
+  "id": "chatcmpl-7wErzlZzKzpYqEEkNhkHttMq5nAfd",
+  "object": "chat.completion",
+  "created": 1694114539,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 1,
+    "total_tokens": 101
+  }
+}
+[1694114540079] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114540079] [36m[OPENAI] Chat completion took 426.24920803308487ms[39m
+[1694114540079] [36m[OPENAI] Tokens per second: 2.346045414640117tps[39m
+[1694114540079] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114540097] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114540098] [33m[OPENAI] Creating embedding...[39m
+[1694114540208] --- Observations received -- 
+[1694114540208] {
+  "observerId": "A3",
+  "observation": "Will Turner finished walking to 38.7, Y: -50.07.",
+  "time": 32.4199867
+}
+[1694114540208] [Character] Getting character: A3
+[1694114540209] [Character] Getting character: A3
+[1694114540289] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114540289] [33m[OPENAI] Creating embedding...[39m
+[1694114540304] {
+  "id": "chatcmpl-7wEs0Lw58eplSOlvoFiY1dl4cZgmQ",
+  "object": "chat.completion",
+  "created": 1694114540,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "6"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 105,
+    "completion_tokens": 1,
+    "total_tokens": 106
+  }
+}
+[1694114540304] {
+  "role": "assistant",
+  "content": "6"
+}
+[1694114540304] [36m[OPENAI] Chat completion took 257.84404200315475ms[39m
+[1694114540304] [36m[OPENAI] Tokens per second: 3.878313387546744tps[39m
+[1694114540304] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114540304] [32m[OPENAI] Embedding created successfully.[39m
+[1694114540304] [32m[OPENAI] Embedding created successfully.[39m
+[1694114540354] {
+  "id": "chatcmpl-7wEs0IqOWcn5v6ODc9ayZAnnS42ar",
+  "object": "chat.completion",
+  "created": 1694114540,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 105,
+    "completion_tokens": 1,
+    "total_tokens": 106
+  }
+}
+[1694114540354] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114540354] [36m[OPENAI] Chat completion took 256.71279203891754ms[39m
+[1694114540354] [36m[OPENAI] Tokens per second: 3.8954038560275577tps[39m
+[1694114540354] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114540472] [33m[OPENAI] Creating embedding...[39m
+[1694114540473] [32m[OPENAI] Embedding created successfully.[39m
+[1694114540578] {
+  "id": "chatcmpl-7wEs06pp4w8qyUREJMDtzMPjP958k",
+  "object": "chat.completion",
+  "created": 1694114540,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 1,
+    "total_tokens": 105
+  }
+}
+[1694114540578] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114540578] [36m[OPENAI] Chat completion took 288.4660840034485ms[39m
+[1694114540578] [36m[OPENAI] Tokens per second: 3.4666120402149097tps[39m
+[1694114540578] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114540661] [32m[OPENAI] Embedding created successfully.[39m
+[1694114540671] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114540672] [33m[OPENAI] Creating embedding...[39m
+[1694114540809] [32m[OPENAI] Embedding created successfully.[39m
+[1694114540933] {
+  "id": "chatcmpl-7wEs0wbOEbey6etM9vGZhOyg2XxQp",
+  "object": "chat.completion",
+  "created": 1694114540,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 1,
+    "total_tokens": 100
+  }
+}
+[1694114540933] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114540933] [36m[OPENAI] Chat completion took 261.34979099035263ms[39m
+[1694114540933] [36m[OPENAI] Tokens per second: 3.8262896488672293tps[39m
+[1694114540933] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114540951] --- Observations received -- 
+[1694114540951] {
+  "observerId": "A2",
+  "observation": "George Brown sees Thomas Smith at X: 22.57666, Y: -56.85152.",
+  "time": 33.1604538
+}
+[1694114540951] [Character] Getting character: A2
+[1694114541430] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114541434] [33m[OPENAI] Creating embedding...[39m
+[1694114541467] [33m[OPENAI] Creating embedding...[39m
+[1694114541619] [32m[OPENAI] Embedding created successfully.[39m
+[1694114541660] {
+  "id": "chatcmpl-7wEs1sKv3eHBjWlOvb2TliQc6uwhk",
+  "object": "chat.completion",
+  "created": 1694114541,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 1,
+    "total_tokens": 105
+  }
+}
+[1694114541660] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114541660] [36m[OPENAI] Chat completion took 226.17862498760223ms[39m
+[1694114541660] [36m[OPENAI] Tokens per second: 4.4212842838478394tps[39m
+[1694114541660] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114541972] [32m[OPENAI] Embedding created successfully.[39m
+[1694114542216] {
+  "id": "chatcmpl-7wErxJDMdfklmSFLpmuyyl8hzbtrG",
+  "object": "chat.completion",
+  "created": 1694114537,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "start_conversation",
+          "arguments": "{\n\"characterId\": \"A4\",\n\"targetCharacterId\": \"A5\",\n\"conversationGoal\": \"Catch up with Eli Green and share my experiences\"\n}"
+        }
+      },
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 977,
+    "completion_tokens": 41,
+    "total_tokens": 1018
+  }
+}
+[1694114542216] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "start_conversation",
+    "arguments": "{\n\"characterId\": \"A4\",\n\"targetCharacterId\": \"A5\",\n\"conversationGoal\": \"Catch up with Eli Green and share my experiences\"\n}"
+  }
+}
+[1694114542217] [36m[OPENAI] Chat completion took 4828.795291960239ms[39m
+[1694114542217] [36m[OPENAI] Tokens per second: 8.490730611062233tps[39m
+[1694114542217] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114542224] [33m[CONVERSATION] Starting conversation...[39m
+[1694114542224] [33m[CONVERSATION] Character 1: A4[39m
+[1694114542224] [33m[CONVERSATION] Character 2: A5[39m
+[1694114542224] [33m[CONVERSATION] Conversation goal: Catch up with Eli Green and share my experiences[39m
+[1694114542393] [33m[OPENAI] Creating embedding...[39m
+[1694114542548] [32m[OPENAI] Embedding created successfully.[39m
+[1694114542681] [33m[OPENAI] Creating embedding...[39m
+[1694114542910] [32m[OPENAI] Embedding created successfully.[39m
+[1694114543038] {
+  "id": "chatcmpl-7wErzCAdqdG75t55OGljOXsnkWobC",
+  "object": "chat.completion",
+  "created": 1694114539,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "move_to",
+          "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 30,\n  \"y\": -50\n}"
+        }
+      },
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 733,
+    "completion_tokens": 31,
+    "total_tokens": 764
+  }
+}
+[1694114543039] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 30,\n  \"y\": -50\n}"
+  }
+}
+[1694114543039] [36m[OPENAI] Chat completion took 3183.1014580130577ms[39m
+[1694114543039] [36m[OPENAI] Tokens per second: 9.73892928293611tps[39m
+[1694114543039] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114543061] --- Observations received -- 
+[1694114543061] {
+  "observerId": "A2",
+  "observation": "George Brown has started walking to 30, Y: -50.",
+  "time": 35.2598534
+}
+[1694114543061] [Character] Getting character: A2
+[1694114543319] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114543494] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114543495] [33m[OPENAI] Creating embedding...[39m
+[1694114543576] [33m[OPENAI] Creating embedding...[39m
+[1694114543724] {
+  "id": "chatcmpl-7wEs3GrHh42JzauroAByFB4jjPaHW",
+  "object": "chat.completion",
+  "created": 1694114543,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 96,
+    "completion_tokens": 1,
+    "total_tokens": 97
+  }
+}
+[1694114543724] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114543724] [36m[OPENAI] Chat completion took 229.03762501478195ms[39m
+[1694114543724] [36m[OPENAI] Tokens per second: 4.3660948716852115tps[39m
+[1694114543724] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114543734] [32m[OPENAI] Embedding created successfully.[39m
+[1694114543954] [32m[OPENAI] Embedding created successfully.[39m
+[1694114545255] {
+  "id": "chatcmpl-7wEs32dpKMt7Da8RlN0WQLfSSMO0t",
+  "object": "chat.completion",
+  "created": 1694114543,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "swing_pickaxe",
+          "arguments": "{\n  \"characterId\": \"A3\"\n}"
+        }
+      },
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1428,
+    "completion_tokens": 18,
+    "total_tokens": 1446
+  }
+}
+[1694114545257] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "swing_pickaxe",
+    "arguments": "{\n  \"characterId\": \"A3\"\n}"
+  }
+}
+[1694114545257] [36m[OPENAI] Chat completion took 1935.0708330273628ms[39m
+[1694114545257] [36m[OPENAI] Tokens per second: 9.301985070923486tps[39m
+[1694114545257] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114546267] [Character] Getting character: A3
+[1694114546463] [33m[OPENAI] Creating embedding...[39m
+[1694114547107] [32m[OPENAI] Embedding created successfully.[39m
+[1694114547785] [33m[OPENAI] Creating embedding...[39m
+[1694114548027] [32m[OPENAI] Embedding created successfully.[39m
+[1694114548788] --- Observations received -- 
+[1694114548788] {
+  "observerId": "A2",
+  "observation": "George Brown sees Lucy Wilde at X: 31.39, Y: -53.38.",
+  "time": 41.00087
+}
+[1694114548788] [Character] Getting character: A2
+[1694114548824] [33m[OPENAI] Creating embedding...[39m
+[1694114548928] --- Observations received -- 
+[1694114548928] {
+  "observerId": "A4",
+  "observation": "Lucy Wilde sees George Brown at X: 26.67725, Y: -55.25477.",
+  "time": 41.1403465
+}
+[1694114548928] [Character] Getting character: A4
+[1694114549206] [32m[OPENAI] Embedding created successfully.[39m
+[1694114549272] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114549272] [33m[OPENAI] Creating embedding...[39m
+[1694114549405] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114549406] [33m[OPENAI] Creating embedding...[39m
+[1694114549514] {
+  "id": "chatcmpl-7wEs9zLpE9n6Ul7cBaX3ppzcAM4sW",
+  "object": "chat.completion",
+  "created": 1694114549,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 102,
+    "completion_tokens": 1,
+    "total_tokens": 103
+  }
+}
+[1694114549514] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114549514] [36m[OPENAI] Chat completion took 241.7167910337448ms[39m
+[1694114549514] [36m[OPENAI] Tokens per second: 4.13707295932286tps[39m
+[1694114549514] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114549556] [32m[OPENAI] Embedding created successfully.[39m
+[1694114549587] --- Observations received -- 
+[1694114549587] {
+  "observerId": "A2",
+  "observation": "George Brown sees Eli Green at X: 32.81001, Y: -53.18.",
+  "time": 41.8006554
+}
+[1694114549587] [Character] Getting character: A2
+[1694114549731] [32m[OPENAI] Embedding created successfully.[39m
+[1694114549740] {
+  "id": "chatcmpl-7wEs96s5eU45ZW7oaBbaohwBRR59f",
+  "object": "chat.completion",
+  "created": 1694114549,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 1,
+    "total_tokens": 105
+  }
+}
+[1694114549740] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114549740] [36m[OPENAI] Chat completion took 334.03600001335144ms[39m
+[1694114549740] [36m[OPENAI] Tokens per second: 2.9936893028297247tps[39m
+[1694114549740] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114549808] --- Observations received -- 
+[1694114549809] {
+  "observerId": "A5",
+  "observation": "Eli Green sees George Brown at X: 28.21722, Y: -55.25006.",
+  "time": 42.02104
+}
+[1694114549809] [Character] Getting character: A5
+[1694114550056] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114550070] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114550071] [33m[OPENAI] Creating embedding...[39m
+[1694114550248] --- Observations received -- 
+[1694114550248] {
+  "observerId": "A4",
+  "observation": "Lucy Wilde sees Thomas Smith at X: 26.77383, Y: -55.45304.",
+  "time": 42.4612236
+}
+[1694114550248] [Character] Getting character: A4
+[1694114550263] [32m[OPENAI] Embedding created successfully.[39m
+[1694114550281] {
+  "id": "chatcmpl-7wEsAPxPphFcCi26AbKYq58dSMmnm",
+  "object": "chat.completion",
+  "created": 1694114550,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 103,
+    "completion_tokens": 1,
+    "total_tokens": 104
+  }
+}
+[1694114550281] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114550281] [36m[OPENAI] Chat completion took 210.12145805358887ms[39m
+[1694114550281] [36m[OPENAI] Tokens per second: 4.7591522030318405tps[39m
+[1694114550281] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114550344] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114550345] [33m[OPENAI] Creating embedding...[39m
+[1694114550504] [32m[OPENAI] Embedding created successfully.[39m
+[1694114550610] {
+  "id": "chatcmpl-7wEsAqS9o3GaTEtcaiR1yczhtZM7q",
+  "object": "chat.completion",
+  "created": 1694114550,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 2,
+    "total_tokens": 106
+  }
+}
+[1694114550611] {
+  "role": "assistant",
+  "content": "3."
+}
+[1694114550611] [36m[OPENAI] Chat completion took 262.7362080216408ms[39m
+[1694114550611] [36m[OPENAI] Tokens per second: 7.6121978582992496tps[39m
+[1694114550611] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114550680] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114550681] [33m[OPENAI] Creating embedding...[39m
+[1694114550961] [32m[OPENAI] Embedding created successfully.[39m
+[1694114551026] {
+  "id": "chatcmpl-7wEsA7S4WLrfqDhj4BA7dirQRvydp",
+  "object": "chat.completion",
+  "created": 1694114550,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 1,
+    "total_tokens": 105
+  }
+}
+[1694114551026] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114551026] [36m[OPENAI] Chat completion took 343.20512503385544ms[39m
+[1694114551026] [36m[OPENAI] Tokens per second: 2.9137094030905137tps[39m
+[1694114551027] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114551089] --- Observations received -- 
+[1694114551089] {
+  "observerId": "A5",
+  "observation": "Eli Green sees Thomas Smith at X: 27.95677, Y: -54.76004.",
+  "time": 43.30062
+}
+[1694114551089] [Character] Getting character: A5
+[1694114551545] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114551546] [33m[OPENAI] Creating embedding...[39m
+[1694114551830] {
+  "id": "chatcmpl-7wEsBy3F5hwvNt3TcceGuuVMiQkDK",
+  "object": "chat.completion",
+  "created": 1694114551,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 1,
+    "total_tokens": 105
+  }
+}
+[1694114551830] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114551831] [36m[OPENAI] Chat completion took 284.35454100370407ms[39m
+[1694114551831] [36m[OPENAI] Tokens per second: 3.516736523602673tps[39m
+[1694114551831] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114551854] [32m[OPENAI] Embedding created successfully.[39m
+[1694114553805] {
+  "id": "chatcmpl-7wEsAPH2KvLqBkXgCRBI6bxUDBO7Y",
+  "object": "chat.completion",
+  "created": 1694114550,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "move_to",
+          "arguments": "{\n  \"characterId\": \"A3\",\n  \"x\": 39.13002,\n  \"y\": -50.53428\n}"
+        }
+      },
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1464,
+    "completion_tokens": 37,
+    "total_tokens": 1501
+  }
+}
+[1694114553806] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A3\",\n  \"x\": 39.13002,\n  \"y\": -50.53428\n}"
+  }
+}
+[1694114553806] [36m[OPENAI] Chat completion took 3749.179666996002ms[39m
+[1694114553806] [36m[OPENAI] Tokens per second: 9.868825526210626tps[39m
+[1694114553806] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114553814] --- Observations received -- 
+[1694114553814] {
+  "observerId": "A3",
+  "observation": "Will Turner has started walking to 39.13002, Y: -50.53428.",
+  "time": 46.02777
+}
+[1694114553814] [Character] Getting character: A3
+[1694114553878] --- Observations received -- 
+[1694114553878] {
+  "observerId": "A3",
+  "observation": "Will Turner finished walking to 39.13002, Y: -50.53428.",
+  "time": 46.0799828
+}
+[1694114553878] [Character] Getting character: A3
+[1694114553878] [Character] Getting character: A3
+[1694114554094] [33m[OPENAI] Creating embedding...[39m
+[1694114554170] --- Observations received -- 
+[1694114554171] {
+  "observerId": "A2",
+  "observation": "George Brown finished walking to 30, Y: -50.",
+  "time": 46.379982
+}
+[1694114554171] [Character] Getting character: A2
+[1694114554171] [Character] Getting character: A2
+[1694114554264] [32m[OPENAI] Embedding created successfully.[39m
+[1694114554272] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114554273] [33m[OPENAI] Creating embedding...[39m
+[1694114554281] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114554281] [33m[OPENAI] Creating embedding...[39m
+[1694114554445] [33m[OPENAI] Creating embedding...[39m
+[1694114554498] [32m[OPENAI] Embedding created successfully.[39m
+[1694114554503] {
+  "id": "chatcmpl-7wEsEwtNuYGWISzB1sOb63dzgrQ0K",
+  "object": "chat.completion",
+  "created": 1694114554,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 102,
+    "completion_tokens": 1,
+    "total_tokens": 103
+  }
+}
+[1694114554504] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114554504] [36m[OPENAI] Chat completion took 222.4592919945717ms[39m
+[1694114554504] [36m[OPENAI] Tokens per second: 4.495204453066413tps[39m
+[1694114554504] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114554571] {
+  "id": "chatcmpl-7wEsEnZmWPQKkXH2YwMtiVICGEiVf",
+  "object": "chat.completion",
+  "created": 1694114554,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114554571] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114554571] [36m[OPENAI] Chat completion took 298.37366700172424ms[39m
+[1694114554571] [36m[OPENAI] Tokens per second: 3.3515021953804696tps[39m
+[1694114554571] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114554639] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114554639] [33m[OPENAI] Creating embedding...[39m
+[1694114554660] [32m[OPENAI] Embedding created successfully.[39m
+[1694114554779] [32m[OPENAI] Embedding created successfully.[39m
+[1694114554869] --- Observations received -- 
+[1694114554869] {
+  "observerId": "A2",
+  "observation": "George Brown no longer sees Human at X: 32.6344, Y: -54.1413",
+  "time": 47.08108
+}
+[1694114554869] [Character] Getting character: A2
+[1694114554883] [32m[OPENAI] Embedding created successfully.[39m
+[1694114555051] [33m[OPENAI] Creating embedding...[39m
+[1694114555115] {
+  "id": "chatcmpl-7wEsE9H281XKfan71gglXOWQPzu6v",
+  "object": "chat.completion",
+  "created": 1694114554,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 1,
+    "total_tokens": 96
+  }
+}
+[1694114555115] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114555115] [36m[OPENAI] Chat completion took 476.08899998664856ms[39m
+[1694114555115] [36m[OPENAI] Tokens per second: 2.1004476054436125tps[39m
+[1694114555115] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114555222] [32m[OPENAI] Embedding created successfully.[39m
+[1694114555301] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114555301] [33m[OPENAI] Creating embedding...[39m
+[1694114555495] [33m[OPENAI] Creating embedding...[39m
+[1694114555497] [32m[OPENAI] Embedding created successfully.[39m
+[1694114555565] {
+  "id": "chatcmpl-7wEsFgbyI23OkFyfxOm5ZfO5G8jCt",
+  "object": "chat.completion",
+  "created": 1694114555,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "5"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 1,
+    "total_tokens": 105
+  }
+}
+[1694114555565] {
+  "role": "assistant",
+  "content": "5"
+}
+[1694114555565] [36m[OPENAI] Chat completion took 263.4512910246849ms[39m
+[1694114555565] [36m[OPENAI] Tokens per second: 3.795768075800782tps[39m
+[1694114555565] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114556007] [33m[OPENAI] Creating embedding...[39m
+[1694114556199] [32m[OPENAI] Embedding created successfully.[39m
+[1694114556324] [32m[OPENAI] Embedding created successfully.[39m
+[1694114556962] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114557126] [33m[OPENAI] Creating embedding...[39m
+[1694114557292] [32m[OPENAI] Embedding created successfully.[39m
+[1694114557931] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114559456] {
+  "id": "chatcmpl-7wEsHyc9DJBPPmOsY6Cq0owOkTjKo",
+  "object": "chat.completion",
+  "created": 1694114557,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "swing_pickaxe",
+          "arguments": "{\n  \"characterId\": \"A3\"\n}"
+        }
+      },
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1494,
+    "completion_tokens": 18,
+    "total_tokens": 1512
+  }
+}
+[1694114559457] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "swing_pickaxe",
+    "arguments": "{\n  \"characterId\": \"A3\"\n}"
+  }
+}
+[1694114559457] [36m[OPENAI] Chat completion took 2493.0463750362396ms[39m
+[1694114559457] [36m[OPENAI] Tokens per second: 7.220082297802562tps[39m
+[1694114559457] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114560468] [Character] Getting character: A3
+[1694114560729] [33m[OPENAI] Creating embedding...[39m
+[1694114560882] [32m[OPENAI] Embedding created successfully.[39m
+[1694114561256] {
+  "id": "chatcmpl-7wEsIT1cpBfgBjJRNQ359WfqFzjfT",
+  "object": "chat.completion",
+  "created": 1694114558,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "move_to",
+          "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 32.81001,\n  \"y\": -53.18\n}"
+        }
+      },
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 985,
+    "completion_tokens": 36,
+    "total_tokens": 1021
+  }
+}
+[1694114561256] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 32.81001,\n  \"y\": -53.18\n}"
+  }
+}
+[1694114561256] [36m[OPENAI] Chat completion took 3323.8300420045853ms[39m
+[1694114561256] [36m[OPENAI] Tokens per second: 10.830878698685984tps[39m
+[1694114561256] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114561264] --- Observations received -- 
+[1694114561265] {
+  "observerId": "A2",
+  "observation": "George Brown has started walking to 32.81001, Y: -53.18.",
+  "time": 53.47587
+}
+[1694114561265] [Character] Getting character: A2
+[1694114561602] [33m[OPENAI] Creating embedding...[39m
+[1694114561658] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114561659] [33m[OPENAI] Creating embedding...[39m
+[1694114561797] [32m[OPENAI] Embedding created successfully.[39m
+[1694114561872] {
+  "id": "chatcmpl-7wEsL3ov7InBMeuW4dAJtr1NOTLzX",
+  "object": "chat.completion",
+  "created": 1694114561,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114561872] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114561872] [36m[OPENAI] Chat completion took 213.01591700315475ms[39m
+[1694114561872] [36m[OPENAI] Tokens per second: 4.6944848726266315tps[39m
+[1694114561872] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114561974] [32m[OPENAI] Embedding created successfully.[39m
+[1694114561988] --- Observations received -- 
+[1694114561988] {
+  "observerId": "A2",
+  "observation": "George Brown sees Thomas Smith at X: 34.69939, Y: -54.1413.",
+  "time": 54.20127
+}
+[1694114561989] [Character] Getting character: A2
+[1694114562110] --- Observations received -- 
+[1694114562110] {
+  "observerId": "A2",
+  "observation": "George Brown sees Tree at X: 36.04, Y: -47.68999.",
+  "time": 54.3211479
+}
+[1694114562110] [Character] Getting character: A2
+[1694114562452] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114562454] [33m[OPENAI] Creating embedding...[39m
+[1694114562461] [33m[OPENAI] Creating embedding...[39m
+[1694114562581] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114562581] [33m[OPENAI] Creating embedding...[39m
+[1694114562617] [32m[OPENAI] Embedding created successfully.[39m
+[1694114562627] [32m[OPENAI] Embedding created successfully.[39m
+[1694114562685] {
+  "id": "chatcmpl-7wEsMbwjJkqDbr6tk9jRiKuOPFXjU",
+  "object": "chat.completion",
+  "created": 1694114562,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 1,
+    "total_tokens": 105
+  }
+}
+[1694114562685] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114562685] [36m[OPENAI] Chat completion took 229.5892919898033ms[39m
+[1694114562685] [36m[OPENAI] Tokens per second: 4.355603832100378tps[39m
+[1694114562685] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114562833] [32m[OPENAI] Embedding created successfully.[39m
+[1694114562923] {
+  "id": "chatcmpl-7wEsMHYr9Sy6hB530rMUULfZoEWzE",
+  "object": "chat.completion",
+  "created": 1694114562,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 102,
+    "completion_tokens": 1,
+    "total_tokens": 103
+  }
+}
+[1694114562923] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114562923] [36m[OPENAI] Chat completion took 341.6850829720497ms[39m
+[1694114562923] [36m[OPENAI] Tokens per second: 2.92667151665442tps[39m
+[1694114562923] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114563308] --- Observations received -- 
+[1694114563308] {
+  "observerId": "A2",
+  "observation": "George Brown no longer sees Tree (649) at X: 36.04, Y: -47.68999",
+  "time": 55.5214653
+}
+[1694114563308] [Character] Getting character: A2
+[1694114563447] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114563588] --- Observations received -- 
+[1694114563588] {
+  "observerId": "A2",
+  "observation": "George Brown finished walking to 32.81001, Y: -53.18.",
+  "time": 55.79998
+}
+[1694114563588] [Character] Getting character: A2
+[1694114563589] [Character] Getting character: A2
+[1694114563691] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114563691] [33m[OPENAI] Creating embedding...[39m
+[1694114563888] [33m[OPENAI] Creating embedding...[39m
+[1694114563893] [32m[OPENAI] Embedding created successfully.[39m
+[1694114563965] {
+  "id": "chatcmpl-7wEsNcPz6uQXbJ7pjO9DEc6DAddHK",
+  "object": "chat.completion",
+  "created": 1694114563,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 106,
+    "completion_tokens": 2,
+    "total_tokens": 108
+  }
+}
+[1694114563965] {
+  "role": "assistant",
+  "content": "2."
+}
+[1694114563965] [36m[OPENAI] Chat completion took 273.1418749690056ms[39m
+[1694114563965] [36m[OPENAI] Tokens per second: 7.322202061573119tps[39m
+[1694114563965] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114564074] [32m[OPENAI] Embedding created successfully.[39m
+[1694114564103] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114564105] [33m[OPENAI] Creating embedding...[39m
+[1694114564404] [32m[OPENAI] Embedding created successfully.[39m
+[1694114564777] [33m[OPENAI] Creating embedding...[39m
+[1694114564947] [32m[OPENAI] Embedding created successfully.[39m
+[1694114564949] {
+  "id": "chatcmpl-7wEsO7onSbwrj5z0N4rHTkkdU4MTg",
+  "object": "chat.completion",
+  "created": 1694114564,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 1,
+    "total_tokens": 101
+  }
+}
+[1694114564949] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114564949] [36m[OPENAI] Chat completion took 844.9632920026779ms[39m
+[1694114564949] [36m[OPENAI] Tokens per second: 1.183483364857027tps[39m
+[1694114564949] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114565658] [33m[OPENAI] Creating embedding...[39m
+[1694114565856] [32m[OPENAI] Embedding created successfully.[39m
+[1694114566068] --- Observations received -- 
+[1694114566068] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Thomas Smith at X: 34.97164, Y: -53.27406.",
+  "time": 58.2803459
+}
+[1694114566068] [Character] Getting character: A3
+[1694114566553] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114566557] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114566557] [33m[OPENAI] Creating embedding...[39m
+[1694114566698] [32m[OPENAI] Embedding created successfully.[39m
+[1694114566796] {
+  "id": "chatcmpl-7wEsQ8nHOumVsrgCncwEkNraoCDvS",
+  "object": "chat.completion",
+  "created": 1694114566,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 1,
+    "total_tokens": 105
+  }
+}
+[1694114566796] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114566796] [36m[OPENAI] Chat completion took 239.04354202747345ms[39m
+[1694114566796] [36m[OPENAI] Tokens per second: 4.183338280207835tps[39m
+[1694114566796] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114567346] {
+  "id": "chatcmpl-7wEsNZLSuJQH3QHPKfNxzioSWMrd8",
+  "object": "chat.completion",
+  "created": 1694114563,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "move_to",
+          "arguments": "{\n  \"characterId\": \"A3\",\n  \"x\": 41.96,\n  \"y\": -50.43\n}"
+        }
+      },
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1560,
+    "completion_tokens": 35,
+    "total_tokens": 1595
+  }
+}
+[1694114567347] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A3\",\n  \"x\": 41.96,\n  \"y\": -50.43\n}"
+  }
+}
+[1694114567347] [36m[OPENAI] Chat completion took 3899.285791039467ms[39m
+[1694114567347] [36m[OPENAI] Tokens per second: 8.976002754255605tps[39m
+[1694114567347] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114567353] --- Observations received -- 
+[1694114567353] {
+  "observerId": "A3",
+  "observation": "Will Turner has started walking to 41.96, Y: -50.43.",
+  "time": 59.5630455
+}
+[1694114567353] [Character] Getting character: A3
+[1694114567748] --- Observations received -- 
+[1694114567748] {
+  "observerId": "A3",
+  "observation": "Will Turner no longer sees Stump (50) at X: 36.50999, Y: -46.03",
+  "time": 59.961338
+}
+[1694114567748] [Character] Getting character: A3
+[1694114567831] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114567831] [33m[OPENAI] Creating embedding...[39m
+[1694114567868] --- Observations received -- 
+[1694114567868] {
+  "observerId": "A4",
+  "observation": "Lucy Wilde no longer sees Human at X: 36.07263, Y: -50.70307",
+  "time": 60.0815659
+}
+[1694114567868] [Character] Getting character: A4
+[1694114567968] --- Observations received -- 
+[1694114567968] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Tree at X: 44.35, Y: -46.47.",
+  "time": 60.1804161
+}
+[1694114567968] [Character] Getting character: A3
+[1694114568047] --- Observations received -- 
+[1694114568047] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Tree at X: 45.95, Y: -51.07.",
+  "time": 60.2604637
+}
+[1694114568047] [Character] Getting character: A3
+[1694114568082] [32m[OPENAI] Embedding created successfully.[39m
+[1694114568096] {
+  "id": "chatcmpl-7wEsRdkzDA0WsclWJB1l0mvkK1QBk",
+  "object": "chat.completion",
+  "created": 1694114567,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 1,
+    "total_tokens": 101
+  }
+}
+[1694114568096] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114568097] [36m[OPENAI] Chat completion took 265.3314160108566ms[39m
+[1694114568097] [36m[OPENAI] Tokens per second: 3.7688714553088682tps[39m
+[1694114568097] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114568222] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114568222] [33m[OPENAI] Creating embedding...[39m
+[1694114568309] --- Observations received -- 
+[1694114568309] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Tree at X: 42.65, Y: -44.83.",
+  "time": 60.5208168
+}
+[1694114568309] [Character] Getting character: A3
+[1694114568338] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114568339] [33m[OPENAI] Creating embedding...[39m
+[1694114568422] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114568423] [33m[OPENAI] Creating embedding...[39m
+[1694114568434] [32m[OPENAI] Embedding created successfully.[39m
+[1694114568434] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114568439] [33m[OPENAI] Creating embedding...[39m
+[1694114568472] {
+  "id": "chatcmpl-7wEsS5xEvSczkGTqt931433tJwqQH",
+  "object": "chat.completion",
+  "created": 1694114568,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "5"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 107,
+    "completion_tokens": 1,
+    "total_tokens": 108
+  }
+}
+[1694114568472] {
+  "role": "assistant",
+  "content": "5"
+}
+[1694114568472] [36m[OPENAI] Chat completion took 249.05487501621246ms[39m
+[1694114568472] [36m[OPENAI] Tokens per second: 4.015179385406144tps[39m
+[1694114568472] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114568568] --- Observations received -- 
+[1694114568568] {
+  "observerId": "A3",
+  "observation": "Will Turner sees Tree at X: 46.71, Y: -48.82.",
+  "time": 60.7810631
+}
+[1694114568568] [Character] Getting character: A3
+[1694114568617] {
+  "id": "chatcmpl-7wEsSqtfC6r7obP2g1uv139jD1AdU",
+  "object": "chat.completion",
+  "created": 1694114568,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "7"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 1,
+    "total_tokens": 105
+  }
+}
+[1694114568617] {
+  "role": "assistant",
+  "content": "7"
+}
+[1694114568617] [36m[OPENAI] Chat completion took 278.95279198884964ms[39m
+[1694114568617] [36m[OPENAI] Tokens per second: 3.5848359604874367tps[39m
+[1694114568617] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114568618] [32m[OPENAI] Embedding created successfully.[39m
+[1694114568665] [32m[OPENAI] Embedding created successfully.[39m
+[1694114568681] [32m[OPENAI] Embedding created successfully.[39m
+[1694114568714] {
+  "id": "chatcmpl-7wEsS2aiEBzek1Fv1k5Ew2wyNElgx",
+  "object": "chat.completion",
+  "created": 1694114568,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114568714] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114568714] [36m[OPENAI] Chat completion took 278.90499997138977ms[39m
+[1694114568714] [36m[OPENAI] Tokens per second: 3.585450243282051tps[39m
+[1694114568714] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114568724] {
+  "id": "chatcmpl-7wEsS7mFq1hA6hGkhKvQEcIV42iS3",
+  "object": "chat.completion",
+  "created": 1694114568,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114568724] {
+  "role": "assistant",
+  "content": "1"
+}
+[1694114568724] [36m[OPENAI] Chat completion took 300.57337498664856ms[39m
+[1694114568724] [36m[OPENAI] Tokens per second: 3.326974653175518tps[39m
+[1694114568724] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114568769] --- Observations received -- 
+[1694114568769] {
+  "observerId": "A3",
+  "observation": "Will Turner no longer sees Human at X: 36.17763, Y: -50.70307",
+  "time": 60.98189
+}
+[1694114568769] [Character] Getting character: A3
+[1694114568779] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114568780] [33m[OPENAI] Creating embedding...[39m
+[1694114568794] --- Observations received -- 
+[1694114568794] {
+  "observerId": "A3",
+  "observation": "Will Turner finished walking to 41.96, Y: -50.43.",
+  "time": 60.9999771
+}
+[1694114568794] [Character] Getting character: A3
+[1694114568801] [Character] Getting character: A3
+[1694114568931] [32m[OPENAI] Embedding created successfully.[39m
+[1694114568988] [33m[OPENAI] Creating embedding...[39m
+[1694114569012] {
+  "id": "chatcmpl-7wEsSddtCKfUuo0ehGXBbCDfRNXwk",
+  "object": "chat.completion",
+  "created": 1694114568,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114569012] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114569012] [36m[OPENAI] Chat completion took 232.61883294582367ms[39m
+[1694114569012] [36m[OPENAI] Tokens per second: 4.298878071634456tps[39m
+[1694114569012] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114569019] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114569019] [33m[OPENAI] Creating embedding...[39m
+[1694114569163] [32m[OPENAI] Embedding created successfully.[39m
+[1694114569166] [32m[OPENAI] Embedding created successfully.[39m
+[1694114569233] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114569233] [33m[OPENAI] Creating embedding...[39m
+[1694114569263] {
+  "id": "chatcmpl-7wEsTajVpOtvE75cyZSZYTEM5Qme7",
+  "object": "chat.completion",
+  "created": 1694114569,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 101,
+    "completion_tokens": 1,
+    "total_tokens": 102
+  }
+}
+[1694114569264] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114569264] [36m[OPENAI] Chat completion took 242.18483299016953ms[39m
+[1694114569264] [36m[OPENAI] Tokens per second: 4.129077728168844tps[39m
+[1694114569264] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114569281] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114569282] [33m[OPENAI] Creating embedding...[39m
+[1694114569402] [32m[OPENAI] Embedding created successfully.[39m
+[1694114569478] {
+  "id": "chatcmpl-7wEsTv4NP3dQmdMDuocGQjLwFv9mu",
+  "object": "chat.completion",
+  "created": 1694114569,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "8"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 1,
+    "total_tokens": 105
+  }
+}
+[1694114569478] {
+  "role": "assistant",
+  "content": "8"
+}
+[1694114569478] [36m[OPENAI] Chat completion took 244.10887503623962ms[39m
+[1694114569478] [36m[OPENAI] Tokens per second: 4.09653274528238tps[39m
+[1694114569478] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114569503] {
+  "id": "chatcmpl-7wEsTlYZ2ICBj34CWY2gPbgui9W3j",
+  "object": "chat.completion",
+  "created": 1694114569,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "2"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 1,
+    "total_tokens": 100
+  }
+}
+[1694114569505] {
+  "role": "assistant",
+  "content": "2"
+}
+[1694114569505] [36m[OPENAI] Chat completion took 206.6250410079956ms[39m
+[1694114569506] [36m[OPENAI] Tokens per second: 4.83968445993583tps[39m
+[1694114569507] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114569510] [32m[OPENAI] Embedding created successfully.[39m
+[1694114569900] [33m[OPENAI] Creating embedding...[39m
+[1694114570085] [32m[OPENAI] Embedding created successfully.[39m
+[1694114570943] [33m[OPENAI] Creating embedding...[39m
+[1694114571113] [32m[OPENAI] Embedding created successfully.[39m
+[1694114571532] {
+  "id": "chatcmpl-7wEsQtyP4eaKoTIBlYSynd6xxi1r9",
+  "object": "chat.completion",
+  "created": 1694114566,
+  "model": "gpt-4-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "move_to",
+          "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 22.57666,\n  \"y\": -56.85152\n}"
+        }
+      },
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1189,
+    "completion_tokens": 37,
+    "total_tokens": 1226
+  }
+}
+[1694114571532] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 22.57666,\n  \"y\": -56.85152\n}"
+  }
+}
+[1694114571532] [36m[OPENAI] Chat completion took 4978.262832999229ms[39m
+[1694114571532] [36m[OPENAI] Tokens per second: 7.43231147916487tps[39m
+[1694114571532] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114571537] --- Observations received -- 
+[1694114571537] {
+  "observerId": "A2",
+  "observation": "George Brown has started walking to 22.57666, Y: -56.85152.",
+  "time": 63.7507858
+}
+[1694114571537] [Character] Getting character: A2
+[1694114571926] [33m[OPENAI][gpt-4] Creating chat completion...[39m
+[1694114572075] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114572078] [33m[OPENAI] Creating embedding...[39m
+[1694114572269] [32m[OPENAI] Embedding created successfully.[39m
+[1694114572307] --- Observations received -- 
+[1694114572308] {
+  "observerId": "A2",
+  "observation": "George Brown no longer sees Human at X: 36.17763, Y: -50.70307",
+  "time": 64.52045
+}
+[1694114572308] [Character] Getting character: A2
+[1694114572342] {
+  "id": "chatcmpl-7wEsWqiU3bBHRCrB5FprJkcLdrEOC",
+  "object": "chat.completion",
+  "created": 1694114572,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "3"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 102,
+    "completion_tokens": 1,
+    "total_tokens": 103
+  }
+}
+[1694114572342] {
+  "role": "assistant",
+  "content": "3"
+}
+[1694114572342] [36m[OPENAI] Chat completion took 266.0195409655571ms[39m
+[1694114572342] [36m[OPENAI] Tokens per second: 3.7591223425555613tps[39m
+[1694114572342] [32m[OPENAI] Chat completion created successfully.[39m
+[1694114572695] [33m[OPENAI][gpt-3.5-turbo] Creating chat completion...[39m
+[1694114572695] [33m[OPENAI] Creating embedding...[39m
+[1694114573005] [32m[OPENAI] Embedding created successfully.[39m
+[1694114573035] {
+  "id": "chatcmpl-7wEsWgVw26KDAYJTdDBK3CkxkjaAa",
+  "object": "chat.completion",
+  "created": 1694114572,
+  "model": "gpt-3.5-turbo-0613",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "4"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 1,
+    "total_tokens": 105
+  }
+}
+[1694114573035] {
+  "role": "assistant",
+  "content": "4"
+}
+[1694114573036] [36m[OPENAI] Chat completion took 339.9671660065651ms[39m
+[1694114573036] [36m[OPENAI] Tokens per second: 2.9414605291050053tps[39m
+[1694114573036] [32m[OPENAI] Chat completion created successfully.[39m

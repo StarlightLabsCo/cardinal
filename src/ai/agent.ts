@@ -9,6 +9,7 @@ import { getCharacter } from "../seed.js";
 import { getUnfinishedTasks, updateTasks } from "./task.js";
 import {
     convertTimeToString,
+    getEnergyDescription,
     getHungerDescription,
     getRelativeTime,
 } from "../utils.js";
@@ -130,6 +131,8 @@ async function updateTaskList(data: {
     time: number;
     satiety: number;
     maxSatiety: number;
+    energy: number;
+    maxEnergy: number;
 }) {
     // -- Get Action --
     const character = await getCharacter(instance.id, data.characterId);
@@ -146,6 +149,11 @@ async function updateTaskList(data: {
 
     prompt += `Time: ${convertTimeToString(data.time)}\n\n`;
 
+    prompt += `Energy: ${getEnergyDescription(
+        data.energy,
+        data.maxEnergy
+    )}\n\n`;
+
     prompt += `Hunger: ${getHungerDescription(
         data.satiety,
         data.maxSatiety
@@ -154,12 +162,13 @@ async function updateTaskList(data: {
     prompt += `Environment:\n`;
     for (let i = 0; i < data.environment.length; i++) {
         const parsedData = parseEnvironment(data.environment[i]);
+        const location = parsedData.x + ", " + parsedData.y;
         const direction = getDirection(parsedData.x, parsedData.y);
         const distance = parsedData.distance.toPrecision(2);
         let healthOrItemId = parsedData.health
             ? `(Health: ${parsedData.health})`
             : `(Item ID: ${parsedData.itemId})`;
-        prompt += `- ${parsedData.type} ${healthOrItemId} [Direction: ${direction}, Distance: ${distance}m]\n`;
+        prompt += `- ${parsedData.type} ${healthOrItemId} [Location: ${location}, Direction: ${direction},  Distance: ${distance}m]\n`;
     }
     prompt += "\n";
 
@@ -345,10 +354,10 @@ async function updateTaskList(data: {
 }
 
 async function updateTaskListAfterConversation(
-    characterId: string,
+    unityId: string,
     memories: string[]
 ) {
-    const character = await getCharacter(instance.id, characterId);
+    const character = await getCharacter(instance.id, unityId);
 
     const tasks = await getUnfinishedTasks(character);
 
@@ -425,7 +434,7 @@ async function updateTaskListAfterConversation(
 
             log(tasksJSON, "info", character.unityId);
 
-            updateTasks(character.id, tasksJSON);
+            updateTasks(character.unityId, tasksJSON);
 
             return;
         } catch (e) {
@@ -452,6 +461,8 @@ async function getAction(
         time: number;
         satiety: number;
         maxSatiety: number;
+        energy: number;
+        maxEnergy: number;
     }
 ) {
     // init action history
@@ -494,6 +505,11 @@ async function getAction(
     prompt += `Location: ${data.location.x}, ${data.location.y}\n\n`;
 
     prompt += `Time: ${convertTimeToString(data.time)}\n\n`;
+
+    prompt += `Energy: ${getEnergyDescription(
+        data.energy,
+        data.maxEnergy
+    )}\n\n`;
 
     prompt += `Hunger: ${getHungerDescription(
         data.satiety,

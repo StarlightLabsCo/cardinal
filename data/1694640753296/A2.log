@@ -1,0 +1,1101 @@
+[1694640754711] [31m[createMemory][39m George Brown is quite tired today. [0]
+[1694640754712] [31m[createMemory][39m Working in the mines is tough but rewarding. [0]
+[1694640754712] [31m[createMemory][39m I've been friends with Thomas for a long time. [0]
+[1694640754712] [31m[createMemory][39m Safety in the mines is a top priority for me. [0]
+[1694640754712] [31m[createMemory][39m I've discovered some rare minerals during my time here. [0]
+[1694640754712] [31m[createMemory][39m I'm usually one of the first to arrive at the mine site. [0]
+[1694640754712] [31m[createMemory][39m My family has been mining for generations. [0]
+[1694640754712] [31m[createMemory][39m I enjoy a cold beverage after a long day in the mines. [0]
+[1694640754712] [31m[createMemory][39m I've been taught traditional mining songs by the older miners. [0]
+[1694640754712] [31m[createMemory][39m I've saved up to buy a house near the village. [0]
+[1694640754713] [31m[createMemory][39m I know a secret tunnel in the mine that few know about. [0]
+[1694640754713] [31m[createMemory][39m It's important to have the right tools for the job. [0]
+[1694640754713] [31m[createMemory][39m I take pride in my work and look after my equipment. [0]
+[1694640754713] [31m[createMemory][39m I sometimes join Thomas and others for a meal after work. [0]
+[1694640754713] [31m[createMemory][39m I've had a few close calls, but always came out safe. [0]
+[1694640754713] [31m[createMemory][39m The village festivities are something I look forward to every year. [0]
+[1694640763097] [Character] George created
+[1694640798081] --- Prompt ---
+[1694640798086] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 20.53, -62.05
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Starving
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Location: 24.33, -56.01, Direction: NW,  Distance: 7.1m]
+- Eli Green (Health: 25/25) [Location: 25.55, -55.73, Direction: NW,  Distance: 8.1m]
+- House (Health: 100/100) [Location: 14.06, -56.01, Direction: W,  Distance: 8.9m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- My family has been mining for generations. [just now]
+- The village festivities are something I look forward to every year. [just now]
+- I enjoy a cold beverage after a long day in the mines. [just now]
+- I'm usually one of the first to arrive at the mine site. [just now]
+- I've discovered some rare minerals during my time here. [just now]
+- I know a secret tunnel in the mine that few know about. [just now]
+- George Brown is quite tired today. [just now]
+- Working in the mines is tough but rewarding. [just now]
+- It's important to have the right tools for the job. [just now]
+- I take pride in my work and look after my equipment. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694640811573] --- Response ---
+[1694640811573] Updated Tasks: 
+[1694640811573] [
+  {
+    "task": "Eat some food",
+    "priority": 1
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 2
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 3
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 4
+  },
+  {
+    "task": "Ensure the safety of your tools",
+    "priority": 5
+  },
+  {
+    "task": "Explore the secret tunnel in the mine",
+    "priority": 6
+  }
+]
+[1694640814196] --- Prompt ---
+[1694640814197] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 20.53, -62.05
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Starving
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 7.1m]
+- Eli Green (Health: 25/25) [Direction: NW, Distance: 8.1m]
+- House (Health: 100/100) [Direction: W, Distance: 8.9m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I take pride in my work and look after my equipment. [just now]
+- It's important to have the right tools for the job. [just now]
+- Working in the mines is tough but rewarding. [just now]
+- George Brown is quite tired today. [just now]
+- I know a secret tunnel in the mine that few know about. [just now]
+- I've discovered some rare minerals during my time here. [just now]
+- I'm usually one of the first to arrive at the mine site. [just now]
+- I enjoy a cold beverage after a long day in the mines. [just now]
+- The village festivities are something I look forward to every year. [just now]
+- My family has been mining for generations. [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694640814197] --- Action Functions ---
+[1694640814197] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694640816831] --- Response ---
+[1694640816831] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694640816832] --- Verified Action ---
+[1694640816832] {
+  "type": "eat",
+  "data": {
+    "characterId": "A2",
+    "foodId": "berries"
+  }
+}
+[1694640819682] Getting action 0
+[1694640819682] Getting result 0
+[1694640819682] --- Prompt ---
+[1694640819682] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 20.53, -62.05
+
+Time: Day 0, 2:18 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 7.1m]
+- Eli Green (Health: 25/25) [Direction: NW, Distance: 8.1m]
+- House (Health: 100/100) [Direction: W, Distance: 8.9m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I take pride in my work and look after my equipment. [2 hours ago]
+- It's important to have the right tools for the job. [2 hours ago]
+- Working in the mines is tough but rewarding. [2 hours ago]
+- George Brown is quite tired today. [2 hours ago]
+- I know a secret tunnel in the mine that few know about. [2 hours ago]
+- I've discovered some rare minerals during my time here. [2 hours ago]
+- I'm usually one of the first to arrive at the mine site. [2 hours ago]
+- I enjoy a cold beverage after a long day in the mines. [2 hours ago]
+- The village festivities are something I look forward to every year. [2 hours ago]
+- My family has been mining for generations. [2 hours ago]
+
+Previous Actions:
+- [eat]: George Brown ate Berries which restored 10 satiety. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694640819682] --- Action Functions ---
+[1694640819683] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694640823099] --- Response ---
+[1694640823099] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 20.53,\n  \"y\": -62.05\n}"
+  }
+}
+[1694640823100] --- Verified Action ---
+[1694640823100] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A2",
+    "x": 20.53,
+    "y": -62.05
+  }
+}
+[1694640823403] [31m[createMemory][39m George Brown has started walking to 20.53, Y: -62.05. [29.3469181]
+[1694640823484] [31m[createMemory][39m George Brown finished walking to 20.53, Y: -62.05. [29.43999]
+[1694640826152] Getting action 0
+[1694640826152] Getting result 0
+[1694640826152] Getting action 1
+[1694640826152] Getting result 1
+[1694640826152] --- Prompt ---
+[1694640826152] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 20.53, -62.05
+
+Time: Day 0, 2:56 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 7.1m]
+- Eli Green (Health: 25/25) [Direction: NW, Distance: 8.1m]
+- House (Health: 100/100) [Direction: W, Distance: 8.9m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- George Brown finished walking to 20.53, Y: -62.05. [0 minutes ago]
+- I take pride in my work and look after my equipment. [2 hours ago]
+- It's important to have the right tools for the job. [2 hours ago]
+- Working in the mines is tough but rewarding. [2 hours ago]
+- George Brown is quite tired today. [2 hours ago]
+- I know a secret tunnel in the mine that few know about. [2 hours ago]
+- I've discovered some rare minerals during my time here. [2 hours ago]
+- I'm usually one of the first to arrive at the mine site. [2 hours ago]
+- I enjoy a cold beverage after a long day in the mines. [2 hours ago]
+- The village festivities are something I look forward to every year. [2 hours ago]
+
+Previous Actions:
+- [eat]: George Brown ate Berries which restored 10 satiety. [38 minutes ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694640826152] --- Action Functions ---
+[1694640826153] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694640829563] --- Response ---
+[1694640829563] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 20.53,\n  \"y\": -62.05\n}"
+  }
+}
+[1694640829565] --- Verified Action ---
+[1694640829565] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A2",
+    "x": 20.53,
+    "y": -62.05
+  }
+}
+[1694640829867] [31m[createMemory][39m George Brown has started walking to 20.53, Y: -62.05. [35.78025]
+[1694640829945] [31m[createMemory][39m George Brown finished walking to 20.53, Y: -62.05. [35.85999]
+[1694640833676] Getting action 0
+[1694640833676] Getting result 0
+[1694640833676] Getting action 1
+[1694640833676] Getting result 1
+[1694640833676] Getting action 2
+[1694640833676] Getting result 2
+[1694640833676] --- Prompt ---
+[1694640833678] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 20.53, -62.05
+
+Time: Day 0, 3:35 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 7.1m]
+- Eli Green (Health: 25/25) [Direction: NW, Distance: 8.1m]
+- House (Health: 100/100) [Direction: W, Distance: 8.9m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- George Brown finished walking to 20.53, Y: -62.05. [0 minutes ago]
+- George Brown finished walking to 20.53, Y: -62.05. [38 minutes ago]
+- George Brown has started walking to 20.53, Y: -62.05. [39 minutes ago]
+- It's important to have the right tools for the job. [3 hours ago]
+- George Brown is quite tired today. [3 hours ago]
+- I know a secret tunnel in the mine that few know about. [3 hours ago]
+- I've discovered some rare minerals during my time here. [3 hours ago]
+- I'm usually one of the first to arrive at the mine site. [3 hours ago]
+- I enjoy a cold beverage after a long day in the mines. [3 hours ago]
+- The village festivities are something I look forward to every year. [3 hours ago]
+
+Previous Actions:
+- [eat]: George Brown ate Berries which restored 10 satiety. [1 hours ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [38 minutes ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694640833678] --- Action Functions ---
+[1694640833678] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694640836146] --- Response ---
+[1694640836146] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": -10,\n  \"y\": -10\n}"
+  }
+}
+[1694640836146] --- Verified Action ---
+[1694640836146] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A2",
+    "x": -10,
+    "y": -10
+  }
+}
+[1694640836396] [31m[createMemory][39m George Brown has started walking to -10, Y: -10. [42.3469162]
+[1694640837598] [31m[createMemory][39m George Brown sees Lucy Wilde at X: 24.33, Y: -56.01. [43.546917]
+[1694640837725] [31m[createMemory][39m George Brown sees House at X: 14.06, Y: -56.01. [43.6802521]
+[1694640838517] [31m[createMemory][39m George Brown sees Eli Green at X: 25.55, Y: -55.73. [44.28025]
+[1694640839300] [31m[createMemory][39m George Brown no longer sees House at X: 14.06, Y: -56.01 [45.2469177]
+[1694640843976] [31m[createMemory][39m George Brown no longer sees Human (3) at X: 24.33, Y: -56.01 [49.9135857]
+[1694640844688] [31m[createMemory][39m George Brown no longer sees Human (4) at X: 25.55, Y: -55.73 [50.6135826]
+[1694640846655] [31m[createMemory][39m George Brown sees Tree at X: 36.04, Y: -47.68999. [52.58025]
+[1694640848469] [31m[createMemory][39m George Brown sees Tree Stump at X: 36.50999, Y: -46.03. [54.4135857]
+[1694640848841] [31m[createMemory][39m George Brown sees Tree at X: 36.37, Y: -44.45. [54.7469177]
+[1694640849439] [31m[createMemory][39m George Brown sees Tree at X: 25.76, Y: -44.33. [55.3802528]
+[1694640849668] [31m[createMemory][39m George Brown no longer sees Stump (50) at X: 36.50999, Y: -46.03 [55.6135826]
+[1694640849765] [31m[createMemory][39m George Brown sees Stone Ore Deposit (Small) at X: 32.23, Y: -40.35. [55.6802521]
+[1694640849934] [31m[createMemory][39m George Brown no longer sees Tree (655) at X: 36.37, Y: -44.45 [55.8802528]
+[1694640849950] [31m[createMemory][39m George Brown no longer sees Tree (649) at X: 36.04, Y: -47.68999 [55.8802528]
+[1694640850045] [31m[createMemory][39m George Brown sees Tree at X: 25.76, Y: -42.09. [55.98025]
+[1694640851278] [31m[createMemory][39m George Brown sees Tree at X: 25.48, Y: -39.34. [57.2135849]
+[1694640852033] [31m[createMemory][39m George Brown sees Tree at X: 23.13, Y: -42.43. [57.94692]
+[1694640852736] [31m[createMemory][39m George Brown sees Tree at X: 24.93, Y: -36.81. [58.6802521]
+[1694640853548] [31m[createMemory][39m George Brown sees Tree Stump at X: 30.7, Y: -35.81. [59.48025]
+[1694640853797] [31m[createMemory][39m George Brown sees Tree at X: 22.67, Y: -36.54. [59.7135849]
+[1694640854011] [31m[createMemory][39m George Brown sees Tree at X: 32.43, Y: -36.81211. [59.94692]
+[1694640854158] [31m[createMemory][39m George Brown sees Tree at X: 24.38, Y: -34.45. [60.08025]
+[1694640854304] [31m[createMemory][39m George Brown no longer sees Tree (336) at X: 25.76, Y: -44.33 [60.2469177]
+[1694640854636] [31m[createMemory][39m George Brown sees Tree at X: 31.45, Y: -34.49. [60.546917]
+[1694640854682] [31m[createMemory][39m George Brown no longer sees Tree (335) at X: 23.13, Y: -42.43 [60.58025]
+[1694640855158] [31m[createMemory][39m George Brown no longer sees StoneOreSmall (10) at X: 32.23, Y: -40.35 [61.08025]
+[1694640855636] [31m[createMemory][39m George Brown no longer sees Tree (331) at X: 25.76, Y: -42.09 [61.546917]
+[1694640855740] [31m[createMemory][39m George Brown sees Tree at X: 23.02, Y: -32.65. [61.64692]
+[1694640856516] [31m[createMemory][39m George Brown sees Tree at X: 28.28, Y: -29.76. [62.44692]
+[1694640856817] [31m[createMemory][39m George Brown no longer sees Tree (302) at X: 32.43, Y: -36.81211 [62.7469177]
+[1694640857026] [31m[createMemory][39m George Brown sees Tree at X: 21.1, Y: -34.81. [62.94692]
+[1694640857441] [31m[createMemory][39m George Brown no longer sees Tree (330) at X: 25.48, Y: -39.34 [63.3469162]
+[1694640857908] [31m[createMemory][39m George Brown sees Tree at X: 27.86, Y: -27.79. [63.8135834]
+[1694640858307] [31m[createMemory][39m George Brown no longer sees Tree (301) at X: 31.45, Y: -34.49 [64.14692]
+[1694640858497] [31m[createMemory][39m George Brown no longer sees Stump (25) at X: 30.7, Y: -35.81 [64.24692]
+[1694640858989] [31m[createMemory][39m George Brown no longer sees Tree (286) at X: 22.67, Y: -36.54 [64.91358]
+[1694640859075] [31m[createMemory][39m George Brown no longer sees Tree (263) at X: 24.93, Y: -36.81 [64.98025]
+[1694640859122] [31m[createMemory][39m George Brown sees Tree at X: 30.73, Y: -29.31. [65.04692]
+[1694640859216] [31m[createMemory][39m George Brown sees Tree at X: 29.28, Y: -26.96. [65.14692]
+[1694640859394] [31m[createMemory][39m George Brown no longer sees Tree (291) at X: 21.1, Y: -34.81 [65.31358]
+[1694640859947] [31m[createMemory][39m George Brown sees Tree at X: 28.12, Y: -25.2. [65.74692]
+[1694640860453] [31m[createMemory][39m George Brown no longer sees Tree (259) at X: 24.38, Y: -34.45 [66.34692]
+[1694640860649] [31m[createMemory][39m George Brown no longer sees Tree (730) at X: 30.73, Y: -29.31 [66.54692]
+[1694640860865] [31m[createMemory][39m George Brown sees Tree at X: 26.2, Y: -23.09. [66.78025]
+[1694640861002] [31m[createMemory][39m George Brown sees Tree at X: 22.59, Y: -23.18. [66.84692]
+[1694640861148] [31m[createMemory][39m George Brown sees Tree Stump at X: 21.26, Y: -23.66788. [67.04692]
+[1694640861769] [31m[createMemory][39m George Brown sees Tree at X: 24.08, Y: -21.93. [67.68025]
+[1694640861827] [31m[createMemory][39m George Brown no longer sees Tree (287) at X: 23.02, Y: -32.65 [67.74692]
+[1694640861915] [31m[createMemory][39m George Brown no longer sees Tree (161) at X: 29.28, Y: -26.96 [67.74692]
+[1694640861915] [31m[createMemory][39m George Brown sees Tree at X: 20.14, Y: -22.62. [67.78025]
+[1694640862175] [31m[createMemory][39m George Brown no longer sees Tree (265) at X: 28.28, Y: -29.76 [68.04692]
+[1694640862805] [31m[createMemory][39m George Brown no longer sees Tree (260) at X: 28.12, Y: -25.2 [68.68025]
+[1694640862871] [31m[createMemory][39m George Brown sees Tree at X: 18.28, Y: -21.95. [68.74692]
+[1694640862902] [31m[createMemory][39m George Brown no longer sees Tree (264) at X: 27.86, Y: -27.79 [68.74692]
+[1694640863637] [31m[createMemory][39m George Brown sees Tree at X: 21.54, Y: -20.29. [69.51359]
+[1694640863718] [31m[createMemory][39m George Brown no longer sees Tree (156) at X: 26.2, Y: -23.09 [69.61359]
+[1694640864683] [31m[createMemory][39m George Brown sees Tree at X: 14.11, Y: -27.17. [70.58025]
+[1694640864949] [31m[createMemory][39m George Brown sees Tree at X: 19.34, Y: -19.25. [70.88025]
+[1694640865092] [31m[createMemory][39m George Brown no longer sees Tree (155) at X: 24.08, Y: -21.93 [70.98025]
+[1694640865569] [31m[createMemory][39m George Brown sees Stone Ore Deposit (Small) at X: 15.88, Y: -18.99. [71.4469147]
+[1694640866285] [31m[createMemory][39m George Brown sees Stone Ore Deposit (Small) at X: 14.39, Y: -18.34. [72.18025]
+[1694640866355] [31m[createMemory][39m George Brown sees Tree at X: 11.96, Y: -25.18. [72.24692]
+[1694640866471] [31m[createMemory][39m George Brown sees Tree at X: 12.43, Y: -19.6. [72.38025]
+[1694640866603] [31m[createMemory][39m George Brown no longer sees Tree (34) at X: 22.59, Y: -23.18 [72.48025]
+[1694640866877] [31m[createMemory][39m George Brown no longer sees Tree (149) at X: 21.54, Y: -20.29 [72.78025]
+[1694640867256] [31m[createMemory][39m George Brown no longer sees Stump (15) at X: 21.26, Y: -23.66788 [73.14692]
+[1694640868133] [31m[createMemory][39m George Brown sees Tree at X: 13.25, Y: -16.78. [74.04692]
+[1694640868140] [31m[createMemory][39m George Brown sees Tree at X: 15.22, Y: -16.78. [74.01359]
+[1694640868217] [31m[createMemory][39m George Brown no longer sees Tree (33) at X: 20.14, Y: -22.62 [74.08025]
+[1694640868331] [31m[createMemory][39m George Brown no longer sees Tree (148) at X: 19.34, Y: -19.25 [74.2135849]
+[1694640868373] [31m[createMemory][39m George Brown sees Tree at X: 9.26, Y: -25.09. [74.24692]
+[1694640868976] [31m[createMemory][39m George Brown no longer sees Tree (256) at X: 14.11, Y: -27.17 [74.84692]
+[1694640869124] [31m[createMemory][39m George Brown sees Tree at X: 10.73, Y: -16.49. [74.98025]
+[1694640869440] [31m[createMemory][39m George Brown sees Tree at X: 7.04, Y: -22.88. [75.31358]
+[1694640869440] [31m[createMemory][39m George Brown no longer sees Tree (29) at X: 18.28, Y: -21.95 [75.28025]
+[1694640869976] [31m[createMemory][39m George Brown sees Tree at X: 6.79, Y: -17.79. [75.88025]
+[1694640870003] [31m[createMemory][39m George Brown sees Tree at X: 6, Y: -20.83. [75.88025]
+[1694640870712] [31m[createMemory][39m George Brown sees Tree at X: 4.96, Y: -19.42. [76.61359]
+[1694640870839] [31m[createMemory][39m George Brown no longer sees Tree (54) at X: 15.22, Y: -16.78 [76.7135849]
+[1694640870893] [31m[createMemory][39m George Brown no longer sees StoneOreSmall (1) at X: 15.88, Y: -18.99 [76.78025]
+[1694640871083] [31m[createMemory][39m George Brown no longer sees Tree (261) at X: 11.96, Y: -25.18 [76.9469147]
+[1694640871124] [31m[createMemory][39m George Brown sees Tree at X: 9.45, Y: -14.39. [77.01359]
+[1694640871202] [31m[createMemory][39m George Brown no longer sees Tree (262) at X: 9.26, Y: -25.09 [77.08025]
+[1694640871263] [31m[createMemory][39m George Brown sees Tree at X: 11.84, Y: -14.35. [77.14692]
+[1694640871949] [31m[createMemory][39m George Brown sees Tree Stump at X: 3.68, Y: -17.74. [77.81358]
+[1694640871995] [31m[createMemory][39m George Brown sees Tree at X: 3.77, Y: -16.34. [77.88025]
+[1694640872132] [31m[createMemory][39m George Brown no longer sees StoneOreSmall at X: 14.39, Y: -18.34 [78.01359]
+[1694640872355] [31m[createMemory][39m George Brown sees Tree at X: 3.78, Y: -21.44. [78.18025]
+[1694640872641] [31m[createMemory][39m George Brown no longer sees Tree (64) at X: 3.78, Y: -21.44 [78.51359]
+[1694640872800] [31m[createMemory][39m George Brown sees Tree at X: 3.98, Y: -13.79. [78.68025]
+[1694640872881] [31m[createMemory][39m George Brown no longer sees Tree (067) at X: 7.04, Y: -22.88 [78.74692]
+[1694640873079] [31m[createMemory][39m George Brown sees Tree at X: 11.7, Y: -12.56. [78.9469147]
+[1694640873402] [31m[createMemory][39m George Brown sees Tree at X: 4.59, Y: -12.01. [79.28025]
+[1694640873602] [31m[createMemory][39m George Brown sees Tree at X: 2.43, Y: -18.65. [79.4469147]
+[1694640873713] [31m[createMemory][39m George Brown no longer sees Tree (72) at X: 12.43, Y: -19.6 [79.54692]
+[1694640873753] [31m[createMemory][39m George Brown sees Tree at X: 2.16, Y: -14.95. [79.48025]
+[1694640873877] [31m[createMemory][39m George Brown no longer sees Tree (44) at X: 13.25, Y: -16.78 [79.61359]
+[1694640874383] [31m[createMemory][39m George Brown no longer sees Tree (73) at X: 2.43, Y: -18.65 [80.08025]
+[1694640874388] [31m[createMemory][39m George Brown no longer sees Tree (66) at X: 6, Y: -20.83 [80.08025]
+[1694640874548] [31m[createMemory][39m George Brown sees Tree at X: 2.8, Y: -11.64. [80.18025]
+[1694640874691] [31m[createMemory][39m George Brown sees Tree Stump at X: 8.41, Y: -9.870001. [80.38025]
+[1694640874938] [31m[createMemory][39m George Brown sees Tree at X: 1.59, Y: -16.78. [80.58025]
+[1694640875024] [31m[createMemory][39m George Brown sees Tree at X: 1.59, Y: -16.78. [80.58025]
+[1694640875473] [31m[createMemory][39m George Brown no longer sees Tree (63) at X: 4.96, Y: -19.42 [81.08025]
+[1694640875632] [31m[createMemory][39m George Brown sees Tree at X: 2.38, Y: -9.700001. [81.2135849]
+[1694640875935] [31m[createMemory][39m George Brown no longer sees Tree (37) at X: 1.59, Y: -16.78 [81.48025]
+[1694640875936] [31m[createMemory][39m George Brown no longer sees Tree (53) at X: 1.59, Y: -16.78 [81.48025]
+[1694640876264] [31m[createMemory][39m George Brown no longer sees Tree (38) at X: 11.84, Y: -14.35 [81.81358]
+[1694640876567] [31m[createMemory][39m George Brown no longer sees Tree (40) at X: 10.73, Y: -16.49 [81.84692]
+[1694640876721] [31m[createMemory][39m George Brown sees Tree Stump at X: 5.58, Y: -7.27. [82.01359]
+[1694640876754] [31m[createMemory][39m George Brown no longer sees Tree (45) at X: 6.79, Y: -17.79 [82.04692]
+[1694640876780] [31m[createMemory][39m George Brown sees Tree Stump at X: 9.14, Y: -7.77. [82.08025]
+[1694640876901] [31m[createMemory][39m George Brown no longer sees Stump (8) at X: 3.68, Y: -17.74 [82.08025]
+[1694640877561] [31m[createMemory][39m George Brown sees Tree Stump at X: 8.46, Y: -6.74. [82.48025]
+[1694640877734] [31m[createMemory][39m George Brown no longer sees Tree (25) at X: 3.77, Y: -16.34 [82.68025]
+[1694640877897] [31m[createMemory][39m George Brown no longer sees Tree (28) at X: 2.16, Y: -14.95 [82.88025]
+[1694640878243] [31m[createMemory][39m George Brown no longer sees Tree (77) at X: 11.7, Y: -12.56 [83.11359]
+[1694640878464] [31m[createMemory][39m George Brown no longer sees Tree (26) at X: 9.45, Y: -14.39 [83.58025]
+[1694640878680] [31m[createMemory][39m George Brown sees Tree at X: 1.1, Y: -5.790001. [83.91358]
+[1694640879031] [31m[createMemory][39m George Brown sees Tree at X: 4.14, Y: -3.639999. [84.18025]
+[1694640879050] [31m[createMemory][39m George Brown sees Tree at X: 4.14, Y: -3.639999. [84.18025]
+[1694640879212] [31m[createMemory][39m George Brown sees Tree at X: 1.78, Y: -4.23. [84.34692]
+[1694640879317] [31m[createMemory][39m George Brown sees Tree at X: 1.78, Y: -4.23. [84.34692]
+[1694640880016] [31m[createMemory][39m George Brown sees Tree at X: 0.3299999, Y: -12.16. [84.58025]
+[1694640880541] [31m[createMemory][39m George Brown no longer sees Tree (27) at X: 3.98, Y: -13.79 [85.14692]
+[1694640880699] [31m[createMemory][39m George Brown sees Tree at X: -1.23, Y: -5.309999. [85.24692]
+[1694640880850] [31m[createMemory][39m George Brown no longer sees Stump (3) at X: 9.14, Y: -7.77 [85.28025]
+[1694640881126] [31m[createMemory][39m George Brown sees Tree Stump at X: 0.03999996, Y: -3.610001. [85.54692]
+[1694640881137] [31m[createMemory][39m George Brown sees Tree Stump at X: 0.03999996, Y: -3.610001. [85.54692]
+[1694640881279] [31m[createMemory][39m George Brown sees Tree at X: 1.29, Y: -2.459999. [85.74692]
+[1694640881301] [31m[createMemory][39m George Brown sees Tree at X: 1.29, Y: -2.459999. [85.74692]
+[1694640881301] [31m[createMemory][39m George Brown no longer sees Stump (2) at X: 8.41, Y: -9.870001 [85.74692]
+[1694640881409] [31m[createMemory][39m George Brown no longer sees Stump (4) at X: 8.46, Y: -6.74 [85.78025]
+[1694640881900] [31m[createMemory][39m George Brown sees Tree at X: -2.84, Y: -8.939999. [85.98025]
+[1694640882270] [31m[createMemory][39m George Brown sees Tree at X: -2.11, Y: -3.52. [86.34692]
+[1694640882344] [31m[createMemory][39m George Brown sees Tree at X: -2.11, Y: -3.52. [86.34692]
+[1694640882836] [31m[createMemory][39m George Brown no longer sees Tree (78) at X: 4.59, Y: -12.01 [86.88025]
+[1694640883025] [31m[createMemory][39m George Brown sees Tree at X: -1.74, Y: -12.53. [87.18025]
+[1694640883286] [31m[createMemory][39m George Brown no longer sees Stump (1) at X: 5.58, Y: -7.27 [87.48025]
+[1694640883416] [31m[createMemory][39m George Brown sees Tree at X: -4.79, Y: -10.59. [87.51359]
+[1694640883485] [31m[createMemory][39m George Brown no longer sees Tree (517) at X: 4.14, Y: -3.639999 [87.68025]
+[1694640883625] [31m[createMemory][39m George Brown sees Tree at X: -4.83, Y: -3.610001. [87.84692]
+[1694640883628] [31m[createMemory][39m George Brown no longer sees Tree (10) at X: 4.14, Y: -3.639999 [87.68025]
+[1694640883722] [31m[createMemory][39m George Brown sees Tree at X: -4.83, Y: -3.610001. [87.84692]
+[1694640883909] [31m[createMemory][39m George Brown no longer sees Tree (84) at X: 2.8, Y: -11.64 [88.18025]
+[1694640883964] [31m[createMemory][39m George Brown no longer sees Tree (482) at X: 1.29, Y: -2.459999 [88.34692]
+[1694640884001] [31m[createMemory][39m George Brown no longer sees Tree (4) at X: 1.29, Y: -2.459999 [88.34692]
+[1694640884284] [31m[createMemory][39m George Brown sees Tree at X: -6.989999, Y: -4.169998. [88.81358]
+[1694640884303] [31m[createMemory][39m George Brown sees Tree at X: -6.989999, Y: -4.169998. [88.81358]
+[1694640884584] [31m[createMemory][39m George Brown no longer sees Tree (13) at X: 2.38, Y: -9.700001 [89.24692]
+[1694640884592] [31m[createMemory][39m George Brown no longer sees Tree (20) at X: 0.3299999, Y: -12.16 [89.18025]
+[1694640884612] [31m[createMemory][39m George Brown no longer sees Tree (516) at X: 1.78, Y: -4.23 [89.28025]
+[1694640884700] [31m[createMemory][39m George Brown no longer sees Tree (9) at X: 1.78, Y: -4.23 [89.28025]
+[1694640885858] [31m[createMemory][39m George Brown no longer sees Stump (9) at X: 0.03999996, Y: -3.610001 [89.78025]
+[1694640885888] [31m[createMemory][39m George Brown no longer sees Stump (64) at X: 0.03999996, Y: -3.610001 [89.78025]
+[1694640886327] [31m[createMemory][39m George Brown no longer sees Tree (15) at X: -1.74, Y: -12.53 [89.91358]
+[1694640886640] [31m[createMemory][39m George Brown no longer sees Tree (8) at X: 1.1, Y: -5.790001 [90.08025]
+[1694640887174] [31m[createMemory][39m George Brown sees Tree at X: -9.29, Y: -3.6. [90.38025]
+[1694640887869] [31m[createMemory][39m George Brown no longer sees Tree (6) at X: -2.11, Y: -3.52 [90.98025]
+[1694640887904] [31m[createMemory][39m George Brown no longer sees Tree (512) at X: -2.11, Y: -3.52 [90.98025]
+[1694640888330] [31m[createMemory][39m George Brown no longer sees Tree (7) at X: -1.23, Y: -5.309999 [91.28025]
+[1694640889386] [31m[createMemory][39m George Brown no longer sees Tree (828) at X: -4.83, Y: -3.610001 [92.14692]
+[1694640889578] [31m[createMemory][39m George Brown no longer sees Tree (551) at X: -4.83, Y: -3.610001 [92.14692]
+[1694640889830] [31m[createMemory][39m George Brown sees Tree at X: -11.54, Y: -4.139999. [92.58025]
+[1694640889886] [31m[createMemory][39m George Brown no longer sees Tree (16) at X: -2.84, Y: -8.939999 [92.68025]
+[1694640889969] [31m[createMemory][39m George Brown no longer sees Tree (053) at X: -9.29, Y: -3.6 [92.78025]
+[1694640890043] [31m[createMemory][39m George Brown no longer sees Tree (054) at X: -11.54, Y: -4.139999 [92.88025]
+[1694640890191] [31m[createMemory][39m George Brown no longer sees Tree (827) at X: -6.989999, Y: -4.169998 [93.11359]
+[1694640890222] [31m[createMemory][39m George Brown no longer sees Tree (550) at X: -6.989999, Y: -4.169998 [93.11359]
+[1694640890869] [31m[createMemory][39m George Brown finished walking to -10, Y: -10. [93.55997]

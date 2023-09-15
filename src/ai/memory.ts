@@ -140,10 +140,16 @@ function calculateMaxMemoriesForTask(priority) {
     const maxPriority = 8; // Replace this with the maximum priority value in your system
     const maxMemories = 10; // Replace this with the maximum number of memories you want to fetch
 
-    return Math.round(
+    const value = Math.round(
         ((maxPriority + 1 - clamp(priority, 0, maxPriority)) / maxPriority) *
             maxMemories
     );
+
+    console.log(
+        `[calculateMaxMemoriesForTask] ${value} memories for task with priority ${priority}.`
+    );
+
+    return value;
 }
 
 // Returns relevant memories using the noramlized similarity, importance, and recency, and updates the accessedAt field if updateAccessedAt is true

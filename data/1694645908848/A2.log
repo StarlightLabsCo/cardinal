@@ -1,0 +1,3660 @@
+[1694645909662] [Character] Creating George
+[1694645910283] [31m[createMemory][39m George Brown is quite tired today. [0]
+[1694645910283] [31m[createMemory][39m Working in the mines is tough but rewarding. [0]
+[1694645910283] [31m[createMemory][39m I've been friends with Thomas for a long time. [0]
+[1694645910283] [31m[createMemory][39m Safety in the mines is a top priority for me. [0]
+[1694645910283] [31m[createMemory][39m I've discovered some rare minerals during my time here. [0]
+[1694645910283] [31m[createMemory][39m I'm usually one of the first to arrive at the mine site. [0]
+[1694645910283] [31m[createMemory][39m My family has been mining for generations. [0]
+[1694645910283] [31m[createMemory][39m I enjoy a cold beverage after a long day in the mines. [0]
+[1694645910283] [31m[createMemory][39m I've been taught traditional mining songs by the older miners. [0]
+[1694645910283] [31m[createMemory][39m I've saved up to buy a house near the village. [0]
+[1694645910283] [31m[createMemory][39m I know a secret tunnel in the mine that few know about. [0]
+[1694645910283] [31m[createMemory][39m It's important to have the right tools for the job. [0]
+[1694645910283] [31m[createMemory][39m I take pride in my work and look after my equipment. [0]
+[1694645910283] [31m[createMemory][39m I sometimes join Thomas and others for a meal after work. [0]
+[1694645910283] [31m[createMemory][39m I've had a few close calls, but always came out safe. [0]
+[1694645910283] [31m[createMemory][39m The village festivities are something I look forward to every year. [0]
+[1694645918203] [Character] George created
+[1694645933797] --- Prompt ---
+[1694645933810] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 20.53, -62.05
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Starving
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Location: 24.33, -56.01, Direction: NW,  Distance: 7.1m]
+- Eli Green (Health: 25/25) [Location: 25.55, -55.73, Direction: NW,  Distance: 8.1m]
+- House (Health: 100/100) [Location: 14.06, -56.01, Direction: W,  Distance: 8.9m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I know a secret tunnel in the mine that few know about. [just now]
+- I take pride in my work and look after my equipment. [just now]
+- Working in the mines is tough but rewarding. [just now]
+- George Brown is quite tired today. [just now]
+- I've been taught traditional mining songs by the older miners. [just now]
+- My family has been mining for generations. [just now]
+- I sometimes join Thomas and others for a meal after work. [just now]
+- I've been friends with Thomas for a long time. [just now]
+- I've saved up to buy a house near the village. [just now]
+- I've had a few close calls, but always came out safe. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694645941864] --- Response ---
+[1694645941864] Updated Tasks: 
+[1694645941865] [
+  {
+    "task": "Eat some food",
+    "priority": 1
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 2
+  },
+  {
+    "task": "Catch up with Lucy Wilde and Eli Green",
+    "priority": 3
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 4
+  },
+  {
+    "task": "Check on the house",
+    "priority": 5
+  }
+]
+[1694645944644] --- Prompt ---
+[1694645944644] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 20.53, -62.05
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Starving
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 7.1m]
+- Eli Green (Health: 25/25) [Direction: NW, Distance: 8.1m]
+- House (Health: 100/100) [Direction: W, Distance: 8.9m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I've had a few close calls, but always came out safe. [just now]
+- I've saved up to buy a house near the village. [just now]
+- The village festivities are something I look forward to every year. [just now]
+- I've been friends with Thomas for a long time. [just now]
+- I sometimes join Thomas and others for a meal after work. [just now]
+- My family has been mining for generations. [just now]
+- George Brown is quite tired today. [just now]
+- I know a secret tunnel in the mine that few know about. [just now]
+- Working in the mines is tough but rewarding. [just now]
+- I've been taught traditional mining songs by the older miners. [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694645944645] --- Action Functions ---
+[1694645944647] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694645947871] --- Response ---
+[1694645947871] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694645947874] --- Verified Action ---
+[1694645947874] {
+  "type": "eat",
+  "data": {
+    "characterId": "A2",
+    "foodId": "berries"
+  }
+}
+[1694645950887] Getting action 0
+[1694645950887] Getting result 0
+[1694645950887] --- Prompt ---
+[1694645950887] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 20.53, -62.05
+
+Time: Day 0, 1:49 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 7.1m]
+- Eli Green (Health: 25/25) [Direction: NW, Distance: 8.1m]
+- House (Health: 100/100) [Direction: W, Distance: 8.9m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I've had a few close calls, but always came out safe. [1 hours ago]
+- I've saved up to buy a house near the village. [1 hours ago]
+- The village festivities are something I look forward to every year. [1 hours ago]
+- I've been friends with Thomas for a long time. [1 hours ago]
+- I sometimes join Thomas and others for a meal after work. [1 hours ago]
+- My family has been mining for generations. [1 hours ago]
+- George Brown is quite tired today. [1 hours ago]
+- I know a secret tunnel in the mine that few know about. [1 hours ago]
+- Working in the mines is tough but rewarding. [1 hours ago]
+- I've been taught traditional mining songs by the older miners. [1 hours ago]
+
+Previous Actions:
+- [eat]: George Brown ate Berries which restored 10 satiety. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694645950887] --- Action Functions ---
+[1694645950888] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694645954232] --- Response ---
+[1694645954232] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 20.53,\n  \"y\": -62.05\n}"
+  }
+}
+[1694645954233] --- Verified Action ---
+[1694645954233] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A2",
+    "x": 20.53,
+    "y": -62.05
+  }
+}
+[1694645954498] [31m[createMemory][39m George Brown has started walking to 20.53, Y: -62.05. [24.5197983]
+[1694645954575] [31m[createMemory][39m George Brown finished walking to 20.53, Y: -62.05. [24.59999]
+[1694645956928] Getting action 0
+[1694645956929] Getting result 0
+[1694645956929] Getting action 1
+[1694645956929] Getting result 1
+[1694645956929] --- Prompt ---
+[1694645956929] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 20.53, -62.05
+
+Time: Day 0, 2:27 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 7.1m]
+- Eli Green (Health: 25/25) [Direction: NW, Distance: 8.1m]
+- House (Health: 100/100) [Direction: W, Distance: 8.9m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I take pride in my work and look after my equipment. [2 hours ago]
+- I've had a few close calls, but always came out safe. [2 hours ago]
+- I've saved up to buy a house near the village. [2 hours ago]
+- The village festivities are something I look forward to every year. [2 hours ago]
+- I've been friends with Thomas for a long time. [2 hours ago]
+- I sometimes join Thomas and others for a meal after work. [2 hours ago]
+- My family has been mining for generations. [2 hours ago]
+- George Brown is quite tired today. [2 hours ago]
+- I know a secret tunnel in the mine that few know about. [2 hours ago]
+- Working in the mines is tough but rewarding. [2 hours ago]
+
+Previous Actions:
+- [eat]: George Brown ate Berries which restored 10 satiety. [38 minutes ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694645956929] --- Action Functions ---
+[1694645956929] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694645959154] --- Response ---
+[1694645959154] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 10,\n  \"y\": 10\n}"
+  }
+}
+[1694645959155] --- Verified Action ---
+[1694645959155] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A2",
+    "x": 10,
+    "y": 10
+  }
+}
+[1694645959448] [31m[createMemory][39m George Brown has started walking to 10, Y: 10. [29.45313]
+[1694645960670] [31m[createMemory][39m George Brown sees Lucy Wilde at X: 24.33, Y: -56.01. [30.6531315]
+[1694645960833] [31m[createMemory][39m George Brown sees House at X: 14.06, Y: -56.01. [30.7864647]
+[1694645961365] [31m[createMemory][39m George Brown sees Eli Green at X: 25.55, Y: -55.73. [31.3864651]
+[1694645962334] [31m[createMemory][39m George Brown no longer sees House at X: 14.06, Y: -56.01 [32.35313]
+[1694645966990] [31m[createMemory][39m George Brown no longer sees Human (3) at X: 24.33, Y: -56.01 [37.0198]
+[1694645967700] [31m[createMemory][39m George Brown no longer sees Human (4) at X: 25.55, Y: -55.73 [37.7198]
+[1694645969677] [31m[createMemory][39m George Brown sees Tree at X: 36.04, Y: -47.68999. [39.6864662]
+[1694645971513] [31m[createMemory][39m George Brown sees Tree Stump at X: 36.50999, Y: -46.03. [41.5198]
+[1694645971837] [31m[createMemory][39m George Brown sees Tree at X: 36.37, Y: -44.45. [41.85313]
+[1694645972488] [31m[createMemory][39m George Brown sees Tree at X: 25.76, Y: -44.33. [42.5198]
+[1694645972672] [31m[createMemory][39m George Brown sees Stone Ore Deposit (Small) at X: 32.23, Y: -40.35. [42.6864662]
+[1694645973019] [31m[createMemory][39m George Brown sees Tree at X: 35.27, Y: -40.99. [43.0198]
+[1694645973452] [31m[createMemory][39m George Brown no longer sees Tree (649) at X: 36.04, Y: -47.68999 [43.4531326]
+[1694645973700] [31m[createMemory][39m George Brown sees Tree at X: 25.76, Y: -42.09. [43.6864662]
+[1694645973736] [31m[createMemory][39m George Brown no longer sees Stump (50) at X: 36.50999, Y: -46.03 [43.7198]
+[1694645974156] [31m[createMemory][39m George Brown no longer sees Tree (655) at X: 36.37, Y: -44.45 [44.15313]
+[1694645974615] [31m[createMemory][39m George Brown sees Tree at X: 25.48, Y: -39.34. [44.6197968]
+[1694645975229] [31m[createMemory][39m George Brown sees Tree at X: 32.43, Y: -36.81211. [45.25313]
+[1694645975554] [31m[createMemory][39m George Brown no longer sees Tree (344) at X: 35.27, Y: -40.99 [45.55313]
+[1694645975894] [31m[createMemory][39m George Brown sees Tree Stump at X: 30.7, Y: -35.81. [45.8864632]
+[1694645976153] [31m[createMemory][39m George Brown sees Tree at X: 24.93, Y: -36.81. [45.9531326]
+[1694645976849] [31m[createMemory][39m George Brown sees Tree at X: 31.45, Y: -34.49. [46.7864647]
+[1694645976858] [31m[createMemory][39m George Brown no longer sees Tree (336) at X: 25.76, Y: -44.33 [46.75313]
+[1694645977538] [31m[createMemory][39m George Brown sees Tree at X: 24.38, Y: -34.45. [47.4864655]
+[1694645978137] [31m[createMemory][39m George Brown no longer sees Tree (331) at X: 25.76, Y: -42.09 [48.05313]
+[1694645978320] [31m[createMemory][39m George Brown sees Tree at X: 33.12, Y: -33.14. [48.2198]
+[1694645978949] [31m[createMemory][39m George Brown no longer sees StoneOreSmall (10) at X: 32.23, Y: -40.35 [48.8864632]
+[1694645979137] [31m[createMemory][39m George Brown sees Tree at X: 34.39, Y: -34.21. [49.05313]
+[1694645979372] [31m[createMemory][39m George Brown sees Tree at X: 28.28, Y: -29.76. [49.25313]
+[1694645979624] [31m[createMemory][39m George Brown no longer sees Tree (330) at X: 25.48, Y: -39.34 [49.5198]
+[1694645979661] [31m[createMemory][39m George Brown sees Tree at X: 30.73, Y: -29.31. [49.5864639]
+[1694645980317] [31m[createMemory][39m George Brown sees Tree at X: 23.02, Y: -32.65. [50.2198]
+[1694645980317] [31m[createMemory][39m George Brown no longer sees Tree (351) at X: 34.39, Y: -34.21 [50.2198]
+[1694645980499] [31m[createMemory][39m George Brown sees Tree at X: 27.86, Y: -27.79. [50.419796]
+[1694645980711] [31m[createMemory][39m George Brown no longer sees Tree (302) at X: 32.43, Y: -36.81211 [50.65313]
+[1694645981225] [31m[createMemory][39m George Brown sees Tree at X: 29.28, Y: -26.96. [51.15313]
+[1694645981350] [31m[createMemory][39m George Brown no longer sees Tree (300) at X: 33.12, Y: -33.14 [51.2864647]
+[1694645981762] [31m[createMemory][39m George Brown no longer sees Tree (263) at X: 24.93, Y: -36.81 [51.6864662]
+[1694645981991] [31m[createMemory][39m George Brown no longer sees Stump (25) at X: 30.7, Y: -35.81 [51.8864632]
+[1694645982140] [31m[createMemory][39m George Brown no longer sees Tree (301) at X: 31.45, Y: -34.49 [52.05313]
+[1694645982387] [31m[createMemory][39m George Brown sees Tree at X: 28.12, Y: -25.2. [52.3197975]
+[1694645983539] [31m[createMemory][39m George Brown no longer sees Tree (259) at X: 24.38, Y: -34.45 [53.4531326]
+[1694645983876] [31m[createMemory][39m George Brown no longer sees Tree (730) at X: 30.73, Y: -29.31 [53.75313]
+[1694645984067] [31m[createMemory][39m George Brown sees Tree at X: 26.2, Y: -23.09. [53.9864655]
+[1694645984074] [31m[createMemory][39m George Brown sees Tree at X: 22.59, Y: -23.18. [54.0198]
+[1694645984366] [31m[createMemory][39m George Brown sees Tree Stump at X: 21.26, Y: -23.66788. [54.25313]
+[1694645984944] [31m[createMemory][39m George Brown sees Tree at X: 24.08, Y: -21.93. [54.85313]
+[1694645985072] [31m[createMemory][39m George Brown sees Tree at X: 20.14, Y: -22.62. [54.9531326]
+[1694645985073] [31m[createMemory][39m George Brown no longer sees Tree (287) at X: 23.02, Y: -32.65 [54.9531326]
+[1694645985073] [31m[createMemory][39m George Brown no longer sees Tree (161) at X: 29.28, Y: -26.96 [54.9531326]
+[1694645985295] [31m[createMemory][39m George Brown no longer sees Tree (265) at X: 28.28, Y: -29.76 [55.2198]
+[1694645985945] [31m[createMemory][39m George Brown no longer sees Tree (260) at X: 28.12, Y: -25.2 [55.85313]
+[1694645985984] [31m[createMemory][39m George Brown sees Tree at X: 18.28, Y: -21.95. [55.919796]
+[1694645985984] [31m[createMemory][39m George Brown no longer sees Tree (264) at X: 27.86, Y: -27.79 [55.919796]
+[1694645986777] [31m[createMemory][39m George Brown sees Tree at X: 21.54, Y: -20.29. [56.6864662]
+[1694645986846] [31m[createMemory][39m George Brown no longer sees Tree (156) at X: 26.2, Y: -23.09 [56.7864647]
+[1694645987902] [31m[createMemory][39m George Brown sees Tree at X: 14.11, Y: -27.17. [57.7864647]
+[1694645988180] [31m[createMemory][39m George Brown sees Tree at X: 19.34, Y: -19.25. [58.0864639]
+[1694645988270] [31m[createMemory][39m George Brown no longer sees Tree (155) at X: 24.08, Y: -21.93 [58.1864662]
+[1694645988701] [31m[createMemory][39m George Brown sees Stone Ore Deposit (Small) at X: 15.88, Y: -18.99. [58.6197968]
+[1694645989458] [31m[createMemory][39m George Brown sees Stone Ore Deposit (Small) at X: 14.39, Y: -18.34. [59.3864632]
+[1694645989552] [31m[createMemory][39m George Brown sees Tree at X: 11.96, Y: -25.18. [59.4531326]
+[1694645989663] [31m[createMemory][39m George Brown sees Tree at X: 12.43, Y: -19.6. [59.55313]
+[1694645989781] [31m[createMemory][39m George Brown no longer sees Tree (34) at X: 22.59, Y: -23.18 [59.6864662]
+[1694645990094] [31m[createMemory][39m George Brown no longer sees Tree (149) at X: 21.54, Y: -20.29 [59.9864655]
+[1694645990420] [31m[createMemory][39m George Brown no longer sees Stump (15) at X: 21.26, Y: -23.66788 [60.3197975]
+[1694645991271] [31m[createMemory][39m George Brown sees Tree at X: 15.22, Y: -16.78. [61.1864662]
+[1694645991318] [31m[createMemory][39m George Brown sees Tree at X: 13.25, Y: -16.78. [61.2198]
+[1694645991358] [31m[createMemory][39m George Brown no longer sees Tree (33) at X: 20.14, Y: -22.62 [61.25313]
+[1694645991491] [31m[createMemory][39m George Brown no longer sees Tree (148) at X: 19.34, Y: -19.25 [61.3864632]
+[1694645991551] [31m[createMemory][39m George Brown sees Tree at X: 9.26, Y: -25.09. [61.4531326]
+[1694645992128] [31m[createMemory][39m George Brown no longer sees Tree (256) at X: 14.11, Y: -27.17 [62.0198]
+[1694645992242] [31m[createMemory][39m George Brown sees Tree at X: 10.73, Y: -16.49. [62.15313]
+[1694645992585] [31m[createMemory][39m George Brown sees Tree at X: 7.04, Y: -22.88. [62.4864655]
+[1694645992586] [31m[createMemory][39m George Brown no longer sees Tree (29) at X: 18.28, Y: -21.95 [62.4864655]
+[1694645993179] [31m[createMemory][39m George Brown sees Tree at X: 6, Y: -20.83. [63.05313]
+[1694645993182] [31m[createMemory][39m George Brown sees Tree at X: 6.79, Y: -17.79. [63.0864639]
+[1694645993906] [31m[createMemory][39m George Brown sees Tree at X: 4.96, Y: -19.42. [63.7864647]
+[1694645993985] [31m[createMemory][39m George Brown no longer sees Tree (54) at X: 15.22, Y: -16.78 [63.8864632]
+[1694645994063] [31m[createMemory][39m George Brown no longer sees StoneOreSmall (1) at X: 15.88, Y: -18.99 [63.9531326]
+[1694645994228] [31m[createMemory][39m George Brown no longer sees Tree (261) at X: 11.96, Y: -25.18 [64.1198]
+[1694645994291] [31m[createMemory][39m George Brown sees Tree at X: 9.45, Y: -14.39. [64.18646]
+[1694645994388] [31m[createMemory][39m George Brown no longer sees Tree (262) at X: 9.26, Y: -25.09 [64.28646]
+[1694645994463] [31m[createMemory][39m George Brown sees Tree at X: 11.84, Y: -14.35. [64.3531342]
+[1694645994947] [31m[createMemory][39m George Brown sees Tree at X: 15.22, Y: -16.78. [64.8531342]
+[1694645995498] [31m[createMemory][39m George Brown sees Tree at X: 13.75, Y: -13.81. [65.28646]
+[1694645995528] [31m[createMemory][39m George Brown no longer sees Tree (067) at X: 7.04, Y: -22.88 [65.3198]
+[1694645995552] [31m[createMemory][39m George Brown sees Tree at X: 11.7, Y: -12.56. [65.38647]
+[1694645995881] [31m[createMemory][39m George Brown no longer sees Tree (54) at X: 15.22, Y: -16.78 [65.75313]
+[1694645995953] [31m[createMemory][39m George Brown sees Tree at X: 3.77, Y: -16.34. [65.8198]
+[1694645996165] [31m[createMemory][39m George Brown sees Tree Stump at X: 3.68, Y: -17.74. [66.0198]
+[1694645996308] [31m[createMemory][39m George Brown sees Tree at X: 3.98, Y: -13.79. [66.18646]
+[1694645996309] [31m[createMemory][39m George Brown no longer sees StoneOreSmall at X: 14.39, Y: -18.34 [66.18646]
+[1694645996808] [31m[createMemory][39m George Brown sees Tree at X: 4.59, Y: -12.01. [66.65313]
+[1694645996829] [31m[createMemory][39m George Brown no longer sees Tree (66) at X: 6, Y: -20.83 [66.68646]
+[1694645997234] [31m[createMemory][39m George Brown no longer sees Tree (72) at X: 12.43, Y: -19.6 [67.05313]
+[1694645997354] [31m[createMemory][39m George Brown sees Tree Stump at X: 8.41, Y: -9.870001. [67.25313]
+[1694645997602] [31m[createMemory][39m George Brown no longer sees Tree (39) at X: 13.75, Y: -13.81 [67.4864655]
+[1694645997725] [31m[createMemory][39m George Brown no longer sees Tree (44) at X: 13.25, Y: -16.78 [67.6198]
+[1694645997783] [31m[createMemory][39m George Brown no longer sees Tree (63) at X: 4.96, Y: -19.42 [67.65313]
+[1694645997868] [31m[createMemory][39m George Brown sees Tree at X: 2.16, Y: -14.95. [67.7197952]
+[1694645997893] [31m[createMemory][39m George Brown sees Tree at X: 2.8, Y: -11.64. [67.68646]
+[1694645998318] [31m[createMemory][39m George Brown no longer sees Tree (28) at X: 2.16, Y: -14.95 [68.0864639]
+[1694645998534] [31m[createMemory][39m George Brown no longer sees Stump (8) at X: 3.68, Y: -17.74 [68.28646]
+[1694645998955] [31m[createMemory][39m George Brown sees Tree Stump at X: 9.14, Y: -7.77. [68.5864639]
+[1694645999412] [31m[createMemory][39m George Brown no longer sees Tree (45) at X: 6.79, Y: -17.79 [68.88647]
+[1694645999583] [31m[createMemory][39m George Brown sees Tree Stump at X: 5.58, Y: -7.27. [68.9864655]
+[1694645999694] [31m[createMemory][39m George Brown no longer sees Tree (25) at X: 3.77, Y: -16.34 [68.9864655]
+[1694645999862] [31m[createMemory][39m George Brown sees Tree Stump at X: 8.46, Y: -6.74. [69.15313]
+[1694646000026] [31m[createMemory][39m George Brown sees Tree at X: 2.38, Y: -9.700001. [69.2197952]
+[1694646000059] [31m[createMemory][39m George Brown no longer sees Tree (40) at X: 10.73, Y: -16.49 [69.3198]
+[1694646001026] [31m[createMemory][39m George Brown no longer sees Tree (38) at X: 11.84, Y: -14.35 [70.0864639]
+[1694646001285] [31m[createMemory][39m George Brown sees Tree at X: 11.02, Y: -4.68. [70.5864639]
+[1694646001369] [31m[createMemory][39m George Brown no longer sees Tree (26) at X: 9.45, Y: -14.39 [70.75313]
+[1694646001431] [31m[createMemory][39m George Brown no longer sees Tree (27) at X: 3.98, Y: -13.79 [70.55313]
+[1694646001591] [31m[createMemory][39m George Brown no longer sees Tree (84) at X: 2.8, Y: -11.64 [70.9864655]
+[1694646001879] [31m[createMemory][39m George Brown sees Tree at X: 4.14, Y: -3.639999. [71.3531342]
+[1694646001973] [31m[createMemory][39m George Brown sees Tree at X: 4.14, Y: -3.639999. [71.3531342]
+[1694646002009] [31m[createMemory][39m George Brown no longer sees Tree (77) at X: 11.7, Y: -12.56 [71.18646]
+[1694646002277] [31m[createMemory][39m George Brown no longer sees Tree (13) at X: 2.38, Y: -9.700001 [71.5864639]
+[1694646002406] [31m[createMemory][39m George Brown sees Tree at X: 13.38, Y: -6.209999. [71.65313]
+[1694646002706] [31m[createMemory][39m George Brown sees Tree at X: 12.09, Y: -3.32. [71.8531342]
+[1694646002731] [31m[createMemory][39m George Brown no longer sees Tree (78) at X: 4.59, Y: -12.01 [71.78646]
+[1694646002774] [31m[createMemory][39m George Brown sees Tree at X: 12.09, Y: -3.32. [71.8531342]
+[1694646004321] [31m[createMemory][39m George Brown no longer sees Tree (42) at X: 13.38, Y: -6.209999 [73.18646]
+[1694646004779] [31m[createMemory][39m George Brown sees Tree at X: 2.89, Y: -1.01. [73.5864639]
+[1694646004856] [31m[createMemory][39m George Brown sees Tree at X: 2.89, Y: -1.01. [73.5864639]
+[1694646005074] [31m[createMemory][39m George Brown no longer sees Stump (2) at X: 8.41, Y: -9.870001 [73.65313]
+[1694646005381] [31m[createMemory][39m George Brown sees Tree at X: 12.93, Y: -1.15. [73.78646]
+[1694646005389] [31m[createMemory][39m George Brown sees Tree at X: 12.93, Y: -1.15. [73.78646]
+[1694646006349] [31m[createMemory][39m George Brown no longer sees Stump (3) at X: 9.14, Y: -7.77 [74.78646]
+[1694646006443] [31m[createMemory][39m George Brown no longer sees Stump (1) at X: 5.58, Y: -7.27 [74.95313]
+[1694646006653] [31m[createMemory][39m George Brown sees Tree at X: 10.57, Y: 3.68. [75.25313]
+[1694646006677] [31m[createMemory][39m George Brown sees Tree at X: 10.57, Y: 3.68. [75.25313]
+[1694646006791] [31m[createMemory][39m George Brown sees Tree at X: 13.13, Y: 1.139999. [75.3531342]
+[1694646006834] [31m[createMemory][39m George Brown sees Tree at X: 13.13, Y: 1.139999. [75.3531342]
+[1694646006907] [31m[createMemory][39m George Brown sees Tree at X: 5.62, Y: 4.21. [75.38647]
+[1694646006952] [31m[createMemory][39m George Brown sees Tree at X: 5.62, Y: 4.21. [75.38647]
+[1694646006969] [31m[createMemory][39m George Brown no longer sees Stump (4) at X: 8.46, Y: -6.74 [75.45313]
+[1694646007087] [31m[createMemory][39m George Brown sees Tree at X: 8.26, Y: 5.17. [75.8198]
+[1694646007123] [31m[createMemory][39m George Brown sees Tree at X: 8.26, Y: 5.17. [75.8198]
+[1694646007256] [31m[createMemory][39m George Brown no longer sees Tree (56) at X: 11.02, Y: -4.68 [75.9864655]
+[1694646007431] [31m[createMemory][39m George Brown no longer sees Tree (82) at X: 12.09, Y: -3.32 [76.25313]
+[1694646007511] [31m[createMemory][39m George Brown no longer sees Tree (530) at X: 12.09, Y: -3.32 [76.25313]
+[1694646007559] [31m[createMemory][39m George Brown sees Tree at X: 12.35, Y: 4.33. [76.38647]
+[1694646007560] [31m[createMemory][39m George Brown sees Tree at X: 12.35, Y: 4.33. [76.38647]
+[1694646007577] [31m[createMemory][39m George Brown no longer sees Tree (517) at X: 4.14, Y: -3.639999 [76.4198]
+[1694646007671] [31m[createMemory][39m George Brown no longer sees Tree (10) at X: 4.14, Y: -3.639999 [76.4198]
+[1694646007717] [31m[createMemory][39m George Brown sees Tree Stump at X: 4.49, Y: 5.49. [76.5864639]
+[1694646007717] [31m[createMemory][39m George Brown sees Tree Stump at X: 4.49, Y: 5.49. [76.5864639]
+[1694646007899] [31m[createMemory][39m George Brown no longer sees Tree (786) at X: 12.93, Y: -1.15 [76.8198]
+[1694646007899] [31m[createMemory][39m George Brown no longer sees Tree (96) at X: 12.93, Y: -1.15 [76.8198]
+[1694646007939] [31m[createMemory][39m George Brown sees Tree at X: 9.18, Y: 6.9. [76.8531342]
+[1694646007950] [31m[createMemory][39m George Brown sees Tree at X: 9.18, Y: 6.9. [76.8531342]
+[1694646008019] [31m[createMemory][39m George Brown sees Tree at X: 5.81, Y: 6.9. [76.9198]
+[1694646008054] [31m[createMemory][39m George Brown sees Tree at X: 11.74, Y: 5.87. [76.9198]
+[1694646008076] [31m[createMemory][39m George Brown sees Tree at X: 5.81, Y: 6.9. [76.9198]
+[1694646008109] [31m[createMemory][39m George Brown sees Tree at X: 11.74, Y: 5.87. [76.9198]
+[1694646008211] [31m[createMemory][39m George Brown sees Tree at X: 2.71, Y: 4.690001. [77.0198]
+[1694646008211] [31m[createMemory][39m George Brown sees Tree at X: 2.71, Y: 4.690001. [77.0198]
+[1694646008351] [31m[createMemory][39m George Brown no longer sees Tree (480) at X: 2.89, Y: -1.01 [77.15313]
+[1694646008393] [31m[createMemory][39m George Brown no longer sees Tree (3) at X: 2.89, Y: -1.01 [77.15313]
+[1694646009384] [31m[createMemory][39m George Brown sees Tree at X: 7.61, Y: 8.54. [77.75313]
+[1694646009409] [31m[createMemory][39m George Brown sees Tree at X: 7.61, Y: 8.54. [77.75313]
+[1694646009483] [31m[createMemory][39m George Brown no longer sees Tree (97) at X: 13.13, Y: 1.139999 [77.88647]
+[1694646009546] [31m[createMemory][39m George Brown no longer sees Tree (787) at X: 13.13, Y: 1.139999 [77.88647]
+[1694646009604] [31m[createMemory][39m George Brown sees Tree at X: 3.15, Y: 6.9. [77.9198]
+[1694646009618] [31m[createMemory][39m George Brown sees Tree at X: 3.15, Y: 6.9. [77.9198]
+[1694646009747] [31m[createMemory][39m George Brown sees Tree Stump at X: 9.65, Y: 8.56. [77.9864655]
+[1694646009769] [31m[createMemory][39m George Brown sees Tree Stump at X: 9.65, Y: 8.56. [77.9864655]
+[1694646009966] [31m[createMemory][39m George Brown sees Tree at X: 5.02, Y: 8.8. [78.15313]
+[1694646010013] [31m[createMemory][39m George Brown sees Tree at X: 5.02, Y: 8.8. [78.15313]
+[1694646010367] [31m[createMemory][39m George Brown sees Tree at X: 11.42, Y: 8.92. [78.5864639]
+[1694646010451] [31m[createMemory][39m George Brown sees Tree at X: 11.42, Y: 8.92. [78.5864639]
+[1694646011225] [31m[createMemory][39m George Brown sees Tree at X: 9.51, Y: 10.14. [78.88647]
+[1694646011385] [31m[createMemory][39m George Brown sees Tree at X: 9.51, Y: 10.14. [78.88647]
+[1694646011767] [31m[createMemory][39m George Brown sees Tree at X: 6.5, Y: 10.93. [79.2197952]
+[1694646011812] [31m[createMemory][39m George Brown sees Tree at X: 6.5, Y: 10.93. [79.2197952]
+[1694646012482] [31m[createMemory][39m George Brown sees Tree at X: 13.48, Y: 6.9. [79.5864639]
+[1694646012630] [31m[createMemory][39m George Brown sees Tree at X: 13.48, Y: 6.9. [79.5864639]
+[1694646013738] [31m[createMemory][39m George Brown no longer sees Tree (821) at X: 2.71, Y: 4.690001 [79.95313]
+[1694646014278] [31m[createMemory][39m George Brown no longer sees Tree (14) at X: 2.71, Y: 4.690001 [79.95313]
+[1694646014365] [31m[createMemory][39m George Brown sees Tree at X: 13.65, Y: 8.8. [80.0864639]
+[1694646014498] [31m[createMemory][39m George Brown sees Tree at X: 13.65, Y: 8.8. [80.0864639]
+[1694646014900] [31m[createMemory][39m George Brown sees Tree at X: 11.43, Y: 11.79. [80.25313]
+[1694646015027] [31m[createMemory][39m George Brown sees Tree at X: 11.43, Y: 11.79. [80.25313]
+[1694646015625] [31m[createMemory][39m George Brown sees Tree at X: 7.34, Y: 12.63. [80.4198]
+[1694646015748] [31m[createMemory][39m George Brown sees Tree at X: 7.34, Y: 12.63. [80.4198]
+[1694646016686] [31m[createMemory][39m George Brown sees Tree at X: 4.7, Y: 11.67. [80.5864639]
+[1694646017535] [31m[createMemory][39m George Brown sees Tree at X: 10.82, Y: 13.33. [80.95313]
+[1694646017670] [31m[createMemory][39m George Brown sees Tree at X: 4.7, Y: 11.67. [80.5864639]
+[1694646017701] [31m[createMemory][39m George Brown sees Tree at X: 10.82, Y: 13.33. [80.95313]
+[1694646017806] [31m[createMemory][39m George Brown no longer sees Tree (123) at X: 3.15, Y: 6.9 [80.9864655]
+[1694646017839] [31m[createMemory][39m George Brown no longer sees Tree (804) at X: 3.15, Y: 6.9 [80.9864655]
+[1694646017846] [31m[createMemory][39m George Brown sees Tree at X: 3.31, Y: 10.14. [81.0198]
+[1694646017967] [31m[createMemory][39m George Brown sees Tree at X: 3.31, Y: 10.14. [81.0198]
+[1694646018118] [31m[createMemory][39m George Brown no longer sees Tree (117) at X: 12.35, Y: 4.33 [81.3531342]
+[1694646018206] [31m[createMemory][39m George Brown no longer sees Tree (799) at X: 12.35, Y: 4.33 [81.3531342]
+[1694646018321] [31m[createMemory][39m George Brown sees Tree at X: 8.26, Y: 14.36. [81.45313]
+[1694646018353] [31m[createMemory][39m George Brown sees Tree at X: 8.26, Y: 14.36. [81.45313]
+[1694646018415] [31m[createMemory][39m George Brown no longer sees Tree (24) at X: 3.31, Y: 10.14 [81.5864639]
+[1694646018459] [31m[createMemory][39m George Brown no longer sees Stump (65) at X: 4.49, Y: 5.49 [81.68646]
+[1694646018463] [31m[createMemory][39m George Brown no longer sees Tree (823) at X: 3.31, Y: 10.14 [81.5864639]
+[1694646018509] [31m[createMemory][39m George Brown no longer sees Stump (13) at X: 4.49, Y: 5.49 [81.68646]
+[1694646018583] [31m[createMemory][39m George Brown no longer sees Tree (788) at X: 5.62, Y: 4.21 [81.45313]
+[1694646018584] [31m[createMemory][39m George Brown no longer sees Tree (99) at X: 5.62, Y: 4.21 [81.45313]
+[1694646018584] [31m[createMemory][39m George Brown no longer sees Tree (79) at X: 10.57, Y: 3.68 [81.45313]
+[1694646018584] [31m[createMemory][39m George Brown no longer sees Tree (522) at X: 10.57, Y: 3.68 [81.45313]
+[1694646018679] [31m[createMemory][39m George Brown sees Tree at X: 12.56, Y: 14.36. [81.9864655]
+[1694646018774] [31m[createMemory][39m George Brown sees Tree at X: 12.56, Y: 14.36. [81.9864655]
+[1694646018885] [31m[createMemory][39m George Brown finished walking to 10, Y: 10. [82.21997]
+[1694646037103] Getting action 0
+[1694646037103] Getting result 0
+[1694646037103] Getting action 1
+[1694646037103] Getting result 1
+[1694646037103] Getting action 2
+[1694646037103] Getting result 2
+[1694646037103] --- Prompt ---
+[1694646037106] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 9.856159, 9.435957
+
+Time: Day 0, 8:13 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Tree (Health: 10/10) [Direction: NE, Distance: 0.78m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 0.78m]
+- Tree Stump (Health: 5/5) [Direction: NE, Distance: 0.90m]
+- Tree Stump (Health: 5/5) [Direction: NE, Distance: 0.90m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 1.6m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 1.6m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 2.4m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 2.4m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 2.6m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 2.6m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 2.8m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 2.8m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 3.7m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 3.7m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 3.8m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 3.8m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 4.0m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 4.0m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 4.0m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 4.0m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 4.1m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 4.1m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 4.4m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 4.4m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 4.6m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 4.6m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 4.8m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 4.8m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 4.9m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 4.9m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 5.2m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 5.2m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 5.6m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 5.6m]
+- Tree (Health: 10/10) [Direction: E, Distance: 5.6m]
+- Tree (Health: 10/10) [Direction: E, Distance: 5.6m]
+- Tree (Health: 10/10) [Direction: N, Distance: 5.7m]
+- Tree (Health: 10/10) [Direction: N, Distance: 5.7m]
+- Tree (Health: 10/10) [Direction: N, Distance: 5.8m]
+- Tree (Health: 10/10) [Direction: N, Distance: 5.8m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 5.9m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 5.9m]
+- Tree (Health: 10/10) [Direction: E, Distance: 6.6m]
+- Tree (Health: 10/10) [Direction: E, Distance: 6.6m]
+- Tree Stump (Health: 5/5) [Direction: NE, Distance: 6.7m]
+- Tree Stump (Health: 5/5) [Direction: NE, Distance: 6.7m]
+- Tree Stump (Health: 5/5) [Direction: NE, Distance: 6.7m]
+- Tree Stump (Health: 5/5) [Direction: NE, Distance: 6.7m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 6.7m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 6.7m]
+- Tree (Health: 10/10) [Direction: N, Distance: 6.8m]
+- Tree (Health: 10/10) [Direction: N, Distance: 6.8m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: E, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: E, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 7.2m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 7.2m]
+- Tree Stump (Health: 5/5) [Direction: E, Distance: 7.2m]
+- Tree Stump (Health: 5/5) [Direction: E, Distance: 7.2m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 7.3m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 7.3m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 7.3m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 7.4m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 7.4m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 7.7m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 7.7m]
+- Tree (Health: 10/10) [Direction: N, Distance: 7.8m]
+- Tree (Health: 10/10) [Direction: N, Distance: 7.8m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 7.8m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 7.8m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 8.0m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: E, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: E, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: E, Distance: 8.5m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 8.6m]
+- Tree (Health: 10/10) [Direction: NE, Distance: 8.6m]
+- Tree (Health: 10/10) [Direction: E, Distance: 8.9m]
+- Tree (Health: 10/10) [Direction: E, Distance: 8.9m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I've had a few close calls, but always came out safe. [8 hours ago]
+- I've saved up to buy a house near the village. [8 hours ago]
+- The village festivities are something I look forward to every year. [8 hours ago]
+- I've been friends with Thomas for a long time. [8 hours ago]
+- I sometimes join Thomas and others for a meal after work. [8 hours ago]
+- George Brown is quite tired today. [8 hours ago]
+- I know a secret tunnel in the mine that few know about. [8 hours ago]
+- Working in the mines is tough but rewarding. [8 hours ago]
+- I take pride in my work and look after my equipment. [8 hours ago]
+- I've been taught traditional mining songs by the older miners. [8 hours ago]
+
+Previous Actions:
+- [eat]: George Brown ate Berries which restored 10 satiety. [6 hours ago]
+- [move_to]: George Brown walked to X: 20.53, Y: -62.05. [5 hours ago]
+- [move_to]: George Brown walked to X: 10, Y: 10. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694646037106] --- Action Functions ---
+[1694646037108] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_axe",
+    "description": "Swing Axe.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_pickaxe",
+    "description": "Swing Pickaxe.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_sword",
+    "description": "Swing sword.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694646040435] --- Response ---
+[1694646040435] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 20.53,\n  \"y\": -62.05\n}"
+  }
+}
+[1694646040437] --- Verified Action ---
+[1694646040437] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A2",
+    "x": 20.53,
+    "y": -62.05
+  }
+}
+[1694646040706] [31m[createMemory][39m George Brown has started walking to 20.53, Y: -62.05. [110.486465]
+[1694646041072] [31m[createMemory][39m George Brown no longer sees Tree (1067) at X: 12.56, Y: 14.36 [110.853134]
+[1694646041072] [31m[createMemory][39m George Brown no longer sees Tree (1085) at X: 12.56, Y: 14.36 [110.853134]
+[1694646041350] [31m[createMemory][39m George Brown sees Tree Stump at X: 4.49, Y: 5.49. [111.1198]
+[1694646041389] [31m[createMemory][39m George Brown sees Tree Stump at X: 4.49, Y: 5.49. [111.1198]
+[1694646041390] [31m[createMemory][39m George Brown sees Tree at X: 3.31, Y: 10.14. [111.15313]
+[1694646041390] [31m[createMemory][39m George Brown sees Tree at X: 3.31, Y: 10.14. [111.15313]
+[1694646041562] [31m[createMemory][39m George Brown no longer sees Tree (1066) at X: 8.26, Y: 14.36 [111.353134]
+[1694646041657] [31m[createMemory][39m George Brown sees Tree at X: 5.62, Y: 4.21. [111.353134]
+[1694646041696] [31m[createMemory][39m George Brown sees Tree at X: 12.35, Y: 4.33. [111.386467]
+[1694646041701] [31m[createMemory][39m George Brown sees Tree at X: 5.62, Y: 4.21. [111.353134]
+[1694646041701] [31m[createMemory][39m George Brown sees Tree at X: 10.57, Y: 3.68. [111.353134]
+[1694646041702] [31m[createMemory][39m George Brown sees Tree at X: 10.57, Y: 3.68. [111.353134]
+[1694646041702] [31m[createMemory][39m George Brown no longer sees Tree (1084) at X: 8.26, Y: 14.36 [111.353134]
+[1694646041709] [31m[createMemory][39m George Brown sees Tree at X: 12.35, Y: 4.33. [111.386467]
+[1694646041931] [31m[createMemory][39m George Brown no longer sees Tree (24) at X: 3.31, Y: 10.14 [111.719795]
+[1694646041931] [31m[createMemory][39m George Brown no longer sees Tree (823) at X: 3.31, Y: 10.14 [111.719795]
+[1694646042031] [31m[createMemory][39m George Brown no longer sees Tree (1061) at X: 10.82, Y: 13.33 [111.8198]
+[1694646042034] [31m[createMemory][39m George Brown no longer sees Tree (1079) at X: 10.82, Y: 13.33 [111.8198]
+[1694646042063] [31m[createMemory][39m George Brown sees Tree at X: 3.15, Y: 6.9. [111.853134]
+[1694646042078] [31m[createMemory][39m George Brown sees Tree at X: 3.15, Y: 6.9. [111.853134]
+[1694646042595] [31m[createMemory][39m George Brown no longer sees Tree (1078) at X: 4.7, Y: 11.67 [112.3198]
+[1694646042614] [31m[createMemory][39m George Brown no longer sees Tree (1060) at X: 4.7, Y: 11.67 [112.3198]
+[1694646042973] [31m[createMemory][39m George Brown no longer sees Tree (1075) at X: 7.34, Y: 12.63 [112.386467]
+[1694646042991] [31m[createMemory][39m George Brown no longer sees Tree (1093) at X: 7.34, Y: 12.63 [112.386467]
+[1694646043577] [31m[createMemory][39m George Brown no longer sees Tree (1062) at X: 11.43, Y: 11.79 [112.553131]
+[1694646043708] [31m[createMemory][39m George Brown no longer sees Tree (1080) at X: 11.43, Y: 11.79 [112.553131]
+[1694646044102] [31m[createMemory][39m George Brown no longer sees Tree (130) at X: 13.65, Y: 8.8 [112.753128]
+[1694646044136] [31m[createMemory][39m George Brown no longer sees Tree (810) at X: 13.65, Y: 8.8 [112.753128]
+[1694646044282] [31m[createMemory][39m George Brown sees Tree at X: 2.71, Y: 4.690001. [112.8198]
+[1694646044312] [31m[createMemory][39m George Brown sees Tree at X: 2.71, Y: 4.690001. [112.8198]
+[1694646044574] [31m[createMemory][39m George Brown no longer sees Tree (126) at X: 13.48, Y: 6.9 [113.15313]
+[1694646044590] [31m[createMemory][39m George Brown no longer sees Tree (807) at X: 13.48, Y: 6.9 [113.15313]
+[1694646044713] [31m[createMemory][39m George Brown no longer sees Tree (135) at X: 6.5, Y: 10.93 [113.586464]
+[1694646044747] [31m[createMemory][39m George Brown no longer sees Tree (815) at X: 6.5, Y: 10.93 [113.586464]
+[1694646044877] [31m[createMemory][39m George Brown no longer sees Tree (136) at X: 9.51, Y: 10.14 [113.886467]
+[1694646044906] [31m[createMemory][39m George Brown no longer sees Tree (816) at X: 9.51, Y: 10.14 [113.886467]
+[1694646044932] [31m[createMemory][39m George Brown no longer sees Tree (129) at X: 11.42, Y: 8.92 [113.953133]
+[1694646044991] [31m[createMemory][39m George Brown no longer sees Tree (809) at X: 11.42, Y: 8.92 [113.953133]
+[1694646045226] [31m[createMemory][39m George Brown sees Tree at X: 1.96, Y: 1.940001. [114.353134]
+[1694646045493] [31m[createMemory][39m George Brown sees Tree at X: 1.96, Y: 1.940001. [114.353134]
+[1694646045804] [31m[createMemory][39m George Brown no longer sees Stump (66) at X: 9.65, Y: 8.56 [114.6198]
+[1694646045963] [31m[createMemory][39m George Brown no longer sees Stump (14) at X: 9.65, Y: 8.56 [114.6198]
+[1694646045963] [31m[createMemory][39m George Brown no longer sees Tree (811) at X: 5.02, Y: 8.8 [114.65313]
+[1694646046109] [31m[createMemory][39m George Brown no longer sees Tree (131) at X: 5.02, Y: 8.8 [114.65313]
+[1694646046280] [31m[createMemory][39m George Brown no longer sees Tree (814) at X: 7.61, Y: 8.54 [114.953133]
+[1694646046410] [31m[createMemory][39m George Brown no longer sees Tree (134) at X: 7.61, Y: 8.54 [114.953133]
+[1694646046739] [31m[createMemory][39m George Brown no longer sees Tree (123) at X: 3.15, Y: 6.9 [115.1198]
+[1694646046743] [31m[createMemory][39m George Brown no longer sees Tree (804) at X: 3.15, Y: 6.9 [115.1198]
+[1694646046897] [31m[createMemory][39m George Brown sees Tree at X: 2.89, Y: -1.01. [115.186462]
+[1694646046904] [31m[createMemory][39m George Brown sees Tree at X: 2.89, Y: -1.01. [115.186462]
+[1694646047127] [31m[createMemory][39m George Brown no longer sees Tree (795) at X: 11.74, Y: 5.87 [115.486465]
+[1694646047356] [31m[createMemory][39m George Brown no longer sees Tree (108) at X: 11.74, Y: 5.87 [115.486465]
+[1694646047366] [31m[createMemory][39m George Brown no longer sees Tree (125) at X: 9.18, Y: 6.9 [115.786461]
+[1694646047420] [31m[createMemory][39m George Brown no longer sees Tree (806) at X: 9.18, Y: 6.9 [115.786461]
+[1694646047521] [31m[createMemory][39m George Brown no longer sees Tree (805) at X: 5.81, Y: 6.9 [115.853134]
+[1694646047575] [31m[createMemory][39m George Brown no longer sees Tree (124) at X: 5.81, Y: 6.9 [115.853134]
+[1694646047648] [31m[createMemory][39m George Brown no longer sees Tree (117) at X: 12.35, Y: 4.33 [115.886467]
+[1694646047653] [31m[createMemory][39m George Brown no longer sees Tree (799) at X: 12.35, Y: 4.33 [115.886467]
+[1694646048075] [31m[createMemory][39m George Brown no longer sees Tree (821) at X: 2.71, Y: 4.690001 [116.086464]
+[1694646048231] [31m[createMemory][39m George Brown sees Tree at X: 4.14, Y: -3.639999. [116.1198]
+[1694646048345] [31m[createMemory][39m George Brown sees Tree at X: 4.14, Y: -3.639999. [116.1198]
+[1694646048517] [31m[createMemory][39m George Brown no longer sees Tree (14) at X: 2.71, Y: 4.690001 [116.086464]
+[1694646048824] [31m[createMemory][39m George Brown no longer sees Stump (65) at X: 4.49, Y: 5.49 [116.286461]
+[1694646048838] [31m[createMemory][39m George Brown no longer sees Stump (13) at X: 4.49, Y: 5.49 [116.286461]
+[1694646050026] [31m[createMemory][39m George Brown sees Tree at X: 12.93, Y: -1.15. [116.786461]
+[1694646050034] [31m[createMemory][39m George Brown sees Tree at X: 12.09, Y: -3.32. [116.786461]
+[1694646050034] [31m[createMemory][39m George Brown sees Tree at X: 12.93, Y: -1.15. [116.786461]
+[1694646050034] [31m[createMemory][39m George Brown sees Tree at X: 12.09, Y: -3.32. [116.786461]
+[1694646050360] [31m[createMemory][39m George Brown no longer sees Tree (121) at X: 8.26, Y: 5.17 [116.886467]
+[1694646050389] [31m[createMemory][39m George Brown sees Tree at X: 11.02, Y: -4.68. [116.953133]
+[1694646050485] [31m[createMemory][39m George Brown no longer sees Tree (820) at X: 1.96, Y: 1.940001 [116.953133]
+[1694646050509] [31m[createMemory][39m George Brown no longer sees Tree (11) at X: 1.96, Y: 1.940001 [116.953133]
+[1694646050516] [31m[createMemory][39m George Brown no longer sees Tree (818) at X: 8.26, Y: 5.17 [116.886467]
+[1694646050671] [31m[createMemory][39m George Brown sees Tree Stump at X: 8.46, Y: -6.74. [117.286461]
+[1694646050689] [31m[createMemory][39m George Brown no longer sees Tree (79) at X: 10.57, Y: 3.68 [117.3198]
+[1694646050783] [31m[createMemory][39m George Brown no longer sees Tree (522) at X: 10.57, Y: 3.68 [117.3198]
+[1694646050969] [31m[createMemory][39m George Brown no longer sees Tree (99) at X: 5.62, Y: 4.21 [117.386467]
+[1694646051110] [31m[createMemory][39m George Brown no longer sees Tree (788) at X: 5.62, Y: 4.21 [117.386467]
+[1694646051301] [31m[createMemory][39m George Brown sees Tree Stump at X: 5.58, Y: -7.27. [117.65313]
+[1694646051438] [31m[createMemory][39m George Brown sees Tree Stump at X: 9.14, Y: -7.77. [117.986465]
+[1694646051679] [31m[createMemory][39m George Brown sees Tree at X: 1.78, Y: -4.23. [118.15313]
+[1694646051686] [31m[createMemory][39m George Brown sees Tree at X: 1.78, Y: -4.23. [118.15313]
+[1694646051744] [31m[createMemory][39m George Brown no longer sees Tree (786) at X: 12.93, Y: -1.15 [117.986465]
+[1694646051744] [31m[createMemory][39m George Brown no longer sees Tree (96) at X: 12.93, Y: -1.15 [117.986465]
+[1694646052651] [31m[createMemory][39m George Brown sees Tree Stump at X: 8.41, Y: -9.870001. [119.086464]
+[1694646052861] [31m[createMemory][39m George Brown no longer sees Tree (480) at X: 2.89, Y: -1.01 [119.486465]
+[1694646052977] [31m[createMemory][39m George Brown no longer sees Tree (3) at X: 2.89, Y: -1.01 [119.486465]
+[1694646053380] [31m[createMemory][39m George Brown no longer sees Tree (516) at X: 1.78, Y: -4.23 [120.186462]
+[1694646053398] [31m[createMemory][39m George Brown no longer sees Tree (9) at X: 1.78, Y: -4.23 [120.186462]
+[1694646053848] [31m[createMemory][39m George Brown no longer sees Tree (82) at X: 12.09, Y: -3.32 [120.486465]
+[1694646053996] [31m[createMemory][39m George Brown sees Tree at X: 2.38, Y: -9.700001. [120.5198]
+[1694646054000] [31m[createMemory][39m George Brown no longer sees Tree (530) at X: 12.09, Y: -3.32 [120.486465]
+[1694646054375] [31m[createMemory][39m George Brown sees Tree at X: 4.59, Y: -12.01. [120.753128]
+[1694646054846] [31m[createMemory][39m George Brown sees Tree at X: 2.8, Y: -11.64. [121.286461]
+[1694646055888] [31m[createMemory][39m George Brown no longer sees Tree (517) at X: 4.14, Y: -3.639999 [121.553131]
+[1694646056717] [31m[createMemory][39m George Brown no longer sees Tree (10) at X: 4.14, Y: -3.639999 [121.553131]
+[1694646056942] [31m[createMemory][39m George Brown no longer sees Tree (56) at X: 11.02, Y: -4.68 [121.9198]
+[1694646057089] [31m[createMemory][39m George Brown sees Tree at X: 3.98, Y: -13.79. [121.953133]
+[1694646057122] [31m[createMemory][39m George Brown sees Tree at X: 11.7, Y: -12.56. [121.786461]
+[1694646057250] [31m[createMemory][39m George Brown sees Tree at X: 9.45, Y: -14.39. [122.0198]
+[1694646058028] [31m[getLatestMemories] Retrieving top 100 latest memories.[39m
+[1694646059073] [31m[createMemory][39m George Brown sees Tree at X: 11.84, Y: -14.35. [122.9198]
+[1694646059498] [31m[createMemory][39m George Brown sees Tree at X: 3.77, Y: -16.34. [123.486465]
+[1694646059849] [31m[createMemory][39m George Brown sees Tree at X: 10.73, Y: -16.49. [123.553131]
+[1694646060025] [31m[createMemory][39m George Brown no longer sees Stump (4) at X: 8.46, Y: -6.74 [123.553131]
+[1694646060167] [31m[createMemory][39m George Brown sees Tree at X: 2.16, Y: -14.95. [123.753128]
+[1694646060478] [31m[createMemory][39m George Brown sees Tree at X: 6.79, Y: -17.79. [123.853134]
+[1694646060817] [31m[createMemory][39m George Brown no longer sees Stump (1) at X: 5.58, Y: -7.27 [123.786461]
+[1694646061498] [31m[createMemory][39m George Brown no longer sees Tree (13) at X: 2.38, Y: -9.700001 [124.053131]
+[1694646061786] [31m[createMemory][39m George Brown no longer sees Stump (3) at X: 9.14, Y: -7.77 [124.053131]
+[1694646061949] [31m[createMemory][39m George Brown sees Tree Stump at X: 3.68, Y: -17.74. [124.15313]
+[1694646064281] [31m[createMemory][39m George Brown sees Tree at X: 4.96, Y: -19.42. [124.9198]
+[1694646064449] [31m[createMemory][39m George Brown no longer sees Tree (84) at X: 2.8, Y: -11.64 [125.486465]
+[1694646064574] [31m[createMemory][39m George Brown sees Tree at X: 2.43, Y: -18.65. [125.586464]
+[1694646064739] [31m[createMemory][39m George Brown no longer sees Stump (2) at X: 8.41, Y: -9.870001 [125.353134]
+[1694646064920] [31m[createMemory][39m George Brown sees Tree at X: 13.25, Y: -16.78. [126.053131]
+[1694646064935] [31m[createMemory][39m George Brown sees Tree at X: 12.43, Y: -19.6. [126.15313]
+[1694646065039] [31m[createMemory][39m George Brown no longer sees Tree (28) at X: 2.16, Y: -14.95 [126.186462]
+[1694646065077] [31m[createMemory][39m George Brown sees Tree at X: 6, Y: -20.83. [125.586464]
+[1694646065204] [31m[createMemory][39m George Brown no longer sees Tree (73) at X: 2.43, Y: -18.65 [126.219795]
+[1694646065225] [31m[createMemory][39m George Brown no longer sees Tree (78) at X: 4.59, Y: -12.01 [126.386467]
+[1694646065351] [31m[createMemory][39m George Brown no longer sees Tree (77) at X: 11.7, Y: -12.56 [126.719795]
+[1694646065612] [31m[createMemory][39m George Brown sees Tree at X: 7.04, Y: -22.88. [126.953133]
+[1694646065815] [31m[createMemory][39m George Brown no longer sees Tree (27) at X: 3.98, Y: -13.79 [127.053131]
+[1694646065965] [31m[createMemory][39m George Brown sees Tree at X: 3.78, Y: -21.44. [127.15313]
+[1694646066210] [31m[createMemory][39m George Brown no longer sees Tree (64) at X: 3.78, Y: -21.44 [127.3198]
+[1694646066290] [31m[createMemory][39m George Brown sees Stone Ore Deposit (Small) at X: 14.39, Y: -18.34. [127.65313]
+[1694646066372] [31m[createMemory][39m George Brown no longer sees Tree (25) at X: 3.77, Y: -16.34 [127.786461]
+[1694646066420] [31m[createMemory][39m George Brown no longer sees Stump (8) at X: 3.68, Y: -17.74 [127.853134]
+[1694646066556] [31m[createMemory][39m George Brown no longer sees Tree (38) at X: 11.84, Y: -14.35 [128.519791]
+[1694646066697] [
+  {
+    "id": "clmicigbp00e7vdpzextxpto4",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 1.78, Y: -4.23.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:56.720Z",
+    "time": 118.15313,
+    "createdAt": "2023-09-13T23:00:56.720Z",
+    "updatedAt": "2023-09-13T23:00:56.720Z"
+  },
+  {
+    "id": "clmicif4a00e6vdpznu237ovx",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree Stump at X: 9.14, Y: -7.77.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:55.384Z",
+    "time": 117.986465,
+    "createdAt": "2023-09-13T23:00:55.384Z",
+    "updatedAt": "2023-09-13T23:00:55.384Z"
+  },
+  {
+    "id": "clmicievw00e5vdpzraindyly",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree Stump at X: 5.58, Y: -7.27.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:55.049Z",
+    "time": 117.65313,
+    "createdAt": "2023-09-13T23:00:55.049Z",
+    "updatedAt": "2023-09-13T23:00:55.049Z"
+  },
+  {
+    "id": "clmiciege00e4vdpzty90avf7",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (99) at X: 5.62, Y: 4.21",
+    "importance": 6,
+    "accessedAt": "2023-09-13T23:00:54.931Z",
+    "time": 117.386467,
+    "createdAt": "2023-09-13T23:00:54.931Z",
+    "updatedAt": "2023-09-13T23:00:54.931Z"
+  },
+  {
+    "id": "clmicie9g00e3vdpz7jl5mc6b",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (788) at X: 5.62, Y: 4.21",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:54.817Z",
+    "time": 117.386467,
+    "createdAt": "2023-09-13T23:00:54.817Z",
+    "updatedAt": "2023-09-13T23:00:54.817Z"
+  },
+  {
+    "id": "clmiciczl00dxvdpzijdrtzmw",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (820) at X: 1.96, Y: 1.940001",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:54.091Z",
+    "time": 116.953133,
+    "createdAt": "2023-09-13T23:00:54.091Z",
+    "updatedAt": "2023-09-13T23:00:54.091Z"
+  },
+  {
+    "id": "clmicid9e00dzvdpzdhyvrqlp",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (818) at X: 8.26, Y: 5.17",
+    "importance": 8,
+    "accessedAt": "2023-09-13T23:00:54.179Z",
+    "time": 116.886467,
+    "createdAt": "2023-09-13T23:00:54.179Z",
+    "updatedAt": "2023-09-13T23:00:54.179Z"
+  },
+  {
+    "id": "clmiciceg00dvvdpzjgupwflw",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (121) at X: 8.26, Y: 5.17",
+    "importance": 6,
+    "accessedAt": "2023-09-13T23:00:53.850Z",
+    "time": 116.886467,
+    "createdAt": "2023-09-13T23:00:53.850Z",
+    "updatedAt": "2023-09-13T23:00:53.850Z"
+  },
+  {
+    "id": "clmicibwx00dtvdpz11oiurw0",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 12.09, Y: -3.32.",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:53.546Z",
+    "time": 116.786461,
+    "createdAt": "2023-09-13T23:00:53.546Z",
+    "updatedAt": "2023-09-13T23:00:53.546Z"
+  },
+  {
+    "id": "clmicibvl00dsvdpzpulrcp0d",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 12.09, Y: -3.32.",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:53.546Z",
+    "time": 116.786461,
+    "createdAt": "2023-09-13T23:00:53.546Z",
+    "updatedAt": "2023-09-13T23:00:53.546Z"
+  },
+  {
+    "id": "clmicic4k00duvdpzm0uetu3y",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 12.93, Y: -1.15.",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:53.615Z",
+    "time": 116.786461,
+    "createdAt": "2023-09-13T23:00:53.615Z",
+    "updatedAt": "2023-09-13T23:00:53.615Z"
+  },
+  {
+    "id": "clmicibvk00drvdpz8kaqd3j2",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 12.93, Y: -1.15.",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:53.546Z",
+    "time": 116.786461,
+    "createdAt": "2023-09-13T23:00:53.546Z",
+    "updatedAt": "2023-09-13T23:00:53.546Z"
+  },
+  {
+    "id": "clmiciayp00dovdpzqpm12ic1",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Stump (13) at X: 4.49, Y: 5.49",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:52.819Z",
+    "time": 116.286461,
+    "createdAt": "2023-09-13T23:00:52.819Z",
+    "updatedAt": "2023-09-13T23:00:52.819Z"
+  },
+  {
+    "id": "clmicia9r00djvdpzsxb0j5cp",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 4.14, Y: -3.639999.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:52.281Z",
+    "time": 116.1198,
+    "createdAt": "2023-09-13T23:00:52.281Z",
+    "updatedAt": "2023-09-13T23:00:52.281Z"
+  },
+  {
+    "id": "clmicia9r00dkvdpzfqjfrvn7",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 4.14, Y: -3.639999.",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:52.347Z",
+    "time": 116.1198,
+    "createdAt": "2023-09-13T23:00:52.347Z",
+    "updatedAt": "2023-09-13T23:00:52.347Z"
+  },
+  {
+    "id": "clmicia1e00divdpzfkke77xf",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (821) at X: 2.71, Y: 4.690001",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:51.845Z",
+    "time": 116.086464,
+    "createdAt": "2023-09-13T23:00:51.845Z",
+    "updatedAt": "2023-09-13T23:00:51.845Z"
+  },
+  {
+    "id": "clmici8tw00dgvdpzcmhxiqjy",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (799) at X: 12.35, Y: 4.33",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:51.639Z",
+    "time": 115.886467,
+    "createdAt": "2023-09-13T23:00:51.639Z",
+    "updatedAt": "2023-09-13T23:00:51.639Z"
+  },
+  {
+    "id": "clmici8d000ddvdpz928wlham",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (805) at X: 5.81, Y: 6.9",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:51.513Z",
+    "time": 115.853134,
+    "createdAt": "2023-09-13T23:00:51.513Z",
+    "updatedAt": "2023-09-13T23:00:51.513Z"
+  },
+  {
+    "id": "clmici8f100devdpzu1oi0rfb",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (124) at X: 5.81, Y: 6.9",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:51.518Z",
+    "time": 115.853134,
+    "createdAt": "2023-09-13T23:00:51.518Z",
+    "updatedAt": "2023-09-13T23:00:51.518Z"
+  },
+  {
+    "id": "clmici85500davdpz0dsdmf88",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (125) at X: 9.18, Y: 6.9",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:51.232Z",
+    "time": 115.786461,
+    "createdAt": "2023-09-13T23:00:51.232Z",
+    "updatedAt": "2023-09-13T23:00:51.232Z"
+  },
+  {
+    "id": "clmici88m00dbvdpzezvik4ev",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (108) at X: 11.74, Y: 5.87",
+    "importance": 6,
+    "accessedAt": "2023-09-13T23:00:51.364Z",
+    "time": 115.486465,
+    "createdAt": "2023-09-13T23:00:51.364Z",
+    "updatedAt": "2023-09-13T23:00:51.364Z"
+  },
+  {
+    "id": "clmici7zj00d8vdpznl1vhd9p",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (795) at X: 11.74, Y: 5.87",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:50.897Z",
+    "time": 115.486465,
+    "createdAt": "2023-09-13T23:00:50.897Z",
+    "updatedAt": "2023-09-13T23:00:50.897Z"
+  },
+  {
+    "id": "clmici80w00d9vdpz00h9qptd",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 2.89, Y: -1.01.",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:50.933Z",
+    "time": 115.186462,
+    "createdAt": "2023-09-13T23:00:50.933Z",
+    "updatedAt": "2023-09-13T23:00:50.933Z"
+  },
+  {
+    "id": "clmici7o300d7vdpznuq41h8n",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 2.89, Y: -1.01.",
+    "importance": 3.7,
+    "accessedAt": "2023-09-13T23:00:50.589Z",
+    "time": 115.186462,
+    "createdAt": "2023-09-13T23:00:50.589Z",
+    "updatedAt": "2023-09-13T23:00:50.589Z"
+  },
+  {
+    "id": "clmici70d00d5vdpz7t4zt9sm",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (123) at X: 3.15, Y: 6.9",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:50.157Z",
+    "time": 115.1198,
+    "createdAt": "2023-09-13T23:00:50.157Z",
+    "updatedAt": "2023-09-13T23:00:50.157Z"
+  },
+  {
+    "id": "clmici71d00d6vdpzqkgox64g",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (804) at X: 3.15, Y: 6.9",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:50.189Z",
+    "time": 115.1198,
+    "createdAt": "2023-09-13T23:00:50.189Z",
+    "updatedAt": "2023-09-13T23:00:50.189Z"
+  },
+  {
+    "id": "clmici6hy00d3vdpzf8nuzp8j",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (814) at X: 7.61, Y: 8.54",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:49.050Z",
+    "time": 114.953133,
+    "createdAt": "2023-09-13T23:00:49.050Z",
+    "updatedAt": "2023-09-13T23:00:49.050Z"
+  },
+  {
+    "id": "clmici6mu00d4vdpzq8h3kj68",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (134) at X: 7.61, Y: 8.54",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:49.283Z",
+    "time": 114.953133,
+    "createdAt": "2023-09-13T23:00:49.283Z",
+    "updatedAt": "2023-09-13T23:00:49.283Z"
+  },
+  {
+    "id": "clmici5zz00d2vdpzphube93v",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (131) at X: 5.02, Y: 8.8",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:48.303Z",
+    "time": 114.65313,
+    "createdAt": "2023-09-13T23:00:48.303Z",
+    "updatedAt": "2023-09-13T23:00:48.303Z"
+  },
+  {
+    "id": "clmici5sk00d0vdpzdf6ofanm",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (811) at X: 5.02, Y: 8.8",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:48.145Z",
+    "time": 114.65313,
+    "createdAt": "2023-09-13T23:00:48.145Z",
+    "updatedAt": "2023-09-13T23:00:48.145Z"
+  },
+  {
+    "id": "clmici5wn00d1vdpzq80jf725",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Stump (14) at X: 9.65, Y: 8.56",
+    "importance": 5.5,
+    "accessedAt": "2023-09-13T23:00:48.203Z",
+    "time": 114.6198,
+    "createdAt": "2023-09-13T23:00:48.203Z",
+    "updatedAt": "2023-09-13T23:00:48.203Z"
+  },
+  {
+    "id": "clmici5ku00czvdpz7jwygz81",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Stump (66) at X: 9.65, Y: 8.56",
+    "importance": 7,
+    "accessedAt": "2023-09-13T23:00:47.820Z",
+    "time": 114.6198,
+    "createdAt": "2023-09-13T23:00:47.820Z",
+    "updatedAt": "2023-09-13T23:00:47.820Z"
+  },
+  {
+    "id": "clmici5c000cyvdpz59c2he78",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 1.96, Y: 1.940001.",
+    "importance": 2.5,
+    "accessedAt": "2023-09-13T23:00:47.499Z",
+    "time": 114.353134,
+    "createdAt": "2023-09-13T23:00:47.499Z",
+    "updatedAt": "2023-09-13T23:00:47.499Z"
+  },
+  {
+    "id": "clmici51z00cxvdpzwvlq2lzb",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 1.96, Y: 1.940001.",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:47.302Z",
+    "time": 114.353134,
+    "createdAt": "2023-09-13T23:00:47.302Z",
+    "updatedAt": "2023-09-13T23:00:47.302Z"
+  },
+  {
+    "id": "clmici40800cwvdpzdb2pkl3j",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (129) at X: 11.42, Y: 8.92",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:46.739Z",
+    "time": 113.953133,
+    "createdAt": "2023-09-13T23:00:46.739Z",
+    "updatedAt": "2023-09-13T23:00:46.739Z"
+  },
+  {
+    "id": "clmici3wm00cvvdpzw19betgp",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (809) at X: 11.42, Y: 8.92",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:46.697Z",
+    "time": 113.953133,
+    "createdAt": "2023-09-13T23:00:46.697Z",
+    "updatedAt": "2023-09-13T23:00:46.697Z"
+  },
+  {
+    "id": "clmici3um00ctvdpz78ybbzw9",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (816) at X: 9.51, Y: 10.14",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:46.574Z",
+    "time": 113.886467,
+    "createdAt": "2023-09-13T23:00:46.574Z",
+    "updatedAt": "2023-09-13T23:00:46.574Z"
+  },
+  {
+    "id": "clmici3w800cuvdpz9d6aszdd",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (136) at X: 9.51, Y: 10.14",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:46.584Z",
+    "time": 113.886467,
+    "createdAt": "2023-09-13T23:00:46.584Z",
+    "updatedAt": "2023-09-13T23:00:46.584Z"
+  },
+  {
+    "id": "clmici3nn00crvdpz1w0lvy37",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (135) at X: 6.5, Y: 10.93",
+    "importance": 6.5,
+    "accessedAt": "2023-09-13T23:00:46.406Z",
+    "time": 113.586464,
+    "createdAt": "2023-09-13T23:00:46.406Z",
+    "updatedAt": "2023-09-13T23:00:46.406Z"
+  },
+  {
+    "id": "clmici3qh00csvdpzwh2wjeea",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (815) at X: 6.5, Y: 10.93",
+    "importance": 6,
+    "accessedAt": "2023-09-13T23:00:46.414Z",
+    "time": 113.586464,
+    "createdAt": "2023-09-13T23:00:46.414Z",
+    "updatedAt": "2023-09-13T23:00:46.414Z"
+  },
+  {
+    "id": "clmici2zk00cmvdpze4x1b7cp",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (807) at X: 13.48, Y: 6.9",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:46.094Z",
+    "time": 113.15313,
+    "createdAt": "2023-09-13T23:00:46.094Z",
+    "updatedAt": "2023-09-13T23:00:46.094Z"
+  },
+  {
+    "id": "clmici34a00covdpzpv3bgpmg",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (126) at X: 13.48, Y: 6.9",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:46.124Z",
+    "time": 113.15313,
+    "createdAt": "2023-09-13T23:00:46.124Z",
+    "updatedAt": "2023-09-13T23:00:46.124Z"
+  },
+  {
+    "id": "clmici2ew00cjvdpzui3xnxpp",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 2.71, Y: 4.690001.",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:45.670Z",
+    "time": 112.8198,
+    "createdAt": "2023-09-13T23:00:45.670Z",
+    "updatedAt": "2023-09-13T23:00:45.670Z"
+  },
+  {
+    "id": "clmici2kw00ckvdpzm65kyodw",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 2.71, Y: 4.690001.",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:45.875Z",
+    "time": 112.8198,
+    "createdAt": "2023-09-13T23:00:45.875Z",
+    "updatedAt": "2023-09-13T23:00:45.875Z"
+  },
+  {
+    "id": "clmici26b00chvdpzipocjkc0",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (130) at X: 13.65, Y: 8.8",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:45.388Z",
+    "time": 112.753128,
+    "createdAt": "2023-09-13T23:00:45.388Z",
+    "updatedAt": "2023-09-13T23:00:45.388Z"
+  },
+  {
+    "id": "clmici29w00civdpzz24aap9y",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (810) at X: 13.65, Y: 8.8",
+    "importance": 6,
+    "accessedAt": "2023-09-13T23:00:45.466Z",
+    "time": 112.753128,
+    "createdAt": "2023-09-13T23:00:45.466Z",
+    "updatedAt": "2023-09-13T23:00:45.466Z"
+  },
+  {
+    "id": "clmici1st00cfvdpztt71vnur",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1062) at X: 11.43, Y: 11.79",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:45.015Z",
+    "time": 112.553131,
+    "createdAt": "2023-09-13T23:00:45.015Z",
+    "updatedAt": "2023-09-13T23:00:45.015Z"
+  },
+  {
+    "id": "clmici21b00cgvdpzk5azg7g6",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1080) at X: 11.43, Y: 11.79",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:45.126Z",
+    "time": 112.553131,
+    "createdAt": "2023-09-13T23:00:45.126Z",
+    "updatedAt": "2023-09-13T23:00:45.126Z"
+  },
+  {
+    "id": "clmici1gi00cdvdpzob0pj2am",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1075) at X: 7.34, Y: 12.63",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:44.716Z",
+    "time": 112.386467,
+    "createdAt": "2023-09-13T23:00:44.716Z",
+    "updatedAt": "2023-09-13T23:00:44.716Z"
+  },
+  {
+    "id": "clmici1kc00cevdpzkl5mgszi",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1093) at X: 7.34, Y: 12.63",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:44.761Z",
+    "time": 112.386467,
+    "createdAt": "2023-09-13T23:00:44.761Z",
+    "updatedAt": "2023-09-13T23:00:44.761Z"
+  },
+  {
+    "id": "clmici0ui00c7vdpzq8j6bc0h",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1060) at X: 4.7, Y: 11.67",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:44.258Z",
+    "time": 112.3198,
+    "createdAt": "2023-09-13T23:00:44.258Z",
+    "updatedAt": "2023-09-13T23:00:44.258Z"
+  },
+  {
+    "id": "clmici0w500c9vdpz5eun4v6f",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1078) at X: 4.7, Y: 11.67",
+    "importance": 7,
+    "accessedAt": "2023-09-13T23:00:44.163Z",
+    "time": 112.3198,
+    "createdAt": "2023-09-13T23:00:44.163Z",
+    "updatedAt": "2023-09-13T23:00:44.163Z"
+  },
+  {
+    "id": "clmichzad00c5vdpzxvk53udm",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 3.15, Y: 6.9.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:42.552Z",
+    "time": 111.853134,
+    "createdAt": "2023-09-13T23:00:42.552Z",
+    "updatedAt": "2023-09-13T23:00:42.552Z"
+  },
+  {
+    "id": "clmichzas00c6vdpzzkktw4d8",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 3.15, Y: 6.9.",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:42.568Z",
+    "time": 111.853134,
+    "createdAt": "2023-09-13T23:00:42.568Z",
+    "updatedAt": "2023-09-13T23:00:42.568Z"
+  },
+  {
+    "id": "clmichz8i00c3vdpz03xl52xv",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1061) at X: 10.82, Y: 13.33",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:42.498Z",
+    "time": 111.8198,
+    "createdAt": "2023-09-13T23:00:42.498Z",
+    "updatedAt": "2023-09-13T23:00:42.498Z"
+  },
+  {
+    "id": "clmichz9q00c4vdpza3vjsbgb",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1079) at X: 10.82, Y: 13.33",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:42.550Z",
+    "time": 111.8198,
+    "createdAt": "2023-09-13T23:00:42.550Z",
+    "updatedAt": "2023-09-13T23:00:42.550Z"
+  },
+  {
+    "id": "clmichz3q00c1vdpzik0b9s2y",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (24) at X: 3.31, Y: 10.14",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:42.409Z",
+    "time": 111.719795,
+    "createdAt": "2023-09-13T23:00:42.409Z",
+    "updatedAt": "2023-09-13T23:00:42.409Z"
+  },
+  {
+    "id": "clmichz3i00c0vdpz48l5bwic",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (823) at X: 3.31, Y: 10.14",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:42.399Z",
+    "time": 111.719795,
+    "createdAt": "2023-09-13T23:00:42.399Z",
+    "updatedAt": "2023-09-13T23:00:42.399Z"
+  },
+  {
+    "id": "clmichyxv00bxvdpzwfoefetl",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 12.35, Y: 4.33.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:42.362Z",
+    "time": 111.386467,
+    "createdAt": "2023-09-13T23:00:42.362Z",
+    "updatedAt": "2023-09-13T23:00:42.362Z"
+  },
+  {
+    "id": "clmichyuw00bwvdpziecw24my",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 12.35, Y: 4.33.",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:42.274Z",
+    "time": 111.386467,
+    "createdAt": "2023-09-13T23:00:42.274Z",
+    "updatedAt": "2023-09-13T23:00:42.274Z"
+  },
+  {
+    "id": "clmichyto00buvdpzr378exie",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 10.57, Y: 3.68.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:42.253Z",
+    "time": 111.353134,
+    "createdAt": "2023-09-13T23:00:42.253Z",
+    "updatedAt": "2023-09-13T23:00:42.253Z"
+  },
+  {
+    "id": "clmichyrp00bsvdpziteoq6vh",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 5.62, Y: 4.21.",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:42.182Z",
+    "time": 111.353134,
+    "createdAt": "2023-09-13T23:00:42.182Z",
+    "updatedAt": "2023-09-13T23:00:42.182Z"
+  },
+  {
+    "id": "clmichyyi00bzvdpzkk5t72p5",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 5.62, Y: 4.21.",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:42.362Z",
+    "time": 111.353134,
+    "createdAt": "2023-09-13T23:00:42.362Z",
+    "updatedAt": "2023-09-13T23:00:42.362Z"
+  },
+  {
+    "id": "clmichyu300bvvdpzq45sxuyy",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1066) at X: 8.26, Y: 14.36",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:42.267Z",
+    "time": 111.353134,
+    "createdAt": "2023-09-13T23:00:42.267Z",
+    "updatedAt": "2023-09-13T23:00:42.267Z"
+  },
+  {
+    "id": "clmichyxy00byvdpzji95uuxs",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1084) at X: 8.26, Y: 14.36",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:42.362Z",
+    "time": 111.353134,
+    "createdAt": "2023-09-13T23:00:42.362Z",
+    "updatedAt": "2023-09-13T23:00:42.362Z"
+  },
+  {
+    "id": "clmichz7s00c2vdpzp51q4nx0",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 10.57, Y: 3.68.",
+    "importance": 7.5,
+    "accessedAt": "2023-09-13T23:00:42.463Z",
+    "time": 111.353134,
+    "createdAt": "2023-09-13T23:00:42.463Z",
+    "updatedAt": "2023-09-13T23:00:42.463Z"
+  },
+  {
+    "id": "clmichys500btvdpzmnu2zg83",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 3.31, Y: 10.14.",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:42.197Z",
+    "time": 111.15313,
+    "createdAt": "2023-09-13T23:00:42.197Z",
+    "updatedAt": "2023-09-13T23:00:42.197Z"
+  },
+  {
+    "id": "clmichyk900bqvdpzd7yv5217",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 3.31, Y: 10.14.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:41.913Z",
+    "time": 111.15313,
+    "createdAt": "2023-09-13T23:00:41.913Z",
+    "updatedAt": "2023-09-13T23:00:41.913Z"
+  },
+  {
+    "id": "clmichykr00brvdpzj1ibkjpl",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree Stump at X: 4.49, Y: 5.49.",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:41.932Z",
+    "time": 111.1198,
+    "createdAt": "2023-09-13T23:00:41.932Z",
+    "updatedAt": "2023-09-13T23:00:41.932Z"
+  },
+  {
+    "id": "clmichyhe00bpvdpzafh1oeqj",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree Stump at X: 4.49, Y: 5.49.",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:41.811Z",
+    "time": 111.1198,
+    "createdAt": "2023-09-13T23:00:41.811Z",
+    "updatedAt": "2023-09-13T23:00:41.811Z"
+  },
+  {
+    "id": "clmichyab00bnvdpzp3p4lvcv",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1067) at X: 12.56, Y: 14.36",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:41.523Z",
+    "time": 110.853134,
+    "createdAt": "2023-09-13T23:00:41.523Z",
+    "updatedAt": "2023-09-13T23:00:41.523Z"
+  },
+  {
+    "id": "clmichybi00bovdpzig3omv35",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1085) at X: 12.56, Y: 14.36",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:41.564Z",
+    "time": 110.853134,
+    "createdAt": "2023-09-13T23:00:41.564Z",
+    "updatedAt": "2023-09-13T23:00:41.564Z"
+  },
+  {
+    "id": "clmichy1z00bjvdpzjxwmahvt",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown has started walking to 20.53, Y: -62.05.",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:41.256Z",
+    "time": 110.486465,
+    "createdAt": "2023-09-13T23:00:41.256Z",
+    "updatedAt": "2023-09-13T23:00:41.256Z"
+  },
+  {
+    "id": "clmichpnn00b4vdpzr0stbrrn",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown finished walking to 10, Y: 10.",
+    "importance": 10,
+    "accessedAt": "2023-09-13T23:00:23.296Z",
+    "time": 82.21997,
+    "createdAt": "2023-09-13T23:00:23.296Z",
+    "updatedAt": "2023-09-13T23:00:23.296Z"
+  },
+  {
+    "id": "clmichq4q00b5vdpz6cvs4ko1",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 12.56, Y: 14.36.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:23.367Z",
+    "time": 81.9864655,
+    "createdAt": "2023-09-13T23:00:23.367Z",
+    "updatedAt": "2023-09-13T23:00:23.367Z"
+  },
+  {
+    "id": "clmichrhl00bavdpzed1svlbm",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 12.56, Y: 14.36.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:24.165Z",
+    "time": 81.9864655,
+    "createdAt": "2023-09-13T23:00:24.165Z",
+    "updatedAt": "2023-09-13T23:00:24.165Z"
+  },
+  {
+    "id": "clmichp5l00b1vdpzabl6foqa",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Stump (13) at X: 4.49, Y: 5.49",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:23.185Z",
+    "time": 81.68646,
+    "createdAt": "2023-09-13T23:00:23.185Z",
+    "updatedAt": "2023-09-13T23:00:23.185Z"
+  },
+  {
+    "id": "clmicho5s00ayvdpz2kme0hsx",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Stump (65) at X: 4.49, Y: 5.49",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:23.099Z",
+    "time": 81.68646,
+    "createdAt": "2023-09-13T23:00:23.099Z",
+    "updatedAt": "2023-09-13T23:00:23.099Z"
+  },
+  {
+    "id": "clmichoxa00b0vdpzf9nsq5l2",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (24) at X: 3.31, Y: 10.14",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:23.046Z",
+    "time": 81.5864639,
+    "createdAt": "2023-09-13T23:00:23.046Z",
+    "updatedAt": "2023-09-13T23:00:23.046Z"
+  },
+  {
+    "id": "clmichp5o00b2vdpzz0r9hmxx",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (823) at X: 3.31, Y: 10.14",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:23.132Z",
+    "time": 81.5864639,
+    "createdAt": "2023-09-13T23:00:23.132Z",
+    "updatedAt": "2023-09-13T23:00:23.132Z"
+  },
+  {
+    "id": "clmichp5u00b3vdpze0fv8m8o",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (522) at X: 10.57, Y: 3.68",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:23.221Z",
+    "time": 81.45313,
+    "createdAt": "2023-09-13T23:00:23.221Z",
+    "updatedAt": "2023-09-13T23:00:23.221Z"
+  },
+  {
+    "id": "clmichnsi00awvdpz098qt862",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 8.26, Y: 14.36.",
+    "importance": 7,
+    "accessedAt": "2023-09-13T23:00:23.032Z",
+    "time": 81.45313,
+    "createdAt": "2023-09-13T23:00:23.032Z",
+    "updatedAt": "2023-09-13T23:00:23.032Z"
+  },
+  {
+    "id": "clmichox900azvdpz7276otz6",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (788) at X: 5.62, Y: 4.21",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:23.221Z",
+    "time": 81.45313,
+    "createdAt": "2023-09-13T23:00:23.221Z",
+    "updatedAt": "2023-09-13T23:00:23.221Z"
+  },
+  {
+    "id": "clmichn8l00auvdpzso6jhau6",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 8.26, Y: 14.36.",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:22.928Z",
+    "time": 81.45313,
+    "createdAt": "2023-09-13T23:00:22.928Z",
+    "updatedAt": "2023-09-13T23:00:22.928Z"
+  },
+  {
+    "id": "clmichqbz00b6vdpz08e6r609",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (99) at X: 5.62, Y: 4.21",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:23.275Z",
+    "time": 81.45313,
+    "createdAt": "2023-09-13T23:00:23.275Z",
+    "updatedAt": "2023-09-13T23:00:23.275Z"
+  },
+  {
+    "id": "clmichqka00b7vdpz9spxigys",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (79) at X: 10.57, Y: 3.68",
+    "importance": 6.5,
+    "accessedAt": "2023-09-13T23:00:23.296Z",
+    "time": 81.45313,
+    "createdAt": "2023-09-13T23:00:23.296Z",
+    "updatedAt": "2023-09-13T23:00:23.296Z"
+  },
+  {
+    "id": "clmichnhx00avvdpzmb8wq1mg",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (799) at X: 12.35, Y: 4.33",
+    "importance": 6,
+    "accessedAt": "2023-09-13T23:00:22.972Z",
+    "time": 81.3531342,
+    "createdAt": "2023-09-13T23:00:22.972Z",
+    "updatedAt": "2023-09-13T23:00:22.972Z"
+  },
+  {
+    "id": "clmichmer00asvdpzl6m0hll1",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (117) at X: 12.35, Y: 4.33",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:22.822Z",
+    "time": 81.3531342,
+    "createdAt": "2023-09-13T23:00:22.822Z",
+    "updatedAt": "2023-09-13T23:00:22.822Z"
+  },
+  {
+    "id": "clmicho1200axvdpz8r706xi1",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 3.31, Y: 10.14.",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:22.847Z",
+    "time": 81.0198,
+    "createdAt": "2023-09-13T23:00:22.847Z",
+    "updatedAt": "2023-09-13T23:00:22.847Z"
+  },
+  {
+    "id": "clmichmav00aqvdpzm8v07mgg",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 3.31, Y: 10.14.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:22.752Z",
+    "time": 81.0198,
+    "createdAt": "2023-09-13T23:00:22.752Z",
+    "updatedAt": "2023-09-13T23:00:22.752Z"
+  },
+  {
+    "id": "clmichm6k00aovdpzp1z17uxv",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (123) at X: 3.15, Y: 6.9",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:22.751Z",
+    "time": 80.9864655,
+    "createdAt": "2023-09-13T23:00:22.751Z",
+    "updatedAt": "2023-09-13T23:00:22.751Z"
+  },
+  {
+    "id": "clmichm2s00anvdpz15dxvkzf",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (804) at X: 3.15, Y: 6.9",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:22.702Z",
+    "time": 80.9864655,
+    "createdAt": "2023-09-13T23:00:22.702Z",
+    "updatedAt": "2023-09-13T23:00:22.702Z"
+  },
+  {
+    "id": "clmichmj500atvdpzjaxzlprn",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 10.82, Y: 13.33.",
+    "importance": 8.5,
+    "accessedAt": "2023-09-13T23:00:22.847Z",
+    "time": 80.95313,
+    "createdAt": "2023-09-13T23:00:22.847Z",
+    "updatedAt": "2023-09-13T23:00:22.847Z"
+  },
+  {
+    "id": "clmichm6l00apvdpzop193rkx",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 10.82, Y: 13.33.",
+    "importance": 6,
+    "accessedAt": "2023-09-13T23:00:22.386Z",
+    "time": 80.95313,
+    "createdAt": "2023-09-13T23:00:22.386Z",
+    "updatedAt": "2023-09-13T23:00:22.386Z"
+  },
+  {
+    "id": "clmichlx400amvdpz1km05yip",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 4.7, Y: 11.67.",
+    "importance": 4.7,
+    "accessedAt": "2023-09-13T23:00:22.105Z",
+    "time": 80.5864639,
+    "createdAt": "2023-09-13T23:00:22.105Z",
+    "updatedAt": "2023-09-13T23:00:22.105Z"
+  },
+  {
+    "id": "clmichmaz00arvdpzslx6doqs",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 4.7, Y: 11.67.",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:22.534Z",
+    "time": 80.5864639,
+    "createdAt": "2023-09-13T23:00:22.534Z",
+    "updatedAt": "2023-09-13T23:00:22.534Z"
+  },
+  {
+    "id": "clmichlo200alvdpze5dij0v6",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 7.34, Y: 12.63.",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:22.252Z",
+    "time": 80.4198,
+    "createdAt": "2023-09-13T23:00:22.252Z",
+    "updatedAt": "2023-09-13T23:00:22.252Z"
+  },
+  {
+    "id": "clmichl3900akvdpze8xyiyel",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 7.34, Y: 12.63.",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:21.831Z",
+    "time": 80.4198,
+    "createdAt": "2023-09-13T23:00:21.831Z",
+    "updatedAt": "2023-09-13T23:00:21.831Z"
+  },
+  {
+    "id": "clmichku400ajvdpzynuv7efi",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 11.43, Y: 11.79.",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:21.618Z",
+    "time": 80.25313,
+    "createdAt": "2023-09-13T23:00:21.618Z",
+    "updatedAt": "2023-09-13T23:00:21.618Z"
+  },
+  {
+    "id": "clmichktg00aivdpzjthr4ri2",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 11.43, Y: 11.79.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:21.343Z",
+    "time": 80.25313,
+    "createdAt": "2023-09-13T23:00:21.343Z",
+    "updatedAt": "2023-09-13T23:00:21.343Z"
+  }
+]
+[1694646066697] [32m[REFLECTION] Retrieved 100 latest memories for reflection generation.[39m
+[1694646066698] 1. George Brown sees Tree at X: 1.78, Y: -4.23.
+2. George Brown sees Tree Stump at X: 9.14, Y: -7.77.
+3. George Brown sees Tree Stump at X: 5.58, Y: -7.27.
+4. George Brown no longer sees Tree (99) at X: 5.62, Y: 4.21
+5. George Brown no longer sees Tree (788) at X: 5.62, Y: 4.21
+6. George Brown no longer sees Tree (820) at X: 1.96, Y: 1.940001
+7. George Brown no longer sees Tree (818) at X: 8.26, Y: 5.17
+8. George Brown no longer sees Tree (121) at X: 8.26, Y: 5.17
+9. George Brown sees Tree at X: 12.09, Y: -3.32.
+10. George Brown sees Tree at X: 12.09, Y: -3.32.
+11. George Brown sees Tree at X: 12.93, Y: -1.15.
+12. George Brown sees Tree at X: 12.93, Y: -1.15.
+13. George Brown no longer sees Stump (13) at X: 4.49, Y: 5.49
+14. George Brown sees Tree at X: 4.14, Y: -3.639999.
+15. George Brown sees Tree at X: 4.14, Y: -3.639999.
+16. George Brown no longer sees Tree (821) at X: 2.71, Y: 4.690001
+17. George Brown no longer sees Tree (799) at X: 12.35, Y: 4.33
+18. George Brown no longer sees Tree (805) at X: 5.81, Y: 6.9
+19. George Brown no longer sees Tree (124) at X: 5.81, Y: 6.9
+20. George Brown no longer sees Tree (125) at X: 9.18, Y: 6.9
+21. George Brown no longer sees Tree (108) at X: 11.74, Y: 5.87
+22. George Brown no longer sees Tree (795) at X: 11.74, Y: 5.87
+23. George Brown sees Tree at X: 2.89, Y: -1.01.
+24. George Brown sees Tree at X: 2.89, Y: -1.01.
+25. George Brown no longer sees Tree (123) at X: 3.15, Y: 6.9
+26. George Brown no longer sees Tree (804) at X: 3.15, Y: 6.9
+27. George Brown no longer sees Tree (814) at X: 7.61, Y: 8.54
+28. George Brown no longer sees Tree (134) at X: 7.61, Y: 8.54
+29. George Brown no longer sees Tree (131) at X: 5.02, Y: 8.8
+30. George Brown no longer sees Tree (811) at X: 5.02, Y: 8.8
+31. George Brown no longer sees Stump (14) at X: 9.65, Y: 8.56
+32. George Brown no longer sees Stump (66) at X: 9.65, Y: 8.56
+33. George Brown sees Tree at X: 1.96, Y: 1.940001.
+34. George Brown sees Tree at X: 1.96, Y: 1.940001.
+35. George Brown no longer sees Tree (129) at X: 11.42, Y: 8.92
+36. George Brown no longer sees Tree (809) at X: 11.42, Y: 8.92
+37. George Brown no longer sees Tree (816) at X: 9.51, Y: 10.14
+38. George Brown no longer sees Tree (136) at X: 9.51, Y: 10.14
+39. George Brown no longer sees Tree (135) at X: 6.5, Y: 10.93
+40. George Brown no longer sees Tree (815) at X: 6.5, Y: 10.93
+41. George Brown no longer sees Tree (807) at X: 13.48, Y: 6.9
+42. George Brown no longer sees Tree (126) at X: 13.48, Y: 6.9
+43. George Brown sees Tree at X: 2.71, Y: 4.690001.
+44. George Brown sees Tree at X: 2.71, Y: 4.690001.
+45. George Brown no longer sees Tree (130) at X: 13.65, Y: 8.8
+46. George Brown no longer sees Tree (810) at X: 13.65, Y: 8.8
+47. George Brown no longer sees Tree (1062) at X: 11.43, Y: 11.79
+48. George Brown no longer sees Tree (1080) at X: 11.43, Y: 11.79
+49. George Brown no longer sees Tree (1075) at X: 7.34, Y: 12.63
+50. George Brown no longer sees Tree (1093) at X: 7.34, Y: 12.63
+51. George Brown no longer sees Tree (1060) at X: 4.7, Y: 11.67
+52. George Brown no longer sees Tree (1078) at X: 4.7, Y: 11.67
+53. George Brown sees Tree at X: 3.15, Y: 6.9.
+54. George Brown sees Tree at X: 3.15, Y: 6.9.
+55. George Brown no longer sees Tree (1061) at X: 10.82, Y: 13.33
+56. George Brown no longer sees Tree (1079) at X: 10.82, Y: 13.33
+57. George Brown no longer sees Tree (24) at X: 3.31, Y: 10.14
+58. George Brown no longer sees Tree (823) at X: 3.31, Y: 10.14
+59. George Brown sees Tree at X: 12.35, Y: 4.33.
+60. George Brown sees Tree at X: 12.35, Y: 4.33.
+61. George Brown sees Tree at X: 10.57, Y: 3.68.
+62. George Brown sees Tree at X: 5.62, Y: 4.21.
+63. George Brown sees Tree at X: 5.62, Y: 4.21.
+64. George Brown no longer sees Tree (1066) at X: 8.26, Y: 14.36
+65. George Brown no longer sees Tree (1084) at X: 8.26, Y: 14.36
+66. George Brown sees Tree at X: 10.57, Y: 3.68.
+67. George Brown sees Tree at X: 3.31, Y: 10.14.
+68. George Brown sees Tree at X: 3.31, Y: 10.14.
+69. George Brown sees Tree Stump at X: 4.49, Y: 5.49.
+70. George Brown sees Tree Stump at X: 4.49, Y: 5.49.
+71. George Brown no longer sees Tree (1067) at X: 12.56, Y: 14.36
+72. George Brown no longer sees Tree (1085) at X: 12.56, Y: 14.36
+73. George Brown has started walking to 20.53, Y: -62.05.
+74. George Brown finished walking to 10, Y: 10.
+75. George Brown sees Tree at X: 12.56, Y: 14.36.
+76. George Brown sees Tree at X: 12.56, Y: 14.36.
+77. George Brown no longer sees Stump (13) at X: 4.49, Y: 5.49
+78. George Brown no longer sees Stump (65) at X: 4.49, Y: 5.49
+79. George Brown no longer sees Tree (24) at X: 3.31, Y: 10.14
+80. George Brown no longer sees Tree (823) at X: 3.31, Y: 10.14
+81. George Brown no longer sees Tree (522) at X: 10.57, Y: 3.68
+82. George Brown sees Tree at X: 8.26, Y: 14.36.
+83. George Brown no longer sees Tree (788) at X: 5.62, Y: 4.21
+84. George Brown sees Tree at X: 8.26, Y: 14.36.
+85. George Brown no longer sees Tree (99) at X: 5.62, Y: 4.21
+86. George Brown no longer sees Tree (79) at X: 10.57, Y: 3.68
+87. George Brown no longer sees Tree (799) at X: 12.35, Y: 4.33
+88. George Brown no longer sees Tree (117) at X: 12.35, Y: 4.33
+89. George Brown sees Tree at X: 3.31, Y: 10.14.
+90. George Brown sees Tree at X: 3.31, Y: 10.14.
+91. George Brown no longer sees Tree (123) at X: 3.15, Y: 6.9
+92. George Brown no longer sees Tree (804) at X: 3.15, Y: 6.9
+93. George Brown sees Tree at X: 10.82, Y: 13.33.
+94. George Brown sees Tree at X: 10.82, Y: 13.33.
+95. George Brown sees Tree at X: 4.7, Y: 11.67.
+96. George Brown sees Tree at X: 4.7, Y: 11.67.
+97. George Brown sees Tree at X: 7.34, Y: 12.63.
+98. George Brown sees Tree at X: 7.34, Y: 12.63.
+99. George Brown sees Tree at X: 11.43, Y: 11.79.
+100. George Brown sees Tree at X: 11.43, Y: 11.79.
+Given only the information above, what are 3 most salient high-level questions we can answer about the subjects in the statements from George Brown's point of view?
+
+[1694646066731] [31m[createMemory][39m George Brown sees Tree at X: 9.26, Y: -25.09. [128.586472]
+[1694646066732] [31m[createMemory][39m George Brown no longer sees Tree (26) at X: 9.45, Y: -14.39 [128.686462]
+[1694646066887] [31m[createMemory][39m George Brown sees Stone Ore Deposit (Small) at X: 15.88, Y: -18.99. [128.9198]
+[1694646066910] [31m[createMemory][39m George Brown sees Tree at X: 11.96, Y: -25.18. [128.753128]
+[1694646067021] [31m[createMemory][39m George Brown sees Tree at X: 15.22, Y: -16.78. [128.986465]
+[1694646067061] [31m[createMemory][39m George Brown no longer sees Tree (63) at X: 4.96, Y: -19.42 [129.086472]
+[1694646067694] [31m[createMemory][39m George Brown no longer sees Tree (45) at X: 6.79, Y: -17.79 [129.786469]
+[1694646067826] [31m[createMemory][39m George Brown no longer sees Tree (54) at X: 15.22, Y: -16.78 [129.786469]
+[1694646068100] [31m[createMemory][39m George Brown no longer sees Tree (66) at X: 6, Y: -20.83 [129.953125]
+[1694646068120] [31m[getLatestMemories] Retrieving top 100 latest memories.[39m
+[1694646068254] [31m[createMemory][39m George Brown no longer sees Tree (40) at X: 10.73, Y: -16.49 [130.3198]
+[1694646068290] [31m[createMemory][39m George Brown sees Tree at X: 14.11, Y: -27.17. [130.386459]
+[1694646068412] [31m[createMemory][39m George Brown sees Tree at X: 18.28, Y: -21.95. [130.653137]
+[1694646068420] [31m[createMemory][39m George Brown no longer sees Tree (44) at X: 13.25, Y: -16.78 [130.586472]
+[1694646068567] [31m[createMemory][39m George Brown no longer sees Tree (067) at X: 7.04, Y: -22.88 [130.753128]
+[1694646069063] [31m[createMemory][39m George Brown sees Tree at X: 20.14, Y: -22.62. [131.886459]
+[1694646069256] [31m[createMemory][39m George Brown sees Tree at X: 19.34, Y: -19.25. [132.453125]
+[1694646069372] [31m[createMemory][39m George Brown sees Tree Stump at X: 21.26, Y: -23.66788. [132.686462]
+[1694646069430] [31m[createMemory][39m George Brown no longer sees Tree (262) at X: 9.26, Y: -25.09 [132.1198]
+[1694646069695] [31m[createMemory][39m George Brown no longer sees StoneOreSmall at X: 14.39, Y: -18.34 [133.186462]
+[1694646069730] [31m[createMemory][39m George Brown sees Tree at X: 21.54, Y: -20.29. [133.2198]
+[1694646069742] [31m[createMemory][39m George Brown no longer sees Tree (72) at X: 12.43, Y: -19.6 [133.253128]
+[1694646069892] [31m[createMemory][39m George Brown sees Tree at X: 22.59, Y: -23.18. [133.353134]
+[1694646070009] [31m[createMemory][39m George Brown no longer sees Tree (261) at X: 11.96, Y: -25.18 [133.653137]
+[1694646070156] [31m[createMemory][39m George Brown no longer sees StoneOreSmall (1) at X: 15.88, Y: -18.99 [134.286469]
+[1694646070325] [31m[createMemory][39m George Brown sees Tree at X: 24.08, Y: -21.93. [134.753128]
+[1694646070342] [31m[createMemory][39m George Brown no longer sees Tree (148) at X: 19.34, Y: -19.25 [134.786469]
+[1694646070618] [31m[createMemory][39m George Brown no longer sees Tree (256) at X: 14.11, Y: -27.17 [135.253128]
+[1694646070635] [31m[createMemory][39m George Brown no longer sees Tree (149) at X: 21.54, Y: -20.29 [135.586472]
+[1694646071481] [31m[createMemory][39m George Brown sees Tree at X: 26.2, Y: -23.09. [136.6198]
+[1694646071699] [31m[createMemory][39m George Brown no longer sees Tree (29) at X: 18.28, Y: -21.95 [136.786469]
+[1694646072134] [31m[createMemory][39m George Brown sees Tree at X: 27.86, Y: -27.79. [137.1198]
+[1694646072269] [31m[createMemory][39m George Brown sees Tree at X: 23.02, Y: -32.65. [137.453125]
+[1694646072323] [31m[createMemory][39m George Brown no longer sees Tree (155) at X: 24.08, Y: -21.93 [137.453125]
+[1694646072462] [31m[createMemory][39m George Brown sees Tree at X: 28.12, Y: -25.2. [137.553131]
+[1694646072749] [31m[createMemory][39m George Brown sees Tree at X: 28.28, Y: -29.76. [137.686462]
+[1694646072850] [31m[createMemory][39m George Brown no longer sees Tree (33) at X: 20.14, Y: -22.62 [137.8198]
+[1694646073045] [
+  {
+    "id": "clmicikpe00ervdpz1xa4xbsw",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 3.98, Y: -13.79.",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:01:05.957Z",
+    "time": 121.953133,
+    "createdAt": "2023-09-13T23:01:05.957Z",
+    "updatedAt": "2023-09-13T23:01:05.957Z"
+  },
+  {
+    "id": "clmicikly00eqvdpzdbmm1ebj",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (56) at X: 11.02, Y: -4.68",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:01:05.753Z",
+    "time": 121.9198,
+    "createdAt": "2023-09-13T23:01:05.753Z",
+    "updatedAt": "2023-09-13T23:01:05.753Z"
+  },
+  {
+    "id": "clmicikkz00epvdpzg98liybn",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (10) at X: 4.14, Y: -3.639999",
+    "importance": 6,
+    "accessedAt": "2023-09-13T23:01:05.647Z",
+    "time": 121.553131,
+    "createdAt": "2023-09-13T23:01:05.647Z",
+    "updatedAt": "2023-09-13T23:01:05.647Z"
+  },
+  {
+    "id": "clmiciiw100ehvdpzf6ihc6q4",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 2.38, Y: -9.700001.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:01:01.010Z",
+    "time": 120.5198,
+    "createdAt": "2023-09-13T23:01:01.010Z",
+    "updatedAt": "2023-09-13T23:01:01.010Z"
+  },
+  {
+    "id": "clmicij4y00ejvdpz4y4vs6d6",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (530) at X: 12.09, Y: -3.32",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:01:01.940Z",
+    "time": 120.486465,
+    "createdAt": "2023-09-13T23:01:01.940Z",
+    "updatedAt": "2023-09-13T23:01:01.940Z"
+  },
+  {
+    "id": "clmicii7200efvdpze3a8ktlk",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (9) at X: 1.78, Y: -4.23",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:59.757Z",
+    "time": 120.186462,
+    "createdAt": "2023-09-13T23:00:59.757Z",
+    "updatedAt": "2023-09-13T23:00:59.757Z"
+  },
+  {
+    "id": "clmicii4n00eevdpzpt29qtjh",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (516) at X: 1.78, Y: -4.23",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:59.634Z",
+    "time": 120.186462,
+    "createdAt": "2023-09-13T23:00:59.634Z",
+    "updatedAt": "2023-09-13T23:00:59.634Z"
+  },
+  {
+    "id": "clmicii0m00ecvdpzrqaxbiq8",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (480) at X: 2.89, Y: -1.01",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:59.228Z",
+    "time": 119.486465,
+    "createdAt": "2023-09-13T23:00:59.228Z",
+    "updatedAt": "2023-09-13T23:00:59.228Z"
+  },
+  {
+    "id": "clmicii3c00edvdpz4v5d3ku6",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (3) at X: 2.89, Y: -1.01",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:59.570Z",
+    "time": 119.486465,
+    "createdAt": "2023-09-13T23:00:59.570Z",
+    "updatedAt": "2023-09-13T23:00:59.570Z"
+  },
+  {
+    "id": "clmicihde00ebvdpzuqqzazde",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree Stump at X: 8.41, Y: -9.870001.",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:58.609Z",
+    "time": 119.086464,
+    "createdAt": "2023-09-13T23:00:58.609Z",
+    "updatedAt": "2023-09-13T23:00:58.609Z"
+  },
+  {
+    "id": "clmicigbp00e7vdpzextxpto4",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 1.78, Y: -4.23.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:56.720Z",
+    "time": 118.15313,
+    "createdAt": "2023-09-13T23:00:56.720Z",
+    "updatedAt": "2023-09-13T23:00:56.720Z"
+  },
+  {
+    "id": "clmicigjt00e9vdpzj2m7pshw",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (786) at X: 12.93, Y: -1.15",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:57.057Z",
+    "time": 117.986465,
+    "createdAt": "2023-09-13T23:00:57.057Z",
+    "updatedAt": "2023-09-13T23:00:57.057Z"
+  },
+  {
+    "id": "clmicif4a00e6vdpznu237ovx",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree Stump at X: 9.14, Y: -7.77.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:55.384Z",
+    "time": 117.986465,
+    "createdAt": "2023-09-13T23:00:55.384Z",
+    "updatedAt": "2023-09-13T23:00:55.384Z"
+  },
+  {
+    "id": "clmicigr700eavdpz76ndadhw",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (96) at X: 12.93, Y: -1.15",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:57.068Z",
+    "time": 117.986465,
+    "createdAt": "2023-09-13T23:00:57.068Z",
+    "updatedAt": "2023-09-13T23:00:57.068Z"
+  },
+  {
+    "id": "clmicievw00e5vdpzraindyly",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree Stump at X: 5.58, Y: -7.27.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:55.049Z",
+    "time": 117.65313,
+    "createdAt": "2023-09-13T23:00:55.049Z",
+    "updatedAt": "2023-09-13T23:00:55.049Z"
+  },
+  {
+    "id": "clmiciege00e4vdpzty90avf7",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (99) at X: 5.62, Y: 4.21",
+    "importance": 6,
+    "accessedAt": "2023-09-13T23:00:54.931Z",
+    "time": 117.386467,
+    "createdAt": "2023-09-13T23:00:54.931Z",
+    "updatedAt": "2023-09-13T23:00:54.931Z"
+  },
+  {
+    "id": "clmicie9g00e3vdpz7jl5mc6b",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (788) at X: 5.62, Y: 4.21",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:54.817Z",
+    "time": 117.386467,
+    "createdAt": "2023-09-13T23:00:54.817Z",
+    "updatedAt": "2023-09-13T23:00:54.817Z"
+  },
+  {
+    "id": "clmicie6l00e2vdpzs9wa1k03",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (522) at X: 10.57, Y: 3.68",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:54.685Z",
+    "time": 117.3198,
+    "createdAt": "2023-09-13T23:00:54.685Z",
+    "updatedAt": "2023-09-13T23:00:54.685Z"
+  },
+  {
+    "id": "clmicidwb00e0vdpzqjvyoxei",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (79) at X: 10.57, Y: 3.68",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:54.414Z",
+    "time": 117.3198,
+    "createdAt": "2023-09-13T23:00:54.414Z",
+    "updatedAt": "2023-09-13T23:00:54.414Z"
+  },
+  {
+    "id": "clmicie0t00e1vdpzk4i0cs4u",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree Stump at X: 8.46, Y: -6.74.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:54.464Z",
+    "time": 117.286461,
+    "createdAt": "2023-09-13T23:00:54.464Z",
+    "updatedAt": "2023-09-13T23:00:54.464Z"
+  },
+  {
+    "id": "clmiciczl00dxvdpzijdrtzmw",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (820) at X: 1.96, Y: 1.940001",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:54.091Z",
+    "time": 116.953133,
+    "createdAt": "2023-09-13T23:00:54.091Z",
+    "updatedAt": "2023-09-13T23:00:54.091Z"
+  },
+  {
+    "id": "clmiciceg00dvvdpzjgupwflw",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (121) at X: 8.26, Y: 5.17",
+    "importance": 6,
+    "accessedAt": "2023-09-13T23:00:53.850Z",
+    "time": 116.886467,
+    "createdAt": "2023-09-13T23:00:53.850Z",
+    "updatedAt": "2023-09-13T23:00:53.850Z"
+  },
+  {
+    "id": "clmicid9e00dzvdpzdhyvrqlp",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (818) at X: 8.26, Y: 5.17",
+    "importance": 8,
+    "accessedAt": "2023-09-13T23:00:54.179Z",
+    "time": 116.886467,
+    "createdAt": "2023-09-13T23:00:54.179Z",
+    "updatedAt": "2023-09-13T23:00:54.179Z"
+  },
+  {
+    "id": "clmicibvl00dsvdpzpulrcp0d",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 12.09, Y: -3.32.",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:53.546Z",
+    "time": 116.786461,
+    "createdAt": "2023-09-13T23:00:53.546Z",
+    "updatedAt": "2023-09-13T23:00:53.546Z"
+  },
+  {
+    "id": "clmicic4k00duvdpzm0uetu3y",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 12.93, Y: -1.15.",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:53.615Z",
+    "time": 116.786461,
+    "createdAt": "2023-09-13T23:00:53.615Z",
+    "updatedAt": "2023-09-13T23:00:53.615Z"
+  },
+  {
+    "id": "clmicibvk00drvdpz8kaqd3j2",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 12.93, Y: -1.15.",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:53.546Z",
+    "time": 116.786461,
+    "createdAt": "2023-09-13T23:00:53.546Z",
+    "updatedAt": "2023-09-13T23:00:53.546Z"
+  },
+  {
+    "id": "clmicibwx00dtvdpz11oiurw0",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 12.09, Y: -3.32.",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:53.546Z",
+    "time": 116.786461,
+    "createdAt": "2023-09-13T23:00:53.546Z",
+    "updatedAt": "2023-09-13T23:00:53.546Z"
+  },
+  {
+    "id": "clmiciayp00dovdpzqpm12ic1",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Stump (13) at X: 4.49, Y: 5.49",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:52.819Z",
+    "time": 116.286461,
+    "createdAt": "2023-09-13T23:00:52.819Z",
+    "updatedAt": "2023-09-13T23:00:52.819Z"
+  },
+  {
+    "id": "clmiciazw00dpvdpzwy34jo80",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Stump (65) at X: 4.49, Y: 5.49",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:52.830Z",
+    "time": 116.286461,
+    "createdAt": "2023-09-13T23:00:52.830Z",
+    "updatedAt": "2023-09-13T23:00:52.830Z"
+  },
+  {
+    "id": "clmicia9r00dkvdpzfqjfrvn7",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 4.14, Y: -3.639999.",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:52.347Z",
+    "time": 116.1198,
+    "createdAt": "2023-09-13T23:00:52.347Z",
+    "updatedAt": "2023-09-13T23:00:52.347Z"
+  },
+  {
+    "id": "clmicia9r00djvdpzsxb0j5cp",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 4.14, Y: -3.639999.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:52.281Z",
+    "time": 116.1198,
+    "createdAt": "2023-09-13T23:00:52.281Z",
+    "updatedAt": "2023-09-13T23:00:52.281Z"
+  },
+  {
+    "id": "clmiciaaq00dlvdpzzfmuf4fu",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (14) at X: 2.71, Y: 4.690001",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:52.489Z",
+    "time": 116.086464,
+    "createdAt": "2023-09-13T23:00:52.489Z",
+    "updatedAt": "2023-09-13T23:00:52.489Z"
+  },
+  {
+    "id": "clmicia1e00divdpzfkke77xf",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (821) at X: 2.71, Y: 4.690001",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:51.845Z",
+    "time": 116.086464,
+    "createdAt": "2023-09-13T23:00:51.845Z",
+    "updatedAt": "2023-09-13T23:00:51.845Z"
+  },
+  {
+    "id": "clmici8tw00dgvdpzcmhxiqjy",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (799) at X: 12.35, Y: 4.33",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:51.639Z",
+    "time": 115.886467,
+    "createdAt": "2023-09-13T23:00:51.639Z",
+    "updatedAt": "2023-09-13T23:00:51.639Z"
+  },
+  {
+    "id": "clmici8f100devdpzu1oi0rfb",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (124) at X: 5.81, Y: 6.9",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:51.518Z",
+    "time": 115.853134,
+    "createdAt": "2023-09-13T23:00:51.518Z",
+    "updatedAt": "2023-09-13T23:00:51.518Z"
+  },
+  {
+    "id": "clmici8d000ddvdpz928wlham",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (805) at X: 5.81, Y: 6.9",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:51.513Z",
+    "time": 115.853134,
+    "createdAt": "2023-09-13T23:00:51.513Z",
+    "updatedAt": "2023-09-13T23:00:51.513Z"
+  },
+  {
+    "id": "clmici8a500dcvdpzi26qdjyc",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (806) at X: 9.18, Y: 6.9",
+    "importance": 4.5,
+    "accessedAt": "2023-09-13T23:00:51.430Z",
+    "time": 115.786461,
+    "createdAt": "2023-09-13T23:00:51.430Z",
+    "updatedAt": "2023-09-13T23:00:51.430Z"
+  },
+  {
+    "id": "clmici85500davdpz0dsdmf88",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (125) at X: 9.18, Y: 6.9",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:51.232Z",
+    "time": 115.786461,
+    "createdAt": "2023-09-13T23:00:51.232Z",
+    "updatedAt": "2023-09-13T23:00:51.232Z"
+  },
+  {
+    "id": "clmici88m00dbvdpzezvik4ev",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (108) at X: 11.74, Y: 5.87",
+    "importance": 6,
+    "accessedAt": "2023-09-13T23:00:51.364Z",
+    "time": 115.486465,
+    "createdAt": "2023-09-13T23:00:51.364Z",
+    "updatedAt": "2023-09-13T23:00:51.364Z"
+  },
+  {
+    "id": "clmici7zj00d8vdpznl1vhd9p",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (795) at X: 11.74, Y: 5.87",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:50.897Z",
+    "time": 115.486465,
+    "createdAt": "2023-09-13T23:00:50.897Z",
+    "updatedAt": "2023-09-13T23:00:50.897Z"
+  },
+  {
+    "id": "clmici7o300d7vdpznuq41h8n",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 2.89, Y: -1.01.",
+    "importance": 3.7,
+    "accessedAt": "2023-09-13T23:00:50.589Z",
+    "time": 115.186462,
+    "createdAt": "2023-09-13T23:00:50.589Z",
+    "updatedAt": "2023-09-13T23:00:50.589Z"
+  },
+  {
+    "id": "clmici80w00d9vdpz00h9qptd",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 2.89, Y: -1.01.",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:50.933Z",
+    "time": 115.186462,
+    "createdAt": "2023-09-13T23:00:50.933Z",
+    "updatedAt": "2023-09-13T23:00:50.933Z"
+  },
+  {
+    "id": "clmici70d00d5vdpz7t4zt9sm",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (123) at X: 3.15, Y: 6.9",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:50.157Z",
+    "time": 115.1198,
+    "createdAt": "2023-09-13T23:00:50.157Z",
+    "updatedAt": "2023-09-13T23:00:50.157Z"
+  },
+  {
+    "id": "clmici71d00d6vdpzqkgox64g",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (804) at X: 3.15, Y: 6.9",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:50.189Z",
+    "time": 115.1198,
+    "createdAt": "2023-09-13T23:00:50.189Z",
+    "updatedAt": "2023-09-13T23:00:50.189Z"
+  },
+  {
+    "id": "clmici6hy00d3vdpzf8nuzp8j",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (814) at X: 7.61, Y: 8.54",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:49.050Z",
+    "time": 114.953133,
+    "createdAt": "2023-09-13T23:00:49.050Z",
+    "updatedAt": "2023-09-13T23:00:49.050Z"
+  },
+  {
+    "id": "clmici6mu00d4vdpzq8h3kj68",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (134) at X: 7.61, Y: 8.54",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:49.283Z",
+    "time": 114.953133,
+    "createdAt": "2023-09-13T23:00:49.283Z",
+    "updatedAt": "2023-09-13T23:00:49.283Z"
+  },
+  {
+    "id": "clmici5zz00d2vdpzphube93v",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (131) at X: 5.02, Y: 8.8",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:48.303Z",
+    "time": 114.65313,
+    "createdAt": "2023-09-13T23:00:48.303Z",
+    "updatedAt": "2023-09-13T23:00:48.303Z"
+  },
+  {
+    "id": "clmici5sk00d0vdpzdf6ofanm",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (811) at X: 5.02, Y: 8.8",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:48.145Z",
+    "time": 114.65313,
+    "createdAt": "2023-09-13T23:00:48.145Z",
+    "updatedAt": "2023-09-13T23:00:48.145Z"
+  },
+  {
+    "id": "clmici5wn00d1vdpzq80jf725",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Stump (14) at X: 9.65, Y: 8.56",
+    "importance": 5.5,
+    "accessedAt": "2023-09-13T23:00:48.203Z",
+    "time": 114.6198,
+    "createdAt": "2023-09-13T23:00:48.203Z",
+    "updatedAt": "2023-09-13T23:00:48.203Z"
+  },
+  {
+    "id": "clmici5ku00czvdpz7jwygz81",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Stump (66) at X: 9.65, Y: 8.56",
+    "importance": 7,
+    "accessedAt": "2023-09-13T23:00:47.820Z",
+    "time": 114.6198,
+    "createdAt": "2023-09-13T23:00:47.820Z",
+    "updatedAt": "2023-09-13T23:00:47.820Z"
+  },
+  {
+    "id": "clmici5c000cyvdpz59c2he78",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 1.96, Y: 1.940001.",
+    "importance": 2.5,
+    "accessedAt": "2023-09-13T23:00:47.499Z",
+    "time": 114.353134,
+    "createdAt": "2023-09-13T23:00:47.499Z",
+    "updatedAt": "2023-09-13T23:00:47.499Z"
+  },
+  {
+    "id": "clmici51z00cxvdpzwvlq2lzb",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 1.96, Y: 1.940001.",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:47.302Z",
+    "time": 114.353134,
+    "createdAt": "2023-09-13T23:00:47.302Z",
+    "updatedAt": "2023-09-13T23:00:47.302Z"
+  },
+  {
+    "id": "clmici3wm00cvvdpzw19betgp",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (809) at X: 11.42, Y: 8.92",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:46.697Z",
+    "time": 113.953133,
+    "createdAt": "2023-09-13T23:00:46.697Z",
+    "updatedAt": "2023-09-13T23:00:46.697Z"
+  },
+  {
+    "id": "clmici40800cwvdpzdb2pkl3j",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (129) at X: 11.42, Y: 8.92",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:46.739Z",
+    "time": 113.953133,
+    "createdAt": "2023-09-13T23:00:46.739Z",
+    "updatedAt": "2023-09-13T23:00:46.739Z"
+  },
+  {
+    "id": "clmici3um00ctvdpz78ybbzw9",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (816) at X: 9.51, Y: 10.14",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:46.574Z",
+    "time": 113.886467,
+    "createdAt": "2023-09-13T23:00:46.574Z",
+    "updatedAt": "2023-09-13T23:00:46.574Z"
+  },
+  {
+    "id": "clmici3w800cuvdpz9d6aszdd",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (136) at X: 9.51, Y: 10.14",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:46.584Z",
+    "time": 113.886467,
+    "createdAt": "2023-09-13T23:00:46.584Z",
+    "updatedAt": "2023-09-13T23:00:46.584Z"
+  },
+  {
+    "id": "clmici3nn00crvdpz1w0lvy37",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (135) at X: 6.5, Y: 10.93",
+    "importance": 6.5,
+    "accessedAt": "2023-09-13T23:00:46.406Z",
+    "time": 113.586464,
+    "createdAt": "2023-09-13T23:00:46.406Z",
+    "updatedAt": "2023-09-13T23:00:46.406Z"
+  },
+  {
+    "id": "clmici3qh00csvdpzwh2wjeea",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (815) at X: 6.5, Y: 10.93",
+    "importance": 6,
+    "accessedAt": "2023-09-13T23:00:46.414Z",
+    "time": 113.586464,
+    "createdAt": "2023-09-13T23:00:46.414Z",
+    "updatedAt": "2023-09-13T23:00:46.414Z"
+  },
+  {
+    "id": "clmici34a00covdpzpv3bgpmg",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (126) at X: 13.48, Y: 6.9",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:46.124Z",
+    "time": 113.15313,
+    "createdAt": "2023-09-13T23:00:46.124Z",
+    "updatedAt": "2023-09-13T23:00:46.124Z"
+  },
+  {
+    "id": "clmici2zk00cmvdpze4x1b7cp",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (807) at X: 13.48, Y: 6.9",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:46.094Z",
+    "time": 113.15313,
+    "createdAt": "2023-09-13T23:00:46.094Z",
+    "updatedAt": "2023-09-13T23:00:46.094Z"
+  },
+  {
+    "id": "clmici2ew00cjvdpzui3xnxpp",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 2.71, Y: 4.690001.",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:45.670Z",
+    "time": 112.8198,
+    "createdAt": "2023-09-13T23:00:45.670Z",
+    "updatedAt": "2023-09-13T23:00:45.670Z"
+  },
+  {
+    "id": "clmici2kw00ckvdpzm65kyodw",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 2.71, Y: 4.690001.",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:45.875Z",
+    "time": 112.8198,
+    "createdAt": "2023-09-13T23:00:45.875Z",
+    "updatedAt": "2023-09-13T23:00:45.875Z"
+  },
+  {
+    "id": "clmici26b00chvdpzipocjkc0",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (130) at X: 13.65, Y: 8.8",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:45.388Z",
+    "time": 112.753128,
+    "createdAt": "2023-09-13T23:00:45.388Z",
+    "updatedAt": "2023-09-13T23:00:45.388Z"
+  },
+  {
+    "id": "clmici29w00civdpzz24aap9y",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (810) at X: 13.65, Y: 8.8",
+    "importance": 6,
+    "accessedAt": "2023-09-13T23:00:45.466Z",
+    "time": 112.753128,
+    "createdAt": "2023-09-13T23:00:45.466Z",
+    "updatedAt": "2023-09-13T23:00:45.466Z"
+  },
+  {
+    "id": "clmici1st00cfvdpztt71vnur",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1062) at X: 11.43, Y: 11.79",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:45.015Z",
+    "time": 112.553131,
+    "createdAt": "2023-09-13T23:00:45.015Z",
+    "updatedAt": "2023-09-13T23:00:45.015Z"
+  },
+  {
+    "id": "clmici21b00cgvdpzk5azg7g6",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1080) at X: 11.43, Y: 11.79",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:45.126Z",
+    "time": 112.553131,
+    "createdAt": "2023-09-13T23:00:45.126Z",
+    "updatedAt": "2023-09-13T23:00:45.126Z"
+  },
+  {
+    "id": "clmici1gi00cdvdpzob0pj2am",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1075) at X: 7.34, Y: 12.63",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:44.716Z",
+    "time": 112.386467,
+    "createdAt": "2023-09-13T23:00:44.716Z",
+    "updatedAt": "2023-09-13T23:00:44.716Z"
+  },
+  {
+    "id": "clmici1kc00cevdpzkl5mgszi",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1093) at X: 7.34, Y: 12.63",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:44.761Z",
+    "time": 112.386467,
+    "createdAt": "2023-09-13T23:00:44.761Z",
+    "updatedAt": "2023-09-13T23:00:44.761Z"
+  },
+  {
+    "id": "clmici0w500c9vdpz5eun4v6f",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1078) at X: 4.7, Y: 11.67",
+    "importance": 7,
+    "accessedAt": "2023-09-13T23:00:44.163Z",
+    "time": 112.3198,
+    "createdAt": "2023-09-13T23:00:44.163Z",
+    "updatedAt": "2023-09-13T23:00:44.163Z"
+  },
+  {
+    "id": "clmici0ui00c7vdpzq8j6bc0h",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1060) at X: 4.7, Y: 11.67",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:44.258Z",
+    "time": 112.3198,
+    "createdAt": "2023-09-13T23:00:44.258Z",
+    "updatedAt": "2023-09-13T23:00:44.258Z"
+  },
+  {
+    "id": "clmichzad00c5vdpzxvk53udm",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 3.15, Y: 6.9.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:42.552Z",
+    "time": 111.853134,
+    "createdAt": "2023-09-13T23:00:42.552Z",
+    "updatedAt": "2023-09-13T23:00:42.552Z"
+  },
+  {
+    "id": "clmichzas00c6vdpzzkktw4d8",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 3.15, Y: 6.9.",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:42.568Z",
+    "time": 111.853134,
+    "createdAt": "2023-09-13T23:00:42.568Z",
+    "updatedAt": "2023-09-13T23:00:42.568Z"
+  },
+  {
+    "id": "clmichz8i00c3vdpz03xl52xv",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1061) at X: 10.82, Y: 13.33",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:42.498Z",
+    "time": 111.8198,
+    "createdAt": "2023-09-13T23:00:42.498Z",
+    "updatedAt": "2023-09-13T23:00:42.498Z"
+  },
+  {
+    "id": "clmichz9q00c4vdpza3vjsbgb",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1079) at X: 10.82, Y: 13.33",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:42.550Z",
+    "time": 111.8198,
+    "createdAt": "2023-09-13T23:00:42.550Z",
+    "updatedAt": "2023-09-13T23:00:42.550Z"
+  },
+  {
+    "id": "clmichz3q00c1vdpzik0b9s2y",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (24) at X: 3.31, Y: 10.14",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:42.409Z",
+    "time": 111.719795,
+    "createdAt": "2023-09-13T23:00:42.409Z",
+    "updatedAt": "2023-09-13T23:00:42.409Z"
+  },
+  {
+    "id": "clmichz3i00c0vdpz48l5bwic",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (823) at X: 3.31, Y: 10.14",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:42.399Z",
+    "time": 111.719795,
+    "createdAt": "2023-09-13T23:00:42.399Z",
+    "updatedAt": "2023-09-13T23:00:42.399Z"
+  },
+  {
+    "id": "clmichyxv00bxvdpzwfoefetl",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 12.35, Y: 4.33.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:42.362Z",
+    "time": 111.386467,
+    "createdAt": "2023-09-13T23:00:42.362Z",
+    "updatedAt": "2023-09-13T23:00:42.362Z"
+  },
+  {
+    "id": "clmichyuw00bwvdpziecw24my",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 12.35, Y: 4.33.",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:42.274Z",
+    "time": 111.386467,
+    "createdAt": "2023-09-13T23:00:42.274Z",
+    "updatedAt": "2023-09-13T23:00:42.274Z"
+  },
+  {
+    "id": "clmichyto00buvdpzr378exie",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 10.57, Y: 3.68.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:42.253Z",
+    "time": 111.353134,
+    "createdAt": "2023-09-13T23:00:42.253Z",
+    "updatedAt": "2023-09-13T23:00:42.253Z"
+  },
+  {
+    "id": "clmichyxy00byvdpzji95uuxs",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1084) at X: 8.26, Y: 14.36",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:42.362Z",
+    "time": 111.353134,
+    "createdAt": "2023-09-13T23:00:42.362Z",
+    "updatedAt": "2023-09-13T23:00:42.362Z"
+  },
+  {
+    "id": "clmichyyi00bzvdpzkk5t72p5",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 5.62, Y: 4.21.",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:42.362Z",
+    "time": 111.353134,
+    "createdAt": "2023-09-13T23:00:42.362Z",
+    "updatedAt": "2023-09-13T23:00:42.362Z"
+  },
+  {
+    "id": "clmichyrp00bsvdpziteoq6vh",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 5.62, Y: 4.21.",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:42.182Z",
+    "time": 111.353134,
+    "createdAt": "2023-09-13T23:00:42.182Z",
+    "updatedAt": "2023-09-13T23:00:42.182Z"
+  },
+  {
+    "id": "clmichyu300bvvdpzq45sxuyy",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1066) at X: 8.26, Y: 14.36",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:42.267Z",
+    "time": 111.353134,
+    "createdAt": "2023-09-13T23:00:42.267Z",
+    "updatedAt": "2023-09-13T23:00:42.267Z"
+  },
+  {
+    "id": "clmichz7s00c2vdpzp51q4nx0",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 10.57, Y: 3.68.",
+    "importance": 7.5,
+    "accessedAt": "2023-09-13T23:00:42.463Z",
+    "time": 111.353134,
+    "createdAt": "2023-09-13T23:00:42.463Z",
+    "updatedAt": "2023-09-13T23:00:42.463Z"
+  },
+  {
+    "id": "clmichys500btvdpzmnu2zg83",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 3.31, Y: 10.14.",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:42.197Z",
+    "time": 111.15313,
+    "createdAt": "2023-09-13T23:00:42.197Z",
+    "updatedAt": "2023-09-13T23:00:42.197Z"
+  },
+  {
+    "id": "clmichyk900bqvdpzd7yv5217",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 3.31, Y: 10.14.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:41.913Z",
+    "time": 111.15313,
+    "createdAt": "2023-09-13T23:00:41.913Z",
+    "updatedAt": "2023-09-13T23:00:41.913Z"
+  },
+  {
+    "id": "clmichykr00brvdpzj1ibkjpl",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree Stump at X: 4.49, Y: 5.49.",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:41.932Z",
+    "time": 111.1198,
+    "createdAt": "2023-09-13T23:00:41.932Z",
+    "updatedAt": "2023-09-13T23:00:41.932Z"
+  },
+  {
+    "id": "clmichyhe00bpvdpzafh1oeqj",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree Stump at X: 4.49, Y: 5.49.",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:41.811Z",
+    "time": 111.1198,
+    "createdAt": "2023-09-13T23:00:41.811Z",
+    "updatedAt": "2023-09-13T23:00:41.811Z"
+  },
+  {
+    "id": "clmichyab00bnvdpzp3p4lvcv",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1067) at X: 12.56, Y: 14.36",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:41.523Z",
+    "time": 110.853134,
+    "createdAt": "2023-09-13T23:00:41.523Z",
+    "updatedAt": "2023-09-13T23:00:41.523Z"
+  },
+  {
+    "id": "clmichybi00bovdpzig3omv35",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (1085) at X: 12.56, Y: 14.36",
+    "importance": 1,
+    "accessedAt": "2023-09-13T23:00:41.564Z",
+    "time": 110.853134,
+    "createdAt": "2023-09-13T23:00:41.564Z",
+    "updatedAt": "2023-09-13T23:00:41.564Z"
+  },
+  {
+    "id": "clmichy1z00bjvdpzjxwmahvt",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown has started walking to 20.53, Y: -62.05.",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:41.256Z",
+    "time": 110.486465,
+    "createdAt": "2023-09-13T23:00:41.256Z",
+    "updatedAt": "2023-09-13T23:00:41.256Z"
+  },
+  {
+    "id": "clmichpnn00b4vdpzr0stbrrn",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown finished walking to 10, Y: 10.",
+    "importance": 10,
+    "accessedAt": "2023-09-13T23:00:23.296Z",
+    "time": 82.21997,
+    "createdAt": "2023-09-13T23:00:23.296Z",
+    "updatedAt": "2023-09-13T23:00:23.296Z"
+  },
+  {
+    "id": "clmichq4q00b5vdpz6cvs4ko1",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 12.56, Y: 14.36.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:23.367Z",
+    "time": 81.9864655,
+    "createdAt": "2023-09-13T23:00:23.367Z",
+    "updatedAt": "2023-09-13T23:00:23.367Z"
+  },
+  {
+    "id": "clmichrhl00bavdpzed1svlbm",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 12.56, Y: 14.36.",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:24.165Z",
+    "time": 81.9864655,
+    "createdAt": "2023-09-13T23:00:24.165Z",
+    "updatedAt": "2023-09-13T23:00:24.165Z"
+  },
+  {
+    "id": "clmichp5l00b1vdpzabl6foqa",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Stump (13) at X: 4.49, Y: 5.49",
+    "importance": 3,
+    "accessedAt": "2023-09-13T23:00:23.185Z",
+    "time": 81.68646,
+    "createdAt": "2023-09-13T23:00:23.185Z",
+    "updatedAt": "2023-09-13T23:00:23.185Z"
+  },
+  {
+    "id": "clmicho5s00ayvdpz2kme0hsx",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Stump (65) at X: 4.49, Y: 5.49",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:23.099Z",
+    "time": 81.68646,
+    "createdAt": "2023-09-13T23:00:23.099Z",
+    "updatedAt": "2023-09-13T23:00:23.099Z"
+  },
+  {
+    "id": "clmichoxa00b0vdpzf9nsq5l2",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (24) at X: 3.31, Y: 10.14",
+    "importance": 5,
+    "accessedAt": "2023-09-13T23:00:23.046Z",
+    "time": 81.5864639,
+    "createdAt": "2023-09-13T23:00:23.046Z",
+    "updatedAt": "2023-09-13T23:00:23.046Z"
+  },
+  {
+    "id": "clmichp5o00b2vdpzz0r9hmxx",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (823) at X: 3.31, Y: 10.14",
+    "importance": 2,
+    "accessedAt": "2023-09-13T23:00:23.132Z",
+    "time": 81.5864639,
+    "createdAt": "2023-09-13T23:00:23.132Z",
+    "updatedAt": "2023-09-13T23:00:23.132Z"
+  },
+  {
+    "id": "clmichp5u00b3vdpze0fv8m8o",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown no longer sees Tree (522) at X: 10.57, Y: 3.68",
+    "importance": 4,
+    "accessedAt": "2023-09-13T23:00:23.221Z",
+    "time": 81.45313,
+    "createdAt": "2023-09-13T23:00:23.221Z",
+    "updatedAt": "2023-09-13T23:00:23.221Z"
+  },
+  {
+    "id": "clmichnsi00awvdpz098qt862",
+    "characterId": "clmicf4r60002vdpzwda15yhq",
+    "memory": "George Brown sees Tree at X: 8.26, Y: 14.36.",
+    "importance": 7,
+    "accessedAt": "2023-09-13T23:00:23.032Z",
+    "time": 81.45313,
+    "createdAt": "2023-09-13T23:00:23.032Z",
+    "updatedAt": "2023-09-13T23:00:23.032Z"
+  }
+]
+[1694646073047] [32m[REFLECTION] Retrieved 100 latest memories for reflection generation.[39m
+[1694646073048] 1. George Brown sees Tree at X: 3.98, Y: -13.79.
+2. George Brown no longer sees Tree (56) at X: 11.02, Y: -4.68
+3. George Brown no longer sees Tree (10) at X: 4.14, Y: -3.639999
+4. George Brown sees Tree at X: 2.38, Y: -9.700001.
+5. George Brown no longer sees Tree (530) at X: 12.09, Y: -3.32
+6. George Brown no longer sees Tree (9) at X: 1.78, Y: -4.23
+7. George Brown no longer sees Tree (516) at X: 1.78, Y: -4.23
+8. George Brown no longer sees Tree (480) at X: 2.89, Y: -1.01
+9. George Brown no longer sees Tree (3) at X: 2.89, Y: -1.01
+10. George Brown sees Tree Stump at X: 8.41, Y: -9.870001.
+11. George Brown sees Tree at X: 1.78, Y: -4.23.
+12. George Brown no longer sees Tree (786) at X: 12.93, Y: -1.15
+13. George Brown sees Tree Stump at X: 9.14, Y: -7.77.
+14. George Brown no longer sees Tree (96) at X: 12.93, Y: -1.15
+15. George Brown sees Tree Stump at X: 5.58, Y: -7.27.
+16. George Brown no longer sees Tree (99) at X: 5.62, Y: 4.21
+17. George Brown no longer sees Tree (788) at X: 5.62, Y: 4.21
+18. George Brown no longer sees Tree (522) at X: 10.57, Y: 3.68
+19. George Brown no longer sees Tree (79) at X: 10.57, Y: 3.68
+20. George Brown sees Tree Stump at X: 8.46, Y: -6.74.
+21. George Brown no longer sees Tree (820) at X: 1.96, Y: 1.940001
+22. George Brown no longer sees Tree (121) at X: 8.26, Y: 5.17
+23. George Brown no longer sees Tree (818) at X: 8.26, Y: 5.17
+24. George Brown sees Tree at X: 12.09, Y: -3.32.
+25. George Brown sees Tree at X: 12.93, Y: -1.15.
+26. George Brown sees Tree at X: 12.93, Y: -1.15.
+27. George Brown sees Tree at X: 12.09, Y: -3.32.
+28. George Brown no longer sees Stump (13) at X: 4.49, Y: 5.49
+29. George Brown no longer sees Stump (65) at X: 4.49, Y: 5.49
+30. George Brown sees Tree at X: 4.14, Y: -3.639999.
+31. George Brown sees Tree at X: 4.14, Y: -3.639999.
+32. George Brown no longer sees Tree (14) at X: 2.71, Y: 4.690001
+33. George Brown no longer sees Tree (821) at X: 2.71, Y: 4.690001
+34. George Brown no longer sees Tree (799) at X: 12.35, Y: 4.33
+35. George Brown no longer sees Tree (124) at X: 5.81, Y: 6.9
+36. George Brown no longer sees Tree (805) at X: 5.81, Y: 6.9
+37. George Brown no longer sees Tree (806) at X: 9.18, Y: 6.9
+38. George Brown no longer sees Tree (125) at X: 9.18, Y: 6.9
+39. George Brown no longer sees Tree (108) at X: 11.74, Y: 5.87
+40. George Brown no longer sees Tree (795) at X: 11.74, Y: 5.87
+41. George Brown sees Tree at X: 2.89, Y: -1.01.
+42. George Brown sees Tree at X: 2.89, Y: -1.01.
+43. George Brown no longer sees Tree (123) at X: 3.15, Y: 6.9
+44. George Brown no longer sees Tree (804) at X: 3.15, Y: 6.9
+45. George Brown no longer sees Tree (814) at X: 7.61, Y: 8.54
+46. George Brown no longer sees Tree (134) at X: 7.61, Y: 8.54
+47. George Brown no longer sees Tree (131) at X: 5.02, Y: 8.8
+48. George Brown no longer sees Tree (811) at X: 5.02, Y: 8.8
+49. George Brown no longer sees Stump (14) at X: 9.65, Y: 8.56
+50. George Brown no longer sees Stump (66) at X: 9.65, Y: 8.56
+51. George Brown sees Tree at X: 1.96, Y: 1.940001.
+52. George Brown sees Tree at X: 1.96, Y: 1.940001.
+53. George Brown no longer sees Tree (809) at X: 11.42, Y: 8.92
+54. George Brown no longer sees Tree (129) at X: 11.42, Y: 8.92
+55. George Brown no longer sees Tree (816) at X: 9.51, Y: 10.14
+56. George Brown no longer sees Tree (136) at X: 9.51, Y: 10.14
+57. George Brown no longer sees Tree (135) at X: 6.5, Y: 10.93
+58. George Brown no longer sees Tree (815) at X: 6.5, Y: 10.93
+59. George Brown no longer sees Tree (126) at X: 13.48, Y: 6.9
+60. George Brown no longer sees Tree (807) at X: 13.48, Y: 6.9
+61. George Brown sees Tree at X: 2.71, Y: 4.690001.
+62. George Brown sees Tree at X: 2.71, Y: 4.690001.
+63. George Brown no longer sees Tree (130) at X: 13.65, Y: 8.8
+64. George Brown no longer sees Tree (810) at X: 13.65, Y: 8.8
+65. George Brown no longer sees Tree (1062) at X: 11.43, Y: 11.79
+66. George Brown no longer sees Tree (1080) at X: 11.43, Y: 11.79
+67. George Brown no longer sees Tree (1075) at X: 7.34, Y: 12.63
+68. George Brown no longer sees Tree (1093) at X: 7.34, Y: 12.63
+69. George Brown no longer sees Tree (1078) at X: 4.7, Y: 11.67
+70. George Brown no longer sees Tree (1060) at X: 4.7, Y: 11.67
+71. George Brown sees Tree at X: 3.15, Y: 6.9.
+72. George Brown sees Tree at X: 3.15, Y: 6.9.
+73. George Brown no longer sees Tree (1061) at X: 10.82, Y: 13.33
+74. George Brown no longer sees Tree (1079) at X: 10.82, Y: 13.33
+75. George Brown no longer sees Tree (24) at X: 3.31, Y: 10.14
+76. George Brown no longer sees Tree (823) at X: 3.31, Y: 10.14
+77. George Brown sees Tree at X: 12.35, Y: 4.33.
+78. George Brown sees Tree at X: 12.35, Y: 4.33.
+79. George Brown sees Tree at X: 10.57, Y: 3.68.
+80. George Brown no longer sees Tree (1084) at X: 8.26, Y: 14.36
+81. George Brown sees Tree at X: 5.62, Y: 4.21.
+82. George Brown sees Tree at X: 5.62, Y: 4.21.
+83. George Brown no longer sees Tree (1066) at X: 8.26, Y: 14.36
+84. George Brown sees Tree at X: 10.57, Y: 3.68.
+85. George Brown sees Tree at X: 3.31, Y: 10.14.
+86. George Brown sees Tree at X: 3.31, Y: 10.14.
+87. George Brown sees Tree Stump at X: 4.49, Y: 5.49.
+88. George Brown sees Tree Stump at X: 4.49, Y: 5.49.
+89. George Brown no longer sees Tree (1067) at X: 12.56, Y: 14.36
+90. George Brown no longer sees Tree (1085) at X: 12.56, Y: 14.36
+91. George Brown has started walking to 20.53, Y: -62.05.
+92. George Brown finished walking to 10, Y: 10.
+93. George Brown sees Tree at X: 12.56, Y: 14.36.
+94. George Brown sees Tree at X: 12.56, Y: 14.36.
+95. George Brown no longer sees Stump (13) at X: 4.49, Y: 5.49
+96. George Brown no longer sees Stump (65) at X: 4.49, Y: 5.49
+97. George Brown no longer sees Tree (24) at X: 3.31, Y: 10.14
+98. George Brown no longer sees Tree (823) at X: 3.31, Y: 10.14
+99. George Brown no longer sees Tree (522) at X: 10.57, Y: 3.68
+100. George Brown sees Tree at X: 8.26, Y: 14.36.
+Given only the information above, what are 3 most salient high-level questions we can answer about the subjects in the statements from George Brown's point of view?
+
+[1694646073051] [31m[getLatestMemories] Retrieving top 100 latest memories.[39m
+[1694646073182] [31m[createMemory][39m George Brown sees Tree at X: 29.28, Y: -26.96. [138.053131]
+[1694646073328] [31m[createMemory][39m George Brown no longer sees Stump (15) at X: 21.26, Y: -23.66788 [138.653137]
+[1694646073617] [31m[createMemory][39m George Brown no longer sees Tree (34) at X: 22.59, Y: -23.18 [138.886459]
+[1694646073707] [31m[createMemory][39m George Brown no longer sees Tree (156) at X: 26.2, Y: -23.09 [138.9198]
+[1694646073709] {
+  "role": "assistant",
+  "content": "1. Why are the trees and tree stumps that I could see earlier, no longer in my field of vision?\n2. Am I changing my location frequently, causing the difference in what trees and stumps I can see at different times?\n3. What is the significance of the particular coordinates where the trees and stumps are located?"
+}
+[1694646073974] [31m[createMemory][39m George Brown sees Tree at X: 30.73, Y: -29.31. [139.153137]
+[1694646074664] [31m[createMemory][39m George Brown sees Tree at X: 24.38, Y: -34.45. [139.386459]
+[1694646075951] [31m[createMemory][39m George Brown no longer sees Tree (260) at X: 28.12, Y: -25.2 [139.986465]
+[1694646076149] [31m[createMemory][39m George Brown sees Tree at X: 21.1, Y: -34.81. [140.386459]
+[1694646076641] [31m[createMemory][39m George Brown no longer sees Tree (161) at X: 29.28, Y: -26.96 [140.553131]
+[1694646076840] [31m[createMemory][39m George Brown no longer sees Tree (730) at X: 30.73, Y: -29.31 [140.653137]
+[1694646076998] [31m[createMemory][39m George Brown sees Tree at X: 24.93, Y: -36.81. [140.7198]
+[1694646077154] [31m[createMemory][39m George Brown sees Tree at X: 22.67, Y: -36.54. [140.786469]
+[1694646079679] {
+  "role": "assistant",
+  "content": "1. Why do the trees and stumps that I observe keep disappearing and reappearing at different coordinates?\n2. What is causing my perception of the trees and stumps around me to constantly change while I'm moving?\n3. Is there a pattern or purpose to the way the trees and stumps are positioned around me?"
+}
+[1694646080501] [31m[getLatestMemories] Retrieving top 100 latest memories.[39m
+[1694646080895] [31m[getLatestMemories] Retrieving top 100 latest memories.[39m
+[1694646080991] [31m[createMemory][39m George Brown sees Tree Stump at X: 30.7, Y: -35.81. [141.486465]
+[1694646081047] [31m[createMemory][39m George Brown sees Tree at X: 31.45, Y: -34.49. [141.553131]
+[1694646081251] [31m[createMemory][39m George Brown sees Tree at X: 30.73, Y: -29.31. [141.553131]
+[1694646081489] [31m[createMemory][39m George Brown no longer sees Tree (730) at X: 30.73, Y: -29.31 [141.786469]
+[1694646081814] [31m[createMemory][39m George Brown no longer sees Tree (264) at X: 27.86, Y: -27.79 [141.886459]

@@ -45,4 +45,19 @@ function getHungerDescription(satiety: number, maxSatiety: number): string {
     return "Starving";
 }
 
-export { convertTimeToString, getRelativeTime, getHungerDescription };
+function getEnergyDescription(energy: number, maxEnergy: number): string {
+    const fraction = energy / maxEnergy;
+    if (fraction === 1) return "Fully Rested";
+    if (fraction > 0.75) return "High Energy";
+    if (fraction > 0.5) return "Feeling Good";
+    if (fraction > 0.25) return "Tired";
+    if (fraction > 0.1) return "Drained";
+    return "Completely Exhausted";
+}
+
+export {
+    convertTimeToString,
+    getRelativeTime,
+    getHungerDescription,
+    getEnergyDescription,
+};

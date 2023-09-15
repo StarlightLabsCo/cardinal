@@ -1,0 +1,2337 @@
+[1694640754323] [31m[createMemory][39m I should be asleep until 7am. [0]
+[1694640754323] [31m[createMemory][39m It's my job to protect the village. [0]
+[1694640754324] [31m[createMemory][39m I need to make sure everyone is safe. [0]
+[1694640754324] [31m[createMemory][39m I do the work that no one else wants to do. [0]
+[1694640754324] [31m[createMemory][39m I try to be as honest as possible. [0]
+[1694640754324] [31m[createMemory][39m I'm not afraid of anything. [0]
+[1694640754324] [31m[createMemory][39m I go to bed at 10pm. [0]
+[1694640754324] [31m[createMemory][39m I like strawberries. [0]
+[1694640754324] [31m[createMemory][39m The village location is 2, -58. [0]
+[1694640754324] [31m[createMemory][39m The mine site is at 51, 17. [0]
+[1694640754324] [31m[createMemory][39m The lumberyard is at 72, -55.1 [0]
+[1694640754324] [31m[createMemory][39m The campsite is at 7, -8.3 [0]
+[1694640754324] [31m[createMemory][39m The Nume River flows through the village. [0]
+[1694640754324] [31m[createMemory][39m Nume Falls are north of the village, and west of the campsite. [0]
+[1694640754324] [31m[createMemory][39m The area is surrounded by forested monutains, filled with wildlife, rivers, and lakes. [0]
+[1694640763034] [Character] Thomas created (clmi9cmee0001vd1sww36m7te)
+[1694640793309] [31m[createMemory][39m Thomas Smith sees House at X: 3.663626, Y: -54.92766. [0]
+[1694640793346] [31m[createMemory][39m Thomas Smith sees House at X: 14.06, Y: -56.01. [0]
+[1694640793466] [31m[createMemory][39m Thomas Smith sees House at X: 9.44, Y: -53.9. [0]
+[1694640798332] --- Prompt ---
+[1694640798332] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 11.27, -55.21
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- House (Health: 100/100) [Location: 9.44, -53.9, Direction: W,  Distance: 2.3m]
+- House (Health: 100/100) [Location: 14.06, -56.01, Direction: W,  Distance: 2.9m]
+- James McAllister (Health: 25/25) [Location: 7.15, -58.08, Direction: W,  Distance: 5.0m]
+- Harold Smith (Health: 25/25) [Location: 5.9, -57.84, Direction: W,  Distance: 6.0m]
+- Tree (Health: 10/10) [Location: 12.6, -49.3, Direction: W,  Distance: 6.1m]
+- House (Health: 100/100) [Location: 3.663626, -54.92766, Direction: W,  Distance: 7.6m]
+- Tree (Health: 10/10) [Location: 8.63, -47.53, Direction: W,  Distance: 8.1m]
+- Tree (Health: 10/10) [Location: 16.59, -48.77, Direction: W,  Distance: 8.4m]
+- Tree (Health: 10/10) [Location: 11.9, -46.7, Direction: W,  Distance: 8.5m]
+- Tree Stump (Health: 5/5) [Location: 13.63, -46.92001, Direction: W,  Distance: 8.6m]
+- Tree (Health: 10/10) [Location: 18.81, -50.7, Direction: W,  Distance: 8.8m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I like strawberries. [just now]
+- I need to make sure everyone is safe. [just now]
+- It's my job to protect the village. [just now]
+- The campsite is at 7, -8.3 [just now]
+- Nume Falls are north of the village, and west of the campsite. [just now]
+- I should be asleep until 7am. [just now]
+- I'm not afraid of anything. [just now]
+- I go to bed at 10pm. [just now]
+- I do the work that no one else wants to do. [just now]
+- The mine site is at 51, 17. [just now]
+- Thomas Smith sees House at X: 9.44, Y: -53.9. [just now]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [just now]
+- Thomas Smith sees House at X: 14.06, Y: -56.01. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694640810912] --- Response ---
+[1694640810912] Updated Tasks: 
+[1694640810913] [
+  {
+    "task": "Catch up with other villagers",
+    "priority": 1
+  },
+  {
+    "task": "Eat some food",
+    "priority": 2
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 3
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 4
+  },
+  {
+    "task": "Secure houses in the village",
+    "priority": 5
+  },
+  {
+    "task": "Check on Nume Falls and the campsite",
+    "priority": 6
+  }
+]
+[1694640813560] --- Prompt ---
+[1694640813560] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 11.27, -55.21
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 2.3m]
+- House (Health: 100/100) [Direction: W, Distance: 2.9m]
+- James McAllister (Health: 25/25) [Direction: W, Distance: 5.0m]
+- Harold Smith (Health: 25/25) [Direction: W, Distance: 6.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 6.1m]
+- House (Health: 100/100) [Direction: W, Distance: 7.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.4m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.5m]
+- Tree Stump (Health: 5/5) [Direction: W, Distance: 8.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.8m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith sees House at X: 14.06, Y: -56.01. [just now]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [just now]
+- Thomas Smith sees House at X: 9.44, Y: -53.9. [just now]
+- The mine site is at 51, 17. [just now]
+- I do the work that no one else wants to do. [just now]
+- I should be asleep until 7am. [just now]
+- I need to make sure everyone is safe. [just now]
+- Nume Falls are north of the village, and west of the campsite. [just now]
+- It's my job to protect the village. [just now]
+- The campsite is at 7, -8.3 [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694640813560] --- Action Functions ---
+[1694640813561] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694640816197] --- Response ---
+[1694640816198] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eatfillType",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694640816205] {
+  "issues": [
+    {
+      "code": "invalid_union",
+      "unionErrors": [
+        {
+          "issues": [
+            {
+              "received": "eatfillType",
+              "code": "invalid_literal",
+              "expected": "add_to_chest",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"add_to_chest\""
+            },
+            {
+              "code": "invalid_union",
+              "unionErrors": [
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "wood",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"wood\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "stone",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"stone\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "iron",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"iron\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "diamond",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"diamond\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "copper",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"copper\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "coal",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"coal\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "axe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"axe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "pickaxe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"pickaxe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "sword",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"sword\""
+                    }
+                  ],
+                  "name": "ZodError"
+                }
+              ],
+              "path": [
+                "data",
+                "itemId"
+              ],
+              "message": "Invalid input"
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "chestId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "foodId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'foodId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "eatfillType",
+              "code": "invalid_literal",
+              "expected": "remove_from_chest",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"remove_from_chest\""
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "itemId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "chestId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "foodId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'foodId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "eatfillType",
+              "code": "invalid_literal",
+              "expected": "move_to",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"move_to\""
+            },
+            {
+              "code": "invalid_type",
+              "expected": "number",
+              "received": "undefined",
+              "path": [
+                "data",
+                "x"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "invalid_type",
+              "expected": "number",
+              "received": "undefined",
+              "path": [
+                "data",
+                "y"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "foodId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'foodId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "eatfillType",
+              "code": "invalid_literal",
+              "expected": "drop",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"drop\""
+            },
+            {
+              "code": "invalid_union",
+              "unionErrors": [
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "wood",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"wood\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "stone",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"stone\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "iron",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"iron\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "diamond",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"diamond\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "copper",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"copper\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "coal",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"coal\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "axe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"axe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "pickaxe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"pickaxe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "sword",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"sword\""
+                    }
+                  ],
+                  "name": "ZodError"
+                }
+              ],
+              "path": [
+                "data",
+                "itemId"
+              ],
+              "message": "Invalid input"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "foodId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'foodId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "eatfillType",
+              "code": "invalid_literal",
+              "expected": "swing_axe",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"swing_axe\""
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "foodId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'foodId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "eatfillType",
+              "code": "invalid_literal",
+              "expected": "swing_sword",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"swing_sword\""
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "foodId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'foodId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "eatfillType",
+              "code": "invalid_literal",
+              "expected": "swing_pickaxe",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"swing_pickaxe\""
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "foodId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'foodId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "eatfillType",
+              "code": "invalid_literal",
+              "expected": "start_conversation",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"start_conversation\""
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "targetCharacterId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "conversationGoal"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "foodId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'foodId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "eatfillType",
+              "code": "invalid_literal",
+              "expected": "eat",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"eat\""
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "eatfillType",
+              "code": "invalid_literal",
+              "expected": "sleep",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"sleep\""
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "targetHouseId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "foodId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'foodId'"
+            }
+          ],
+          "name": "ZodError"
+        }
+      ],
+      "path": [],
+      "message": "Invalid input"
+    }
+  ],
+  "name": "ZodError"
+}
+[1694640816205] --- Prompt ---
+[1694640816205] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 11.27, -55.21
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Hungry
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 2.3m]
+- House (Health: 100/100) [Direction: W, Distance: 2.9m]
+- James McAllister (Health: 25/25) [Direction: W, Distance: 5.0m]
+- Harold Smith (Health: 25/25) [Direction: W, Distance: 6.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 6.1m]
+- House (Health: 100/100) [Direction: W, Distance: 7.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.4m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.5m]
+- Tree Stump (Health: 5/5) [Direction: W, Distance: 8.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.8m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith sees House at X: 14.06, Y: -56.01. [just now]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [just now]
+- Thomas Smith sees House at X: 9.44, Y: -53.9. [just now]
+- The mine site is at 51, 17. [just now]
+- I do the work that no one else wants to do. [just now]
+- I should be asleep until 7am. [just now]
+- I need to make sure everyone is safe. [just now]
+- Nume Falls are north of the village, and west of the campsite. [just now]
+- It's my job to protect the village. [just now]
+- The campsite is at 7, -8.3 [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+
+[1694640816205] --- Action Functions ---
+[1694640816205] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694640818749] --- Response ---
+[1694640818750] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694640818752] --- Verified Action ---
+[1694640818752] {
+  "type": "eat",
+  "data": {
+    "characterId": "A1",
+    "foodId": "berries"
+  }
+}
+[1694640822043] Getting action 0
+[1694640822043] Getting result 0
+[1694640822044] --- Prompt ---
+[1694640822045] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 11.27, -55.21
+
+Time: Day 0, 2:29 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 2.3m]
+- House (Health: 100/100) [Direction: W, Distance: 2.9m]
+- James McAllister (Health: 25/25) [Direction: W, Distance: 5.0m]
+- Harold Smith (Health: 25/25) [Direction: W, Distance: 6.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 6.1m]
+- House (Health: 100/100) [Direction: W, Distance: 7.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.4m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.5m]
+- Tree Stump (Health: 5/5) [Direction: W, Distance: 8.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.8m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith sees House at X: 14.06, Y: -56.01. [2 hours ago]
+- Thomas Smith sees House at X: 3.663626, Y: -54.92766. [2 hours ago]
+- Thomas Smith sees House at X: 9.44, Y: -53.9. [2 hours ago]
+- The mine site is at 51, 17. [2 hours ago]
+- I do the work that no one else wants to do. [2 hours ago]
+- I should be asleep until 7am. [2 hours ago]
+- I need to make sure everyone is safe. [2 hours ago]
+- Nume Falls are north of the village, and west of the campsite. [2 hours ago]
+- It's my job to protect the village. [2 hours ago]
+- The campsite is at 7, -8.3 [2 hours ago]
+
+Previous Actions:
+- [eat]: Thomas Smith ate Berries which restored 10 satiety. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694640822045] --- Action Functions ---
+[1694640822045] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694640825852] --- Response ---
+[1694640825852] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 14.06,\n  \"y\": -56.01\n}"
+  }
+}
+[1694640825853] --- Verified Action ---
+[1694640825853] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 14.06,
+    "y": -56.01
+  }
+}
+[1694640826069] [31m[createMemory][39m Thomas Smith has started walking to 14.06, Y: -56.01. [32.046917]
+[1694640826803] [31m[createMemory][39m Thomas Smith no longer sees House 2 at X: 3.663626, Y: -54.92766 [32.78025]
+[1694640828466] [31m[createMemory][39m Thomas Smith finished walking to 14.06, Y: -56.01. [34.4399872]
+[1694640831045] Getting action 0
+[1694640831045] Getting result 0
+[1694640831045] Getting action 1
+[1694640831045] Getting result 1
+[1694640831045] --- Prompt ---
+[1694640831045] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 13.99542, -56.13
+
+Time: Day 0, 3:26 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 0.14m]
+- House (Health: 100/100) [Direction: W, Distance: 5.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.0m]
+- James McAllister (Health: 25/25) [Direction: W, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.3m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.8m]
+- House (Health: 100/100) [Direction: W, Distance: 10m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith finished walking to 14.06, Y: -56.01. [0 minutes ago]
+- Thomas Smith no longer sees House 2 at X: 3.663626, Y: -54.92766 [10 minutes ago]
+- Thomas Smith has started walking to 14.06, Y: -56.01. [14 minutes ago]
+- Thomas Smith sees House at X: 14.06, Y: -56.01. [3 hours ago]
+- Thomas Smith sees House at X: 9.44, Y: -53.9. [3 hours ago]
+- The mine site is at 51, 17. [3 hours ago]
+- I do the work that no one else wants to do. [3 hours ago]
+- I should be asleep until 7am. [3 hours ago]
+- I need to make sure everyone is safe. [3 hours ago]
+- Nume Falls are north of the village, and west of the campsite. [3 hours ago]
+
+Hitbox (what you would hit with a swing based action):
+- House (Health: 100/100)
+
+Previous Actions:
+- [eat]: Thomas Smith ate Berries which restored 10 satiety. [57 minutes ago]
+- [move_to]: Thomas Smith walked to X: 14.06, Y: -56.01. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694640831045] --- Action Functions ---
+[1694640831045] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694640834427] --- Response ---
+[1694640834427] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 13.99542,\n  \"y\": -56.13\n}"
+  }
+}
+[1694640834427] --- Verified Action ---
+[1694640834427] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 13.99542,
+    "y": -56.13
+  }
+}
+[1694640834645] [31m[createMemory][39m Thomas Smith has started walking to 13.99542, Y: -56.13. [40.6135826]
+[1694640834772] [31m[createMemory][39m Thomas Smith finished walking to 13.99542, Y: -56.13. [40.6999855]
+[1694640837401] Getting action 0
+[1694640837402] Getting result 0
+[1694640837402] Getting action 1
+[1694640837402] Getting result 1
+[1694640837402] Getting action 2
+[1694640837402] Getting result 2
+[1694640837402] --- Prompt ---
+[1694640837405] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 13.99542, -56.13
+
+Time: Day 0, 4:04 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 0.14m]
+- House (Health: 100/100) [Direction: W, Distance: 5.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.0m]
+- James McAllister (Health: 25/25) [Direction: W, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.3m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.8m]
+- House (Health: 100/100) [Direction: W, Distance: 10m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith finished walking to 13.99542, Y: -56.13. [0 minutes ago]
+- Thomas Smith finished walking to 14.06, Y: -56.01. [37 minutes ago]
+- Thomas Smith no longer sees House 2 at X: 3.663626, Y: -54.92766 [47 minutes ago]
+- Thomas Smith has started walking to 14.06, Y: -56.01. [51 minutes ago]
+- Thomas Smith sees House at X: 14.06, Y: -56.01. [4 hours ago]
+- Thomas Smith sees House at X: 9.44, Y: -53.9. [4 hours ago]
+- The mine site is at 51, 17. [4 hours ago]
+- I do the work that no one else wants to do. [4 hours ago]
+- I need to make sure everyone is safe. [4 hours ago]
+- Nume Falls are north of the village, and west of the campsite. [4 hours ago]
+
+Hitbox (what you would hit with a swing based action):
+- House (Health: 100/100)
+
+Previous Actions:
+- [eat]: Thomas Smith ate Berries which restored 10 satiety. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 14.06, Y: -56.01. [37 minutes ago]
+- [move_to]: Thomas Smith walked to X: 13.99542, Y: -56.13. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694640837405] --- Action Functions ---
+[1694640837405] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694640840371] --- Response ---
+[1694640840371] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 14,\n  \"y\": -56\n}"
+  }
+}
+[1694640840372] --- Verified Action ---
+[1694640840372] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 14,
+    "y": -56
+  }
+}
+[1694640840592] [31m[createMemory][39m Thomas Smith has started walking to 14, Y: -56. [46.546917]
+[1694640840753] [31m[createMemory][39m Thomas Smith finished walking to 14, Y: -56. [46.6399841]
+[1694640843193] Getting action 0
+[1694640843193] Getting result 0
+[1694640843193] Getting action 1
+[1694640843193] Getting result 1
+[1694640843193] Getting action 2
+[1694640843193] Getting result 2
+[1694640843193] Getting action 3
+[1694640843193] Getting result 3
+[1694640843193] --- Prompt ---
+[1694640843194] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 13.99665, -56.09502
+
+Time: Day 0, 4:39 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 0.11m]
+- House (Health: 100/100) [Direction: W, Distance: 5.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 6.9m]
+- James McAllister (Health: 25/25) [Direction: W, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.2m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.8m]
+- House (Health: 100/100) [Direction: W, Distance: 10m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith has started walking to 14, Y: -56. [0 minutes ago]
+- Thomas Smith finished walking to 13.99542, Y: -56.13. [35 minutes ago]
+- Thomas Smith finished walking to 14.06, Y: -56.01. [1 hours ago]
+- Thomas Smith no longer sees House 2 at X: 3.663626, Y: -54.92766 [1 hours ago]
+- Thomas Smith has started walking to 14.06, Y: -56.01. [1 hours ago]
+- Thomas Smith sees House at X: 14.06, Y: -56.01. [4 hours ago]
+- Thomas Smith sees House at X: 9.44, Y: -53.9. [4 hours ago]
+- The mine site is at 51, 17. [4 hours ago]
+- I do the work that no one else wants to do. [4 hours ago]
+- Nume Falls are north of the village, and west of the campsite. [4 hours ago]
+
+Hitbox (what you would hit with a swing based action):
+- House (Health: 100/100)
+
+Previous Actions:
+- [eat]: Thomas Smith ate Berries which restored 10 satiety. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 14.06, Y: -56.01. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 13.99542, Y: -56.13. [35 minutes ago]
+- [move_to]: Thomas Smith walked to X: 14, Y: -56. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694640843195] --- Action Functions ---
+[1694640843195] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694640846453] --- Response ---
+[1694640846453] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"x\": 14,\n  \"y\": -56\n}"
+  }
+}
+[1694640846454] --- Verified Action ---
+[1694640846454] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 14,
+    "y": -56
+  }
+}
+[1694640846693] [31m[createMemory][39m Thomas Smith has started walking to 14, Y: -56. [52.6135826]
+[1694640846797] [31m[createMemory][39m Thomas Smith finished walking to 14, Y: -56. [52.69998]
+[1694640849420] Getting action 0
+[1694640849420] Getting result 0
+[1694640849420] Getting action 1
+[1694640849420] Getting result 1
+[1694640849420] Getting action 2
+[1694640849420] Getting result 2
+[1694640849420] Getting action 3
+[1694640849420] Getting result 3
+[1694640849420] Getting action 4
+[1694640849420] Getting result 4
+[1694640849420] --- Prompt ---
+[1694640849420] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 13.99789, -56.06004
+
+Time: Day 0, 5:16 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 0.080m]
+- House (Health: 100/100) [Direction: W, Distance: 5.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 6.9m]
+- James McAllister (Health: 25/25) [Direction: W, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.2m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.7m]
+- House (Health: 100/100) [Direction: W, Distance: 10m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith finished walking to 14, Y: -56. [0 minutes ago]
+- Thomas Smith finished walking to 14, Y: -56. [36 minutes ago]
+- Thomas Smith has started walking to 14, Y: -56. [36 minutes ago]
+- Thomas Smith finished walking to 13.99542, Y: -56.13. [1 hours ago]
+- Thomas Smith finished walking to 14.06, Y: -56.01. [1 hours ago]
+- Thomas Smith no longer sees House 2 at X: 3.663626, Y: -54.92766 [1 hours ago]
+- Thomas Smith has started walking to 14.06, Y: -56.01. [2 hours ago]
+- Thomas Smith sees House at X: 14.06, Y: -56.01. [5 hours ago]
+- Thomas Smith sees House at X: 9.44, Y: -53.9. [5 hours ago]
+- The mine site is at 51, 17. [5 hours ago]
+
+Hitbox (what you would hit with a swing based action):
+- House (Health: 100/100)
+
+Previous Actions:
+- [eat]: Thomas Smith ate Berries which restored 10 satiety. [2 hours ago]
+- [move_to]: Thomas Smith walked to X: 14.06, Y: -56.01. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 13.99542, Y: -56.13. [1 hours ago]
+- [move_to]: Thomas Smith walked to X: 14, Y: -56. [36 minutes ago]
+- [move_to]: Thomas Smith walked to X: 14, Y: -56. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694640849421] --- Action Functions ---
+[1694640849421] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694640852226] --- Response ---
+[1694640852226] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A1\", \n  \"x\": 5, \n  \"y\": 0\n}"
+  }
+}
+[1694640852230] --- Verified Action ---
+[1694640852230] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A1",
+    "x": 5,
+    "y": 0
+  }
+}
+[1694640852398] [31m[createMemory][39m Thomas Smith has started walking to 5, Y: 0. [58.3469162]
+[1694640854379] [31m[createMemory][39m Thomas Smith no longer sees House 1 at X: 9.44, Y: -53.9 [60.3135834]
+[1694640855848] [31m[createMemory][39m Thomas Smith sees Lucy Wilde at X: 24.33, Y: -56.01. [61.7469177]
+[1694640856531] [31m[createMemory][39m Thomas Smith sees Eli Green at X: 25.55, Y: -55.73. [62.44692]
+[1694640857959] [31m[createMemory][39m Thomas Smith no longer sees House at X: 14.06, Y: -56.01 [63.8802528]
+[1694640862176] [31m[createMemory][39m Thomas Smith no longer sees Human (3) at X: 24.33, Y: -56.01 [68.04692]
+[1694640862903] [31m[createMemory][39m Thomas Smith no longer sees Human (4) at X: 25.55, Y: -55.73 [68.74692]
+[1694640864792] [31m[createMemory][39m Thomas Smith sees Tree at X: 36.04, Y: -47.68999. [70.68025]
+[1694640866651] [31m[createMemory][39m Thomas Smith sees Tree Stump at X: 36.50999, Y: -46.03. [72.54692]
+[1694640866941] [31m[createMemory][39m Thomas Smith sees Tree at X: 36.37, Y: -44.45. [72.84692]
+[1694640867624] [31m[createMemory][39m Thomas Smith sees Tree at X: 25.76, Y: -44.33. [73.51359]
+[1694640867976] [31m[createMemory][39m Thomas Smith no longer sees Stump (50) at X: 36.50999, Y: -46.03 [73.74692]
+[1694640868059] [31m[createMemory][39m Thomas Smith sees Stone Ore Deposit (Small) at X: 32.23, Y: -40.35. [73.78025]
+[1694640868137] [31m[createMemory][39m Thomas Smith no longer sees Tree (655) at X: 36.37, Y: -44.45 [74.01359]
+[1694640868141] [31m[createMemory][39m Thomas Smith no longer sees Tree (649) at X: 36.04, Y: -47.68999 [74.01359]
+[1694640868260] [31m[createMemory][39m Thomas Smith sees Tree at X: 25.76, Y: -42.09. [74.11359]
+[1694640869486] [31m[createMemory][39m Thomas Smith sees Tree at X: 25.48, Y: -39.34. [75.34692]
+[1694640870287] [31m[createMemory][39m Thomas Smith sees Tree at X: 23.13, Y: -42.43. [76.08025]
+[1694640870893] [31m[createMemory][39m Thomas Smith sees Tree at X: 24.93, Y: -36.81. [76.78025]
+[1694640871723] [31m[createMemory][39m Thomas Smith sees Tree Stump at X: 30.7, Y: -35.81. [77.61359]
+[1694640871989] [31m[createMemory][39m Thomas Smith sees Tree at X: 22.67, Y: -36.54. [77.84692]
+[1694640872208] [31m[createMemory][39m Thomas Smith sees Tree at X: 32.43, Y: -36.81211. [78.08025]
+[1694640872296] [31m[createMemory][39m Thomas Smith sees Tree at X: 24.38, Y: -34.45. [78.18025]
+[1694640872511] [31m[createMemory][39m Thomas Smith no longer sees Tree (336) at X: 25.76, Y: -44.33 [78.38025]
+[1694640872817] [31m[createMemory][39m Thomas Smith sees Tree at X: 31.45, Y: -34.49. [78.68025]
+[1694640872854] [31m[createMemory][39m Thomas Smith no longer sees Tree (335) at X: 23.13, Y: -42.43 [78.7135849]
+[1694640873315] [31m[createMemory][39m Thomas Smith no longer sees StoneOreSmall (10) at X: 32.23, Y: -40.35 [79.18025]
+[1694640873919] [31m[createMemory][39m Thomas Smith no longer sees Tree (331) at X: 25.76, Y: -42.09 [79.64692]
+[1694640874064] [31m[createMemory][39m Thomas Smith sees Tree at X: 23.02, Y: -32.65. [79.78025]
+[1694640875004] [31m[createMemory][39m Thomas Smith sees Tree at X: 28.28, Y: -29.76. [80.58025]
+[1694640875220] [31m[createMemory][39m Thomas Smith no longer sees Tree (302) at X: 32.43, Y: -36.81211 [80.84692]
+[1694640875372] [31m[createMemory][39m Thomas Smith sees Tree at X: 21.1, Y: -34.81. [81.04692]
+[1694640875804] [31m[createMemory][39m Thomas Smith no longer sees Tree (330) at X: 25.48, Y: -39.34 [81.4469147]
+[1694640876500] [31m[createMemory][39m Thomas Smith sees Tree at X: 27.86, Y: -27.79. [81.9469147]
+[1694640877246] [31m[createMemory][39m Thomas Smith no longer sees Tree (301) at X: 31.45, Y: -34.49 [82.24692]
+[1694640877418] [31m[createMemory][39m Thomas Smith no longer sees Stump (25) at X: 30.7, Y: -35.81 [82.34692]
+[1694640878017] [31m[createMemory][39m Thomas Smith no longer sees Tree (286) at X: 22.67, Y: -36.54 [83.04692]
+[1694640878095] [31m[createMemory][39m Thomas Smith no longer sees Tree (263) at X: 24.93, Y: -36.81 [83.11359]
+[1694640878321] [31m[createMemory][39m Thomas Smith sees Tree at X: 30.73, Y: -29.31. [83.18025]
+[1694640878328] [31m[createMemory][39m Thomas Smith sees Tree at X: 29.28, Y: -26.96. [83.28025]
+[1694640878425] [31m[createMemory][39m Thomas Smith no longer sees Tree (291) at X: 21.1, Y: -34.81 [83.4469147]
+[1694640878706] [31m[createMemory][39m Thomas Smith sees Tree at X: 28.12, Y: -25.2. [83.84692]
+[1694640879527] [31m[createMemory][39m Thomas Smith no longer sees Tree (259) at X: 24.38, Y: -34.45 [84.4469147]
+[1694640880011] [31m[createMemory][39m Thomas Smith sees Tree at X: 26.2, Y: -23.09. [84.91358]
+[1694640880113] [31m[createMemory][39m Thomas Smith no longer sees Tree (730) at X: 30.73, Y: -29.31 [84.68025]
+[1694640880319] [31m[createMemory][39m Thomas Smith sees Tree at X: 22.59, Y: -23.18. [84.98025]
+[1694640880654] [31m[createMemory][39m Thomas Smith sees Tree Stump at X: 21.26, Y: -23.66788. [85.18025]
+[1694640881421] [31m[createMemory][39m Thomas Smith sees Tree at X: 20.14, Y: -22.62. [85.88025]
+[1694640881447] [31m[createMemory][39m Thomas Smith sees Tree at X: 24.08, Y: -21.93. [85.78025]
+[1694640881461] [31m[createMemory][39m Thomas Smith no longer sees Tree (287) at X: 23.02, Y: -32.65 [85.88025]
+[1694640881568] [31m[createMemory][39m Thomas Smith no longer sees Tree (161) at X: 29.28, Y: -26.96 [85.88025]
+[1694640882060] [31m[createMemory][39m Thomas Smith no longer sees Tree (265) at X: 28.28, Y: -29.76 [86.14692]
+[1694640882644] [31m[createMemory][39m Thomas Smith no longer sees Tree (260) at X: 28.12, Y: -25.2 [86.78025]
+[1694640882720] [31m[createMemory][39m Thomas Smith sees Tree at X: 18.28, Y: -21.95. [86.84692]
+[1694640882816] [31m[createMemory][39m Thomas Smith no longer sees Tree (264) at X: 27.86, Y: -27.79 [86.84692]
+[1694640883474] [31m[createMemory][39m Thomas Smith sees Tree at X: 21.54, Y: -20.29. [87.64692]
+[1694640883563] [31m[createMemory][39m Thomas Smith no longer sees Tree (156) at X: 26.2, Y: -23.09 [87.74692]
+[1694640884142] [31m[createMemory][39m Thomas Smith sees Tree at X: 14.11, Y: -27.17. [88.7135849]
+[1694640884423] [31m[createMemory][39m Thomas Smith sees Tree at X: 19.34, Y: -19.25. [89.01359]
+[1694640884540] [31m[createMemory][39m Thomas Smith no longer sees Tree (155) at X: 24.08, Y: -21.93 [89.11359]
+[1694640884904] [31m[createMemory][39m Thomas Smith sees Stone Ore Deposit (Small) at X: 15.88, Y: -18.99. [89.54692]
+[1694640886984] [31m[createMemory][39m Thomas Smith sees Stone Ore Deposit (Small) at X: 14.39, Y: -18.34. [90.31358]
+[1694640887168] [31m[createMemory][39m Thomas Smith sees Tree at X: 11.96, Y: -25.18. [90.38025]
+[1694640887323] [31m[createMemory][39m Thomas Smith sees Tree at X: 12.43, Y: -19.6. [90.48025]
+[1694640887330] [31m[createMemory][39m Thomas Smith no longer sees Tree (34) at X: 22.59, Y: -23.18 [90.61359]
+[1694640887732] [31m[createMemory][39m Thomas Smith no longer sees Tree (149) at X: 21.54, Y: -20.29 [90.91358]
+[1694640888179] [31m[createMemory][39m Thomas Smith no longer sees Stump (15) at X: 21.26, Y: -23.66788 [91.24692]
+[1694640889450] [31m[createMemory][39m Thomas Smith sees Tree at X: 13.25, Y: -16.78. [92.14692]
+[1694640889450] [31m[createMemory][39m Thomas Smith sees Tree at X: 15.22, Y: -16.78. [92.14692]
+[1694640889515] [31m[createMemory][39m Thomas Smith no longer sees Tree (33) at X: 20.14, Y: -22.62 [92.18025]
+[1694640889683] [31m[createMemory][39m Thomas Smith no longer sees Tree (148) at X: 19.34, Y: -19.25 [92.34692]
+[1694640889732] [31m[createMemory][39m Thomas Smith sees Tree at X: 9.26, Y: -25.09. [92.38025]
+[1694640890077] [31m[createMemory][39m Thomas Smith no longer sees Tree (256) at X: 14.11, Y: -27.17 [92.9469147]
+[1694640890174] [31m[createMemory][39m Thomas Smith sees Tree at X: 10.73, Y: -16.49. [93.08025]
+[1694640890631] [31m[createMemory][39m Thomas Smith no longer sees Tree (29) at X: 18.28, Y: -21.95 [93.41358]
+[1694640890793] [31m[createMemory][39m Thomas Smith sees Tree at X: 7.04, Y: -22.88. [93.4469147]
+[1694640891458] [31m[createMemory][39m Thomas Smith sees Tree at X: 6, Y: -20.83. [93.98025]
+[1694640891665] [31m[createMemory][39m Thomas Smith sees Tree at X: 6.79, Y: -17.79. [94.01359]
+[1694640892323] [31m[createMemory][39m Thomas Smith sees Tree at X: 4.96, Y: -19.42. [94.74692]
+[1694640892425] [31m[createMemory][39m Thomas Smith no longer sees Tree (54) at X: 15.22, Y: -16.78 [94.84692]
+[1694640892432] [31m[createMemory][39m Thomas Smith no longer sees StoneOreSmall (1) at X: 15.88, Y: -18.99 [94.88025]
+[1694640892596] [31m[createMemory][39m Thomas Smith no longer sees Tree (261) at X: 11.96, Y: -25.18 [95.04692]
+[1694640892599] [31m[createMemory][39m Thomas Smith sees Tree at X: 9.45, Y: -14.39. [95.14692]
+[1694640892645] [31m[createMemory][39m Thomas Smith no longer sees Tree (262) at X: 9.26, Y: -25.09 [95.2135849]
+[1694640892718] [31m[createMemory][39m Thomas Smith sees Tree at X: 11.84, Y: -14.35. [95.28025]
+[1694640893047] [31m[createMemory][39m Thomas Smith sees Tree at X: 15.22, Y: -16.78. [95.78025]
+[1694640893372] [31m[createMemory][39m Thomas Smith sees Tree at X: 13.75, Y: -13.81. [96.2135849]
+[1694640893536] [31m[createMemory][39m Thomas Smith sees Tree at X: 11.7, Y: -12.56. [96.34692]
+[1694640893555] [31m[createMemory][39m Thomas Smith no longer sees Tree (067) at X: 7.04, Y: -22.88 [96.24692]
+[1694640893715] [31m[createMemory][39m Thomas Smith no longer sees Tree (54) at X: 15.22, Y: -16.78 [96.68025]
+[1694640893984] [31m[createMemory][39m Thomas Smith sees Tree at X: 3.77, Y: -16.34. [96.74692]
+[1694640894180] [31m[createMemory][39m Thomas Smith sees Tree Stump at X: 3.68, Y: -17.74. [96.9469147]
+[1694640894342] [31m[createMemory][39m Thomas Smith no longer sees StoneOreSmall at X: 14.39, Y: -18.34 [97.11359]
+[1694640894375] [31m[createMemory][39m Thomas Smith sees Tree at X: 3.98, Y: -13.79. [97.14692]
+[1694640894745] [31m[createMemory][39m Thomas Smith sees Tree at X: 4.59, Y: -12.01. [97.58025]
+[1694640894870] [31m[createMemory][39m Thomas Smith no longer sees Tree (66) at X: 6, Y: -20.83 [97.61359]
+[1694640895025] [31m[createMemory][39m Thomas Smith no longer sees Tree (72) at X: 12.43, Y: -19.6 [97.98025]
+[1694640895051] [31m[createMemory][39m Thomas Smith sees Tree Stump at X: 8.41, Y: -9.870001. [98.18025]
+[1694640895180] [31m[createMemory][39m Thomas Smith no longer sees Tree (39) at X: 13.75, Y: -13.81 [98.41358]
+[1694640895349] [31m[createMemory][39m Thomas Smith no longer sees Tree (44) at X: 13.25, Y: -16.78 [98.54692]
+[1694640895405] [31m[createMemory][39m Thomas Smith no longer sees Tree (63) at X: 4.96, Y: -19.42 [98.58025]
+[1694640895454] [31m[createMemory][39m Thomas Smith sees Tree at X: 2.8, Y: -11.64. [98.61359]
+[1694640895566] [31m[createMemory][39m Thomas Smith sees Tree at X: 2.16, Y: -14.95. [98.64692]
+[1694640895676] [31m[createMemory][39m Thomas Smith no longer sees Tree (28) at X: 2.16, Y: -14.95 [99.04692]
+[1694640895833] [31m[createMemory][39m Thomas Smith no longer sees Stump (8) at X: 3.68, Y: -17.74 [99.24692]
+[1694640896147] [31m[createMemory][39m Thomas Smith sees Tree Stump at X: 9.14, Y: -7.77. [99.54692]
+[1694640896825] [31m[createMemory][39m Thomas Smith no longer sees Tree (45) at X: 6.79, Y: -17.79 [99.81358]
+[1694640897236] [31m[createMemory][39m Thomas Smith no longer sees Tree (25) at X: 3.77, Y: -16.34 [99.91358]
+[1694640897368] [31m[createMemory][39m Thomas Smith sees Tree Stump at X: 5.58, Y: -7.27. [99.9469147]
+[1694640897550] [31m[createMemory][39m Thomas Smith sees Tree Stump at X: 8.46, Y: -6.74. [100.080254]
+[1694640897694] [31m[createMemory][39m Thomas Smith sees Tree at X: 2.38, Y: -9.700001. [100.146919]
+[1694640897829] [31m[createMemory][39m Thomas Smith no longer sees Tree (40) at X: 10.73, Y: -16.49 [100.246918]

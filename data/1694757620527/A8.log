@@ -1,0 +1,98 @@
+[1694757621446] [Character] Creating John
+[1694757622166] [31m[createMemory][39m I've scaled the highest peak in the Blackspire Range. [0]
+[1694757622166] [31m[createMemory][39m My travels have taken me to forgotten civilizations. [0]
+[1694757622166] [31m[createMemory][39m I've escaped several near-death situations. [0]
+[1694757622166] [31m[createMemory][39m Found a rare artifact in an ancient ruin. [0]
+[1694757622166] [31m[createMemory][39m My compass is more than a tool; it's a lifeline. [0]
+[1694757622166] [31m[createMemory][39m I often rely on my wits rather than a weapon. [0]
+[1694757622166] [31m[createMemory][39m My pack contains only the essentials for survival. [0]
+[1694757622166] [31m[createMemory][39m The thrill of discovery fuels me. [0]
+[1694757622166] [31m[createMemory][39m I trust no one completely; the road has taught me that. [0]
+[1694757622166] [31m[createMemory][39m Navigating treacherous landscapes is second nature to me. [0]
+[1694757622166] [31m[createMemory][39m I've learned a lot about local cultures and their legends. [0]
+[1694757622166] [31m[createMemory][39m I've traded stories with adventurers and locals alike. [0]
+[1694757622166] [31m[createMemory][39m Survival skills are as crucial as courage. [0]
+[1694757622166] [31m[createMemory][39m Maps are useful, but instincts are invaluable. [0]
+[1694757622166] [31m[createMemory][39m I keep a journal of my adventures; it'll be my legacy. [0]
+[1694757622166] [31m[createMemory][39m Basecamp Alpha is my main hub, located at 43, 12. [0]
+[1694757622166] [31m[createMemory][39m I've journeyed through the Dark Forest, its coordinates are 24, 68. [0]
+[1694757622167] [31m[createMemory][39m The treacherous Snake Gorge is located at 53, -22. [0]
+[1694757622167] [31m[createMemory][39m There's a hidden temple at 11, 9; it took me months to find it. [0]
+[1694757622167] [31m[createMemory][39m The market at Skyline city is a great place to resupply; located at 78, 54. [0]
+[1694757634616] [Character] John created
+[1694757664349] [31m[createMemory][39m John Swift sees House at X: 9.44, Y: -53.9. [0.0199999921]
+[1694757664349] [31m[createMemory][39m John Swift sees House at X: 3.663626, Y: -54.92766. [0.0199999921]
+[1694757670328] --- Prompt ---
+[1694757670328] Character: 
+- ID: A8
+- Name: John Swift
+- Age: 28
+- Occupation: Adventurer
+- Personality: Courageous, Resourceful, Independent
+
+Location: 8.42, -54.8
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- House (Health: 100/100) [Location: 9.44, -53.9, Direction: W,  Distance: 1.4m]
+- House (Health: 100/100) [Location: 3.663626, -54.92766, Direction: W,  Distance: 4.8m]
+- Cedric Warborn (Health: 25/25) [Location: 4.8, -58.14, Direction: W,  Distance: 4.9m]
+- House (Health: 100/100) [Location: 14.06, -56.01, Direction: W,  Distance: 5.8m]
+- Tree (Health: 10/10) [Location: 12.6, -49.3, Direction: W,  Distance: 6.9m]
+- Tree (Health: 10/10) [Location: 8.63, -47.53, Direction: W,  Distance: 7.3m]
+- Tree (Health: 10/10) [Location: 1.349999, -50.67, Direction: W,  Distance: 8.2m]
+- Tree (Health: 10/10) [Location: 11.9, -46.7, Direction: W,  Distance: 8.8m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I've scaled the highest peak in the Blackspire Range. [0 minutes ago]
+- I've journeyed through the Dark Forest, its coordinates are 24, 68. [0 minutes ago]
+- Found a rare artifact in an ancient ruin. [0 minutes ago]
+- My travels have taken me to forgotten civilizations. [0 minutes ago]
+- I often rely on my wits rather than a weapon. [0 minutes ago]
+- The thrill of discovery fuels me. [0 minutes ago]
+- Maps are useful, but instincts are invaluable. [0 minutes ago]
+- The treacherous Snake Gorge is located at 53, -22. [0 minutes ago]
+- I keep a journal of my adventures; it'll be my legacy. [0 minutes ago]
+- My pack contains only the essentials for survival. [0 minutes ago]
+- I trust no one completely; the road has taught me that. [0 minutes ago]
+- Navigating treacherous landscapes is second nature to me. [0 minutes ago]
+- Survival skills are as crucial as courage. [0 minutes ago]
+- I've learned a lot about local cultures and their legends. [0 minutes ago]
+- My compass is more than a tool; it's a lifeline. [0 minutes ago]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.

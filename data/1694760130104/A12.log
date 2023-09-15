@@ -1,0 +1,956 @@
+[1694760131605] [Character] Creating Cedric
+[1694760132245] [31m[createMemory][39m I’ve fought in three major campaigns during my youth. [0]
+[1694760132245] [31m[createMemory][39m I spend my mornings meditating, reflecting on life’s complexities. [0]
+[1694760132245] [31m[createMemory][39m I’ve mentored several of the village’s young men and women. [0]
+[1694760132245] [31m[createMemory][39m My home has a collection of artifacts from my time as a soldier. [0]
+[1694760132245] [31m[createMemory][39m The village festival every spring is a tradition I helped start. [0]
+[1694760132246] [31m[createMemory][39m People often seek my counsel for settling disputes. [0]
+[1694760132246] [31m[createMemory][39m I’ve learned the value of diplomacy over brute force. [0]
+[1694760132246] [31m[createMemory][39m I've authored several scrolls on strategy and leadership. [0]
+[1694760132246] [31m[createMemory][39m The woods to the north are full of medicinal herbs. [0]
+[1694760132246] [31m[createMemory][39m I have an old battle wound that acts up during the winter. [0]
+[1694760132246] [31m[createMemory][39m I enjoy listening to the blacksmith’s tales; reminds me of the forge of life. [0]
+[1694760132246] [31m[createMemory][39m I've seen leaders rise and fall; humility is key to greatness. [0]
+[1694760132246] [31m[createMemory][39m My children have moved to distant lands; they write often. [0]
+[1694760132246] [31m[createMemory][39m I've helped construct some of the village’s most iconic structures. [0]
+[1694760132246] [31m[createMemory][39m I find solace in reading the ancient texts kept in the village library. [0]
+[1694760132246] [31m[createMemory][39m My abode is at coordinates 8, 17; near the Wisdom Oak tree. [0]
+[1694760132246] [31m[createMemory][39m The village library is at coordinates 12, 6; I visit often. [0]
+[1694760132246] [31m[createMemory][39m The Wisdom Oak tree stands tall at 6, 20; a symbol of the village's age. [0]
+[1694760132246] [31m[createMemory][39m The old battleground is at 35, 40; a reminder of past conflicts. [0]
+[1694760132246] [31m[createMemory][39m The village cemetery is at 1, 28; I've laid many old friends to rest there. [0]
+[1694760143136] [Character] Cedric created
+[1694760171090] [31m[createMemory][39m Cedric Warborn sees House at X: 3.663626, Y: -54.92766. [0]
+[1694760171090] [31m[createMemory][39m Cedric Warborn sees Tree at X: 2.75, Y: -62.47. [0]
+[1694760178926] --- Prompt ---
+[1694760178937] Character: 
+- ID: A12
+- Name: Cedric Warborn
+- Age: 65
+- Occupation: Retired Soldier, Village Mentor
+- Personality: Sage, Observant, Stoic
+
+Location: 4.8, -58.14
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- House (Health: 100/100) [Location: 3.663626, -54.92766, Direction: W,  Distance: 3.4m]
+- Tree (Health: 10/10) [Location: 2.75, -62.47, Direction: W,  Distance: 4.8m]
+- House (Health: 100/100) [Location: 9.44, -53.9, Direction: W,  Distance: 6.3m]
+- John Swift (Health: 25/25) [Location: 10.45, -54.9, Direction: W,  Distance: 6.5m]
+- Tree (Health: 10/10) [Location: -0.29, -62.41, Direction: W,  Distance: 6.6m]
+- Tree (Health: 10/10) [Location: -1.900001, -55.92, Direction: W,  Distance: 7.1m]
+- Tree (Health: 10/10) [Location: 0.3800001, -64.07, Direction: W,  Distance: 7.4m]
+- Tree (Health: 10/10) [Location: -0.6500006, -52.92, Direction: W,  Distance: 7.5m]
+- Thomas Smith (Health: 25/25) [Location: 12.37, -57.75, Direction: W,  Distance: 7.6m]
+- Tree (Health: 10/10) [Location: 3.57, -66.16, Direction: W,  Distance: 8.1m]
+- Tree (Health: 10/10) [Location: 1.349999, -50.67, Direction: W,  Distance: 8.2m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I have an old battle wound that acts up during the winter. [just now]
+- My abode is at coordinates 8, 17; near the Wisdom Oak tree. [just now]
+- The Wisdom Oak tree stands tall at 6, 20; a symbol of the village's age. [just now]
+- My home has a collection of artifacts from my time as a soldier. [just now]
+- I've helped construct some of the village’s most iconic structures. [just now]
+- The village library is at coordinates 12, 6; I visit often. [just now]
+- The village cemetery is at 1, 28; I've laid many old friends to rest there. [just now]
+- I’ve learned the value of diplomacy over brute force. [just now]
+- I enjoy listening to the blacksmith’s tales; reminds me of the forge of life. [just now]
+- I’ve mentored several of the village’s young men and women. [just now]
+- I've seen leaders rise and fall; humility is key to greatness. [just now]
+- Cedric Warborn sees Tree at X: 2.75, Y: -62.47. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694760198040] --- Response ---
+[1694760198040] Updated Tasks: 
+[1694760198041] [
+  {
+    "task": "Catch up with other villagers",
+    "priority": 1
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  },
+  {
+    "task": "Visit the Wisdom Oak tree",
+    "priority": 4
+  },
+  {
+    "task": "Visit the village library",
+    "priority": 5
+  },
+  {
+    "task": "Check on the artifacts in your home",
+    "priority": 6
+  },
+  {
+    "task": "Visit the village cemetery",
+    "priority": 7
+  }
+]
+[1694760201060] --- Prompt ---
+[1694760201061] Character: 
+- ID: A12
+- Name: Cedric Warborn
+- Age: 65
+- Occupation: Retired Soldier, Village Mentor
+- Personality: Sage, Observant, Stoic
+
+Location: 4.8, -58.14
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 3.4m]
+- Tree (Health: 10/10) [Direction: W, Distance: 4.8m]
+- House (Health: 100/100) [Direction: W, Distance: 6.3m]
+- John Swift (Health: 25/25) [Direction: W, Distance: 6.5m]
+- Tree (Health: 10/10) [Direction: W, Distance: 6.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.4m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.5m]
+- Thomas Smith (Health: 25/25) [Direction: W, Distance: 7.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.2m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Cedric Warborn sees Tree at X: 2.75, Y: -62.47. [just now]
+- Cedric Warborn sees House at X: 3.663626, Y: -54.92766. [just now]
+- I've seen leaders rise and fall; humility is key to greatness. [just now]
+- I’ve mentored several of the village’s young men and women. [just now]
+- The village cemetery is at 1, 28; I've laid many old friends to rest there. [just now]
+- The village library is at coordinates 12, 6; I visit often. [just now]
+- I've helped construct some of the village’s most iconic structures. [just now]
+- My home has a collection of artifacts from my time as a soldier. [just now]
+- The Wisdom Oak tree stands tall at 6, 20; a symbol of the village's age. [just now]
+- I have an old battle wound that acts up during the winter. [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694760201062] --- Action Functions ---
+[1694760201063] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694760204536] --- Response ---
+[1694760204538] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A12\",\n  \"x\": 6.5,\n  \"y\": -58.14\n}"
+  }
+}
+[1694760204539] --- Verified Action ---
+[1694760204539] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A12",
+    "x": 6.5,
+    "y": -58.14
+  }
+}
+[1694760204795] [31m[createMemory][39m Cedric Warborn has started walking to 6.5, Y: -58.14. [19.60377]
+[1694760205658] [31m[createMemory][39m Cedric Warborn no longer sees Tree (1108) at X: 2.75, Y: -62.47 [20.45377]
+[1694760205676] [31m[createMemory][39m Cedric Warborn sees John Swift at X: 10.45, Y: -54.9. [20.45377]
+[1694760208444] Getting action 0
+[1694760208444] Getting result 0
+[1694760208444] --- Prompt ---
+[1694760208445] Character: 
+- ID: A12
+- Name: Cedric Warborn
+- Age: 65
+- Occupation: Retired Soldier, Village Mentor
+- Personality: Sage, Observant, Stoic
+
+Location: 6.356204, -58.1774
+
+Time: Day 0, 2:03 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 4.2m]
+- John Swift (Health: 25/25) [Direction: W, Distance: 5.2m]
+- House (Health: 100/100) [Direction: W, Distance: 5.3m]
+- Tree (Health: 10/10) [Direction: W, Distance: 5.6m]
+- Thomas Smith (Health: 25/25) [Direction: W, Distance: 6.0m]
+- Lucy Wilde (Health: 25/25) [Direction: W, Distance: 7.0m]
+- James McAllister (Health: 25/25) [Direction: W, Distance: 7.2m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.9m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.4m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.8m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Cedric Warborn sees Tree at X: 2.75, Y: -62.47. [2 hours ago]
+- I've seen leaders rise and fall; humility is key to greatness. [2 hours ago]
+- I’ve mentored several of the village’s young men and women. [2 hours ago]
+- I enjoy listening to the blacksmith’s tales; reminds me of the forge of life. [2 hours ago]
+- The village cemetery is at 1, 28; I've laid many old friends to rest there. [2 hours ago]
+- The village library is at coordinates 12, 6; I visit often. [2 hours ago]
+- I've helped construct some of the village’s most iconic structures. [2 hours ago]
+- My home has a collection of artifacts from my time as a soldier. [2 hours ago]
+- The Wisdom Oak tree stands tall at 6, 20; a symbol of the village's age. [2 hours ago]
+- I have an old battle wound that acts up during the winter. [2 hours ago]
+
+Previous Actions:
+- [move_to]: Cedric Warborn walked to X: 6.5, Y: -58.14. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694760208445] --- Action Functions ---
+[1694760208445] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694760211915] --- Response ---
+[1694760211915] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A12\",\n  \"x\": 12,\n  \"y\": 6\n}"
+  }
+}
+[1694760211916] --- Verified Action ---
+[1694760211916] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A12",
+    "x": 12,
+    "y": 6
+  }
+}
+[1694760212138] [31m[createMemory][39m Cedric Warborn has started walking to 12, Y: 6. [26.4704361]
+[1694760212623] [31m[createMemory][39m Cedric Warborn sees House at X: 9.44, Y: -53.9. [26.85377]
+[1694760212966] [31m[createMemory][39m Cedric Warborn sees Thomas Smith at X: 12.37, Y: -57.75. [27.2204361]
+[1694760213694] [31m[createMemory][39m Cedric Warborn sees James McAllister at X: 13.55, Y: -57.75. [27.8704357]
+[1694760214464] [31m[createMemory][39m Cedric Warborn sees House at X: 14.06, Y: -56.01. [28.65377]
+[1694760215595] [31m[createMemory][39m Cedric Warborn no longer sees House 2 at X: 3.663626, Y: -54.92766 [29.7204361]
+[1694760216664] [31m[createMemory][39m Cedric Warborn sees Tree at X: 18.3, Y: -59.99. [30.70377]
+[1694760217079] [31m[createMemory][39m Cedric Warborn sees Tree at X: 18.55, Y: -53.24. [31.1204357]
+[1694760217877] [31m[createMemory][39m Cedric Warborn no longer sees Human (7) at X: 10.45, Y: -54.9 [31.85377]
+[1694760218346] [31m[createMemory][39m Cedric Warborn sees Will Turner at X: 21.19, Y: -57.58. [32.2704353]
+[1694760218713] [31m[createMemory][39m Cedric Warborn sees Harold Smith at X: 21.79, Y: -57.11. [32.55377]
+[1694760218767] [31m[createMemory][39m Cedric Warborn no longer sees House 1 at X: 9.44, Y: -53.9 [32.60377]
+[1694760219251] [31m[createMemory][39m Cedric Warborn no longer sees Human at X: 12.37, Y: -57.75 [33.1204376]
+[1694760219932] [31m[createMemory][39m Cedric Warborn no longer sees Human (5) at X: 13.55, Y: -57.75 [33.7704353]
+[1694760221144] [31m[createMemory][39m Cedric Warborn sees Lucy Wilde at X: 25.63183, Y: -55.36264. [34.887104]
+[1694760221563] [31m[createMemory][39m Cedric Warborn sees Tree at X: 25.89, Y: -59.87. [35.25377]
+[1694760222563] [31m[createMemory][39m Cedric Warborn no longer sees Tree (1132) at X: 18.3, Y: -59.99 [36.0871]
+[1694760222645] [31m[createMemory][39m Cedric Warborn no longer sees House at X: 14.06, Y: -56.01 [36.1871033]
+[1694760223227] [31m[createMemory][39m Cedric Warborn no longer sees Tree (1133) at X: 18.55, Y: -53.24 [36.80377]
+[1694760233528] Getting action 0
+[1694760233528] Getting result 0
+[1694760233528] Getting action 1
+[1694760233528] Getting result 1
+[1694760233528] --- Prompt ---
+[1694760233528] Character: 
+- ID: A12
+- Name: Cedric Warborn
+- Age: 65
+- Occupation: Retired Soldier, Village Mentor
+- Personality: Sage, Observant, Stoic
+
+Location: 25.62611, -55.36757
+
+Time: Day 0, 4:18 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: NW, Distance: 0.0075m]
+- Harold Smith (Health: 25/25) [Direction: W, Distance: 4.2m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 4.5m]
+- Will Turner (Health: 25/25) [Direction: W, Distance: 5.0m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 6.5m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.2m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.4m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Cedric Warborn sees Tree at X: 25.89, Y: -59.87. [47 minutes ago]
+- Cedric Warborn no longer sees Human at X: 12.37, Y: -57.75 [1 hours ago]
+- Cedric Warborn sees Thomas Smith at X: 12.37, Y: -57.75. [1 hours ago]
+- Cedric Warborn sees House at X: 9.44, Y: -53.9. [1 hours ago]
+- Cedric Warborn sees Tree at X: 2.75, Y: -62.47. [4 hours ago]
+- I've seen leaders rise and fall; humility is key to greatness. [4 hours ago]
+- The village cemetery is at 1, 28; I've laid many old friends to rest there. [4 hours ago]
+- I've helped construct some of the village’s most iconic structures. [4 hours ago]
+- My home has a collection of artifacts from my time as a soldier. [4 hours ago]
+- I have an old battle wound that acts up during the winter. [4 hours ago]
+
+Previous Actions:
+- [move_to]: Cedric Warborn walked to X: 6.5, Y: -58.14. [2 hours ago]
+- [move_to]: Cedric Warborn walked to X: 12, Y: 6. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694760233528] --- Action Functions ---
+[1694760233529] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_axe",
+    "description": "Swing Axe.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_pickaxe",
+    "description": "Swing Pickaxe.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_sword",
+    "description": "Swing sword.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Lucy Wilde (ID: A4).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (3) in detail."
+        }
+      }
+    }
+  }
+]
+[1694760238613] --- Response ---
+[1694760238614] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "start_conversation",
+    "arguments": "{\n  \"characterId\": \"A12\",\n  \"targetCharacterId\": \"A4\",\n  \"conversationGoal\": \"To catch up with Lucy Wilde and maintain village relationships\"\n}"
+  }
+}
+[1694760238615] --- Verified Action ---
+[1694760238615] {
+  "type": "start_conversation",
+  "data": {
+    "characterId": "A12",
+    "targetCharacterId": "A4",
+    "conversationGoal": "To catch up with Lucy Wilde and maintain village relationships"
+  }
+}

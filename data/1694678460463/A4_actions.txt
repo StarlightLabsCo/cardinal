@@ -1,0 +1,32 @@
+[
+  {
+    "type": "eat",
+    "data": {
+      "characterId": "A4",
+      "foodId": "berries"
+    }
+  },
+  {
+    "type": "sleep",
+    "data": {
+      "characterId": "A4",
+      "targetHouseId": "house_(3.663626,-54.92766)"
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A4",
+      "x": 9.44,
+      "y": -53.9
+    }
+  },
+  {
+    "type": "start_conversation",
+    "data": {
+      "characterId": "A4",
+      "targetCharacterId": "A3",
+      "conversationGoal": "Get updates on recent village happenings"
+    }
+  }
+]

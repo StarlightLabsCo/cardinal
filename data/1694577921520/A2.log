@@ -1,0 +1,91 @@
+[1694577922271] [Character] Creating George
+[1694577922604] [31m[createMemory][39m George Brown is quite tired today. [0]
+[1694577922604] [31m[createMemory][39m Working in the mines is tough but rewarding. [0]
+[1694577922604] [31m[createMemory][39m I've been friends with Thomas for a long time. [0]
+[1694577922604] [31m[createMemory][39m Safety in the mines is a top priority for me. [0]
+[1694577922604] [31m[createMemory][39m I've discovered some rare minerals during my time here. [0]
+[1694577922604] [31m[createMemory][39m I'm usually one of the first to arrive at the mine site. [0]
+[1694577922605] [31m[createMemory][39m My family has been mining for generations. [0]
+[1694577922605] [31m[createMemory][39m I enjoy a cold beverage after a long day in the mines. [0]
+[1694577922605] [31m[createMemory][39m I've been taught traditional mining songs by the older miners. [0]
+[1694577922605] [31m[createMemory][39m I've saved up to buy a house near the village. [0]
+[1694577922605] [31m[createMemory][39m I know a secret tunnel in the mine that few know about. [0]
+[1694577922605] [31m[createMemory][39m It's important to have the right tools for the job. [0]
+[1694577922605] [31m[createMemory][39m I take pride in my work and look after my equipment. [0]
+[1694577922605] [31m[createMemory][39m I sometimes join Thomas and others for a meal after work. [0]
+[1694577922605] [31m[createMemory][39m I've had a few close calls, but always came out safe. [0]
+[1694577922605] [31m[createMemory][39m The village festivities are something I look forward to every year. [0]
+[1694577928617] [Character] George created
+[1694577932228] [31m[createMemory][39m George Brown sees Tree at X: 18.81, Y: -50.7. [0]
+[1694577932228] [31m[createMemory][39m George Brown sees House at X: 14.06, Y: -56.01. [0]
+[1694577934538] --- Prompt ---
+[1694577934540] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 16.56, -56.03
+
+Time: Day 0, 12:00 AM
+
+Energy: Completely Exhausted
+
+Hunger: Starving
+
+Environment:
+- House (Health: 100/100) [Location: 14.06, -56.01, Direction: W,  Distance: 2.5m]
+- Tree (Health: 10/10) [Location: 18.81, -50.7, Direction: W,  Distance: 5.8m]
+- Tree Stump (Health: 5/5) [Location: 21.23, -50.62, Direction: NW,  Distance: 7.1m]
+- Tree (Health: 10/10) [Location: 16.59, -48.77, Direction: W,  Distance: 7.3m]
+- Tree (Health: 10/10) [Location: 12.6, -49.3, Direction: W,  Distance: 7.8m]
+- Tree (Health: 10/10) [Location: 20.55, -48.68, Direction: NW,  Distance: 8.4m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- It's important to have the right tools for the job. [just now]
+- I've saved up to buy a house near the village. [just now]
+- I've been taught traditional mining songs by the older miners. [just now]
+- I know a secret tunnel in the mine that few know about. [just now]
+- My family has been mining for generations. [just now]
+- I enjoy a cold beverage after a long day in the mines. [just now]
+- I sometimes join Thomas and others for a meal after work. [just now]
+- Safety in the mines is a top priority for me. [just now]
+- I take pride in my work and look after my equipment. [just now]
+- I'm usually one of the first to arrive at the mine site. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+- sleep: Sleep in house (Id: house_(14.06,-56.01)).
+
+Hitbox (what you would hit with a swing based action):
+- House (Health: 100/100)
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.

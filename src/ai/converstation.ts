@@ -18,6 +18,7 @@ import {
 import { Character } from "@prisma/client";
 import { z } from "zod";
 import { openaiConfig } from "./openai.js";
+import { instance } from "../index.js";
 
 // TODO:
 // - Upgrade patience to be more complex -- delta patience = delta information > 0
@@ -63,7 +64,7 @@ async function setupCortexStep(
                 `I am ${character.name}.\n` +
                 `These are the memories I have related to the talking with ${interlocutor}:\n` +
                 characterReleventMemories
-                    .map((memory) => "- " + memory.memory)
+                    .map((memory) => `- ${memory.memory}`)
                     .join("\n") +
                 "\n" +
                 context,
@@ -73,14 +74,17 @@ async function setupCortexStep(
     return characterCortexStep;
 }
 
-async function fetchCharacters(characterIds: string[]): Promise<Character[]> {
+async function fetchCharacters(unityIds: string[]): Promise<Character[]> {
     let characters = [];
 
-    for (const characterId of characterIds) {
+    for (const unityId of unityIds) {
         characters.push(
             await prisma.character.findUnique({
                 where: {
-                    id: characterId,
+                    character_instanceId_unityId_unique: {
+                        unityId: unityId,
+                        instanceId: instance.id,
+                    },
                 },
             })
         );
@@ -132,6 +136,25 @@ async function processPriorMessage(
         {
             role: ChatMessageRoleEnum.User,
             content: interlocutorPriorMessage,
+        },
+    ]);
+
+    // retrieve relevant memories
+    const characterReleventMemories = await getRelevantMemories(
+        character,
+        `${interlocutor.name} said "${interlocutorPriorMessage}}".`,
+        10
+    );
+
+    characterCortexStep = characterCortexStep.withMemory([
+        {
+            role: ChatMessageRoleEnum.Assistant,
+            content:
+                `These are the memories I have related to ${interlocutor.name}'s previous message:\n` +
+                characterReleventMemories
+                    .map((memory) => `- ${memory.memory}`)
+                    .join("\n") +
+                "\n",
         },
     ]);
 
@@ -400,7 +423,7 @@ async function processCharacterThoughts(
         characterCortexStep = await characterCortexStep.next(
             internalMonologue(
                 "planning",
-                `A brief outline of what the ${character.name} is planning to do next.`
+                `A brief outline of what the ${character.name} is planning to do next in the conversation.`
             ),
             {
                 requestOptions: {
@@ -471,7 +494,7 @@ async function processCharacterThoughts(
 }
 
 const processMemories = async (
-    cortexStep: CortexStep<any>,
+    cortexStep: CortexStep<string> | CortexStep<{ decision: string | number }>,
     character: Character,
     time: number
 ) => {
@@ -479,7 +502,7 @@ const processMemories = async (
         return () => {
             return {
                 name: "queryMemory",
-                description: `Pick up to 4 most salient memories from the conversation that ${character.name} would have.`,
+                description: `Pick up to 4 most salient memories from the conversation that ${character.name} would have. These memories should be new from the conversation. Put an empty string for unneeded memories.`,
                 parameters: z.object({
                     memory1: z.string(),
                     memory2: z.string(),
@@ -490,15 +513,18 @@ const processMemories = async (
         };
     };
 
-    cortexStep = await cortexStep.next(generateMemoriesFromConversation(), {
-        requestOptions: {
-            headers: {
-                "X-Starlight-Character-Id": character.id,
-                "X-Starlight-Tag":
-                    "processMemories/generateMemoriesFromConversation",
+    let memoriesCortexStep = await cortexStep.next(
+        generateMemoriesFromConversation(),
+        {
+            requestOptions: {
+                headers: {
+                    "X-Starlight-Character-Id": character.id,
+                    "X-Starlight-Tag":
+                        "processMemories/generateMemoriesFromConversation",
+                },
             },
-        },
-    });
+        }
+    );
 
     log(
         colors.magenta(
@@ -509,19 +535,18 @@ const processMemories = async (
         "info"
     );
 
-    let memories = [];
+    const memoryKeys = Object.keys(memoriesCortexStep.value);
+    const memories = await Promise.all(
+        memoryKeys.map(async (key) => {
+            const memory = memoriesCortexStep.value[key] as string | null;
+            if (memory != null && memory != undefined && memory != "") {
+                await createMemory(character, memory, time);
+                return memory;
+            }
+        })
+    );
 
-    for (let memory of cortexStep.value.keys) {
-        if (memory != null) {
-            memories.push(
-                createMemory(character, cortexStep.value[memory], time)
-            );
-        }
-    }
-
-    await Promise.all(memories);
-
-    return memories;
+    return memories.filter((memory) => memory !== null && memory !== undefined);
 };
 
 async function startConversation(
@@ -653,12 +678,15 @@ async function startConversation(
     );
 
     if (characterMemories.length > 0) {
-        await updateTaskListAfterConversation(character.id, characterMemories);
+        await updateTaskListAfterConversation(
+            character.unityId,
+            characterMemories
+        );
     }
 
     if (targetCharacterMemories.length > 0) {
         await updateTaskListAfterConversation(
-            targetCharacter.id,
+            targetCharacter.unityId,
             targetCharacterMemories
         );
     }
@@ -861,8 +889,13 @@ async function endPlayerConversation(
         data.time
     );
 
+    console.log("memories", memories);
+
     if (memories.length > 0) {
-        await updateTaskListAfterConversation(targetCharacter.id, memories);
+        await updateTaskListAfterConversation(
+            targetCharacter.unityId,
+            memories
+        );
     }
 
     // --- end ---
