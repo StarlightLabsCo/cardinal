@@ -1,0 +1,451 @@
+[1694815206164] [Character] Creating James
+[1694815206932] [31m[createMemory][39m First sale I ever made was a pocket watch. Still got the knack for timepieces. [0]
+[1694815206932] [31m[createMemory][39m I've visited so many towns, I could draw a map from memory. [0]
+[1694815206932] [31m[createMemory][39m Every road has its bumps. Literally. My cart’s wheels are proof. [0]
+[1694815206932] [31m[createMemory][39m I always have a joke up my sleeve. Lightens the mood and loosens wallets. [0]
+[1694815206932] [31m[createMemory][39m I have a sixth sense for what people want. Makes for good business. [0]
+[1694815206932] [31m[createMemory][39m Harold once told me, 'Even a salesman could learn from the sea.' He’s not wrong. [0]
+[1694815206932] [31m[createMemory][39m If I’m not selling, I’m learning. Everyone’s got something to teach. [0]
+[1694815206932] [31m[createMemory][39m Eli’s curiosity reminds me of my younger days. Hope he keeps it. [0]
+[1694815206932] [31m[createMemory][39m Met a craftsman who made the most exquisite jewelry. Talked him into a partnership. [0]
+[1694815206932] [31m[createMemory][39m You can't just sell a product; you sell dreams, comfort, a better tomorrow. [0]
+[1694815206932] [31m[createMemory][39m I carry a lucky coin. Hasn’t failed me yet. [0]
+[1694815206932] [31m[createMemory][39m Some folks call it selling. I call it helping people make decisions. [0]
+[1694815206932] [31m[createMemory][39m My biggest sale? A grand piano. Don't ask how I managed to carry it. [0]
+[1694815206932] [31m[createMemory][39m No one knows it, but I can play the harmonica. Helps pass the lonely roads. [0]
+[1694815206933] [31m[createMemory][39m I’ve learned to spot a deal from a dud. The eyes always give it away. [0]
+[1694815221880] [Character] James created
+[1694815222991] [31m[createMemory][39m James McAllister sees Tree at X: 18.55, Y: -53.24. [0]
+[1694815222992] [31m[createMemory][39m James McAllister sees John Swift at X: 11.68, Y: -55.79. [0]
+[1694815223030] [31m[createMemory][39m James McAllister sees House at X: 14.06, Y: -56.01. [0]
+[1694815223170] [31m[createMemory][39m James McAllister sees House at X: 9.44, Y: -53.9. [0]
+[1694815223170] [31m[createMemory][39m James McAllister sees Tree at X: 18.3, Y: -59.99. [0]
+[1694815223170] [31m[createMemory][39m James McAllister sees Will Turner at X: 21.19, Y: -57.58. [0]
+[1694815231935] --- Prompt ---
+[1694815231937] Character: 
+- ID: A6
+- Name: James McAllister
+- Age: 42
+- Occupation: Traveling Salesman
+- Personality: Charming, Shrewd, Optimistic
+
+Location: 16.57, -56.74
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- House (Health: 100/100) [Location: 14.06, -56.01, Direction: W,  Distance: 2.6m]
+- Tree (Health: 10/10) [Location: 18.3, -59.99, Direction: W,  Distance: 3.7m]
+- Tree (Health: 10/10) [Location: 18.55, -53.24, Direction: W,  Distance: 4.0m]
+- Will Turner (Health: 25/25) [Location: 21.19, -57.58, Direction: W,  Distance: 4.7m]
+- John Swift (Health: 25/25) [Location: 11.68, -55.79, Direction: W,  Distance: 5.0m]
+- Tree (Health: 10/10) [Location: 18.81, -50.7, Direction: W,  Distance: 6.4m]
+- Lucy Wilde (Health: 25/25) [Location: 12.12, -62.11, Direction: W,  Distance: 7.0m]
+- House (Health: 100/100) [Location: 9.44, -53.9, Direction: W,  Distance: 7.7m]
+- Tree Stump (Health: 5/5) [Location: 21.23, -50.62, Direction: NW,  Distance: 7.7m]
+- Tree (Health: 10/10) [Location: 16.59, -48.77, Direction: W,  Distance: 8.0m]
+- Tree (Health: 10/10) [Location: 12.6, -49.3, Direction: W,  Distance: 8.4m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- You can't just sell a product; you sell dreams, comfort, a better tomorrow. [just now]
+- I've visited so many towns, I could draw a map from memory. [just now]
+- Eli’s curiosity reminds me of my younger days. Hope he keeps it. [just now]
+- First sale I ever made was a pocket watch. Still got the knack for timepieces. [just now]
+- I carry a lucky coin. Hasn’t failed me yet. [just now]
+- I’ve learned to spot a deal from a dud. The eyes always give it away. [just now]
+- Met a craftsman who made the most exquisite jewelry. Talked him into a partnership. [just now]
+- If I’m not selling, I’m learning. Everyone’s got something to teach. [just now]
+- I always have a joke up my sleeve. Lightens the mood and loosens wallets. [just now]
+- My biggest sale? A grand piano. Don't ask how I managed to carry it. [just now]
+- James McAllister sees John Swift at X: 11.68, Y: -55.79. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694815248618] --- Response ---
+[1694815248618] Updated Tasks: 
+[1694815248621] [
+  {
+    "task": "Catch up with other villagers",
+    "priority": 1
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  },
+  {
+    "task": "Inventory check and keep essentials",
+    "priority": 4
+  },
+  {
+    "task": "Check the condition of nearby trees with Axe",
+    "priority": 5
+  },
+  {
+    "task": "Approach John Swift after observing his location",
+    "priority": 6
+  },
+  {
+    "task": "Inspect the nearby house",
+    "priority": 7
+  },
+  {
+    "task": "Practice swordplay for self defense",
+    "priority": 8
+  },
+  {
+    "task": "Comedy routine practice for entertaining villagers",
+    "priority": 9
+  },
+  {
+    "task": "Scan area for potential sales opportunities",
+    "priority": 10
+  }
+]
+[1694815252530] --- Prompt ---
+[1694815252532] Character: 
+- ID: A6
+- Name: James McAllister
+- Age: 42
+- Occupation: Traveling Salesman
+- Personality: Charming, Shrewd, Optimistic
+
+Location: 16.57, -56.74
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- House (Health: 100/100) [Direction: W, Distance: 2.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 3.7m]
+- Tree (Health: 10/10) [Direction: W, Distance: 4.0m]
+- Will Turner (Health: 25/25) [Direction: W, Distance: 4.7m]
+- John Swift (Health: 25/25) [Direction: W, Distance: 5.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 6.4m]
+- Lucy Wilde (Health: 25/25) [Direction: W, Distance: 7.0m]
+- House (Health: 100/100) [Direction: W, Distance: 7.7m]
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 7.7m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.4m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- James McAllister sees John Swift at X: 11.68, Y: -55.79. [just now]
+- James McAllister sees House at X: 14.06, Y: -56.01. [just now]
+- My biggest sale? A grand piano. Don't ask how I managed to carry it. [just now]
+- If I’m not selling, I’m learning. Everyone’s got something to teach. [just now]
+- Met a craftsman who made the most exquisite jewelry. Talked him into a partnership. [just now]
+- I’ve learned to spot a deal from a dud. The eyes always give it away. [just now]
+- I carry a lucky coin. Hasn’t failed me yet. [just now]
+- First sale I ever made was a pocket watch. Still got the knack for timepieces. [just now]
+- Eli’s curiosity reminds me of my younger days. Hope he keeps it. [just now]
+- I've visited so many towns, I could draw a map from memory. [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694815252532] --- Action Functions ---
+[1694815252533] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694815255888] --- Response ---
+[1694815255888] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A6\",\n  \"x\": 14.06,\n  \"y\": -56.01\n}"
+  }
+}
+[1694815255888] --- Verified Action ---
+[1694815255889] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A6",
+    "x": 14.06,
+    "y": -56.01
+  }
+}
+[1694815256072] [31m[createMemory][39m James McAllister has started walking to 14.06, Y: -56.01. [32.81442]
+[1694815258455] [31m[createMemory][39m James McAllister sees Lucy Wilde at X: 12.50417, Y: -60.56847. [35.1600571]
+[1694815260684] [31m[createMemory][39m James McAllister no longer sees Human (7) at X: 9.896319, Y: -55.75017 [37.42248]
+[1694815262241] [31m[createMemory][39m Will Turner started a conversation with me. [38.740715]
+[1694815263673] [31m[createMemory][39m James McAllister no longer sees Human (3) at X: 20.21029, Y: -57.25001 [40.3405342]
+[1694815273784] [35m[CORTEX] James McAllister - Prior Message: [39mJames, you wouldn’t believe the sounds in the mine. It's like the earth is speaking to us
+[1694815273785] [35m[CORTEX] James McAllister - Patience: [39m100
+[1694815273785] [35m[CORTEX] James McAllister - Conversation Goal: [39mfiguring out why Will Turner started a conversation with them.
+[1694815273785] [35m[CORTEX] James McAllister - Conversation Finished: [39mfalse
+[1694815277994] [35m[CORTEX] James McAllister - Feel: [39mWill, that's fascinating. Those sounds must feel like an orchestra in the solitude of the mine.
+[1694815281894] [35m[CORTEX] James McAllister - Plan: [39m James plans to steer the conversation towards Will's needs. He's curious if the experience in the mine has given Will any new insight into what he might require or desire. James believes this situation could lead to a potential sale or trading opportunity.
+[1694815285267] [35m[CORTEX] James McAllister - Say: [39mThat's one way to listen to the whispers of the world, isn't it, Will? Now, all these sounds, they bring you any closer to figuring out what you need my friend?
+
+[1694815315046] [31m[createMemory][39m James McAllister sees Thomas Smith at X: 9.981194, Y: -54.94625. [88.1409]
+[1694815321813] [31m[createMemory][39m James McAllister no longer sees Human at X: 9.911632, Y: -55.89174 [94.94049]
+[1694815328122] [31m[createMemory][39m Will Turner's fascination with the sounds in the mine [38.1823769]
+[1694815337480] [31m[createMemory][39m James McAllister sees Thomas Smith at X: 10.14565, Y: -57.87574. [112.300835]
+[1694815344847] --- Conversation Task Update Prompt ---
+[1694815344847] Character: 
+- ID: A6
+- Name: James McAllister
+- Age: 42
+- Occupation: Traveling Salesman
+- Personality: Charming, Shrewd, Optimistic
+
+Action items & memories from conversation just now:
+- Will Turner's fascination with the sounds in the mine
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Given the available information from a conversation you just had, update your task list, placing priority on the conversation action items & memories. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. The result must be sorted by priority, with the highest priority task at the top.
+[1694815350779] [31m[createMemory][39m James McAllister no longer sees Human at X: 10.09161, Y: -57.58224 [122.041443]
+[1694815353125] --- Response ---
+[1694815353125] Updated Tasks: 
+[1694815353125] [
+  {
+    "task": "Discuss Will Turner's fascination with the sounds in the mine",
+    "priority": 1
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 2
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 3
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 4
+  }
+]
+[1694815368063] [31m[createMemory][39m James McAllister sees Thomas Smith at X: 10.0364, Y: -54.81251. [127.141289]
+[1694815368586] [31m[createMemory][39m James McAllister no longer sees Human at X: 9.950147, Y: -55.46126 [128.081573]

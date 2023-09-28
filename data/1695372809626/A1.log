@@ -1,0 +1,412 @@
+[1695372810435] [Character] Creating Thomas
+[1695372811145] [31m[createMemory][39m I should be asleep until 7am. [0]
+[1695372811145] [31m[createMemory][39m It's my job to protect the village. [0]
+[1695372811145] [31m[createMemory][39m I need to make sure everyone is safe. [0]
+[1695372811145] [31m[createMemory][39m I do the work that no one else wants to do. [0]
+[1695372811146] [31m[createMemory][39m I try to be as honest as possible. [0]
+[1695372811146] [31m[createMemory][39m I'm not afraid of anything. [0]
+[1695372811146] [31m[createMemory][39m I go to bed at 10pm. [0]
+[1695372811146] [31m[createMemory][39m I like strawberries. [0]
+[1695372811146] [31m[createMemory][39m The village location is 2, -58. [0]
+[1695372811146] [31m[createMemory][39m The mine site is at 51, 17. [0]
+[1695372811146] [31m[createMemory][39m The lumberyard is at 72, -55.1 [0]
+[1695372811146] [31m[createMemory][39m The campsite is at 7, -8.3 [0]
+[1695372811146] [31m[createMemory][39m The Nume River flows through the village. [0]
+[1695372811146] [31m[createMemory][39m Nume Falls are north of the village, and west of the campsite. [0]
+[1695372811146] [31m[createMemory][39m The area is surrounded by forested monutains, filled with wildlife, rivers, and lakes. [0]
+[1695372823284] [Character] Thomas created (clmud7518000cvdcoal8jco4t)
+[1695372838650] [31m[createMemory][39m Thomas Smith sees Tree at X: 54.01, Y: -15.6. [0]
+[1695372838662] [31m[createMemory][39m Thomas Smith sees Tree at X: 59.01, Y: -15.07. [0]
+[1695372838680] [31m[createMemory][39m Thomas Smith sees Tree at X: 56.09, Y: -15.63. [0]
+[1695372838684] [31m[createMemory][39m Thomas Smith sees Tree Stump at X: 52.4, Y: -20.42. [0]
+[1695372838686] [31m[createMemory][39m Thomas Smith sees Lucy Wilde at X: 56.59, Y: -18.82. [0]
+[1695372841308] --- Prompt ---
+[1695372841322] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 55.25, -18.75
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Full
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Location: 56.59, -18.82, Direction: N,  Distance: 1.3m]
+- Tree (Health: 10/10) [Location: 56.09, -15.63, Direction: N,  Distance: 3.2m]
+- Tree Stump (Health: 5/5) [Location: 52.4, -20.42, Direction: N,  Distance: 3.3m]
+- Tree (Health: 10/10) [Location: 54.01, -15.6, Direction: N,  Distance: 3.4m]
+- Tree (Health: 10/10) [Location: 59.01, -15.07, Direction: N,  Distance: 5.3m]
+- Tree (Health: 10/10) [Location: 54.59, -12.8, Direction: N,  Distance: 6.0m]
+- Tree (Health: 10/10) [Location: 57.2, -12.75, Direction: N,  Distance: 6.3m]
+- Tree (Health: 10/10) [Location: 58.89, -24.2, Direction: N,  Distance: 6.6m]
+- House (Health: 100/100) [Location: 59.514, -24.01099, Direction: N,  Distance: 6.8m]
+- Tree (Health: 10/10) [Location: 52.03, -12.2, Direction: N,  Distance: 7.3m]
+- Tree (Health: 10/10) [Location: 61.04, -13.46, Direction: N,  Distance: 7.8m]
+- Tree (Health: 10/10) [Location: 47.86, -15.94, Direction: N,  Distance: 7.9m]
+- Tree (Health: 10/10) [Location: 54.53, -10.85, Direction: N,  Distance: 7.9m]
+- Tree (Health: 10/10) [Location: 59.02, -26.06, Direction: NW,  Distance: 8.2m]
+- Tree (Health: 10/10) [Location: 58.3, -10.95, Direction: N,  Distance: 8.4m]
+- Tree (Health: 10/10) [Location: 46.7, -18.14, Direction: N,  Distance: 8.6m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Catch up to James",
+    "priority": 1
+  },
+  {
+    "task": "Go to Nume Village",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- I need to make sure everyone is safe. [just now]
+- I'm not afraid of anything. [just now]
+- I go to bed at 10pm. [just now]
+- The area is surrounded by forested monutains, filled with wildlife, rivers, and lakes. [just now]
+- The Nume River flows through the village. [just now]
+- Nume Falls are north of the village, and west of the campsite. [just now]
+- The campsite is at 7, -8.3 [just now]
+- I should be asleep until 7am. [just now]
+- It's my job to protect the village. [just now]
+- I like strawberries. [just now]
+- Thomas Smith sees Tree at X: 54.01, Y: -15.6. [just now]
+- Thomas Smith sees Tree at X: 59.01, Y: -15.07. [just now]
+- Thomas Smith sees Lucy Wilde at X: 56.59, Y: -18.82. [just now]
+- Thomas Smith sees Tree Stump at X: 52.4, Y: -20.42. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+- start_conversation: Start a conversation with Lucy Wilde (ID: A4).
+
+Hitbox (what you would hit with a swing based action):
+- Lucy Wilde (Health: 25/25)
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1695372858040] --- Response ---
+[1695372858040] Updated Tasks: 
+[1695372858041] [
+  {
+    "task": "Start a conversation with Lucy Wilde",
+    "priority": 1
+  },
+  {
+    "task": "Move to nearest tree",
+    "priority": 2
+  },
+  {
+    "task": "Catch up to James",
+    "priority": 3
+  },
+  {
+    "task": "Check the house",
+    "priority": 4
+  },
+  {
+    "task": "Return home before 10pm",
+    "priority": 5
+  },
+  {
+    "task": "Go to Nume Village",
+    "priority": 6
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 7
+  }
+]
+[1695372860754] --- Prompt ---
+[1695372860754] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Location: 55.25, -18.75
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Full
+
+Environment:
+- Lucy Wilde (Health: 25/25) [Direction: N, Distance: 1.3m]
+- Tree (Health: 10/10) [Direction: N, Distance: 3.2m]
+- Tree Stump (Health: 5/5) [Direction: N, Distance: 3.3m]
+- Tree (Health: 10/10) [Direction: N, Distance: 3.4m]
+- Tree (Health: 10/10) [Direction: N, Distance: 5.3m]
+- Tree (Health: 10/10) [Direction: N, Distance: 6.0m]
+- Tree (Health: 10/10) [Direction: N, Distance: 6.3m]
+- Tree (Health: 10/10) [Direction: N, Distance: 6.6m]
+- House (Health: 100/100) [Direction: N, Distance: 6.8m]
+- Tree (Health: 10/10) [Direction: N, Distance: 7.3m]
+- Tree (Health: 10/10) [Direction: N, Distance: 7.8m]
+- Tree (Health: 10/10) [Direction: N, Distance: 7.9m]
+- Tree (Health: 10/10) [Direction: N, Distance: 7.9m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.2m]
+- Tree (Health: 10/10) [Direction: N, Distance: 8.4m]
+- Tree (Health: 10/10) [Direction: N, Distance: 8.6m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Catch up to James",
+    "priority": 1
+  },
+  {
+    "task": "Go to Nume Village",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Thomas Smith sees Lucy Wilde at X: 56.59, Y: -18.82. [just now]
+- Thomas Smith sees Tree at X: 56.09, Y: -15.63. [just now]
+- Thomas Smith sees Tree Stump at X: 52.4, Y: -20.42. [just now]
+- Thomas Smith sees Tree at X: 54.01, Y: -15.6. [just now]
+- It's my job to protect the village. [just now]
+- I should be asleep until 7am. [just now]
+- The campsite is at 7, -8.3 [just now]
+- Nume Falls are north of the village, and west of the campsite. [just now]
+- The Nume River flows through the village. [just now]
+- The area is surrounded by forested monutains, filled with wildlife, rivers, and lakes. [just now]
+
+Hitbox (what you would hit with a swing based action):
+- Lucy Wilde (Health: 25/25)
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1695372860754] --- Action Functions ---
+[1695372860755] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Lucy Wilde (ID: A4).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (3) in detail."
+        }
+      }
+    }
+  }
+]
+[1695372866363] --- Response ---
+[1695372866363] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "start_conversation",
+    "arguments": "{\n  \"characterId\": \"A1\",\n  \"targetCharacterId\": \"A4\",\n  \"conversationGoal\": \"To get information on James whereabouts\"\n}"
+  }
+}
+[1695372866364] --- Verified Action ---
+[1695372866364] {
+  "type": "start_conversation",
+  "data": {
+    "characterId": "A1",
+    "targetCharacterId": "A4",
+    "conversationGoal": "To get information on James whereabouts"
+  }
+}

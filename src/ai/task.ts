@@ -3,7 +3,7 @@ import { Character } from "@prisma/client";
 let tasks = {
     A1: [
         {
-            task: "Catch up to James",
+            task: "Catch up with Lucy",
             priority: 1,
         },
         {
@@ -17,7 +17,7 @@ let tasks = {
     ],
     A2: [
         {
-            task: "Carry out your daily dutiies",
+            task: "Head to Nume Village at 9.34, -53.9. to pick up some supplies.",
             priority: 1,
         },
         {
@@ -31,7 +31,7 @@ let tasks = {
     ],
     A3: [
         {
-            task: "Chop wood with Eleanor Wraithwind",
+            task: "Chop trees to gain wood for the village.",
             priority: 1,
         },
         {
@@ -45,7 +45,7 @@ let tasks = {
     ],
     A4: [
         {
-            task: "Carry out your daily dutiies",
+            task: "Catch up with Thomas",
             priority: 1,
         },
         {
@@ -59,7 +59,7 @@ let tasks = {
     ],
     A5: [
         {
-            task: "Carry out your daily dutiies",
+            task: "Chop trees for wood for the village.",
             priority: 1,
         },
         {
@@ -73,7 +73,7 @@ let tasks = {
     ],
     A6: [
         {
-            task: "Carry out your daily dutiies",
+            task: "Head to the lake town at 68.93, -22.78 to meet with the other villagers.",
             priority: 1,
         },
         {
@@ -87,7 +87,7 @@ let tasks = {
     ],
     A7: [
         {
-            task: "Carry out your daily dutiies",
+            task: "Reflect on the beauty of the lake",
             priority: 1,
         },
         {
@@ -129,7 +129,7 @@ let tasks = {
     ],
     A10: [
         {
-            task: "Carry out your daily dutiies",
+            task: "Head to Nume Village at 9.34, -53.9. to go home for the day.",
             priority: 1,
         },
         {
@@ -157,7 +157,7 @@ let tasks = {
     ],
     A12: [
         {
-            task: "Carry out your daily dutiies",
+            task: "Talk to the other villagers about the recent events",
             priority: 1,
         },
         {

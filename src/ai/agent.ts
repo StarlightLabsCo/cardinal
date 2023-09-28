@@ -343,7 +343,7 @@ async function updateTaskList(data: {
 
             log(tasksJSON, "info", character.unityId);
 
-            updateTasks(character.id, tasksJSON);
+            updateTasks(character.unityId, tasksJSON);
 
             return;
         } catch (e) {
@@ -659,7 +659,7 @@ async function getAction(
         prompt += "\n";
     }
 
-    prompt += `Given the available information, pick the best available action function to accomplish your tasks.\n\n`;
+    prompt += `Given the available information, pick the best available action function to accomplish your tasks. Avoid actions that are too similar and repeating.\n\n`;
 
     let generationAttempts = 0;
     while (generationAttempts < 10) {
@@ -707,6 +707,8 @@ async function getAction(
                 character.id
             );
 
+            log("Checking if agent is occupied...", "info", character.unityId);
+            log(occupiedAgents, "info");
             if (occupiedAgents[character.unityId]) {
                 log(
                     colors.red(

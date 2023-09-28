@@ -1,0 +1,397 @@
+[1695427579440] [Character] Creating John
+[1695427580102] [31m[createMemory][39m I've scaled the highest peak in the Blackspire Range. [0]
+[1695427580104] [31m[createMemory][39m My travels have taken me to forgotten civilizations. [0]
+[1695427580104] [31m[createMemory][39m I've escaped several near-death situations. [0]
+[1695427580104] [31m[createMemory][39m Found a rare artifact in an ancient ruin. [0]
+[1695427580105] [31m[createMemory][39m My compass is more than a tool; it's a lifeline. [0]
+[1695427580105] [31m[createMemory][39m I often rely on my wits rather than a weapon. [0]
+[1695427580105] [31m[createMemory][39m My pack contains only the essentials for survival. [0]
+[1695427580105] [31m[createMemory][39m The thrill of discovery fuels me. [0]
+[1695427580105] [31m[createMemory][39m I trust no one completely; the road has taught me that. [0]
+[1695427580105] [31m[createMemory][39m Navigating treacherous landscapes is second nature to me. [0]
+[1695427580105] [31m[createMemory][39m I've learned a lot about local cultures and their legends. [0]
+[1695427580106] [31m[createMemory][39m I've traded stories with adventurers and locals alike. [0]
+[1695427580106] [31m[createMemory][39m Survival skills are as crucial as courage. [0]
+[1695427580106] [31m[createMemory][39m Maps are useful, but instincts are invaluable. [0]
+[1695427580106] [31m[createMemory][39m I keep a journal of my adventures; it'll be my legacy. [0]
+[1695427580106] [31m[createMemory][39m Basecamp Alpha is my main hub, located at 43, 12. [0]
+[1695427580106] [31m[createMemory][39m I've journeyed through the Dark Forest, its coordinates are 24, 68. [0]
+[1695427580106] [31m[createMemory][39m The treacherous Snake Gorge is located at 53, -22. [0]
+[1695427580107] [31m[createMemory][39m There's a hidden temple at 11, 9; it took me months to find it. [0]
+[1695427580107] [31m[createMemory][39m The market at Skyline city is a great place to resupply; located at 78, 54. [0]
+[1695427594318] [Character] John created
+[1695427638815] [31m[createMemory][39m John Swift sees Harold Smith at X: 85.76, Y: -25.2. [0]
+[1695427638820] [31m[createMemory][39m John Swift sees Tree at X: 86.38, Y: -29.74. [0]
+[1695427647922] --- Prompt ---
+[1695427647924] Character: 
+- ID: A8
+- Name: John Swift
+- Age: 28
+- Occupation: Adventurer
+- Personality: Courageous, Resourceful, Independent
+
+Location: 86.86, -25.06
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Full
+
+Environment:
+- Harold Smith (Health: 25/25) [Location: 85.76, -25.2, Direction: N,  Distance: 1.1m]
+- Tree (Health: 10/10) [Location: 86.38, -29.74, Direction: N,  Distance: 4.7m]
+- Tree (Health: 10/10) [Location: 90.05, -31.45, Direction: N,  Distance: 7.1m]
+- Tree (Health: 10/10) [Location: 84.09999, -17.98, Direction: N,  Distance: 7.6m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- The thrill of discovery fuels me. [just now]
+- Navigating treacherous landscapes is second nature to me. [just now]
+- I trust no one completely; the road has taught me that. [just now]
+- I often rely on my wits rather than a weapon. [just now]
+- The treacherous Snake Gorge is located at 53, -22. [just now]
+- I've traded stories with adventurers and locals alike. [just now]
+- I've journeyed through the Dark Forest, its coordinates are 24, 68. [just now]
+- Maps are useful, but instincts are invaluable. [just now]
+- Survival skills are as crucial as courage. [just now]
+- John Swift sees Harold Smith at X: 85.76, Y: -25.2. [just now]
+- John Swift sees Tree at X: 86.38, Y: -29.74. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+- start_conversation: Start a conversation with Harold Smith (ID: A7).
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1695427659903] --- Response ---
+[1695427659903] Updated Tasks: 
+[1695427659905] [
+  {
+    "task": "start_conversation",
+    "priority": 1,
+    "target": "Harold Smith"
+  },
+  {
+    "task": "move_to",
+    "priority": 2,
+    "coordinates": [
+      53,
+      -22
+    ],
+    "description": "Trail to Snake Gorge"
+  },
+  {
+    "task": "Move_to",
+    "priority": 3,
+    "coordinates": [
+      24,
+      68
+    ],
+    "description": "Explore Dark Forest"
+  },
+  {
+    "task": "eat",
+    "priority": 4,
+    "resources": "Berries"
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 5,
+    "description": "Managing diet and resting"
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 6,
+    "description": "Producing necessary resources"
+  }
+]
+[1695427665063] --- Prompt ---
+[1695427665063] Character: 
+- ID: A8
+- Name: John Swift
+- Age: 28
+- Occupation: Adventurer
+- Personality: Courageous, Resourceful, Independent
+
+Location: 86.86, -25.06
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Full
+
+Environment:
+- Harold Smith (Health: 25/25) [Direction: N, Distance: 1.1m]
+- Tree (Health: 10/10) [Direction: N, Distance: 4.7m]
+- Tree (Health: 10/10) [Direction: N, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: N, Distance: 7.6m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "start_conversation",
+    "priority": 1
+  },
+  {
+    "task": "move_to",
+    "priority": 2
+  },
+  {
+    "task": "Move_to",
+    "priority": 3
+  },
+  {
+    "task": "eat",
+    "priority": 4
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 5
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 6
+  }
+]
+
+Memories:
+- John Swift sees Tree at X: 86.38, Y: -29.74. [just now]
+- John Swift sees Harold Smith at X: 85.76, Y: -25.2. [just now]
+- There's a hidden temple at 11, 9; it took me months to find it. [just now]
+- Survival skills are as crucial as courage. [just now]
+- Maps are useful, but instincts are invaluable. [just now]
+- I've journeyed through the Dark Forest, its coordinates are 24, 68. [just now]
+- I've traded stories with adventurers and locals alike. [just now]
+- I often rely on my wits rather than a weapon. [just now]
+- Navigating treacherous landscapes is second nature to me. [just now]
+- The thrill of discovery fuels me. [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1695427665064] --- Action Functions ---
+[1695427665064] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Harold Smith (ID: A7).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (6) in detail."
+        }
+      }
+    }
+  }
+]
+[1695427665663] Occupied agent A8
+[1695427665845] [31m[createMemory][39m Harold Smith started a conversation with me. [19.6147747]
+[1695427668261] Checking if agent is occupied...
+[1695427668261] [31mAgent A8 is already occupied. Skipping...[39m
+[1695427672226] [35m[CORTEX] John Swift - Prior Message: [39mJohn, how have your adventures been of late?
+[1695427672226] [35m[CORTEX] John Swift - Patience: [39m100
+[1695427672226] [35m[CORTEX] John Swift - Conversation Goal: [39mfiguring out why Harold Smith started a conversation with them.
+[1695427672226] [35m[CORTEX] John Swift - Conversation Finished: [39mfalse
+[1695427676805] [35m[CORTEX] John Swift - Feel: [39mI feel exhilarated by my recent adventures. Every day presents a new challenge, a new terrain to navigate and new secrets to uncover. But it's not without its perils, and every reward comes with its share of risks.
+[1695427679725] [35m[CORTEX] John Swift - Plan: [39m John plans to answer Harold's question by detailing some of his recent adventures and discoveries, painting an image of the exhilarating yet perilous nature of his lifestyle.
+[1695427683657] [35m[CORTEX] John Swift - Say: [39mMy adventures have been as thrilling as they are challenging, Harold. Navigating treacherous terrain, uncovering secrets of hidden temples, and the odd encounter with mysteries of nature. In essence, an adventurer's dream!
+

@@ -1,0 +1,91 @@
+[1695368924673] [Character] Creating Harold
+[1695368925331] [31m[createMemory][39m Life on the sea teaches you the meaning of hard work and danger. [0]
+[1695368925331] [31m[createMemory][39m I built my own fishing boat, took me two summers. [0]
+[1695368925331] [31m[createMemory][39m Never underestimate the ocean. She’s as loving as she is fierce. [0]
+[1695368925331] [31m[createMemory][39m The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [0]
+[1695368925331] [31m[createMemory][39m Every wrinkle tells a story, and boy, do I have many. [0]
+[1695368925331] [31m[createMemory][39m I once caught a fish so big, it could've fed the village for a week. [0]
+[1695368925331] [31m[createMemory][39m Storms are nature's way of testing your mettle. I’ve faced my share. [0]
+[1695368925331] [31m[createMemory][39m I've navigated by the stars, they're more reliable than any modern gadget. [0]
+[1695368925331] [31m[createMemory][39m My grandson Eli reminds me of myself at his age, full of wonder. [0]
+[1695368925331] [31m[createMemory][39m My old compass has never failed me. A gift from my late wife. [0]
+[1695368925331] [31m[createMemory][39m You measure a man not by his words, but by his deeds. [0]
+[1695368925331] [31m[createMemory][39m I’ve seen sunsets on the water that make you believe in a higher power. [0]
+[1695368925331] [31m[createMemory][39m My hands may be weathered, but they’re strong and have stories to tell. [0]
+[1695368925331] [31m[createMemory][39m Life has tides, high and low. The trick is to sail regardless. [0]
+[1695368925331] [31m[createMemory][39m A good fisherman knows when to speak and when to listen. Mostly listen. [0]
+[1695368937687] [Character] Harold created
+[1695369093240] [31m[createMemory][39m Harold Smith sees Tree at X: 86.38, Y: -29.74. [0]
+[1695369093244] [31m[createMemory][39m Harold Smith sees John Swift at X: 86.86, Y: -25.06. [0]
+[1695369102504] --- Prompt ---
+[1695369102506] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 85.76, -25.2
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- John Swift (Health: 25/25) [Location: 86.86, -25.06, Direction: N,  Distance: 1.1m]
+- Tree (Health: 10/10) [Location: 86.38, -29.74, Direction: N,  Distance: 4.6m]
+- Tree (Health: 10/10) [Location: 84.09999, -17.98, Direction: N,  Distance: 7.4m]
+- Tree (Health: 10/10) [Location: 90.05, -31.45, Direction: N,  Distance: 7.6m]
+- Tree (Health: 10/10) [Location: 80.95, -18.12, Direction: N,  Distance: 8.6m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- My old compass has never failed me. A gift from my late wife. [just now]
+- I built my own fishing boat, took me two summers. [just now]
+- Life has tides, high and low. The trick is to sail regardless. [just now]
+- A good fisherman knows when to speak and when to listen. Mostly listen. [just now]
+- You measure a man not by his words, but by his deeds. [just now]
+- I’ve seen sunsets on the water that make you believe in a higher power. [just now]
+- Storms are nature's way of testing your mettle. I’ve faced my share. [just now]
+- Never underestimate the ocean. She’s as loving as she is fierce. [just now]
+- I once caught a fish so big, it could've fed the village for a week. [just now]
+- Life on the sea teaches you the meaning of hard work and danger. [just now]
+- Harold Smith sees Tree at X: 86.38, Y: -29.74. [just now]
+- Harold Smith sees John Swift at X: 86.86, Y: -25.06. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+- start_conversation: Start a conversation with John Swift (ID: A8).
+
+Hitbox (what you would hit with a swing based action):
+- John Swift (Health: 25/25)
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.

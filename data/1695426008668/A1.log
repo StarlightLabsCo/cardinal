@@ -1,0 +1,50 @@
+[1695426009455] [Character] Creating Thomas
+[1695426009833] [31m[createMemory][39m I should be asleep until 7am. [0]
+[1695426009833] [31m[createMemory][39m It's my job to protect the village. [0]
+[1695426009833] [31m[createMemory][39m I need to make sure everyone is safe. [0]
+[1695426009833] [31m[createMemory][39m I do the work that no one else wants to do. [0]
+[1695426009833] [31m[createMemory][39m I try to be as honest as possible. [0]
+[1695426009833] [31m[createMemory][39m I'm not afraid of anything. [0]
+[1695426009833] [31m[createMemory][39m I go to bed at 10pm. [0]
+[1695426009833] [31m[createMemory][39m I like strawberries. [0]
+[1695426009833] [31m[createMemory][39m The village location is 2, -58. [0]
+[1695426009833] [31m[createMemory][39m The mine site is at 51, 17. [0]
+[1695426009833] [31m[createMemory][39m The lumberyard is at 72, -55.1 [0]
+[1695426009833] [31m[createMemory][39m The campsite is at 7, -8.3 [0]
+[1695426009833] [31m[createMemory][39m The Nume River flows through the village. [0]
+[1695426009833] [31m[createMemory][39m Nume Falls are north of the village, and west of the campsite. [0]
+[1695426009833] [31m[createMemory][39m The area is surrounded by forested monutains, filled with wildlife, rivers, and lakes. [0]
+[1695426020876] [31mPrismaClientValidationError: [39m
+[31mInvalid `prisma.character.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: "clmv8vddk0001vd02g5g3jha0"[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    memories: {[39m
+[31m      create: {[39m
+[31m        memory: "The campsite is at 7, -8.3",[39m
+[31m        importance: NaN,[39m
+[31m        time: 0[39m
+[31m      }[39m
+[31m    },[39m
+[31m+   reflectionThreshold: Float[39m
+[31m  },[39m
+[31m  include: {[39m
+[31m    memories: true[39m
+[31m  }[39m
+[31m}[39m
+
+[31mArgument `reflectionThreshold` is missing.[39m
+[31m    at xn (/Users/harris/src/starlightshire-server/node_modules/@prisma/client/runtime/library.js:116:5852)[39m
+[31m    at vn.handleRequestError (/Users/harris/src/starlightshire-server/node_modules/@prisma/client/runtime/library.js:123:6429)[39m
+[31m    at vn.handleAndLogRequestError (/Users/harris/src/starlightshire-server/node_modules/@prisma/client/runtime/library.js:123:6119)[39m
+[31m    at vn.request (/Users/harris/src/starlightshire-server/node_modules/@prisma/client/runtime/library.js:123:5839)[39m
+[31m    at async l (/Users/harris/src/starlightshire-server/node_modules/@prisma/client/runtime/library.js:128:9763)[39m
+[31m    at async createMemory (file:///Users/harris/src/starlightshire-server/dist/src/ai/memory.js:39:30)[39m
+[31m    at async Promise.all (index 11)[39m
+[31m    at async createThomas (file:///Users/harris/src/starlightshire-server/dist/src/seed.js:67:9)[39m
+[31m    at async Promise.all (index 0) {[39m
+[31m  clientVersion: '5.2.0'[39m
+[31m}[39m

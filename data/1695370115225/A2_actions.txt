@@ -1,0 +1,55 @@
+[
+  {
+    "type": "eat",
+    "data": {
+      "characterId": "A2",
+      "foodId": "berries"
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A2",
+      "x": 66.39426,
+      "y": -18.97424
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A2",
+      "x": 68.84,
+      "y": -15.22
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A2",
+      "x": 68.84,
+      "y": -15.22
+    }
+  },
+  {
+    "type": "swing_pickaxe",
+    "data": {
+      "characterId": "A2"
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A2",
+      "x": 66.39426,
+      "y": -18.97424
+    }
+  },
+  {
+    "type": "start_conversation",
+    "data": {
+      "characterId": "A2",
+      "targetCharacterId": "A11",
+      "conversationGoal": "Getting to know about recent happenings in the village."
+    }
+  }
+]

@@ -54,10 +54,15 @@ const createMemory = async (
         },
     });
 
-    const [importance, embedding] = await Promise.all([
-        getMemoryImportance(latestCharacter, memory),
-        getEmbedding(memory, "createMemory", character.id),
-    ]);
+    let importance;
+    let embedding;
+
+    while (!importance || !embedding) {
+        [importance, embedding] = await Promise.all([
+            getMemoryImportance(latestCharacter, memory),
+            getEmbedding(memory, "createMemory", character.id),
+        ]);
+    }
 
     // Create the memory, and update the character's reflection threshold
     const updatedCharacter = await prisma.character.update({

@@ -1,0 +1,18 @@
+[
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A12",
+      "x": 0,
+      "y": 4
+    }
+  },
+  {
+    "type": "start_conversation",
+    "data": {
+      "characterId": "A12",
+      "targetCharacterId": "A8",
+      "conversationGoal": "Discuss recent events in the village"
+    }
+  }
+]

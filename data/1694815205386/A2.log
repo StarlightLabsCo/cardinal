@@ -1,0 +1,1104 @@
+[1694815206161] [Character] Creating George
+[1694815206978] [31m[createMemory][39m George Brown is quite tired today. [0]
+[1694815206978] [31m[createMemory][39m Working in the mines is tough but rewarding. [0]
+[1694815206978] [31m[createMemory][39m I've been friends with Thomas for a long time. [0]
+[1694815206978] [31m[createMemory][39m Safety in the mines is a top priority for me. [0]
+[1694815206978] [31m[createMemory][39m I've discovered some rare minerals during my time here. [0]
+[1694815206978] [31m[createMemory][39m I'm usually one of the first to arrive at the mine site. [0]
+[1694815206978] [31m[createMemory][39m My family has been mining for generations. [0]
+[1694815206978] [31m[createMemory][39m I enjoy a cold beverage after a long day in the mines. [0]
+[1694815206978] [31m[createMemory][39m I've been taught traditional mining songs by the older miners. [0]
+[1694815206978] [31m[createMemory][39m I've saved up to buy a house near the village. [0]
+[1694815206978] [31m[createMemory][39m I know a secret tunnel in the mine that few know about. [0]
+[1694815206978] [31m[createMemory][39m It's important to have the right tools for the job. [0]
+[1694815206978] [31m[createMemory][39m I take pride in my work and look after my equipment. [0]
+[1694815206978] [31m[createMemory][39m I sometimes join Thomas and others for a meal after work. [0]
+[1694815206978] [31m[createMemory][39m I've had a few close calls, but always came out safe. [0]
+[1694815206978] [31m[createMemory][39m The village festivities are something I look forward to every year. [0]
+[1694815221965] [Character] George created
+[1694815222898] [31m[createMemory][39m George Brown sees House at X: 3.663626, Y: -54.92766. [0]
+[1694815222898] [31m[createMemory][39m George Brown sees House at X: 9.44, Y: -53.9. [0]
+[1694815222898] [31m[createMemory][39m George Brown sees Thomas Smith at X: 6, Y: -55.63. [0]
+[1694815223168] [31m[createMemory][39m George Brown sees Cedric Warborn at X: 4.8, Y: -58.14. [0]
+[1694815223168] [31m[createMemory][39m George Brown sees John Swift at X: 11.68, Y: -55.79. [0]
+[1694815231798] --- Prompt ---
+[1694815231804] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 6.9, -57.4
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Starving
+
+Environment:
+- Thomas Smith (Health: 25/25) [Location: 6, -55.63, Direction: W,  Distance: 2.0m]
+- Cedric Warborn (Health: 25/25) [Location: 4.8, -58.14, Direction: W,  Distance: 2.2m]
+- House (Health: 100/100) [Location: 3.663626, -54.92766, Direction: W,  Distance: 4.1m]
+- House (Health: 100/100) [Location: 9.44, -53.9, Direction: W,  Distance: 4.3m]
+- John Swift (Health: 25/25) [Location: 11.68, -55.79, Direction: W,  Distance: 5.0m]
+- Tree (Health: 10/10) [Location: 2.75, -62.47, Direction: W,  Distance: 6.6m]
+- Lucy Wilde (Health: 25/25) [Location: 12.12, -62.11, Direction: W,  Distance: 7.0m]
+- House (Health: 100/100) [Location: 14.06, -56.01, Direction: W,  Distance: 7.3m]
+- Tree (Health: 10/10) [Location: 1.349999, -50.67, Direction: W,  Distance: 8.7m]
+- Tree (Health: 10/10) [Location: -0.6500006, -52.92, Direction: W,  Distance: 8.8m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- George Brown is quite tired today. [just now]
+- I've had a few close calls, but always came out safe. [just now]
+- I've been taught traditional mining songs by the older miners. [just now]
+- I enjoy a cold beverage after a long day in the mines. [just now]
+- Working in the mines is tough but rewarding. [just now]
+- Safety in the mines is a top priority for me. [just now]
+- I take pride in my work and look after my equipment. [just now]
+- The village festivities are something I look forward to every year. [just now]
+- I've saved up to buy a house near the village. [just now]
+- I know a secret tunnel in the mine that few know about. [just now]
+- George Brown sees House at X: 3.663626, Y: -54.92766. [just now]
+- George Brown sees House at X: 9.44, Y: -53.9. [just now]
+- George Brown sees Thomas Smith at X: 6, Y: -55.63. [just now]
+- George Brown sees John Swift at X: 11.68, Y: -55.79. [just now]
+- George Brown sees Cedric Warborn at X: 4.8, Y: -58.14. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+- start_conversation: Start a conversation with Thomas Smith (ID: A1).
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694815240472] --- Response ---
+[1694815240472] Updated Tasks: 
+[1694815240472] [
+  {
+    "task": "Eat some food",
+    "priority": 1
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 2
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 3
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 4
+  },
+  {
+    "task": "Search for additional food sources",
+    "priority": 5
+  }
+]
+[1694815245539] --- Prompt ---
+[1694815245539] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 6.9, -57.4
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Starving
+
+Environment:
+- Thomas Smith (Health: 25/25) [Direction: W, Distance: 2.0m]
+- Cedric Warborn (Health: 25/25) [Direction: W, Distance: 2.2m]
+- House (Health: 100/100) [Direction: W, Distance: 4.1m]
+- House (Health: 100/100) [Direction: W, Distance: 4.3m]
+- John Swift (Health: 25/25) [Direction: W, Distance: 5.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 6.6m]
+- Lucy Wilde (Health: 25/25) [Direction: W, Distance: 7.0m]
+- House (Health: 100/100) [Direction: W, Distance: 7.3m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.7m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.8m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- George Brown sees Cedric Warborn at X: 4.8, Y: -58.14. [just now]
+- George Brown sees John Swift at X: 11.68, Y: -55.79. [just now]
+- George Brown sees Thomas Smith at X: 6, Y: -55.63. [just now]
+- George Brown sees House at X: 9.44, Y: -53.9. [just now]
+- George Brown sees House at X: 3.663626, Y: -54.92766. [just now]
+- I know a secret tunnel in the mine that few know about. [just now]
+- I've saved up to buy a house near the village. [just now]
+- Working in the mines is tough but rewarding. [just now]
+- I've been taught traditional mining songs by the older miners. [just now]
+- George Brown is quite tired today. [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694815245539] --- Action Functions ---
+[1694815245539] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Thomas Smith (ID: A1).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human in detail."
+        }
+      }
+    }
+  }
+]
+[1694815248146] --- Response ---
+[1694815248146] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "eat",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"foodId\": \"berries\"\n}"
+  }
+}
+[1694815248158] --- Verified Action ---
+[1694815248159] {
+  "type": "eat",
+  "data": {
+    "characterId": "A2",
+    "foodId": "berries"
+  }
+}
+[1694815251527] Getting action 0
+[1694815251527] Getting result 0
+[1694815251527] --- Prompt ---
+[1694815251530] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 6.9, -57.4
+
+Time: Day 0, 2:30 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Thomas Smith (Health: 25/25) [Direction: W, Distance: 2.0m]
+- Cedric Warborn (Health: 25/25) [Direction: W, Distance: 2.2m]
+- House (Health: 100/100) [Direction: W, Distance: 4.1m]
+- House (Health: 100/100) [Direction: W, Distance: 4.3m]
+- John Swift (Health: 25/25) [Direction: W, Distance: 5.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 6.6m]
+- Lucy Wilde (Health: 25/25) [Direction: W, Distance: 7.0m]
+- House (Health: 100/100) [Direction: W, Distance: 7.3m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.7m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.8m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- George Brown sees Cedric Warborn at X: 4.8, Y: -58.14. [2 hours ago]
+- George Brown sees John Swift at X: 11.68, Y: -55.79. [2 hours ago]
+- George Brown sees Thomas Smith at X: 6, Y: -55.63. [2 hours ago]
+- George Brown sees House at X: 9.44, Y: -53.9. [2 hours ago]
+- George Brown sees House at X: 3.663626, Y: -54.92766. [2 hours ago]
+- I know a secret tunnel in the mine that few know about. [2 hours ago]
+- I've saved up to buy a house near the village. [2 hours ago]
+- Working in the mines is tough but rewarding. [2 hours ago]
+- I've been taught traditional mining songs by the older miners. [2 hours ago]
+- George Brown is quite tired today. [2 hours ago]
+
+Previous Actions:
+- [eat]: George Brown ate Berries which restored 10 satiety. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694815251534] --- Action Functions ---
+[1694815251534] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Thomas Smith (ID: A1).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human in detail."
+        }
+      }
+    }
+  }
+]
+[1694815254460] --- Response ---
+[1694815254460] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"x\": 4.8,\n  \"y\": -58.14\n}"
+  }
+}
+[1694815254465] --- Verified Action ---
+[1694815254465] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A2",
+    "x": 4.8,
+    "y": -58.14
+  }
+}
+[1694815254751] [31m[createMemory][39m George Brown has started walking to 4.8, Y: -58.14. [31.3899384]
+[1694815254866] [31m[createMemory][39m George Brown no longer sees Human (7) at X: 11.68, Y: -55.79 [31.5813866]
+[1694815255047] [31m[createMemory][39m George Brown no longer sees House 1 at X: 9.44, Y: -53.9 [31.7818375]
+[1694815255750] [31m[createMemory][39m George Brown sees Tree at X: 2.75, Y: -62.47. [32.4020462]
+[1694815260635] [31m[createMemory][39m George Brown sees John Swift at X: 9.931319, Y: -55.75021. [37.40108]
+[1694815264485] Getting action 0
+[1694815264485] Getting result 0
+[1694815264485] Getting action 1
+[1694815264485] Getting result 1
+[1694815264485] --- Prompt ---
+[1694815264486] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 5.021664, -57.9867
+
+Time: Day 0, 3:45 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Cedric Warborn (Health: 25/25) [Direction: W, Distance: 0.27m]
+- Thomas Smith (Health: 25/25) [Direction: W, Distance: 2.2m]
+- House (Health: 100/100) [Direction: W, Distance: 3.3m]
+- Tree (Health: 10/10) [Direction: W, Distance: 5.0m]
+- John Swift (Health: 25/25) [Direction: W, Distance: 5.0m]
+- House (Health: 100/100) [Direction: W, Distance: 6.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 6.9m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.2m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.7m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.2m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- George Brown sees Cedric Warborn at X: 4.8, Y: -58.14. [3 hours ago]
+- George Brown sees John Swift at X: 11.68, Y: -55.79. [3 hours ago]
+- George Brown sees Thomas Smith at X: 6, Y: -55.63. [3 hours ago]
+- George Brown sees House at X: 9.44, Y: -53.9. [3 hours ago]
+- George Brown sees House at X: 3.663626, Y: -54.92766. [3 hours ago]
+- I know a secret tunnel in the mine that few know about. [3 hours ago]
+- I've saved up to buy a house near the village. [3 hours ago]
+- Working in the mines is tough but rewarding. [3 hours ago]
+- I've been taught traditional mining songs by the older miners. [3 hours ago]
+- George Brown is quite tired today. [3 hours ago]
+
+Previous Actions:
+- [eat]: George Brown ate Berries which restored 10 satiety. [1 hours ago]
+- [move_to]: George Brown walked to X: 4.8, Y: -58.14. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694815264486] --- Action Functions ---
+[1694815264486] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Cedric Warborn (ID: A12).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (11) in detail."
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Thomas Smith (ID: A1).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human in detail."
+        }
+      }
+    }
+  }
+]
+[1694815269509] --- Response ---
+[1694815269510] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "start_conversation",
+    "arguments": "{\n  \"characterId\": \"A2\",\n  \"targetCharacterId\": \"A12\",\n  \"conversationGoal\": \"Catch up with Cedric Warborn about life in the village and discuss any recent events\"\n}"
+  }
+}
+[1694815269513] --- Verified Action ---
+[1694815269513] {
+  "type": "start_conversation",
+  "data": {
+    "characterId": "A2",
+    "targetCharacterId": "A12",
+    "conversationGoal": "Catch up with Cedric Warborn about life in the village and discuss any recent events"
+  }
+}
+[1694815277554] [35m[CORTEX] George Brown - Plan: [39m George is planning to have a deep conversation with Cedric Warborn about the recent happenings in the village. He might also discuss their work in the mines, his ambitions for a house near the village, and possibly share the secret knowledge of the hidden tunnels. Additionally, sharing a traditional mining song or two might also be part of the conversation.
+[1694815279659] [35m[CORTEX] George Brown - Say: [39mCedric, how goes it? Miss the sun yet?
+
+[1694815291576] [35m[CORTEX] George Brown - Prior Message: [39mI feel content, George. The sun's absence is but a reminder of life's inevitable ebb and flow.
+[1694815291576] [35m[CORTEX] George Brown - Patience: [39m100
+[1694815291576] [35m[CORTEX] George Brown - Conversation Goal: [39mCatch up with Cedric Warborn about life in the village and discuss any recent events
+[1694815291576] [35m[CORTEX] George Brown - Conversation Finished: [39mfalse
+[1694815298898] [35m[CORTEX] George Brown - Feel: [39mI feel content, George. The sun's absence is but a reminder of life's inevitable ebb and flow.
+[1694815306364] [35m[CORTEX] George Brown - Explain: [39mGeorge Brown made no progress towards his goal of catching up with Cedric Warborn about life in the village and discussing any recent events today. However, he did manage to engage in a philosophical conversation with Cedric about the transient nature of life, which might deepen their bond as colleagues and friends. Despite the lack of progress on his specific goal, George would consider this interaction valuable, as maintaining good relations with his fellow miners is a high priority for him.
+[1694815307742] [35m[CORTEX] George Brown - Did I make progress? [39m[no]
+[1694815307742] [35mPatience:[39m90
+[1694815309218] [35m[CORTEX] George Brown - Plan: [39m Change the topic to village life
+[1694815313012] [35m[CORTEX] George Brown - Say: [39mCedric, any news from the village? You know I'm aspiring to buy a house there.
+
+[1694815322916] Getting action 0
+[1694815322916] Getting result 0
+[1694815322916] Getting action 1
+[1694815322916] Getting result 1
+[1694815322916] Getting action 2
+[1694815322916] Getting result 2
+[1694815322916] [31mResult for action 2 is undefined. Skipping...[39m
+[1694815322917] undefined
+[1694815322917] --- Prompt ---
+[1694815322917] Character: 
+- ID: A2
+- Name: George Brown
+- Age: 28
+- Occupation: Miner
+- Personality: Hardworking, Loyal, Reserved
+
+Location: 5.021664, -57.9867
+
+Time: Day 0, 7:20 AM
+
+Energy: Fully Rested
+
+Hunger: Well-fed
+
+Environment:
+- Cedric Warborn (Health: 15/25) [Direction: W, Distance: 0.27m]
+- Thomas Smith (Health: 25/25) [Direction: W, Distance: 1.3m]
+- John Swift (Health: 25/25) [Direction: W, Distance: 2.7m]
+- House (Health: 100/100) [Direction: W, Distance: 3.3m]
+- Tree (Health: 10/10) [Direction: W, Distance: 5.0m]
+- House (Health: 100/100) [Direction: W, Distance: 6.0m]
+- Tree (Health: 10/10) [Direction: W, Distance: 6.9m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.2m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.6m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.7m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.2m]
+
+Inventory (3/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- George Brown sees Cedric Warborn at X: 4.8, Y: -58.14. [7 hours ago]
+- George Brown sees John Swift at X: 11.68, Y: -55.79. [7 hours ago]
+- George Brown sees Thomas Smith at X: 6, Y: -55.63. [7 hours ago]
+- George Brown sees House at X: 9.44, Y: -53.9. [7 hours ago]
+- George Brown sees House at X: 3.663626, Y: -54.92766. [7 hours ago]
+- I know a secret tunnel in the mine that few know about. [7 hours ago]
+- I've saved up to buy a house near the village. [7 hours ago]
+- I take pride in my work and look after my equipment. [7 hours ago]
+- Safety in the mines is a top priority for me. [7 hours ago]
+- I've been taught traditional mining songs by the older miners. [7 hours ago]
+
+Previous Actions:
+- [eat]: George Brown ate Berries which restored 10 satiety. [4 hours ago]
+- [move_to]: George Brown walked to X: 4.8, Y: -58.14. [3 hours ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694815322917] --- Action Functions ---
+[1694815322917] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Cedric Warborn (ID: A12).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (11) in detail."
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with Thomas Smith (ID: A1).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human in detail."
+        }
+      }
+    }
+  }
+]
+[1694815326518] [31mAgent A2 is already occupied. Skipping...[39m
+[1694815355220] [31m[createMemory][39m Cedric Warborn felt content despite the absence of sun in the mines [46.43778]
+[1694815355221] [31m[createMemory][39m Cedric Warborn is a fellow miner [46.43778]
+[1694815355221] [31m[createMemory][39m George Brown has intentions to buy a house in the village [46.43778]
+[1694815355221] [31m[createMemory][39m George Brown initiated conversation about village life [46.43778]

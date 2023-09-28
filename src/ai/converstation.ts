@@ -530,7 +530,7 @@ const processMemories = async (
         colors.magenta(
             `[CORTEX] ${
                 character.name
-            } - Memories: ${cortexStep.value.toString()}`
+            } - Memories: ${memoriesCortexStep.value.toString()}`
         ),
         "info"
     );

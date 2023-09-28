@@ -1,0 +1,80 @@
+[1694978912942] [Character] Creating Thomas
+[1694978913298] [31m[createMemory][39m I should be asleep until 7am. [0]
+[1694978913298] [31m[createMemory][39m It's my job to protect the village. [0]
+[1694978913298] [31m[createMemory][39m I need to make sure everyone is safe. [0]
+[1694978913298] [31m[createMemory][39m I do the work that no one else wants to do. [0]
+[1694978913298] [31m[createMemory][39m I try to be as honest as possible. [0]
+[1694978913298] [31m[createMemory][39m I'm not afraid of anything. [0]
+[1694978913299] [31m[createMemory][39m I go to bed at 10pm. [0]
+[1694978913299] [31m[createMemory][39m I like strawberries. [0]
+[1694978913299] [31m[createMemory][39m The village location is 2, -58. [0]
+[1694978913299] [31m[createMemory][39m The mine site is at 51, 17. [0]
+[1694978913299] [31m[createMemory][39m The lumberyard is at 72, -55.1 [0]
+[1694978913299] [31m[createMemory][39m The campsite is at 7, -8.3 [0]
+[1694978913299] [31m[createMemory][39m The Nume River flows through the village. [0]
+[1694978913299] [31m[createMemory][39m Nume Falls are north of the village, and west of the campsite. [0]
+[1694978913299] [31m[createMemory][39m The area is surrounded by forested monutains, filled with wildlife, rivers, and lakes. [0]
+[1694978924402] [Character] Thomas created (clmnuoji10001vdt7exq27vf4)
+[1694978987197] [35m[CORTEX] Thomas Smith - Prior Message: [39mThomas, good to see you! How's Emma? Still baking those delicious apple pies?
+[1694978987197] [35m[CORTEX] Thomas Smith - Patience: [39m100
+[1694978987197] [35m[CORTEX] Thomas Smith - Conversation Goal: [39mfiguring out why James McAllister started a conversation with them.
+[1694978987197] [35m[CORTEX] Thomas Smith - Conversation Finished: [39mfalse
+[1694978993211] [35m[CORTEX] Thomas Smith - Feel: [39mThomas, good to see you! How's Emma? Still baking those delicious apple pies?
+[1694978996235] [35m[CORTEX] Thomas Smith - Plan: [39m Hello James! Emma is doing well and yes, she's still the best baker in town. Her pies are just too delicious to resist!
+[1694978998360] [35m[CORTEX] Thomas Smith - Say: [39mHello James! Emma is doing well and yes, she's still the best baker in town. Her pies are just too delicious to resist!
+
+[1694979022957] [35m[CORTEX] Thomas Smith - Prior Message: [39mWell, glad to hear that! Any news from the village? By the way, have a look at the new trinkets I've got. Might put a sparkle in Emma's eye.
+[1694979022957] [35m[CORTEX] Thomas Smith - Patience: [39m100
+[1694979022958] [35m[CORTEX] Thomas Smith - Conversation Goal: [39mfiguring out why James McAllister started a conversation with them.
+[1694979022958] [35m[CORTEX] Thomas Smith - Conversation Finished: [39mfalse
+[1694979027240] [35m[CORTEX] Thomas Smith - Feel: [39mWell, glad to hear that! Any news from the village? By the way, have a look at the new trinkets I've got. Might put a sparkle in Emma's eye.
+[1694979029131] [35m[CORTEX] Thomas Smith - Explain: [39mJames McAllister's query about the village news and his suggestion about the trinkets
+[1694979030052] [35m[CORTEX] Thomas Smith - Did I make progress? [39m[yes]
+[1694979031037] [35m[CORTEX] Thomas Smith - Did I accomplish my goal? [39m[yes]
+[1694979034763] [35m[CORTEX] Thomas Smith - Explain: [39mThomas contemplates as he looks at the trinkets. Perhaps purchasing one as a gift for Emma would maintain his control and endear him further to the villagers, making him seem approachable and considerate.
+[1694979035724] [35m[CORTEX] Thomas Smith - Should I end the conversation? [39m[yes]
+[1694979039464] [35m[CORTEX] Thomas Smith Goodbye: [39mI'll certainly give these trinkets some thought, James. The village is as peaceful as ever. I best be going now. Good day. 
+[1694979046604] [31m[createMemory][39m James McAllister has some new trinkets that might interest Emma [49.73898]
+[1694979054174] --- Conversation Task Update Prompt ---
+[1694979054174] Character: 
+- ID: A1
+- Name: Thomas Smith
+- Age: 32
+- Occupation: Village Leader
+- Personality: Brave, Calm, Honest
+
+Action items & memories from conversation just now:
+- James McAllister has some new trinkets that might interest Emma
+Tasks:
+[
+  {
+    "task": "Catch up to James",
+    "priority": 1
+  },
+  {
+    "task": "Go to Nume Village",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Given the available information from a conversation you just had, update your task list, placing priority on the conversation action items & memories. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. The result must be sorted by priority, with the highest priority task at the top.
+[1694979058796] --- Response ---
+[1694979058796] Updated Tasks: 
+[1694979058796] [
+  {
+    "task": "Catch up to James to inquire about the new trinkets for Emma",
+    "priority": 1
+  },
+  {
+    "task": "Visit Nume Village",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a balanced, healthy lifestyle",
+    "priority": 3
+  }
+]

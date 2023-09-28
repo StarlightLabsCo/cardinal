@@ -1,0 +1,18 @@
+[
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A10",
+      "x": 55.25,
+      "y": -18.75
+    }
+  },
+  {
+    "type": "start_conversation",
+    "data": {
+      "characterId": "A10",
+      "targetCharacterId": "A1",
+      "conversationGoal": "Discuss about day's task and check on his well-being"
+    }
+  }
+]

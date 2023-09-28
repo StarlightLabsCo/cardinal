@@ -1,0 +1,25 @@
+[
+  {
+    "type": "eat",
+    "data": {
+      "characterId": "A2",
+      "foodId": "berries"
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A2",
+      "x": 68.30053,
+      "y": -22.75576
+    }
+  },
+  {
+    "type": "start_conversation",
+    "data": {
+      "characterId": "A2",
+      "targetCharacterId": "A12",
+      "conversationGoal": "Get to know about Cedric Warborn's day and catch up with him"
+    }
+  }
+]

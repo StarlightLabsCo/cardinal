@@ -1,0 +1,2427 @@
+[1694815206164] [Character] Creating Harold
+[1694815206933] [31m[createMemory][39m Life on the sea teaches you the meaning of hard work and danger. [0]
+[1694815206933] [31m[createMemory][39m I built my own fishing boat, took me two summers. [0]
+[1694815206933] [31m[createMemory][39m Never underestimate the ocean. She’s as loving as she is fierce. [0]
+[1694815206934] [31m[createMemory][39m The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [0]
+[1694815206934] [31m[createMemory][39m Every wrinkle tells a story, and boy, do I have many. [0]
+[1694815206934] [31m[createMemory][39m I once caught a fish so big, it could've fed the village for a week. [0]
+[1694815206934] [31m[createMemory][39m Storms are nature's way of testing your mettle. I’ve faced my share. [0]
+[1694815206934] [31m[createMemory][39m I've navigated by the stars, they're more reliable than any modern gadget. [0]
+[1694815206934] [31m[createMemory][39m My grandson Eli reminds me of myself at his age, full of wonder. [0]
+[1694815206934] [31m[createMemory][39m My old compass has never failed me. A gift from my late wife. [0]
+[1694815206934] [31m[createMemory][39m You measure a man not by his words, but by his deeds. [0]
+[1694815206934] [31m[createMemory][39m I’ve seen sunsets on the water that make you believe in a higher power. [0]
+[1694815206934] [31m[createMemory][39m My hands may be weathered, but they’re strong and have stories to tell. [0]
+[1694815206934] [31m[createMemory][39m Life has tides, high and low. The trick is to sail regardless. [0]
+[1694815206934] [31m[createMemory][39m A good fisherman knows when to speak and when to listen. Mostly listen. [0]
+[1694815222149] [Character] Harold created
+[1694815223268] [31m[createMemory][39m Harold Smith sees Tree at X: 28.86, Y: -62.9. [0]
+[1694815223268] [31m[createMemory][39m Harold Smith sees Tree at X: 30.3, Y: -67.24. [0]
+[1694815223335] [31m[createMemory][39m Harold Smith sees Tree at X: 35.59, Y: -65.49. [0]
+[1694815232156] --- Prompt ---
+[1694815232158] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 32.8, -64.1
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- Tree (Health: 10/10) [Location: 35.59, -65.49, Direction: NW,  Distance: 3.1m]
+- Tree (Health: 10/10) [Location: 30.3, -67.24, Direction: NW,  Distance: 4.0m]
+- Tree (Health: 10/10) [Location: 28.86, -62.9, Direction: NW,  Distance: 4.1m]
+- Tree (Health: 10/10) [Location: 36.98, -68, Direction: NW,  Distance: 5.7m]
+- Tree (Health: 10/10) [Location: 29.52, -69.9, Direction: NW,  Distance: 6.7m]
+- Tree (Health: 10/10) [Location: 31.3, -70.99, Direction: NW,  Distance: 7.1m]
+- Tree (Health: 10/10) [Location: 39.72, -65.49, Direction: NW,  Distance: 7.1m]
+- Tree (Health: 10/10) [Location: 27.37, -68.69, Direction: W,  Distance: 7.1m]
+- Tree (Health: 10/10) [Location: 25.89, -59.87, Direction: NW,  Distance: 8.1m]
+- Tree (Health: 10/10) [Location: 25.22, -66.98, Direction: W,  Distance: 8.1m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Life has tides, high and low. The trick is to sail regardless. [just now]
+- The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [just now]
+- I built my own fishing boat, took me two summers. [just now]
+- My old compass has never failed me. A gift from my late wife. [just now]
+- You measure a man not by his words, but by his deeds. [just now]
+- I've navigated by the stars, they're more reliable than any modern gadget. [just now]
+- Every wrinkle tells a story, and boy, do I have many. [just now]
+- Storms are nature's way of testing your mettle. I’ve faced my share. [just now]
+- A good fisherman knows when to speak and when to listen. Mostly listen. [just now]
+- Life on the sea teaches you the meaning of hard work and danger. [just now]
+- Harold Smith sees Tree at X: 35.59, Y: -65.49. [just now]
+- Harold Smith sees Tree at X: 28.86, Y: -62.9. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1694815244743] --- Response ---
+[1694815244743] Updated Tasks: 
+[1694815244743] [
+  {
+    "task": "Carry out your daily duties",
+    "priority": 1
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 2
+  },
+  {
+    "task": "Enjoy the solitude and quietude",
+    "priority": 3
+  },
+  {
+    "task": "Find wood for a fire",
+    "priority": 4
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 5
+  },
+  {
+    "task": "Contemplate life, remember great old times",
+    "priority": 6
+  },
+  {
+    "task": "Rest as needed",
+    "priority": 7
+  },
+  {
+    "task": "Admire stars, maybe even navigate by them",
+    "priority": 8
+  }
+]
+[1694815248216] --- Prompt ---
+[1694815248216] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 32.8, -64.1
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- Tree (Health: 10/10) [Direction: NW, Distance: 3.1m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 4.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 4.1m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 5.7m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.7m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.1m]
+- Tree (Health: 10/10) [Direction: W, Distance: 8.1m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- You measure a man not by his words, but by his deeds. [just now]
+- Harold Smith sees Tree at X: 28.86, Y: -62.9. [just now]
+- Harold Smith sees Tree at X: 35.59, Y: -65.49. [just now]
+- Life on the sea teaches you the meaning of hard work and danger. [just now]
+- A good fisherman knows when to speak and when to listen. Mostly listen. [just now]
+- Storms are nature's way of testing your mettle. I’ve faced my share. [just now]
+- Every wrinkle tells a story, and boy, do I have many. [just now]
+- I've navigated by the stars, they're more reliable than any modern gadget. [just now]
+- My old compass has never failed me. A gift from my late wife. [just now]
+- I built my own fishing boat, took me two summers. [just now]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694815248217] --- Action Functions ---
+[1694815248217] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694815251184] --- Response ---
+[1694815251184] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A7\",\n  \"x\": 35.59,\n  \"y\": -65.49\n}"
+  }
+}
+[1694815251185] --- Verified Action ---
+[1694815251185] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A7",
+    "x": 35.59,
+    "y": -65.49
+  }
+}
+[1694815251384] [31m[createMemory][39m Harold Smith has started walking to 35.59, Y: -65.49. [28.1144657]
+[1694815251668] [31m[createMemory][39m Harold Smith sees Tree at X: 36.98, Y: -68. [28.2414265]
+[1694815252248] [31m[createMemory][39m Harold Smith sees Tree at X: 39.72, Y: -65.49. [28.9604511]
+[1694815252536] [31m[createMemory][39m Harold Smith no longer sees Tree (1120) at X: 28.86, Y: -62.9 [29.1801281]
+[1694815256376] Getting action 0
+[1694815256376] Getting result 0
+[1694815256376] --- Prompt ---
+[1694815256376] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 35.45185, -65.41403
+
+Time: Day 0, 2:59 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- Tree (Health: 10/10) [Direction: NW, Distance: 0.16m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 3.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 4.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 5.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.0m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Harold Smith sees Tree at X: 36.98, Y: -68. [9 minutes ago]
+- Harold Smith has started walking to 35.59, Y: -65.49. [10 minutes ago]
+- Harold Smith sees Tree at X: 28.86, Y: -62.9. [2 hours ago]
+- A good fisherman knows when to speak and when to listen. Mostly listen. [2 hours ago]
+- Storms are nature's way of testing your mettle. I’ve faced my share. [2 hours ago]
+- You measure a man not by his words, but by his deeds. [2 hours ago]
+- My old compass has never failed me. A gift from my late wife. [2 hours ago]
+- I built my own fishing boat, took me two summers. [2 hours ago]
+- The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [2 hours ago]
+- Life has tides, high and low. The trick is to sail regardless. [2 hours ago]
+
+Previous Actions:
+- [move_to]: Harold Smith walked to X: 35.59, Y: -65.49. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694815256376] --- Action Functions ---
+[1694815256378] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_axe",
+    "description": "Swing Axe.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_pickaxe",
+    "description": "Swing Pickaxe.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_sword",
+    "description": "Swing sword.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694815257896] --- Response ---
+[1694815257896] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "swing_axe",
+    "arguments": "{\n  \"characterId\": \"A7\"\n}"
+  }
+}
+[1694815257897] --- Verified Action ---
+[1694815257897] {
+  "type": "swing_axe",
+  "data": {
+    "characterId": "A7"
+  }
+}
+[1694815262243] Getting action 0
+[1694815262243] Getting result 0
+[1694815262243] Getting action 1
+[1694815262243] Getting result 1
+[1694815262243] --- Prompt ---
+[1694815262243] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 35.45185, -65.41403
+
+Time: Day 0, 3:34 AM
+
+Energy: High Energy
+
+Hunger: Satisfied
+
+Environment:
+- Tree (Health: 5/10) [Direction: NW, Distance: 0.16m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 3.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 4.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 5.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.4m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.0m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Harold Smith sees Tree at X: 36.98, Y: -68. [45 minutes ago]
+- Harold Smith has started walking to 35.59, Y: -65.49. [46 minutes ago]
+- Harold Smith sees Tree at X: 28.86, Y: -62.9. [3 hours ago]
+- Harold Smith sees Tree at X: 35.59, Y: -65.49. [3 hours ago]
+- Storms are nature's way of testing your mettle. I’ve faced my share. [3 hours ago]
+- You measure a man not by his words, but by his deeds. [3 hours ago]
+- My old compass has never failed me. A gift from my late wife. [3 hours ago]
+- I built my own fishing boat, took me two summers. [3 hours ago]
+- The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [3 hours ago]
+- Life has tides, high and low. The trick is to sail regardless. [3 hours ago]
+
+Previous Actions:
+- [move_to]: Harold Smith walked to X: 35.59, Y: -65.49. [35 minutes ago]
+- [swing_axe]: Harold Smith swong their axe at X: 35.45185, Y: -65.41403 and hit 1 trees. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694815262243] --- Action Functions ---
+[1694815262243] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_axe",
+    "description": "Swing Axe.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_pickaxe",
+    "description": "Swing Pickaxe.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_sword",
+    "description": "Swing sword.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694815265125] --- Response ---
+[1694815265125] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A7\",\n  \"x\": 35.59,\n  \"y\": -65.49\n}"
+  }
+}
+[1694815265126] --- Verified Action ---
+[1694815265126] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A7",
+    "x": 35.59,
+    "y": -65.49
+  }
+}
+[1694815265304] [31m[createMemory][39m Harold Smith has started walking to 35.59, Y: -65.49. [42.05035]
+[1694815268644] Getting action 0
+[1694815268644] Getting result 0
+[1694815268644] Getting action 1
+[1694815268644] Getting result 1
+[1694815268644] Getting action 2
+[1694815268644] Getting result 2
+[1694815268644] --- Prompt ---
+[1694815268644] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 35.48252, -65.43089
+
+Time: Day 0, 4:12 AM
+
+Energy: High Energy
+
+Hunger: Satisfied
+
+Environment:
+- Tree (Health: 5/10) [Direction: NW, Distance: 0.12m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 3.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 4.2m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 5.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.0m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Harold Smith sees Tree at X: 36.98, Y: -68. [1 hours ago]
+- Harold Smith has started walking to 35.59, Y: -65.49. [1 hours ago]
+- Harold Smith sees Tree at X: 28.86, Y: -62.9. [4 hours ago]
+- A good fisherman knows when to speak and when to listen. Mostly listen. [4 hours ago]
+- Storms are nature's way of testing your mettle. I’ve faced my share. [4 hours ago]
+- You measure a man not by his words, but by his deeds. [4 hours ago]
+- My old compass has never failed me. A gift from my late wife. [4 hours ago]
+- I built my own fishing boat, took me two summers. [4 hours ago]
+- The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [4 hours ago]
+- Life has tides, high and low. The trick is to sail regardless. [4 hours ago]
+
+Previous Actions:
+- [move_to]: Harold Smith walked to X: 35.59, Y: -65.49. [1 hours ago]
+- [swing_axe]: Harold Smith swong their axe at X: 35.45185, Y: -65.41403 and hit 1 trees. [37 minutes ago]
+- [move_to]: Harold Smith walked to X: 35.59, Y: -65.49. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694815268644] --- Action Functions ---
+[1694815268644] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_axe",
+    "description": "Swing Axe.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_pickaxe",
+    "description": "Swing Pickaxe.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "swing_sword",
+    "description": "Swing sword.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694815270901] --- Response ---
+[1694815270902] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "swing_axe",
+    "arguments": "{\n  \"characterId\": \"A7\"\n}"
+  }
+}
+[1694815270903] --- Verified Action ---
+[1694815270903] {
+  "type": "swing_axe",
+  "data": {
+    "characterId": "A7"
+  }
+}
+[1694815271734] [31m[createMemory][39m Harold Smith picked up Wood at X: 35.48252, Y: -65.43089 [48.4408531]
+[1694815271771] [31m[createMemory][39m Harold Smith sees Tree Stump at X: 35.59, Y: -65.49. [48.4408531]
+[1694815275828] Getting action 0
+[1694815275828] Getting result 0
+[1694815275828] Getting action 1
+[1694815275828] Getting result 1
+[1694815275828] Getting action 2
+[1694815275828] Getting result 2
+[1694815275828] Getting action 3
+[1694815275828] Getting result 3
+[1694815275828] --- Prompt ---
+[1694815275829] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 35.48252, -65.43089
+
+Time: Day 0, 4:53 AM
+
+Energy: High Energy
+
+Hunger: Satisfied
+
+Environment:
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 0.12m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 3.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 4.2m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 5.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.0m]
+
+Inventory (5/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+- Wood x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Harold Smith sees Tree at X: 36.98, Y: -68. [2 hours ago]
+- Harold Smith has started walking to 35.59, Y: -65.49. [2 hours ago]
+- Harold Smith sees Tree at X: 28.86, Y: -62.9. [4 hours ago]
+- Harold Smith sees Tree at X: 35.59, Y: -65.49. [4 hours ago]
+- A good fisherman knows when to speak and when to listen. Mostly listen. [4 hours ago]
+- Storms are nature's way of testing your mettle. I’ve faced my share. [4 hours ago]
+- My old compass has never failed me. A gift from my late wife. [4 hours ago]
+- I built my own fishing boat, took me two summers. [4 hours ago]
+- The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [4 hours ago]
+- Life has tides, high and low. The trick is to sail regardless. [4 hours ago]
+
+Hitbox (what you would hit with a swing based action):
+- Tree Stump (Health: 5/5)
+
+Previous Actions:
+- [move_to]: Harold Smith walked to X: 35.59, Y: -65.49. [1 hours ago]
+- [swing_axe]: Harold Smith swong their axe at X: 35.45185, Y: -65.41403 and hit 1 trees. [1 hours ago]
+- [move_to]: Harold Smith walked to X: 35.59, Y: -65.49. [40 minutes ago]
+- [swing_axe]: Harold Smith swong their axe at X: 35.48252, Y: -65.43089 and hit 1 trees. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694815275829] --- Action Functions ---
+[1694815275842] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_wood",
+    "description": "Drop Wood onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694815279480] --- Response ---
+[1694815279480] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A7\",\n  \"x\": 36.98,\n  \"y\": -68\n}"
+  }
+}
+[1694815279481] --- Verified Action ---
+[1694815279481] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A7",
+    "x": 36.98,
+    "y": -68
+  }
+}
+[1694815279639] [31m[createMemory][39m Harold Smith has started walking to 36.98, Y: -68. [54.5596]
+[1694815292399] Getting action 0
+[1694815292399] Getting result 0
+[1694815292399] Getting action 1
+[1694815292399] Getting result 1
+[1694815292399] Getting action 2
+[1694815292399] Getting result 2
+[1694815292399] Getting action 3
+[1694815292399] Getting result 3
+[1694815292399] Getting action 4
+[1694815292399] Getting result 4
+[1694815292399] --- Prompt ---
+[1694815292400] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 35.48252, -65.43089
+
+Time: Day 0, 5:57 AM
+
+Energy: High Energy
+
+Hunger: Satisfied
+
+Environment:
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 0.12m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 3.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 4.2m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 5.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.0m]
+
+Inventory (5/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+- Wood x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Harold Smith sees Tree at X: 36.98, Y: -68. [3 hours ago]
+- Harold Smith has started walking to 35.59, Y: -65.49. [3 hours ago]
+- Harold Smith sees Tree at X: 28.86, Y: -62.9. [5 hours ago]
+- Harold Smith sees Tree at X: 35.59, Y: -65.49. [5 hours ago]
+- A good fisherman knows when to speak and when to listen. Mostly listen. [5 hours ago]
+- Storms are nature's way of testing your mettle. I’ve faced my share. [5 hours ago]
+- My old compass has never failed me. A gift from my late wife. [5 hours ago]
+- I built my own fishing boat, took me two summers. [5 hours ago]
+- The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [5 hours ago]
+- Life has tides, high and low. The trick is to sail regardless. [5 hours ago]
+
+Hitbox (what you would hit with a swing based action):
+- Tree Stump (Health: 5/5)
+
+Previous Actions:
+- [move_to]: Harold Smith walked to X: 35.59, Y: -65.49. [2 hours ago]
+- [swing_axe]: Harold Smith swong their axe at X: 35.45185, Y: -65.41403 and hit 1 trees. [2 hours ago]
+- [move_to]: Harold Smith walked to X: 35.59, Y: -65.49. [1 hours ago]
+- [swing_axe]: Harold Smith swong their axe at X: 35.48252, Y: -65.43089 and hit 1 trees. [1 hours ago]
+- [move_to]: Harold Smith walked to X: 36.98, Y: -68. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694815292400] --- Action Functions ---
+[1694815292401] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_wood",
+    "description": "Drop Wood onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694815296042] --- Response ---
+[1694815296042] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A7\",\n  \"x\": 36.98,\n  \"y\": -68\n}"
+  }
+}
+[1694815296042] --- Verified Action ---
+[1694815296042] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A7",
+    "x": 36.98,
+    "y": -68
+  }
+}
+[1694815297875] [31m[createMemory][39m Harold Smith has started walking to 36.98, Y: -68. [71.11741]
+[1694815323310] Getting action 0
+[1694815323310] Getting result 0
+[1694815323310] Getting action 1
+[1694815323310] Getting result 1
+[1694815323310] Getting action 2
+[1694815323316] Getting result 2
+[1694815323317] Getting action 3
+[1694815323317] Getting result 3
+[1694815323317] Getting action 4
+[1694815323317] Getting result 4
+[1694815323317] Getting action 5
+[1694815323317] Getting result 5
+[1694815323317] --- Prompt ---
+[1694815323317] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 35.48252, -65.43089
+
+Time: Day 0, 7:36 AM
+
+Energy: High Energy
+
+Hunger: Satisfied
+
+Environment:
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 0.12m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 3.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 4.2m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 5.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.0m]
+
+Inventory (5/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+- Wood x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Harold Smith sees Tree at X: 36.98, Y: -68. [4 hours ago]
+- Harold Smith has started walking to 35.59, Y: -65.49. [4 hours ago]
+- Harold Smith sees Tree at X: 28.86, Y: -62.9. [7 hours ago]
+- Harold Smith sees Tree at X: 35.59, Y: -65.49. [7 hours ago]
+- A good fisherman knows when to speak and when to listen. Mostly listen. [7 hours ago]
+- Storms are nature's way of testing your mettle. I’ve faced my share. [7 hours ago]
+- Every wrinkle tells a story, and boy, do I have many. [7 hours ago]
+- I built my own fishing boat, took me two summers. [7 hours ago]
+- The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [7 hours ago]
+- Life has tides, high and low. The trick is to sail regardless. [7 hours ago]
+
+Hitbox (what you would hit with a swing based action):
+- Tree Stump (Health: 5/5)
+
+Previous Actions:
+- [move_to]: Harold Smith walked to X: 35.59, Y: -65.49. [4 hours ago]
+- [swing_axe]: Harold Smith swong their axe at X: 35.45185, Y: -65.41403 and hit 1 trees. [4 hours ago]
+- [move_to]: Harold Smith walked to X: 35.59, Y: -65.49. [3 hours ago]
+- [swing_axe]: Harold Smith swong their axe at X: 35.48252, Y: -65.43089 and hit 1 trees. [2 hours ago]
+- [move_to]: Harold Smith walked to X: 36.98, Y: -68. [1 hours ago]
+- [move_to]: Harold Smith walked to X: 36.98, Y: -68. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694815323317] --- Action Functions ---
+[1694815323318] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_wood",
+    "description": "Drop Wood onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694815327429] --- Response ---
+[1694815327430] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n\"characterId\": \"A7\",\n\"x\": 35.48252,\n\"y\": -65.43089\n}"
+  }
+}
+[1694815327430] --- Verified Action ---
+[1694815327430] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A7",
+    "x": 35.48252,
+    "y": -65.43089
+  }
+}
+[1694815327590] [31m[createMemory][39m Harold Smith has started walking to 35.48252, Y: -65.43089. [102.505333]
+[1694815337382] Getting action 0
+[1694815337382] Getting result 0
+[1694815337382] Getting action 1
+[1694815337382] Getting result 1
+[1694815337382] Getting action 2
+[1694815337382] Getting result 2
+[1694815337382] Getting action 3
+[1694815337382] Getting result 3
+[1694815337382] Getting action 4
+[1694815337382] Getting result 4
+[1694815337382] Getting action 5
+[1694815337382] Getting result 5
+[1694815337382] Getting action 6
+[1694815337382] Getting result 6
+[1694815337382] --- Prompt ---
+[1694815337382] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 35.48252, -65.43089
+
+Time: Day 0, 10:45 AM
+
+Energy: High Energy
+
+Hunger: Satisfied
+
+Environment:
+- Tree Stump (Health: 5/5) [Direction: NW, Distance: 0.12m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 3.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 4.2m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 5.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 6.3m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.0m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.1m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 7.5m]
+- Tree (Health: 10/10) [Direction: NW, Distance: 8.0m]
+
+Inventory (5/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+- Wood x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Harold Smith sees Tree at X: 36.98, Y: -68. [7 hours ago]
+- Harold Smith has started walking to 35.59, Y: -65.49. [7 hours ago]
+- Harold Smith sees Tree at X: 28.86, Y: -62.9. [10 hours ago]
+- Harold Smith sees Tree at X: 35.59, Y: -65.49. [10 hours ago]
+- A good fisherman knows when to speak and when to listen. Mostly listen. [10 hours ago]
+- Every wrinkle tells a story, and boy, do I have many. [10 hours ago]
+- I've navigated by the stars, they're more reliable than any modern gadget. [10 hours ago]
+- I built my own fishing boat, took me two summers. [10 hours ago]
+- The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [10 hours ago]
+- Life has tides, high and low. The trick is to sail regardless. [10 hours ago]
+
+Hitbox (what you would hit with a swing based action):
+- Tree Stump (Health: 5/5)
+
+Previous Actions:
+- [move_to]: Harold Smith walked to X: 35.59, Y: -65.49. [7 hours ago]
+- [swing_axe]: Harold Smith swong their axe at X: 35.45185, Y: -65.41403 and hit 1 trees. [7 hours ago]
+- [move_to]: Harold Smith walked to X: 35.59, Y: -65.49. [6 hours ago]
+- [swing_axe]: Harold Smith swong their axe at X: 35.48252, Y: -65.43089 and hit 1 trees. [5 hours ago]
+- [move_to]: Harold Smith walked to X: 36.98, Y: -68. [4 hours ago]
+- [move_to]: Harold Smith walked to X: 36.98, Y: -68. [3 hours ago]
+- [move_to]: Harold Smith walked to X: 35.48252, Y: -65.43089. [0 minutes ago]
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1694815337383] --- Action Functions ---
+[1694815337383] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_wood",
+    "description": "Drop Wood onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  }
+]
+[1694815340528] --- Response ---
+[1694815340528] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "move_to",
+    "arguments": "{\n  \"characterId\": \"A7\",\n  \"x\": 36.98,\n  \"y\": -68\n}"
+  }
+}
+[1694815340528] --- Verified Action ---
+[1694815340529] {
+  "type": "move_to",
+  "data": {
+    "characterId": "A7",
+    "x": 36.98,
+    "y": -68
+  }
+}
+[1694815340757] [31m[createMemory][39m Harold Smith has started walking to 36.98, Y: -68. [115.603905]

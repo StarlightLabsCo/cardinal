@@ -1,0 +1,90 @@
+[1695368925260] [31m[createMemory][39m I've scaled the highest peak in the Blackspire Range. [0]
+[1695368925260] [31m[createMemory][39m My travels have taken me to forgotten civilizations. [0]
+[1695368925260] [31m[createMemory][39m I've escaped several near-death situations. [0]
+[1695368925260] [31m[createMemory][39m Found a rare artifact in an ancient ruin. [0]
+[1695368925260] [31m[createMemory][39m My compass is more than a tool; it's a lifeline. [0]
+[1695368925260] [31m[createMemory][39m I often rely on my wits rather than a weapon. [0]
+[1695368925260] [31m[createMemory][39m My pack contains only the essentials for survival. [0]
+[1695368925260] [31m[createMemory][39m The thrill of discovery fuels me. [0]
+[1695368925260] [31m[createMemory][39m I trust no one completely; the road has taught me that. [0]
+[1695368925260] [31m[createMemory][39m Navigating treacherous landscapes is second nature to me. [0]
+[1695368925260] [31m[createMemory][39m I've learned a lot about local cultures and their legends. [0]
+[1695368925260] [31m[createMemory][39m I've traded stories with adventurers and locals alike. [0]
+[1695368925260] [31m[createMemory][39m Survival skills are as crucial as courage. [0]
+[1695368925260] [31m[createMemory][39m Maps are useful, but instincts are invaluable. [0]
+[1695368925260] [31m[createMemory][39m I keep a journal of my adventures; it'll be my legacy. [0]
+[1695368925260] [31m[createMemory][39m Basecamp Alpha is my main hub, located at 43, 12. [0]
+[1695368925260] [31m[createMemory][39m I've journeyed through the Dark Forest, its coordinates are 24, 68. [0]
+[1695368925260] [31m[createMemory][39m The treacherous Snake Gorge is located at 53, -22. [0]
+[1695368925260] [31m[createMemory][39m There's a hidden temple at 11, 9; it took me months to find it. [0]
+[1695368925260] [31m[createMemory][39m The market at Skyline city is a great place to resupply; located at 78, 54. [0]
+[1695368937913] [Character] John created
+[1695369093115] [31m[createMemory][39m John Swift sees Harold Smith at X: 85.76, Y: -25.2. [0]
+[1695369093116] [31m[createMemory][39m John Swift sees Tree at X: 86.38, Y: -29.74. [0]
+[1695369102158] --- Prompt ---
+[1695369102165] Character: 
+- ID: A8
+- Name: John Swift
+- Age: 28
+- Occupation: Adventurer
+- Personality: Courageous, Resourceful, Independent
+
+Location: 86.86, -25.06
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Full
+
+Environment:
+- Harold Smith (Health: 25/25) [Location: 85.76, -25.2, Direction: N,  Distance: 1.1m]
+- Tree (Health: 10/10) [Location: 86.38, -29.74, Direction: N,  Distance: 4.7m]
+- Tree (Health: 10/10) [Location: 90.05, -31.45, Direction: N,  Distance: 7.1m]
+- Tree (Health: 10/10) [Location: 84.09999, -17.98, Direction: N,  Distance: 7.6m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- My pack contains only the essentials for survival. [just now]
+- I've scaled the highest peak in the Blackspire Range. [just now]
+- The treacherous Snake Gorge is located at 53, -22. [just now]
+- Found a rare artifact in an ancient ruin. [just now]
+- I've learned a lot about local cultures and their legends. [just now]
+- There's a hidden temple at 11, 9; it took me months to find it. [just now]
+- I've escaped several near-death situations. [just now]
+- I've traded stories with adventurers and locals alike. [just now]
+- I keep a journal of my adventures; it'll be my legacy. [just now]
+- Maps are useful, but instincts are invaluable. [just now]
+- John Swift sees Tree at X: 86.38, Y: -29.74. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+- start_conversation: Start a conversation with Harold Smith (ID: A7).
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.

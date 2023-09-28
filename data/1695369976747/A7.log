@@ -1,0 +1,1234 @@
+[1695369978237] [31m[createMemory][39m Life on the sea teaches you the meaning of hard work and danger. [0]
+[1695369978237] [31m[createMemory][39m I built my own fishing boat, took me two summers. [0]
+[1695369978237] [31m[createMemory][39m Never underestimate the ocean. She’s as loving as she is fierce. [0]
+[1695369978237] [31m[createMemory][39m The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [0]
+[1695369978237] [31m[createMemory][39m Every wrinkle tells a story, and boy, do I have many. [0]
+[1695369978237] [31m[createMemory][39m I once caught a fish so big, it could've fed the village for a week. [0]
+[1695369978237] [31m[createMemory][39m Storms are nature's way of testing your mettle. I’ve faced my share. [0]
+[1695369978237] [31m[createMemory][39m I've navigated by the stars, they're more reliable than any modern gadget. [0]
+[1695369978237] [31m[createMemory][39m My grandson Eli reminds me of myself at his age, full of wonder. [0]
+[1695369978237] [31m[createMemory][39m My old compass has never failed me. A gift from my late wife. [0]
+[1695369978237] [31m[createMemory][39m You measure a man not by his words, but by his deeds. [0]
+[1695369978237] [31m[createMemory][39m I’ve seen sunsets on the water that make you believe in a higher power. [0]
+[1695369978238] [31m[createMemory][39m My hands may be weathered, but they’re strong and have stories to tell. [0]
+[1695369978238] [31m[createMemory][39m Life has tides, high and low. The trick is to sail regardless. [0]
+[1695369978238] [31m[createMemory][39m A good fisherman knows when to speak and when to listen. Mostly listen. [0]
+[1695369988667] [Character] Harold created
+[1695370005090] [31m[createMemory][39m Harold Smith sees Tree at X: 86.38, Y: -29.74. [0]
+[1695370005090] [31m[createMemory][39m Harold Smith sees John Swift at X: 86.86, Y: -25.06. [0]
+[1695370013575] --- Prompt ---
+[1695370013575] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 85.76, -25.2
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- John Swift (Health: 25/25) [Location: 86.86, -25.06, Direction: N,  Distance: 1.1m]
+- Tree (Health: 10/10) [Location: 86.38, -29.74, Direction: N,  Distance: 4.6m]
+- Tree (Health: 10/10) [Location: 84.09999, -17.98, Direction: N,  Distance: 7.4m]
+- Tree (Health: 10/10) [Location: 90.05, -31.45, Direction: N,  Distance: 7.6m]
+- Tree (Health: 10/10) [Location: 80.95, -18.12, Direction: N,  Distance: 8.6m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- My grandson Eli reminds me of myself at his age, full of wonder. [just now]
+- A good fisherman knows when to speak and when to listen. Mostly listen. [just now]
+- I built my own fishing boat, took me two summers. [just now]
+- Life on the sea teaches you the meaning of hard work and danger. [just now]
+- I've navigated by the stars, they're more reliable than any modern gadget. [just now]
+- You measure a man not by his words, but by his deeds. [just now]
+- I’ve seen sunsets on the water that make you believe in a higher power. [just now]
+- The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [just now]
+- Never underestimate the ocean. She’s as loving as she is fierce. [just now]
+- My hands may be weathered, but they’re strong and have stories to tell. [just now]
+- My old compass has never failed me. A gift from my late wife. [just now]
+- Harold Smith sees Tree at X: 86.38, Y: -29.74. [just now]
+- Harold Smith sees John Swift at X: 86.86, Y: -25.06. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+- start_conversation: Start a conversation with John Swift (ID: A8).
+
+Hitbox (what you would hit with a swing based action):
+- John Swift (Health: 25/25)
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1695370025717] --- Response ---
+[1695370025717] Updated Tasks: 
+[1695370025724] [
+  {
+    "task": "Start conversation with John Swift",
+    "priority": 1
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  },
+  {
+    "task": "Prepare for the night",
+    "priority": 4
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 5
+  }
+]
+[1695370028459] --- Prompt ---
+[1695370028465] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 85.76, -25.2
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- John Swift (Health: 25/25) [Direction: N, Distance: 1.1m]
+- Tree (Health: 10/10) [Direction: N, Distance: 4.6m]
+- Tree (Health: 10/10) [Direction: N, Distance: 7.4m]
+- Tree (Health: 10/10) [Direction: N, Distance: 7.6m]
+- Tree (Health: 10/10) [Direction: N, Distance: 8.6m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- You measure a man not by his words, but by his deeds. [just now]
+- Harold Smith sees John Swift at X: 86.86, Y: -25.06. [just now]
+- Harold Smith sees Tree at X: 86.38, Y: -29.74. [just now]
+- My old compass has never failed me. A gift from my late wife. [just now]
+- My hands may be weathered, but they’re strong and have stories to tell. [just now]
+- Never underestimate the ocean. She’s as loving as she is fierce. [just now]
+- The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [just now]
+- I’ve seen sunsets on the water that make you believe in a higher power. [just now]
+- I've navigated by the stars, they're more reliable than any modern gadget. [just now]
+- I built my own fishing boat, took me two summers. [just now]
+
+Hitbox (what you would hit with a swing based action):
+- John Swift (Health: 25/25)
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1695370028466] --- Action Functions ---
+[1695370028467] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with John Swift (ID: A8).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (7) in detail."
+        }
+      }
+    }
+  }
+]
+[1695370032245] --- Response ---
+[1695370032245] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "start_conversation",
+    "arguments": "{\n  \"characterId\": \"A7\",\n  \"targetCharacterId\": \"A8\"\n}"
+  }
+}
+[1695370032282] {
+  "issues": [
+    {
+      "code": "invalid_union",
+      "unionErrors": [
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "add_to_chest",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"add_to_chest\""
+            },
+            {
+              "code": "invalid_union",
+              "unionErrors": [
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "wood",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"wood\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "stone",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"stone\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "iron",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"iron\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "diamond",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"diamond\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "copper",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"copper\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "coal",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"coal\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "axe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"axe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "pickaxe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"pickaxe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "sword",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"sword\""
+                    }
+                  ],
+                  "name": "ZodError"
+                }
+              ],
+              "path": [
+                "data",
+                "itemId"
+              ],
+              "message": "Invalid input"
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "chestId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "remove_from_chest",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"remove_from_chest\""
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "itemId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "chestId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "move_to",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"move_to\""
+            },
+            {
+              "code": "invalid_type",
+              "expected": "number",
+              "received": "undefined",
+              "path": [
+                "data",
+                "x"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "invalid_type",
+              "expected": "number",
+              "received": "undefined",
+              "path": [
+                "data",
+                "y"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "drop",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"drop\""
+            },
+            {
+              "code": "invalid_union",
+              "unionErrors": [
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "wood",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"wood\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "stone",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"stone\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "iron",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"iron\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "diamond",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"diamond\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "copper",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"copper\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "coal",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"coal\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "axe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"axe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "pickaxe",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"pickaxe\""
+                    }
+                  ],
+                  "name": "ZodError"
+                },
+                {
+                  "issues": [
+                    {
+                      "code": "invalid_literal",
+                      "expected": "sword",
+                      "path": [
+                        "data",
+                        "itemId"
+                      ],
+                      "message": "Invalid literal value, expected \"sword\""
+                    }
+                  ],
+                  "name": "ZodError"
+                }
+              ],
+              "path": [
+                "data",
+                "itemId"
+              ],
+              "message": "Invalid input"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "swing_axe",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"swing_axe\""
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "swing_sword",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"swing_sword\""
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "swing_pickaxe",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"swing_pickaxe\""
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "conversationGoal"
+              ],
+              "message": "Required"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "eat",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"eat\""
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "foodId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        },
+        {
+          "issues": [
+            {
+              "received": "start_conversation",
+              "code": "invalid_literal",
+              "expected": "sleep",
+              "path": [
+                "type"
+              ],
+              "message": "Invalid literal value, expected \"sleep\""
+            },
+            {
+              "code": "invalid_type",
+              "expected": "string",
+              "received": "undefined",
+              "path": [
+                "data",
+                "targetHouseId"
+              ],
+              "message": "Required"
+            },
+            {
+              "code": "unrecognized_keys",
+              "keys": [
+                "targetCharacterId"
+              ],
+              "path": [
+                "data"
+              ],
+              "message": "Unrecognized key(s) in object: 'targetCharacterId'"
+            }
+          ],
+          "name": "ZodError"
+        }
+      ],
+      "path": [],
+      "message": "Invalid input"
+    }
+  ],
+  "name": "ZodError"
+}
+[1695370032282] --- Prompt ---
+[1695370032282] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 85.76, -25.2
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- John Swift (Health: 25/25) [Direction: N, Distance: 1.1m]
+- Tree (Health: 10/10) [Direction: N, Distance: 4.6m]
+- Tree (Health: 10/10) [Direction: N, Distance: 7.4m]
+- Tree (Health: 10/10) [Direction: N, Distance: 7.6m]
+- Tree (Health: 10/10) [Direction: N, Distance: 8.6m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- You measure a man not by his words, but by his deeds. [just now]
+- Harold Smith sees John Swift at X: 86.86, Y: -25.06. [just now]
+- Harold Smith sees Tree at X: 86.38, Y: -29.74. [just now]
+- My old compass has never failed me. A gift from my late wife. [just now]
+- My hands may be weathered, but they’re strong and have stories to tell. [just now]
+- Never underestimate the ocean. She’s as loving as she is fierce. [just now]
+- The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [just now]
+- I’ve seen sunsets on the water that make you believe in a higher power. [just now]
+- I've navigated by the stars, they're more reliable than any modern gadget. [just now]
+- I built my own fishing boat, took me two summers. [just now]
+
+Hitbox (what you would hit with a swing based action):
+- John Swift (Health: 25/25)
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+
+[1695370032283] --- Action Functions ---
+[1695370032283] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with John Swift (ID: A8).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (7) in detail."
+        }
+      }
+    }
+  }
+]
+[1695370037281] --- Response ---
+[1695370037281] {
+  "role": "assistant",
+  "content": null,
+  "function_call": {
+    "name": "start_conversation",
+    "arguments": "{\n  \"characterId\": \"A7\",\n  \"targetCharacterId\": \"A8\",\n  \"conversationGoal\": \"To catch up on village matters and maintain camaraderie\"\n}"
+  }
+}
+[1695370037282] --- Verified Action ---
+[1695370037282] {
+  "type": "start_conversation",
+  "data": {
+    "characterId": "A7",
+    "targetCharacterId": "A8",
+    "conversationGoal": "To catch up on village matters and maintain camaraderie"
+  }
+}
+[1695370043072] [35m[CORTEX] Harold Smith - Plan: [39m Express gratitude to John Swift for his constant support and share a relevant seafaring tale
+[1695370049093] [35m[CORTEX] Harold Smith - Say: [39mJohn, your support reminds me of a steadfast lighthouse in a storm. Guiding and reassuring. Let me tell you of a storm I once weathered at sea...
+
+[1695370060662] [35m[CORTEX] Harold Smith - Prior Message: [39mHarold, I'm all ears. Let's hear about that storm.
+[1695370060662] [35m[CORTEX] Harold Smith - Patience: [39m100
+[1695370060662] [35m[CORTEX] Harold Smith - Conversation Goal: [39mTo catch up on village matters and maintain camaraderie
+[1695370060662] [35m[CORTEX] Harold Smith - Conversation Finished: [39mfalse
+[1695370064219] [35m[CORTEX] Harold Smith - Feel: [39mencouraged and valued by John's interest in his story
+[1695370079266] [35m[CORTEX] Harold Smith - Explain: [39mDespite his strong and stoic exterior, Harold felt a glow of appreciation. John's earnest interest in his tales, his life, affirmed that he was valued and respected in their community. This was more than an idle gossip session or a courtesy visit to an old man; it was a genuine connection and exchange of respect. It was proof that Harold's experiences and wisdom were not lost to time; they were alive, meaningful, and could guide others, much like how a sailor uses the stars. The village, to him, was like his old ship. And his job was to guide it through rough waters. Today, he made progress in keeping their bonds strong, reaffirming their mutual respect, and catching up on village matters.
+[1695370080838] [35m[CORTEX] Harold Smith - Did I make progress? [39m[yes]
+[1695370082113] [35m[CORTEX] Harold Smith - Did I accomplish my goal? [39m[yes]
+[1695370088967] [35m[CORTEX] Harold Smith - Explain: [39mHaving navigated many a stormy conversation, Harold senses that the rhythm of this one with John is reaching its natural ebb. Full of respect for timing in all things, he considers it's the right moment to retract his sails and harbour the boat of their dialogue for now, with an unsaid promise of hoisting them up for another voyage soon.
+[1695370091287] [35m[CORTEX] Harold Smith - Should I end the conversation? [39m[yes]
+[1695370099393] [35m[CORTEX] Harold Smith Goodbye: [39mJohn, thank you for taking the time to sit with me. Remember, a sailor is nothing without his crew. I may no longer traverse the seas, but our journeys are far from over. Until we sit again, navigate wisely and trust in the stars.
+[1695370106361] [31m[createMemory][39m Navigated many a stormy conversation [25.873415]
+[1695370106362] [31m[createMemory][39m John's interest in his stories affirmed Harold was valued and respected [25.873415]
+[1695370106362] [31m[createMemory][39m John's support reminds Harold of a steadfast lighthouse in a storm [25.873415]
+[1695370106362] [31m[createMemory][39m John's earnest interest in his tales proved that Harold's experiences and wisdom were not lost to time [25.873415]

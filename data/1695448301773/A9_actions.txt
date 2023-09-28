@@ -1,0 +1,25 @@
+[
+  {
+    "type": "eat",
+    "data": {
+      "characterId": "A9",
+      "foodId": "berries"
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A9",
+      "x": 72.52,
+      "y": -55.49
+    }
+  },
+  {
+    "type": "start_conversation",
+    "data": {
+      "characterId": "A9",
+      "targetCharacterId": "A1",
+      "conversationGoal": "Get to know Thomas Smith outside of work"
+    }
+  }
+]

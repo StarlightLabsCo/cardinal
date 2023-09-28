@@ -1,0 +1,25 @@
+[
+  {
+    "type": "eat",
+    "data": {
+      "characterId": "A4",
+      "foodId": "berries"
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A4",
+      "x": 5.4,
+      "y": 5.4
+    }
+  },
+  {
+    "type": "start_conversation",
+    "data": {
+      "characterId": "A4",
+      "targetCharacterId": "A10",
+      "conversationGoal": "To connect with the other villagers, which is part of my daily tasks."
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A12",
+      "x": 4,
+      "y": 0
+    }
+  },
+  {
+    "type": "start_conversation",
+    "data": {
+      "characterId": "A12",
+      "targetCharacterId": "A2",
+      "conversationGoal": "Discuss recent events and catch up on personal affairs"
+    }
+  }
+]

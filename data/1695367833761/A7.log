@@ -1,0 +1,418 @@
+[1695367834452] [Character] Creating Harold
+[1695367835027] [31m[createMemory][39m Life on the sea teaches you the meaning of hard work and danger. [0]
+[1695367835027] [31m[createMemory][39m I built my own fishing boat, took me two summers. [0]
+[1695367835027] [31m[createMemory][39m Never underestimate the ocean. She’s as loving as she is fierce. [0]
+[1695367835027] [31m[createMemory][39m The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [0]
+[1695367835027] [31m[createMemory][39m Every wrinkle tells a story, and boy, do I have many. [0]
+[1695367835027] [31m[createMemory][39m I once caught a fish so big, it could've fed the village for a week. [0]
+[1695367835027] [31m[createMemory][39m Storms are nature's way of testing your mettle. I’ve faced my share. [0]
+[1695367835028] [31m[createMemory][39m I've navigated by the stars, they're more reliable than any modern gadget. [0]
+[1695367835028] [31m[createMemory][39m My grandson Eli reminds me of myself at his age, full of wonder. [0]
+[1695367835029] [31m[createMemory][39m My old compass has never failed me. A gift from my late wife. [0]
+[1695367835029] [31m[createMemory][39m You measure a man not by his words, but by his deeds. [0]
+[1695367835029] [31m[createMemory][39m I’ve seen sunsets on the water that make you believe in a higher power. [0]
+[1695367835029] [31m[createMemory][39m My hands may be weathered, but they’re strong and have stories to tell. [0]
+[1695367835029] [31m[createMemory][39m Life has tides, high and low. The trick is to sail regardless. [0]
+[1695367835030] [31m[createMemory][39m A good fisherman knows when to speak and when to listen. Mostly listen. [0]
+[1695367846772] [Character] Harold created
+[1695368136539] [31m[createMemory][39m Harold Smith sees Tree at X: 86.38, Y: -29.74. [0]
+[1695368136541] [31m[createMemory][39m Harold Smith sees John Swift at X: 86.86, Y: -25.06. [0]
+[1695368144581] --- Prompt ---
+[1695368144583] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 85.76, -25.2
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- John Swift (Health: 25/25) [Location: 86.86, -25.06, Direction: N,  Distance: 1.1m]
+- Tree (Health: 10/10) [Location: 86.38, -29.74, Direction: N,  Distance: 4.6m]
+- Tree (Health: 10/10) [Location: 84.09999, -17.98, Direction: N,  Distance: 7.4m]
+- Tree (Health: 10/10) [Location: 90.05, -31.45, Direction: N,  Distance: 7.6m]
+- Tree (Health: 10/10) [Location: 80.95, -18.12, Direction: N,  Distance: 8.6m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- My old compass has never failed me. A gift from my late wife. [just now]
+- The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [just now]
+- Life has tides, high and low. The trick is to sail regardless. [just now]
+- Never underestimate the ocean. She’s as loving as she is fierce. [just now]
+- I built my own fishing boat, took me two summers. [just now]
+- Storms are nature's way of testing your mettle. I’ve faced my share. [just now]
+- Life on the sea teaches you the meaning of hard work and danger. [just now]
+- My hands may be weathered, but they’re strong and have stories to tell. [just now]
+- I’ve seen sunsets on the water that make you believe in a higher power. [just now]
+- Every wrinkle tells a story, and boy, do I have many. [just now]
+- Harold Smith sees John Swift at X: 86.86, Y: -25.06. [just now]
+
+Available Actions:
+- move_to: Move to a target location
+- drop_axe: Drop Axe onto the ground.
+- drop_pickaxe: Drop Pickaxe onto the ground.
+- drop_sword: Drop Sword onto the ground.
+- eat: Eat some food.
+- drop_berries: Drop Berries onto the ground.
+- start_conversation: Start a conversation with John Swift (ID: A8).
+
+Hitbox (what you would hit with a swing based action):
+- John Swift (Health: 25/25)
+
+Given the available information, update your task list. Take into consideration the time of day, environment, personality of the character, and more. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. Remember focus on the time of day to adjust priorities.
+[1695368157402] --- Response ---
+[1695368157402] Updated Tasks: 
+[1695368157402] [
+  {
+    "task": "Catch up with John Swift",
+    "priority": 1
+  },
+  {
+    "task": "Gather some wood from the closest tree",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle by eating a meal",
+    "priority": 3
+  },
+  {
+    "task": "Carry out your daily duties by maintaining your tools",
+    "priority": 4
+  },
+  {
+    "task": "Take a rest after completing tasks",
+    "priority": 5
+  }
+]
+[1695368159845] --- Prompt ---
+[1695368159845] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Location: 85.76, -25.2
+
+Time: Day 0, 12:00 AM
+
+Energy: Fully Rested
+
+Hunger: Satisfied
+
+Environment:
+- John Swift (Health: 25/25) [Direction: N, Distance: 1.1m]
+- Tree (Health: 10/10) [Direction: N, Distance: 4.6m]
+- Tree (Health: 10/10) [Direction: N, Distance: 7.4m]
+- Tree (Health: 10/10) [Direction: N, Distance: 7.6m]
+- Tree (Health: 10/10) [Direction: N, Distance: 8.6m]
+
+Inventory (4/10):
+- Axe x 1
+- Pickaxe x 1
+- Sword x 1
+- Berries x 1
+
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Memories:
+- Harold Smith sees Tree at X: 86.38, Y: -29.74. [just now]
+- Harold Smith sees John Swift at X: 86.86, Y: -25.06. [just now]
+- Every wrinkle tells a story, and boy, do I have many. [just now]
+- I’ve seen sunsets on the water that make you believe in a higher power. [just now]
+- My hands may be weathered, but they’re strong and have stories to tell. [just now]
+- Life on the sea teaches you the meaning of hard work and danger. [just now]
+- Storms are nature's way of testing your mettle. I’ve faced my share. [just now]
+- I built my own fishing boat, took me two summers. [just now]
+- Life has tides, high and low. The trick is to sail regardless. [just now]
+- The day I retired was bitter-sweet. I miss the sea, but I've earned my rest. [just now]
+
+Hitbox (what you would hit with a swing based action):
+- John Swift (Health: 25/25)
+
+Given the available information, pick the best available action function to accomplish your tasks.
+
+
+[1695368159848] --- Action Functions ---
+[1695368159848] [
+  {
+    "name": "move_to",
+    "description": "Move to a target location",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "x": {
+          "type": "number",
+          "description": "The X coordinate of the target location."
+        },
+        "y": {
+          "type": "number",
+          "description": "The Y coordinate of the target location."
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_axe",
+    "description": "Drop Axe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_pickaxe",
+    "description": "Drop Pickaxe onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_sword",
+    "description": "Drop Sword onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "eat",
+    "description": "Eat some food.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "foodId": {
+          "type": "string",
+          "description": "The food ID of the food to be eaten.",
+          "values": [
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "drop_berries",
+    "description": "Drop Berries onto the ground.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is adding the item to the chest."
+        },
+        "itemId": {
+          "type": "string",
+          "description": "The item ID of the item that is being added to the chest. Must be lowercase.",
+          "values": [
+            "wood",
+            "stone",
+            "iron",
+            "diamond",
+            "copper",
+            "coal",
+            "axe",
+            "pickaxe",
+            "sword",
+            "berries"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "start_conversation",
+    "description": "Start a conversation with John Swift (ID: A8).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "characterId": {
+          "type": "string",
+          "description": "The character ID of the character that is initiating the conversation."
+        },
+        "targetCharacterId": {
+          "type": "string",
+          "description": "The character ID of the target character."
+        },
+        "conversationGoal": {
+          "type": "string",
+          "description": "Describe a hypothesis for precisely what you hope to get out of this conversation with Human (7) in detail."
+        }
+      }
+    }
+  }
+]
+[1695368161879] [31m[createMemory][39m John Swift started a conversation with me. [19.777998]
+[1695368165336] [31mAgent A7 is already occupied. Skipping...[39m
+[1695368172715] [35m[CORTEX] Harold Smith - Prior Message: [39mHello Harold. Just got back from an expedition. You wouldn't believe the sights I've seen.
+[1695368172716] [35m[CORTEX] Harold Smith - Patience: [39m100
+[1695368172716] [35m[CORTEX] Harold Smith - Conversation Goal: [39mfiguring out why John Swift started a conversation with them.
+[1695368172716] [35m[CORTEX] Harold Smith - Conversation Finished: [39mfalse
+[1695368177660] [35m[CORTEX] Harold Smith - Feel: [39mGood to see you, John. The sea has unique sights indeed. Now, why don't you share what you've seen?
+[1695368182215] [35m[CORTEX] Harold Smith - Plan: [39m Waiting to hear John Swift's adventures. Depending on his tale, I might share some advice, a kindred story or a lesson I’ve learned while at sea.
+[1695368186137] [35m[CORTEX] Harold Smith - Say: [39mGood to see you, John. The sea has unique sights indeed. Now, why don't you share what you've seen?
+
+[1695368222635] [31m[createMemory][39m John Swift returned from an expedition [19.777998]
+[1695368222636] [31m[createMemory][39m John Swift has seen amazing sights [19.777998]
+[1695368238331] --- Conversation Task Update Prompt ---
+[1695368238331] Character: 
+- ID: A7
+- Name: Harold Smith
+- Age: 75
+- Occupation: Retired Fisherman
+- Personality: Wise, Stoic, Resourceful
+
+Action items & memories from conversation just now:
+- John Swift returned from an expedition
+- John Swift has seen amazing sights
+Tasks:
+[
+  {
+    "task": "Carry out your daily dutiies",
+    "priority": 1
+  },
+  {
+    "task": "Catch up with other villagers",
+    "priority": 2
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 3
+  }
+]
+
+Given the available information from a conversation you just had, update your task list, placing priority on the conversation action items & memories. Replace the entire JSON array by removing completed tasks, updating existing tasks with new information and priorities, and create new tasks based on the provided info. Keep the list as concise as possible. The result must be sorted by priority, with the highest priority task at the top.
+[1695368247522] --- Response ---
+[1695368247522] Updated Tasks: 
+[1695368247522] [
+  {
+    "task": "Catch up with John Swift about his recent expedition",
+    "priority": 1
+  },
+  {
+    "task": "Carry out your daily duties",
+    "priority": 2
+  },
+  {
+    "task": "Share John Swift's experiences with other villagers",
+    "priority": 3
+  },
+  {
+    "task": "Maintain a healthy lifestyle",
+    "priority": 4
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A1",
+      "x": 55.25,
+      "y": -18.75
+    }
+  },
+  {
+    "type": "start_conversation",
+    "data": {
+      "characterId": "A1",
+      "targetCharacterId": "A4",
+      "conversationGoal": "Get information about James' whereabouts to complete the 'Catch up to James' task."
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "type": "eat",
+    "data": {
+      "characterId": "A2",
+      "foodId": "berries"
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A2",
+      "x": 4.8,
+      "y": -58.14
+    }
+  },
+  {
+    "type": "start_conversation",
+    "data": {
+      "characterId": "A2",
+      "targetCharacterId": "A12",
+      "conversationGoal": "Catch up with Cedric Warborn about life in the village and discuss any recent events"
+    }
+  }
+]

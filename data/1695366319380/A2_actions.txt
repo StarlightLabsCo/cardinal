@@ -1,0 +1,33 @@
+[
+  {
+    "type": "eat",
+    "data": {
+      "characterId": "A2",
+      "foodId": "berries"
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A2",
+      "x": 64.12,
+      "y": -20.02
+    }
+  },
+  {
+    "type": "move_to",
+    "data": {
+      "characterId": "A2",
+      "x": 65.06,
+      "y": -23.56
+    }
+  },
+  {
+    "type": "start_conversation",
+    "data": {
+      "characterId": "A2",
+      "targetCharacterId": "A12",
+      "conversationGoal": "Catch up on recent village events"
+    }
+  }
+]
